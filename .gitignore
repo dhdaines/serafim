@@ -1,3 +1,5 @@
 notebooks/
 node_modules/
 public/index/
+*~
+dist/
