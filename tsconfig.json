@@ -1,5 +1,10 @@
 {
-    "compilerOptions": {
-        "sourceMap": true
+  "compilerOptions": {
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "flexsearch": ["node_modules/@types/flexsearch"]
     }
+  }
 }

@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/dhdaines/serafin#readme",
   "devDependencies": {
+    "@types/flexsearch": "^0.7.3",
+    "@types/node": "^20.2.0",
     "chai": "^4.3.7",
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.1",
@@ -37,6 +39,7 @@
     "webpack-dev-server": "^4.15.0"
   },
   "dependencies": {
+    "flexsearch": "^0.7.31",
     "pdfobject": "^2.2.11",
     "purecss": "^3.0.0"
   }
