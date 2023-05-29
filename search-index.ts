@@ -19,6 +19,6 @@ while ((dirent = dir.readSync()) !== null) {
   console.log(`Read public/index/${dirent.name}`);
 }
 
-for (const result of index.search("permis construction")) {
+for (const result of index.search("lotissement majeur")) {
   console.log(textes[result]);
 }

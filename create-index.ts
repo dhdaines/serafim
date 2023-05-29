@@ -96,8 +96,14 @@ catch (err: any) {
     throw err;
 }
 fs.writeFileSync(path.join("public/index/textes.json"), JSON.stringify(textes));
-  console.log(`Wrote public/index/textes.json`);
-index.export((key, data) => {
-  fs.writeFileSync(path.join("public/index", key + ".json"), JSON.stringify(data));
-  console.log(`Wrote public/index/${key}.json`);
+console.log(`Wrote public/index/textes.json`);
+const keys: Array<string> = [];
+/* Whoa, WTF, is this async or not, flexsearch?!?!? */
+index.export((key: string | number, data: any) => {
+  const keystr = key.toString();
+  fs.writeFileSync(path.join(`public/index/${keystr}.json`), JSON.stringify(data));
+  keys.push(keystr);
+  console.log(`Wrote public/index/${keystr}.json`);
+  /* Work around the problem by just writing it repeatedly */
+  fs.writeFileSync(path.join("public/index/keys.json"), JSON.stringify(keys));
 });
