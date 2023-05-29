@@ -23,6 +23,9 @@
     margin: 0;
 }
 
-#search-view, #document-view {
-    height: 80vh;
+/* This is Pure's "medium" breakpoint */
+@media screen and (min-width: 48em) {
+    #search-view, #document-view {
+        height: 80vh;
+    }
 }

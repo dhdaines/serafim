@@ -1,5 +1,6 @@
 // Fake requires that will be removed by webpack
 require("purecss");
+require("purecss/build/grids-responsive-min.css");
 require("./index.css");
 
 import * as PDFObject from "pdfobject";
