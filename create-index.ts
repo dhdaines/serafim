@@ -91,7 +91,7 @@ while ((dirent = dir.readSync()) !== null) {
 try {
   fs.mkdirSync("public/index");
 }
-catch (err) {
+catch (err: any) {
   if (err.code != "EEXIST")
     throw err;
 }
