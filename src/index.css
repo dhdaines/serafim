@@ -23,6 +23,11 @@
     margin: 0;
 }
 
+#search-view {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 /* This is Pure's "medium" breakpoint */
 @media screen and (min-width: 48em) {
     #search-view, #document-view {

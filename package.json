@@ -8,6 +8,7 @@
     "build:prod": "webpack --mode=production --node-env=production",
     "serve": "webpack serve --mode=production --node-env=production",
     "start": "webpack serve --mode=development --node-env=development",
+    "watch": "tsc --watch",
     "prepare": "husky install"
   },
   "repository": {
@@ -40,6 +41,8 @@
     "webpack-dev-server": "^4.15.0"
   },
   "dependencies": {
+    "@types/debounce": "^1.2.1",
+    "debounce": "^1.2.1",
     "flexsearch": "^0.7.31",
     "pdfobject": "^2.2.11",
     "purecss": "^3.0.0"
