@@ -66,7 +66,7 @@ class App {
       const dt = document.createElement("dt");
       const a = document.createElement("a");
       const dd = document.createElement("dd");
-      a.href = `/${texte.document}#page=${texte.page + 1}`;
+      a.href = `${texte.document}#page=${texte.page + 1}`;
       if (texte.titre !== undefined) {
         a.innerText = texte.titre;
         dd.innerText = texte.contenu.substring(0, 80) + "...";
@@ -78,7 +78,7 @@ class App {
       a.addEventListener("click", (e) => {
         /* Show the PDF in the page on large enough screens */
         if (this.media_query.matches) {
-          PDFObject.embed(`/${texte.document}`, "#document-view", {
+          PDFObject.embed(`${texte.document}`, "#document-view", {
             pdfOpenParams: { page: texte.page + 1, zoom: 100 },
           });
           e.preventDefault();
@@ -92,7 +92,7 @@ class App {
 
   /* Do asynchronous initialization things */
   async initialize() {
-    await this.read_index("/index");
+    await this.read_index("index");
     this.search_box.addEventListener("input", debounce(async () => this.search(), 200));
   }
 }
