@@ -85,6 +85,7 @@
 
     #document-box {
         display: block;
+        overflow: auto;
     }
 
     .acronym {

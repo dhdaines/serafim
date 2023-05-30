@@ -10,7 +10,7 @@ import { Texte } from "./index_types";
 
 class App {
   search_box: HTMLInputElement;
-  document_box: HTMLElement;
+  document_view: HTMLElement;
   search_results: HTMLElement;
   media_query: MediaQueryList;
   index: Index;
@@ -19,7 +19,7 @@ class App {
   /* Get and construct objects */
   constructor() {
     this.search_box = document.getElementById("search-box") as HTMLInputElement;
-    this.document_box = document.getElementById("document-box")!;
+    this.document_view = document.getElementById("document-view")!;
     this.search_results = document.getElementById("search-results")!;
     this.media_query = matchMedia("screen and (min-width: 48em)");
     this.index = new Index({
@@ -57,14 +57,16 @@ class App {
     if (idx < 0 || idx >= this.textes.length)
       throw `Out of bounds document index ${idx}`;
     const texte = this.textes[idx];
-    if (this.media_query.matches) {
+    if (this.media_query.matches && PDFObject.supportsPDFs) {
       /* Show the PDF in the page on large enough screens */
       PDFObject.embed(`${texte.fichier}`, "#document-view", {
         pdfOpenParams: { page: texte.page + 1, zoom: 100 },
       });
     }
     else {
-      this.search_results.innerHTML = "";
+      /* Show it in the appropriate place based on screen size */
+      const target = this.media_query.matches ? this.document_view : this.search_results;
+      target.innerHTML = "";
       const result = document.createElement("div");
       result.setAttribute("class", "search-result");
       result.innerHTML += `<h1>${texte.titre}</h1>\n`
@@ -78,7 +80,7 @@ class App {
         result.innerHTML += `<h4>${texte.sous_section}</h4>\n`
       for (const para of texte.contenu.split(".\n"))
         result.innerHTML += `<p>${para}.</p>\n`
-      this.search_results.append(result);
+      target.append(result);
     }
   }
 
