@@ -13,10 +13,14 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout
+      uses: actions/checkout@v3
     - name: Use Node.js 18.x
       uses: actions/setup-node@v3
       with:
@@ -28,20 +32,12 @@ jobs:
         node dist/create-index.js
         npx webpack
         cp -R public/* dist/
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: 'dist'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: 'dist'
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
