@@ -20,30 +20,32 @@ function make_text_from_article(doc: Reglement, article: Article): Texte {
     doc.chapitres
   ) {
     const chap = doc.chapitres[article.chapitre];
-    chapitre = chap.titre;
+    chapitre = `${chap.numero} ${chap.titre}`;
     if (
       article.section !== undefined &&
       article.section !== -1 &&
       chap.sections
     ) {
       const sec = chap.sections[article.section];
-      section = sec.titre;
+      section = `${sec.numero} ${sec.titre}`;
       if (
         article.sous_section !== undefined &&
         article.sous_section !== -1 &&
         sec.sous_sections
       ) {
         const sousec = sec.sous_sections[article.sous_section];
-        sous_section = sousec.titre;
+        sous_section = `${sousec.numero} ${sousec.titre}`;
       }
     }
   }
   const fichier = doc.fichier;
+  const document = `${doc.numero} ${doc.objet}`;
   const contenu =
     article.alineas === undefined ? "" : article.alineas.join("\n");
   const titre = article.titre === undefined ? "" : article.titre;
   return {
     fichier,
+    document,
     page,
     chapitre,
     section,
@@ -58,11 +60,13 @@ function make_text_from_annex(doc: Reglement, annexe: Annexe): Texte {
   const page = annexe.pages[0];
   const numero = annexe.numero;
   const fichier = doc.fichier;
+  const document = `${doc.numero} ${doc.objet}`;
   const contenu =
     annexe.alineas === undefined ? "" : annexe.alineas.join("\n");
   const titre = annexe.titre === undefined ? "" : annexe.titre;
   return {
     fichier,
+    document,
     page,
     titre,
     numero,

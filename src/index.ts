@@ -67,13 +67,15 @@ class App {
       this.search_results.innerHTML = "";
       const result = document.createElement("div");
       result.setAttribute("class", "search-result");
+      result.innerHTML += `<h1>${texte.titre}</h1>\n`
+      if (texte.document)
+        result.innerHTML += `<h4>Règlement ${texte.document}</h4>\n`
       if (texte.chapitre)
-        result.innerHTML += `<h1>${texte.chapitre}</h1>\n`
+        result.innerHTML += `<h4>Chapitre ${texte.chapitre}</h4>\n`
       if (texte.section)
-        result.innerHTML += `<h2>${texte.section}</h2>\n`
+        result.innerHTML += `<h4>Section ${texte.section}</h4>\n`
       if (texte.sous_section)
-        result.innerHTML += `<h3>${texte.sous_section}</h3>\n`
-      result.innerHTML += `<h4>${texte.titre}</h4>\n`
+        result.innerHTML += `<h4>${texte.sous_section}</h4>\n`
       for (const para of texte.contenu.split(".\n"))
         result.innerHTML += `<p>${para}.</p>\n`
       this.search_results.append(result);
