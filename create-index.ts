@@ -78,12 +78,12 @@ function add_to_index(doc: Reglement) {
   }
 }
 
-const dir: fs.Dir = fs.opendirSync("../data");
+const dir: fs.Dir = fs.opendirSync("data");
 let dirent;
 while ((dirent = dir.readSync()) !== null) {
   if (!dirent.name.endsWith(".json"))
     continue;
-  const data = fs.readFileSync(path.join("../data", dirent.name), 'utf8');
+  const data = fs.readFileSync(path.join("data", dirent.name), 'utf8');
   const doc = JSON.parse(data);
   add_to_index(doc);
 }
