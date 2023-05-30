@@ -8,11 +8,25 @@
     border: solid black 1px;
 }
 
-.title-bar,
-.status-bar {
-    color: white;
-    background: black;
+.logo {
+    height: 4em;
+    position: relative;
+    float: left;
+}
+
+.acronym, .placeholder {
+    font-style: italic;
+    color: #999;
+}
+
+.initial {
+    font-style: italic;
+    color: black;
+}
+
+.title-bar {
     padding: 0.5em;
+    height: 4em;
     margin: 0;
     margin-left: 1ex;
     margin-right: 1ex;
@@ -28,9 +42,28 @@
     overflow-y: auto;
 }
 
+#search-results dd {
+    margin-left: 0;
+    margin-top: 0.5em;
+}
+
+p#search-results dt {
+    font-weight: bold;
+    margin-left: 0;
+    margin-top: 1em;
+}
+
+#document-box {
+    display: none;
+}
+
 /* This is Pure's "medium" breakpoint */
 @media screen and (min-width: 48em) {
     #search-view, #document-view {
-        height: 80vh;
+        height: 75vh;
+    }
+
+    #document-box {
+        display: block;
     }
 }
