@@ -1,59 +1,89 @@
 {
   "fichier": "Rgl-1314-2021-TM-Travaux-municipaux.pdf",
-  "numero": "1314-2021-TM",
-  "objet": "les ententes relatives à des travaux municipaux",
+  "numero": "1200-2012-TM-1",
+  "objet": "abroge le règlement",
   "dates": {
-    "avis": "17 mai 2021",
     "adoption": "19 juillet 2021",
+    "avis": "17 mai 2021",
     "entree": "23 septembre 2021"
   },
   "chapitres": [
     {
       "numero": "1",
-      "page": 3,
       "titre": "DISPOSITIONS DÉCLARATOIRES,\nINTERPRÉTATIVES ET ADMINISTRATIVES\n",
-      "debut": 1,
-      "fin": 17,
+      "pages": [
+        3,
+        8
+      ],
+      "articles": [
+        0,
+        17
+      ],
       "sections": [
         {
           "numero": "1",
-          "page": 4,
           "titre": "DISPOSITIONS DÉCLARATOIRES",
-          "debut": 1,
-          "fin": 7,
+          "pages": [
+            4,
+            5
+          ],
+          "articles": [
+            0,
+            7
+          ],
           "sous_sections": []
         },
         {
           "numero": "2",
-          "page": 5,
           "titre": "DISPOSITIONS INTERPRÉTATIVES",
-          "debut": 8,
-          "fin": 12,
+          "pages": [
+            5,
+            7
+          ],
+          "articles": [
+            7,
+            12
+          ],
           "sous_sections": []
         },
         {
           "numero": "3",
-          "page": 7,
           "titre": "DISPOSITIONS ADMINISTRATIVES",
-          "debut": 13,
-          "fin": 17,
+          "pages": [
+            7,
+            8
+          ],
+          "articles": [
+            12,
+            17
+          ],
           "sous_sections": []
         }
       ]
     },
     {
       "numero": "2",
-      "page": 8,
       "titre": "DISPOSITIONS APPLICABLES AU\nCHEMINEMENT D'UNE ENTENTE\n",
-      "debut": 18,
-      "fin": 40,
+      "pages": [
+        8,
+        16
+      ],
+      "articles": [
+        17,
+        40
+      ],
       "sections": [
         {
           "numero": "1",
-          "page": 9,
           "titre": "DISPOSITIONS GÉNÉRALES",
-          "debut": 18,
-          "fin": 40,
+          "pages": [
+            9,
+            16
+          ],
+          "articles": [
+            17,
+            40
+          ],
           "sous_sections": []
         }
       ]
@@ -61,98 +91,154 @@
   ],
   "articles": [
     {
-      "numero": 1,
-      "page": 4,
       "titre": "Titre du règlement",
+      "pages": [
+        4,
+        4
+      ],
       "alineas": [
         "Le présent règlement est intitulé « Règlement sur les ententes relatives à des travaux municipaux de la Ville de Sainte-",
         "Adèle » et porte le numéro 1314-2021-TM."
-      ]
+      ],
+      "numero": 1,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 2,
-      "page": 4,
       "titre": "Abrogation",
+      "pages": [
+        4,
+        4
+      ],
       "alineas": [
         "Le présent règlement abroge le règlement numéro 1200-2012-TM-1 intitulé « Règlement concernant les ententes relatives",
         "à des travaux municipaux » tel que modifié par tous leurs amendements ainsi que toutes dispositions inconciliables d’un",
         "autre règlement en vigueur.",
         "Ces abrogations n’affectent pas les permis et certificats légalement émis sous l’autorité des règlements ainsi remplacés ni",
         "les droits acquis avant l’entrée en vigueur du présent règlement."
-      ]
+      ],
+      "numero": 2,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 3,
-      "page": 4,
       "titre": "Portée du règlement et territoire assujetti",
+      "pages": [
+        4,
+        4
+      ],
       "alineas": [
         "Le présent règlement, dont les dispositions s’appliquent aux personnes physiques comme aux personnes morales autant",
         "de droits publics que privés, s’applique à l’ensemble du territoire de la Ville de Sainte-Adèle."
-      ]
+      ],
+      "numero": 3,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 4,
-      "page": 4,
       "titre": "Domaine d'application",
+      "pages": [
+        4,
+        4
+      ],
       "alineas": [
         "Le présent règlement a pour objet de soumettre la délivrance d'un permis de construction ou de lotissement ou d’un certificat",
         "d’autorisation ou d’occupation à la conclusion préalable d'une entente entre un promoteur et la Ville, portant sur la",
         "réalisation de travaux relatifs aux voies de circulation, aux infrastructures et aux équipements municipaux et sur la prise en",
         "charge de ces travaux et du paiement de leurs couts par le promoteur.",
         "Le règlement vise des travaux réalisés sur des immeubles avec ou sans service municipal."
-      ]
+      ],
+      "numero": 4,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 5,
-      "page": 4,
       "titre": "Dispositions des lois et d’autres règlements",
+      "pages": [
+        4,
+        4
+      ],
       "alineas": [
         "Aucune disposition du présent règlement ne peut être interprétée comme ayant pour effet de soustraire une personne à",
         "l’application d’une loi ou d’un règlement du gouvernement provincial ou fédéral ou à l’application d’un règlement de la",
         "Municipalité régionale de comté des Pays-d’en-Haut."
-      ]
+      ],
+      "numero": 5,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 6,
-      "page": 4,
       "titre": "Documents de renvoi",
+      "pages": [
+        4,
+        4
+      ],
       "alineas": [
         "Lorsque le texte fait référence à un document de renvoi, celui-ci est partie intégrante du présent règlement."
-      ]
+      ],
+      "numero": 6,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 7,
-      "page": 4,
       "titre": "Entrée en vigueur",
+      "pages": [
+        4,
+        5
+      ],
       "alineas": [
         "Le présent règlement entre en vigueur conformément à la loi.",
         "",
         "",
         "administratives"
-      ]
+      ],
+      "numero": 7,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 8,
-      "page": 5,
       "titre": "Ville",
+      "pages": [
+        5,
+        5
+      ],
       "alineas": [
         "L’expression « Ville » est définie comme étant la Ville de Sainte-Adèle."
-      ]
+      ],
+      "numero": 8,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 0
     },
     {
-      "numero": 9,
-      "page": 5,
       "titre": "Structure du règlement",
+      "pages": [
+        5,
+        5
+      ],
       "alineas": [
         "L’interprétation du présent règlement doit tenir compte de la hiérarchie entre les divisions du texte : chapitres, sections,",
         "sous-sections, articles, alinéas, paragraphes, sous-paragraphes et tirets. À titre d’illustration, la typographie utilisée pour",
         "distinguer les divisions du règlement répond au modèle suivant :"
-      ]
+      ],
+      "numero": 9,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 0
     },
     {
-      "numero": 10,
-      "page": 5,
       "titre": "Interprétation du texte",
+      "pages": [
+        5,
+        5
+      ],
       "alineas": [
         "L’interprétation du texte de ce règlement doit respecter les règles suivantes :",
         "1. L’emploi des verbes au présent inclut le futur, et vice-versa;",
@@ -176,12 +262,18 @@
         "de droit;",
         "10. Lorsqu’une distance séparatrice est mentionnée entre deux usages ou constructions, cette distance s’applique",
         "avec réciprocité pour chacun de ces usages ou constructions."
-      ]
+      ],
+      "numero": 10,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 0
     },
     {
-      "numero": 11,
-      "page": 5,
       "titre": "Interprétation en cas de contradiction",
+      "pages": [
+        5,
+        5
+      ],
       "alineas": [
         "Dans ce règlement, à moins d'indications contraires, les règles suivantes s'appliquent :",
         "1. En cas de contradiction entre le texte et un titre, le texte prévaut;",
@@ -190,12 +282,18 @@
         "3. En cas de contradiction entre les données d'un tableau et un graphique, les données du tableau prévalent;",
         "4. En cas de contradiction entre le texte et la fiche de type de milieu, la fiche prévaut;",
         "5. En cas de contradiction entre la fiche de type de milieu et le plan de zonage, la fiche prévaut."
-      ]
+      ],
+      "numero": 11,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 0
     },
     {
-      "numero": 12,
-      "page": 5,
       "titre": "Terminologie",
+      "pages": [
+        5,
+        7
+      ],
       "alineas": [
         "Une expression, un terme ou un mot n’étant pas spécifiquement défini au présent règlement ou au Règlement de zonage",
         "en vigueur de la Ville de Sainte-Adèle s'emploie selon le sens communément attribué à cette expression, terme ou mot. En",
@@ -254,50 +352,80 @@
         "",
         "",
         "administratives"
-      ]
+      ],
+      "numero": 12,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 0
     },
     {
-      "numero": 13,
-      "page": 7,
       "titre": "Administration du règlement",
+      "pages": [
+        7,
+        7
+      ],
       "alineas": [
         "L'administration du présent règlement est confiée à toute personne nommée ci-après « fonctionnaire désigné », par",
         "résolution du Conseil."
-      ]
+      ],
+      "numero": 13,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 0
     },
     {
-      "numero": 14,
-      "page": 7,
       "titre": "Autorité compétente",
+      "pages": [
+        7,
+        7
+      ],
       "alineas": [
         "L’application, la surveillance et le contrôle du présent règlement relèvent du fonctionnaire désigné. Des fonctionnaires",
         "désignés adjoints chargés d’aider ou de remplacer le fonctionnaire désigné peuvent être nommés par résolution du Conseil.",
         "Le fonctionnaire désigné et ses représentants autorisés constituent donc l’autorité compétente. Dans le présent règlement,",
         "l’utilisation de l’expression « fonctionnaire désigné » équivaut à l’utilisation de l’expression « autorité compétente »."
-      ]
+      ],
+      "numero": 14,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 0
     },
     {
-      "numero": 15,
-      "page": 7,
       "titre": "Devoirs et pouvoirs de l’autorité compétente",
+      "pages": [
+        7,
+        7
+      ],
       "alineas": [
         "Les devoirs et pouvoirs de l’autorité compétente sont ceux qui lui sont attribués au Règlement sur les permis et certificats",
         "en vigueur de la Ville de Sainte-Adèle."
-      ]
+      ],
+      "numero": 15,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 0
     },
     {
-      "numero": 16,
-      "page": 7,
       "titre": "Devoirs du propriétaire, de l’occupant, du requérant ou de l’exécutant de travaux",
+      "pages": [
+        7,
+        7
+      ],
       "alineas": [
         "Les devoirs du propriétaire, de l’occupant, du requérant ou de l’exécutant de travaux sont ceux qui lui sont attribués au",
         "Règlement sur les permis et certificats en vigueur de la Ville de Sainte-Adèle."
-      ]
+      ],
+      "numero": 16,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 0
     },
     {
-      "numero": 17,
-      "page": 7,
       "titre": "Infractions et pénalités",
+      "pages": [
+        7,
+        9
+      ],
       "alineas": [
         "Toute personne qui contrevient à l'une ou l'autre des dispositions de ce règlement commet une infraction et est passible",
         "d'une amende avec ou sans frais, comme prescrit au Règlement sur les permis et certificats en vigueur de la Ville de Sainte-",
@@ -306,12 +434,18 @@
         "",
         "",
         "entente"
-      ]
+      ],
+      "numero": 17,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 0
     },
     {
-      "numero": 18,
-      "page": 9,
       "titre": "Infrastructures et équipements visés par l'entente",
+      "pages": [
+        9,
+        9
+      ],
       "alineas": [
         "Tous les travaux, relatifs aux infrastructures municipales, requis pour l’ouverture d’une voie de circulation ou pour la",
         "réalisation des infrastructures dans le cadre d’un projet intégré (résidentiel, commercial, communautaire, industriel ou",
@@ -322,12 +456,18 @@
         "L’entente peut porter sur des infrastructures ou des équipements, où qu’ils se trouvent, qui sont destinés à desservir non",
         "seulement les immeubles visés par le permis de construction ou de lotissement ou d’un certificat d’autorisation ou",
         "d’occupation, mais également tout autre immeuble situé sur le territoire de la Ville."
-      ]
+      ],
+      "numero": 18,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 19,
-      "page": 9,
       "titre": "Demande du promoteur et documents requis pour la demande",
+      "pages": [
+        9,
+        9
+      ],
       "alineas": [
         "Le promoteur qui veut obtenir de la Ville l’autorisation de réaliser des travaux d’infrastructures municipales pour l’ouverture",
         "d’une voie de circulation ou pour la réalisation des infrastructures dans le cadre d’un projet intégré (résidentiel, commercial,",
@@ -355,23 +495,35 @@
         "celui-ci ne comporte qu’une seule phase;",
         "2. L’ensemble des caractéristiques du projet et des exigences de la Ville pour sa réalisation, incluant toute étude",
         "préparatoire."
-      ]
+      ],
+      "numero": 19,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 20,
-      "page": 9,
       "titre": "Fractionnement d'un projet en phases",
+      "pages": [
+        9,
+        9
+      ],
       "alineas": [
         "Sur demande du promoteur et sujet à l’approbation par la Ville un projet peut être fractionné en différentes phases qui",
         "seront exécutées successivement.",
         "Chacune des phases, pourra faire l’objet d’une entente individuelle avec la Ville, de même les garanties exigées en fonction",
         "du présent règlement, pourront être fournie individuellement pour chacune des phases d’un projet."
-      ]
+      ],
+      "numero": 20,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 21,
-      "page": 9,
       "titre": "Évaluation de la demande",
+      "pages": [
+        9,
+        9
+      ],
       "alineas": [
         "La demande transmise par le promoteur doit être évaluée par le Service de l’urbanisme et de l'environnement et la division",
         "des Services techniques, lesquels transmettent leurs recommandations au conseil pour l’approbation de toutes les étapes",
@@ -380,12 +532,18 @@
         "Au plus tard 90 jours après avoir reçu une demande complète, la Ville informe le promoteur, par une résolution du conseil",
         "municipal, de sa décision de donner suite ou non à cette demande. Dans l’affirmative, la résolution mentionne que la mise",
         "en œuvre du projet de développement est assujettie à la conclusion d’une entente."
-      ]
+      ],
+      "numero": 21,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 22,
-      "page": 9,
       "titre": "Pouvoir discrétionnaire du Conseil",
+      "pages": [
+        9,
+        10
+      ],
       "alineas": [
         "",
         "",
@@ -399,12 +557,18 @@
         "Rien au présent règlement ne doit être interprété comme diminuant ou restreignant la discrétion du conseil d’adopter des",
         "règlements ayant pour objet de décréter la réalisation de travaux de nature municipale et de pourvoir au financement de",
         "ces travaux au moyen d’emprunts effectués conformément à la loi."
-      ]
+      ],
+      "numero": 22,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 23,
-      "page": 10,
       "titre": "Couts assumés par le promoteur",
+      "pages": [
+        10,
+        10
+      ],
       "alineas": [
         "L'ensemble des couts de réalisation du projet sont à la charge du promoteur, incluant notamment la totalité des couts réels",
         "reliés à la préparation des plans et devis détaillés, la totalité des couts de construction et, sans limiter la généralité de ce",
@@ -412,12 +576,18 @@
         "préparation des actes de cession et de servitude ainsi que le plan final.",
         "Les travaux ne peuvent débuter avant la signature de l’entente et de la remise, par le promoteur, des montants prévus et",
         "obligés en garantie financière et des frais de gestion à la Ville."
-      ]
+      ],
+      "numero": 23,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 24,
-      "page": 10,
       "titre": "Contenu de l'entente",
+      "pages": [
+        10,
+        11
+      ],
       "alineas": [
         "L’entente doit comprendre, obligatoirement, mais non limitativement les informations suivantes :",
         "1. La désignation des parties avec les résolutions d’autorisation de signature pour la Ville et pour toute personne",
@@ -474,12 +644,18 @@
         "13. Les coordonnées des parties pour toutes les communications;",
         "14. Les modalités des sanctions et pénalités pour tout défaut du promoteur prévues;",
         "15. La durée de l’entente."
-      ]
+      ],
+      "numero": 24,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 25,
-      "page": 11,
       "titre": "Bouclage du réseau d'aqueduc",
+      "pages": [
+        11,
+        11
+      ],
       "alineas": [
         "L’entente doit prévoir le bouclage du réseau d’aqueduc au réseau existant.",
         "Toutefois, advenant que le bouclage du réseau d’aqueduc soit impossible, un système de purge automatique doit être",
@@ -488,24 +664,36 @@
         "dans le réseau prévu.",
         "Dans tous les cas où un projet est fractionné en phases, la première phase du projet doit prévoir le bouclage du réseau",
         "d’aqueduc ou l’installation d’un système de purge automatique."
-      ]
+      ],
+      "numero": 25,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 26,
-      "page": 11,
       "titre": "Respect du fuseau granulométrique",
+      "pages": [
+        11,
+        11
+      ],
       "alineas": [
         "L’entente doit prévoir que le promoteur respectera le fuseau granulométrique, tel que prévu à la version la plus récente de",
         "la norme NQ 2560-114, lors de l’entrée en vigueur du présent règlement et par conséquent, assume tous les travaux de",
         "remplacement de la fondation granulaire contaminé avant la mise en forme finale pour les travaux de pavage (Étape B).",
         "Cette étape doit être exécutée sous la supervision d’un laboratoire mandaté par le promoteur dont le rapport devra être",
         "acheminé à la Ville."
-      ]
+      ],
+      "numero": 26,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 27,
-      "page": 11,
       "titre": "Documents à fournir lors de la signature de l'entente",
+      "pages": [
+        11,
+        11
+      ],
       "alineas": [
         "Le promoteur s’engage à fournir à la signature de l’entente les documents suivants :",
         "1. La résolution d’autorisation de signature du promoteur, pour une personne morale;",
@@ -521,23 +709,35 @@
         "climatiques;",
         "9. Tout autre document pertinent à la compréhension et au respect du projet et ayant été demandé par la Ville",
         "avant la signature de l’entente."
-      ]
+      ],
+      "numero": 27,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 28,
-      "page": 11,
       "titre": "Signature de l'entente",
+      "pages": [
+        11,
+        11
+      ],
       "alineas": [
         "L’entente est signée en un minimum de 3 exemplaires, dont 1 exemplaire est remis au promoteur. Les annexes doivent",
         "faire partie intégrante de l’entente.",
         "Le maire, et le greffier sont autorisés à signer, pour et au nom de la Ville, toute entente avec les promoteurs après qu’une",
         "résolution du conseil les y autorise."
-      ]
+      ],
+      "numero": 28,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 29,
-      "page": 11,
       "titre": "Durée des travaux",
+      "pages": [
+        11,
+        12
+      ],
       "alineas": [
         "L’entente doit prévoir que la durée des travaux de l’Étape A ne doit pas dépasser un terme de 24 mois entre la signature",
         "et l’acceptation finale des travaux.",
@@ -554,12 +754,18 @@
         "entente",
         "la Ville. À ces conditions seulement, la Ville, par résolution du conseil municipal, peut accepter de prolonger les délais fixés",
         "par le contrat."
-      ]
+      ],
+      "numero": 29,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 30,
-      "page": 12,
       "titre": "Entretien des voies de circulation et des infrastructures",
+      "pages": [
+        12,
+        12
+      ],
       "alineas": [
         "L’entente prévoit que le promoteur est responsable de l’entretien des voies de circulation (incluant non limitativement le",
         "déneigement, le déglaçage, l’abat-poussière, le balayage, etc.) et des infrastructures jusqu’à leur cession finale à la Ville.",
@@ -573,23 +779,35 @@
         "2. Transmettre à la Ville tous les rapports d’analyse de l’eau potable effectués selon les lois et règlements en",
         "vigueur;",
         "3. Informer sans délai la Ville de toutes problématiques pouvant avoir un impact sur la qualité de l’eau potable."
-      ]
+      ],
+      "numero": 30,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 31,
-      "page": 12,
       "titre": "Frais de gestion",
+      "pages": [
+        12,
+        12
+      ],
       "alineas": [
         "Le promoteur doit, à la signature de l’entente, fournir à la Ville un chèque certifié, une traite bancaire ou un mandat poste",
         "à l’ordre de la Ville de Sainte-Adèle couvrant le montant spécifié à l’article 46 du règlement 1222 décrétant des tarifs de",
         "certains biens, services et activités pour l’exercice financier en cours lors de la signature.",
         "Le montant est exigé pour l’analyse et le suivi de l’entente et n’est pas remboursable."
-      ]
+      ],
+      "numero": 31,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 32,
-      "page": 12,
       "titre": "Garantie d'exécution par le promoteur",
+      "pages": [
+        12,
+        12
+      ],
       "alineas": [
         "Le promoteur doit, à la signature de l’entente, fournir à la Ville une garantie d’exécution de chacune de ses obligations et",
         "la maintenir valide pour toute la durée de l’entente.",
@@ -607,12 +825,18 @@
         "assumés par le promoteur.",
         "Dans le cas où un promoteur prévoit un projet en plusieurs phases, toutes les garanties financières doivent être prévues",
         "dans un plan d’ensemble et gérées selon chacune des phases."
-      ]
+      ],
+      "numero": 32,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 33,
-      "page": 12,
       "titre": "Libération de la garantie d'exécution",
+      "pages": [
+        12,
+        12
+      ],
       "alineas": [
         "Pour les projets conventionnels, lors de l’acceptation finale des travaux de l’étape A, la Ville accepte la libération de 50 %",
         "de la garantie d’exécution. Pour se prévaloir de cette libération, le promoteur doit fournir un cautionnement d’exécution",
@@ -620,12 +844,18 @@
         "le promoteur. Lors de l’acceptation finale des travaux de l’étape B, la Ville accepte la libération du 50 % restant de la",
         "garantie d’exécution.",
         "Pour les projets intégrés, la libération de la garantie d’exécution se fera lors de l’acceptation finale des travaux."
-      ]
+      ],
+      "numero": 33,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 34,
-      "page": 12,
       "titre": "Garantie de qualité et d'entretien",
+      "pages": [
+        12,
+        13
+      ],
       "alineas": [
         "Dans le cadre d’un projet conventionnel ou d’un projet intégré résidentiel, lors de la signature de l’entente, le promoteur",
         "doit déposer, à la Ville, une lettre de garantie bancaire inconditionnelle et irrévocable, d’un montant fixe de 25 000 $,",
@@ -635,22 +865,34 @@
         "",
         "",
         "entente"
-      ]
+      ],
+      "numero": 34,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 35,
-      "page": 13,
       "titre": "Garantie de paiement pour travaux réalisés par la Ville de Sainte-Adèle",
+      "pages": [
+        13,
+        13
+      ],
       "alineas": [
         "Dans la mesure où la Ville procède elle-même, en vertu de l’entente, à la réalisation de certains travaux visés par le projet",
         "ou prend en charge l’exécution de tels travaux, le promoteur doit, à la signature de l’entente, fournir à la Ville, une garantie",
         "de paiement équivalente à 100 % du cout des travaux à être réalisés en tout ou en partie par la Ville."
-      ]
+      ],
+      "numero": 35,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 36,
-      "page": 13,
       "titre": "Cession des voies de circulation et des infrastructures",
+      "pages": [
+        13,
+        13
+      ],
       "alineas": [
         "La Ville peut acquérir les voies de circulation ou les infrastructures seulement lorsqu’un minimum de 25 % des lots visés",
         "par le projet contient des immeubles construits ou en construction.",
@@ -666,21 +908,33 @@
         "3. Pour un projet intégré commercial, communautaire, industriel et mixte : le promoteur conserve la propriété des",
         "voies de circulation et de toutes les infrastructures du projet. Toutefois, il s’engage à transmettre à la Ville tous",
         "les documents l’entretien des infrastructures prévu au troisième alinéa de l’article 30."
-      ]
+      ],
+      "numero": 36,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 37,
-      "page": 13,
       "titre": "Frais de cession",
+      "pages": [
+        13,
+        13
+      ],
       "alineas": [
         "Tous les couts inhérents préparation, signature et publication des actes nécessaires à la cession et/ou des actes de",
         "servitudes sont à la charge du promoteur."
-      ]
+      ],
+      "numero": 37,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 38,
-      "page": 13,
       "titre": "Obligations particulières du promoteur",
+      "pages": [
+        13,
+        13
+      ],
       "alineas": [
         "Si une période de 5 ans s’écoule entre l’acceptation finale des travaux (Étape A ou Étape B) et la cession des voies de",
         "circulation ou infrastructures, le promoteur doit mandater tous les professionnels requis afin de faire produire un rapport de",
@@ -694,12 +948,18 @@
         "de la CSST.",
         "Tant que la voie de circulation reste privée, le promoteur s’engage à faire inscrire, par le notaire, aux actes de vente des",
         "terrains concernés une clause voulant que la voie de circulation soit privée et, par conséquent entretenue par le promoteur."
-      ]
+      ],
+      "numero": 38,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 39,
-      "page": 13,
       "titre": "Défauts",
+      "pages": [
+        13,
+        14
+      ],
       "alineas": [
         "Le Promoteur sera considéré en défaut aux termes de l'entente et encourra les sanctions prévues au présent article en",
         "plus de celles prévues par les lois en vigueur dans les cas suivants :",
@@ -729,12 +989,18 @@
         "promoteur ou ses ayants droit de son choix de ne pas terminer les travaux, de la conclusion d'une entente",
         "avec un autre promoteur ou de les terminer ou les faire terminer autrement qu'en fonction des plans et devis",
         "soumis."
-      ]
+      ],
+      "numero": 39,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 40,
-      "page": 14,
       "titre": "Exonération",
+      "pages": [
+        14,
+        19
+      ],
       "alineas": [
         "Dans l’éventualité d’un litige entre le promoteur et l’entrepreneur, ses fournisseurs, mains-d'œuvre et sous-traitants, le",
         "promoteur doit prévoir qu’il tient la Ville indemne de toutes réclamations ou hypothèques qui peuvent en résulter et s’engage",
@@ -743,22 +1009,22 @@
         "",
         "",
         ""
-      ]
+      ],
+      "numero": 40,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     }
   ],
   "annexes": [
     {
-      "numero": "A",
-      "page": 16,
       "titre": "FORMULAIRE DE DEMANDE POUR LA\nRÉALISATION DE TRAVAUX MUNICIPAUX\n",
-      "debut": 0,
-      "fin": 0,
+      "pages": [
+        16,
+        19
+      ],
       "alineas": [
-        "Règlement sur les ententes relatives à des travaux municipaux numéro 1314-2021-TM Annexe A",
-        "ANNEXE A – FORMULAIRE DE DEMANDE POUR LA",
-        "RÉALISATION DE TRAVAUX MUNICIPAUX",
         "",
-        "Règlement sur les ententes relatives à des travaux municipaux numéro 1314-2021-TM Annexe A",
         "Annexe A – Formulaire de demande pour la réalisation de travaux municipaux",
         "1. PROMOTEUR",
         "Nom de l'entreprise :",
@@ -780,7 +1046,7 @@
         "Nom de l'ingénieur responsable :",
         "Numéros des plans :",
         "",
-        "Règlement sur les ententes relatives à des travaux municipaux numéro 1314-2021-TM Annexe A",
+        "",
         "5. DÉCLARATION",
         "Je, soussigné(e), ____________________________, agissant pour et au nom de_________________________ demande",
         "à la Ville de Sainte-Adèle de procéder à la conclusion d’une entente relative aux travaux municipaux pour le projet ci-dessus",
@@ -792,7 +1058,8 @@
         "Signature : ______________________________________",
         "Date : _________ / _________ / _________",
         ""
-      ]
+      ],
+      "numero": "A"
     }
   ]
 }

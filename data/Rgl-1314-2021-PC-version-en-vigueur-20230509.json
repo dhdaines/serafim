@@ -3,110 +3,175 @@
   "numero": "1314-2021-PC",
   "objet": "les permis et certificats",
   "dates": {
-    "avis": "17 mai 2021",
     "adoption": "19 juillet 2021",
+    "avis": "17 mai 2021",
     "entree": "23 septembre 2021"
   },
   "chapitres": [
     {
       "numero": "1",
-      "page": 7,
       "titre": "DISPOSITIONS DÉCLARATOIRES,\nINTERPRÉTATIVES ET ADMINISTRATIVES\n",
-      "debut": 1,
-      "fin": 21,
+      "pages": [
+        7,
+        15
+      ],
+      "articles": [
+        0,
+        21
+      ],
       "sections": [
         {
           "numero": "1",
-          "page": 8,
           "titre": "DISPOSITIONS DÉCLARATOIRES",
-          "debut": 1,
-          "fin": 7,
+          "pages": [
+            8,
+            9
+          ],
+          "articles": [
+            0,
+            7
+          ],
           "sous_sections": []
         },
         {
           "numero": "2",
-          "page": 9,
           "titre": "DISPOSITIONS INTERPRÉTATIVES",
-          "debut": 8,
-          "fin": 12,
+          "pages": [
+            9,
+            10
+          ],
+          "articles": [
+            7,
+            12
+          ],
           "sous_sections": []
         },
         {
           "numero": "3",
-          "page": 10,
           "titre": "DISPOSITIONS ADMINISTRATIVES",
-          "debut": 13,
-          "fin": 19,
+          "pages": [
+            10,
+            13
+          ],
+          "articles": [
+            12,
+            19
+          ],
           "sous_sections": []
         },
         {
           "numero": "4",
-          "page": 13,
           "titre": "INFRACTIONS, PÉNALITÉS ET RECOURS",
-          "debut": 20,
-          "fin": 21,
+          "pages": [
+            13,
+            15
+          ],
+          "articles": [
+            19,
+            21
+          ],
           "sous_sections": []
         }
       ]
     },
     {
       "numero": "2",
-      "page": 15,
       "titre": "DISPOSITIONS GÉNÉRALES AUX DEMANDES\nDE PERMIS, CERTIFICATS OU AUTRES\n",
-      "debut": 22,
-      "fin": 41,
+      "pages": [
+        15,
+        19
+      ],
+      "articles": [
+        21,
+        41
+      ],
       "sections": [
         {
           "numero": "1",
-          "page": 16,
           "titre": "DISPOSITIONS GÉNÉRALES",
-          "debut": 22,
-          "fin": 41,
+          "pages": [
+            16,
+            19
+          ],
+          "articles": [
+            21,
+            41
+          ],
           "sous_sections": []
         }
       ]
     },
     {
       "numero": "3",
-      "page": 19,
       "titre": "DISPOSITIONS RELATIVES AUX PERMIS DE\nLOTISSEMENT\n",
-      "debut": 42,
-      "fin": 56,
+      "pages": [
+        19,
+        26
+      ],
+      "articles": [
+        41,
+        56
+      ],
       "sections": [
         {
           "numero": "1",
-          "page": 20,
           "titre": "DISPOSITIONS GÉNÉRALES",
-          "debut": 42,
-          "fin": 56,
+          "pages": [
+            20,
+            26
+          ],
+          "articles": [
+            41,
+            56
+          ],
           "sous_sections": [
             {
               "numero": "1",
-              "page": 20,
               "titre": "OBTENTION ET ÉMISSION D'UN PERMIS DE LOTISSEMENT",
-              "debut": 42,
-              "fin": 51
+              "pages": [
+                20,
+                21
+              ],
+              "articles": [
+                41,
+                51
+              ]
             },
             {
               "numero": "2",
-              "page": 21,
               "titre": "PROJET MINEUR DE LOTISSEMENT",
-              "debut": 52,
-              "fin": 53
+              "pages": [
+                21,
+                22
+              ],
+              "articles": [
+                51,
+                53
+              ]
             },
             {
               "numero": "3",
-              "page": 22,
               "titre": "PROJET MAJEUR DE LOTISSEMENT",
-              "debut": 54,
-              "fin": 55
+              "pages": [
+                22,
+                25
+              ],
+              "articles": [
+                53,
+                55
+              ]
             },
             {
               "numero": "4",
-              "page": 25,
               "titre": "DEMANDE DE PERMIS DE LOTISSEMENT SUR UN TERRAIN SITUÉ EN BORDURE DE",
-              "debut": 56,
-              "fin": 56
+              "pages": [
+                25,
+                26
+              ],
+              "articles": [
+                55,
+                56
+              ]
             }
           ]
         }
@@ -114,145 +179,245 @@
     },
     {
       "numero": "4",
-      "page": 26,
       "titre": "DISPOSITIONS RELATIVES AUX PERMIS DE\nCONSTRUCTION\n",
-      "debut": 57,
-      "fin": 83,
+      "pages": [
+        26,
+        42
+      ],
+      "articles": [
+        56,
+        83
+      ],
       "sections": [
         {
           "numero": "1",
-          "page": 27,
           "titre": "TRAVAUX ASSUJETTIS ET TARIFS",
-          "debut": 57,
-          "fin": 59,
+          "pages": [
+            27,
+            29
+          ],
+          "articles": [
+            56,
+            59
+          ],
           "sous_sections": []
         },
         {
           "numero": "2",
-          "page": 29,
           "titre": "TRAITEMENT DE LA DEMANDE DE PERMIS DE CONSTRUCTION",
-          "debut": 60,
-          "fin": 66,
+          "pages": [
+            29,
+            33
+          ],
+          "articles": [
+            59,
+            66
+          ],
           "sous_sections": []
         },
         {
           "numero": "3",
-          "page": 33,
           "titre": "CONTENU D'UNE DEMANDE DE PERMIS DE CONSTRUCTION",
-          "debut": 67,
-          "fin": 83,
+          "pages": [
+            33,
+            42
+          ],
+          "articles": [
+            66,
+            83
+          ],
           "sous_sections": [
             {
               "numero": "1",
-              "page": 33,
               "titre": "DISPOSITIONS GÉNÉRALES",
-              "debut": 67,
-              "fin": 68
+              "pages": [
+                33,
+                33
+              ],
+              "articles": [
+                66,
+                68
+              ]
             },
             {
               "numero": "2",
-              "page": 33,
               "titre": "CONSTRUCTION OU RECONSTRUCTION D'UN BÂTIMENT PRINCIPAL",
-              "debut": 69,
-              "fin": 69
+              "pages": [
+                33,
+                34
+              ],
+              "articles": [
+                68,
+                69
+              ]
             },
             {
               "numero": "3",
-              "page": 34,
               "titre": "AGRANDISSEMENT MAJEUR D'UN BÂTIMENT PRINCIPAL",
-              "debut": 70,
-              "fin": 70
+              "pages": [
+                34,
+                35
+              ],
+              "articles": [
+                69,
+                70
+              ]
             },
             {
               "numero": "4",
-              "page": 35,
               "titre": "AGRANDISSEMENT MINEUR D'UN BÂTIMENT PRINCIPAL",
-              "debut": 71,
-              "fin": 71
+              "pages": [
+                35,
+                36
+              ],
+              "articles": [
+                70,
+                71
+              ]
             },
             {
               "numero": "5",
-              "page": 36,
               "titre": "MODIFICATION OU RÉNOVATION D'UN BÂTIMENT PRINCIPAL",
-              "debut": 72,
-              "fin": 72
+              "pages": [
+                36,
+                37
+              ],
+              "articles": [
+                71,
+                72
+              ]
             },
             {
               "numero": "6",
-              "page": 37,
               "titre": "BÂTIMENT, CONSTRUCTION OU ÉQUIPEMENT ACCESSOIRE",
-              "debut": 73,
-              "fin": 73
+              "pages": [
+                37,
+                38
+              ],
+              "articles": [
+                72,
+                73
+              ]
             },
             {
               "numero": "7",
-              "page": 38,
               "titre": "INSTALLATION SANITAIRE",
-              "debut": 74,
-              "fin": 74
+              "pages": [
+                38,
+                38
+              ],
+              "articles": [
+                73,
+                74
+              ]
             },
             {
               "numero": "8",
-              "page": 38,
               "titre": "OUVRAGE DE CAPTAGE D'EAU",
-              "debut": 75,
-              "fin": 75
+              "pages": [
+                38,
+                38
+              ],
+              "articles": [
+                74,
+                75
+              ]
             },
             {
               "numero": "9",
-              "page": 38,
               "titre": "PISCINE",
-              "debut": 76,
-              "fin": 76
+              "pages": [
+                38,
+                40
+              ],
+              "articles": [
+                75,
+                76
+              ]
             },
             {
               "numero": "10",
-              "page": 40,
               "titre": "TERRAIN CONTAMINÉ",
-              "debut": 77,
-              "fin": 77
+              "pages": [
+                40,
+                40
+              ],
+              "articles": [
+                76,
+                77
+              ]
             },
             {
               "numero": "11",
-              "page": 40,
               "titre": "TERRAIN ADJACENT À UNE ROUTE DU MINISTÈRE DES TRANSPORTS",
-              "debut": 78,
-              "fin": 78
+              "pages": [
+                40,
+                40
+              ],
+              "articles": [
+                77,
+                78
+              ]
             },
             {
               "numero": "12",
-              "page": 40,
               "titre": "INTERVENTION SUR UN MILIEU HUMIDE",
-              "debut": 79,
-              "fin": 79
+              "pages": [
+                40,
+                40
+              ],
+              "articles": [
+                78,
+                79
+              ]
             },
             {
               "numero": "13",
-              "page": 40,
               "titre": "TERRAIN SITUÉ EN ZONE INONDABLE",
-              "debut": 80,
-              "fin": 80
+              "pages": [
+                40,
+                40
+              ],
+              "articles": [
+                79,
+                80
+              ]
             },
             {
               "numero": "14",
-              "page": 40,
               "titre": "TRAVAUX, CONSTRUCTIONS OU OUVRAGES NÉCESSITANT LE CONTRÔLE DE",
-              "debut": 81,
-              "fin": 81
+              "pages": [
+                40,
+                40
+              ],
+              "articles": [
+                80,
+                81
+              ]
             },
             {
               "numero": "15",
-              "page": 40,
               "titre": "TRAVAUX DE CONSTRUCTION, D’AGRANDISSEMENT OU D’AMÉNAGEMENT",
-              "debut": 82,
-              "fin": 82
+              "pages": [
+                40,
+                41
+              ],
+              "articles": [
+                81,
+                82
+              ]
             },
             {
               "numero": "16",
-              "page": 41,
               "titre": "DEMANDE DE PERMIS DE CONSTRUCTION SUR UN TERRAIN SITUÉ SUR",
-              "debut": 83,
-              "fin": 83
+              "pages": [
+                41,
+                42
+              ],
+              "articles": [
+                82,
+                83
+              ]
             }
           ]
         }
@@ -260,124 +425,209 @@
     },
     {
       "numero": "5",
-      "page": 42,
       "titre": "DISPOSITIONS RELATIVES AUX CERTIFICATS\nD'AUTORISATION\n",
-      "debut": 84,
-      "fin": 107,
+      "pages": [
+        42,
+        55
+      ],
+      "articles": [
+        83,
+        107
+      ],
       "sections": [
         {
           "numero": "1",
-          "page": 43,
           "titre": "TRAVAUX ASSUJETTIS ET TARIFS",
-          "debut": 84,
-          "fin": 84,
+          "pages": [
+            43,
+            45
+          ],
+          "articles": [
+            83,
+            84
+          ],
           "sous_sections": []
         },
         {
           "numero": "2",
-          "page": 45,
           "titre": "TRAITEMENT DE LA DEMANDE DE CERTIFICAT D'AUTORISATION",
-          "debut": 85,
-          "fin": 86,
+          "pages": [
+            45,
+            46
+          ],
+          "articles": [
+            84,
+            86
+          ],
           "sous_sections": []
         },
         {
           "numero": "3",
-          "page": 46,
           "titre": "CONTENU D'UNE DEMANDE DE CERTIFICAT D'AUTORISATION",
-          "debut": 87,
-          "fin": 107,
+          "pages": [
+            46,
+            55
+          ],
+          "articles": [
+            86,
+            107
+          ],
           "sous_sections": [
             {
               "numero": "2",
-              "page": 47,
               "titre": "ÉOLIENNE",
-              "debut": 94,
-              "fin": 94
+              "pages": [
+                47,
+                47
+              ],
+              "articles": [
+                93,
+                94
+              ]
             },
             {
               "numero": "3",
-              "page": 47,
               "titre": "ABATTAGE D’ARBRE",
-              "debut": 95,
-              "fin": 95
+              "pages": [
+                47,
+                47
+              ],
+              "articles": [
+                94,
+                95
+              ]
             },
             {
               "numero": "4",
-              "page": 47,
               "titre": "AMÉNAGEMENT D’ESPACE DE STATIONNEMENT, D’AIRE DE CHARGEMENT ET DE",
-              "debut": 96,
-              "fin": 96
+              "pages": [
+                47,
+                48
+              ],
+              "articles": [
+                95,
+                96
+              ]
             },
             {
               "numero": "5",
-              "page": 48,
               "titre": "AMÉNAGEMENT D’UN ACCÈS ET D’UNE ALLÉE D’ACCÈS POUR UN PROJET",
-              "debut": 97,
-              "fin": 97
+              "pages": [
+                48,
+                50
+              ],
+              "articles": [
+                96,
+                97
+              ]
             },
             {
               "numero": "6",
-              "page": 50,
               "titre": "CLÔTURES ET MURETS",
-              "debut": 98,
-              "fin": 98
+              "pages": [
+                50,
+                50
+              ],
+              "articles": [
+                97,
+                98
+              ]
             },
             {
               "numero": "7",
-              "page": 50,
               "titre": "COUPE FORESTIÈRE",
-              "debut": 99,
-              "fin": 99
+              "pages": [
+                50,
+                51
+              ],
+              "articles": [
+                98,
+                99
+              ]
             },
             {
               "numero": "8",
-              "page": 51,
               "titre": "DÉMOLITION",
-              "debut": 100,
-              "fin": 100
+              "pages": [
+                51,
+                51
+              ],
+              "articles": [
+                99,
+                100
+              ]
             },
             {
               "numero": "9",
-              "page": 51,
               "titre": "DÉPLACEMENT D’UNE CONSTRUCTION SUR UN AUTRE TERRAIN",
-              "debut": 101,
-              "fin": 101
+              "pages": [
+                51,
+                51
+              ],
+              "articles": [
+                100,
+                101
+              ]
             },
             {
               "numero": "10",
-              "page": 51,
               "titre": "DÉPLACEMENT D’UNE CONSTRUCTION SUR LE MÊME TERRAIN",
-              "debut": 102,
-              "fin": 102
+              "pages": [
+                51,
+                51
+              ],
+              "articles": [
+                101,
+                102
+              ]
             },
             {
               "numero": "11",
-              "page": 51,
               "titre": "ENSEIGNE",
-              "debut": 103,
-              "fin": 103
+              "pages": [
+                51,
+                52
+              ],
+              "articles": [
+                102,
+                103
+              ]
             },
             {
               "numero": "12",
-              "page": 52,
               "titre": "OUVRAGE DE DÉBLAI OU DE REMBLAI",
-              "debut": 104,
-              "fin": 104
+              "pages": [
+                52,
+                52
+              ],
+              "articles": [
+                103,
+                104
+              ]
             },
             {
               "numero": "13",
-              "page": 52,
               "titre": "OUVRAGE, CONSTRUCTION OU TRAVAUX SUR LA RIVE OU LE LITTORAL OU SUR",
-              "debut": 105,
-              "fin": 105
+              "pages": [
+                52,
+                53
+              ],
+              "articles": [
+                104,
+                105
+              ]
             },
             {
               "numero": "14",
-              "page": 53,
               "titre": "CHANGEMENT D’USAGE OU DE DESTINATION D’UN IMMEUBLE",
-              "debut": 106,
-              "fin": 107
+              "pages": [
+                53,
+                55
+              ],
+              "articles": [
+                105,
+                107
+              ]
             }
           ]
         }
@@ -385,38 +635,63 @@
     },
     {
       "numero": "6",
-      "page": 55,
       "titre": "DISPOSITIONS RELATIVES AUX PERMIS\nD'AFFAIRES\n",
-      "debut": 108,
-      "fin": 120,
+      "pages": [
+        55,
+        59
+      ],
+      "articles": [
+        107,
+        120
+      ],
       "sections": [
         {
           "numero": "1",
-          "page": 56,
           "titre": "DISPOSITIONS GÉNÉRALES",
-          "debut": 108,
-          "fin": 120,
+          "pages": [
+            56,
+            59
+          ],
+          "articles": [
+            107,
+            120
+          ],
           "sous_sections": [
             {
               "numero": "2",
-              "page": 57,
               "titre": "CONTENU DE LA DEMANDE",
-              "debut": 117,
-              "fin": 118
+              "pages": [
+                57,
+                57
+              ],
+              "articles": [
+                116,
+                118
+              ]
             },
             {
               "numero": "3",
-              "page": 57,
               "titre": "USAGE PRINCIPAL, ADDITIONNEL OU COMPLÉMENTAIRE",
-              "debut": 119,
-              "fin": 119
+              "pages": [
+                57,
+                58
+              ],
+              "articles": [
+                118,
+                119
+              ]
             },
             {
               "numero": "4",
-              "page": 58,
               "titre": "L’EXPLOITATION D’UN TERRAIN DE CAMPING OU DE CARAVANING",
-              "debut": 120,
-              "fin": 120
+              "pages": [
+                58,
+                59
+              ],
+              "articles": [
+                119,
+                120
+              ]
             }
           ]
         }
@@ -424,17 +699,27 @@
     },
     {
       "numero": "7",
-      "page": 59,
       "titre": "DEMANDE DE MODIFICATION AUX\nRÈGLEMENTS D'URBANISME\n",
-      "debut": 121,
-      "fin": 128,
+      "pages": [
+        59,
+        63
+      ],
+      "articles": [
+        120,
+        128
+      ],
       "sections": [
         {
           "numero": "1",
-          "page": 60,
           "titre": "DISPOSITIONS GÉNÉRALES",
-          "debut": 121,
-          "fin": 128,
+          "pages": [
+            60,
+            63
+          ],
+          "articles": [
+            120,
+            128
+          ],
           "sous_sections": []
         }
       ]
@@ -442,93 +727,149 @@
   ],
   "articles": [
     {
-      "numero": 1,
-      "page": 8,
       "titre": "Titre du règlement",
+      "pages": [
+        8,
+        8
+      ],
       "alineas": [
         "Le présent règlement est intitulé « Règlement sur les permis et certificats de la Ville de Sainte-Adèle » et porte le numéro",
         "1314-2021-PC."
-      ]
+      ],
+      "numero": 1,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 2,
-      "page": 8,
       "titre": "Abrogation",
+      "pages": [
+        8,
+        8
+      ],
       "alineas": [
         "Le présent règlement abroge le règlement numéro 1200-2012-PC « Règlement relatif aux permis et aux certificats",
         "d’autorisation » tel que modifié par tous leurs amendements ainsi que toutes dispositions inconciliables d’un autre",
         "règlement en vigueur.",
         "Ces abrogations n’affectent pas les permis et certificats légalement émis sous l’autorité des règlements ainsi remplacés ni",
         "les droits acquis avant l’entrée en vigueur du présent règlement."
-      ]
+      ],
+      "numero": 2,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 3,
-      "page": 8,
       "titre": "Portée du règlement et territoire assujetti",
+      "pages": [
+        8,
+        8
+      ],
       "alineas": [
         "Le présent règlement, dont les dispositions s’appliquent aux personnes physiques comme aux personnes morales autant",
         "de droits publics que privés, s’applique à l’ensemble du territoire de la Ville de Sainte-Adèle."
-      ]
+      ],
+      "numero": 3,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 4,
-      "page": 8,
       "titre": "Domaine d’application",
+      "pages": [
+        8,
+        8
+      ],
       "alineas": [
         "La délivrance d’un permis ou certificat d’autorisation doit se faire en conformité avec les dispositions du règlement."
-      ]
+      ],
+      "numero": 4,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 5,
-      "page": 8,
       "titre": "Dispositions des lois et d’autres règlements",
+      "pages": [
+        8,
+        8
+      ],
       "alineas": [
         "Aucune disposition du présent règlement ne peut être interprétée comme ayant pour effet de soustraire une personne à",
         "l’application d’une loi ou d’un règlement du gouvernement provincial ou fédéral ou à l’application d’un règlement de la",
         "Municipalité régionale de comté des Pays-d’en-Haut."
-      ]
+      ],
+      "numero": 5,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 6,
-      "page": 8,
       "titre": "Documents de renvoi",
+      "pages": [
+        8,
+        8
+      ],
       "alineas": [
         "Lorsque le texte fait référence à un document de renvoi, celui-ci est partie intégrante du présent règlement."
-      ]
+      ],
+      "numero": 6,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 7,
-      "page": 8,
       "titre": "Entrée en vigueur",
+      "pages": [
+        8,
+        9
+      ],
       "alineas": [
         "Le présent règlement entre en vigueur conformément à la loi.",
         "",
         ""
-      ]
+      ],
+      "numero": 7,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 0
     },
     {
-      "numero": 8,
-      "page": 9,
       "titre": "Ville",
+      "pages": [
+        9,
+        9
+      ],
       "alineas": [
         "L’expression « Ville » est définie comme étant la Ville de Sainte-Adèle."
-      ]
+      ],
+      "numero": 8,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 0
     },
     {
-      "numero": 9,
-      "page": 9,
       "titre": "Structure du règlement",
+      "pages": [
+        9,
+        9
+      ],
       "alineas": [
         "L’interprétation du présent règlement doit tenir compte de la hiérarchie entre les divisions du texte : chapitres, sections,",
         "sous-sections, articles, alinéas, paragraphes, sous-paragraphes et tirets. À titre d’illustration, la typographie utilisée pour",
         "distinguer les divisions du règlement répond au modèle suivant :"
-      ]
+      ],
+      "numero": 9,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 0
     },
     {
-      "numero": 10,
-      "page": 9,
       "titre": "Interprétation du texte",
+      "pages": [
+        9,
+        9
+      ],
       "alineas": [
         "L’interprétation du texte de ce règlement doit respecter les règles suivantes :",
         "1. L’emploi des verbes au présent inclut le futur, et vice-versa;",
@@ -552,12 +893,18 @@
         "de droit;",
         "10. Lorsqu’une distance séparatrice est mentionnée entre deux usages ou constructions, cette distance s’applique",
         "avec réciprocité pour chacun de ces usages ou constructions."
-      ]
+      ],
+      "numero": 10,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 0
     },
     {
-      "numero": 11,
-      "page": 9,
       "titre": "Interprétation en cas de contradiction",
+      "pages": [
+        9,
+        9
+      ],
       "alineas": [
         "Dans ce règlement, à moins d'indications contraires, les règles suivantes s'appliquent :",
         "1. En cas de contradiction entre le texte et un titre, le texte prévaut;",
@@ -566,12 +913,18 @@
         "3. En cas de contradiction entre les données d'un tableau et un graphique, les données du tableau prévalent;",
         "4. En cas de contradiction entre le texte et la fiche de type de milieu, la fiche prévaut;",
         "5. En cas de contradiction entre la fiche de type de milieu et le plan de zonage, la fiche prévaut."
-      ]
+      ],
+      "numero": 11,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 0
     },
     {
-      "numero": 12,
-      "page": 9,
       "titre": "Terminologie",
+      "pages": [
+        9,
+        10
+      ],
       "alineas": [
         "Les expressions, termes et mots utilisés dans le présent règlement ont le sens et l’application qui leur sont attribués à",
         "l’annexe B du Règlement de zonage en vigueur de la Ville de Sainte-Adèle.",
@@ -580,32 +933,50 @@
         ".",
         "",
         ""
-      ]
+      ],
+      "numero": 12,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 0
     },
     {
-      "numero": 13,
-      "page": 10,
       "titre": "Administration du règlement",
+      "pages": [
+        10,
+        10
+      ],
       "alineas": [
         "L'administration du présent règlement est confiée à toute personne nommée ci-après « fonctionnaire désigné », par",
         "résolution du Conseil."
-      ]
+      ],
+      "numero": 13,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 0
     },
     {
-      "numero": 14,
-      "page": 10,
       "titre": "Autorité compétente",
+      "pages": [
+        10,
+        10
+      ],
       "alineas": [
         "L’application, la surveillance et le contrôle du présent règlement relèvent du fonctionnaire désigné. Des fonctionnaires",
         "désignés adjoints chargés d’aider ou de remplacer le fonctionnaire désigné peuvent être nommés par résolution du Conseil.",
         "Le fonctionnaire désigné et ses représentants autorisés constituent donc l’autorité compétente. Dans le présent règlement,",
         "l’utilisation de l’expression « fonctionnaire désigné » équivaut à l’utilisation de l’expression « autorité compétente »."
-      ]
+      ],
+      "numero": 14,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 0
     },
     {
-      "numero": 15,
-      "page": 10,
       "titre": "Responsabilités du fonctionnaire désigné",
+      "pages": [
+        10,
+        10
+      ],
       "alineas": [
         "De manière générale, le fonctionnaire désigné est chargé de l’administration et de l’application de l’ensemble des",
         "règlements d’urbanisme adoptés par la Ville dans le cadre de la Loi sur l'aménagement et l'urbanisme (c. A-19.1). De",
@@ -620,12 +991,18 @@
         "autre règlement ou loi provinciale applicable;",
         "6. S’il y a lieu, évaluer ou faire évaluer le cout des travaux afin de fixer le tarif d’honoraires d’un permis de",
         "construction."
-      ]
+      ],
+      "numero": 15,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 0
     },
     {
-      "numero": 16,
-      "page": 10,
       "titre": "Pouvoirs du fonctionnaire désigné",
+      "pages": [
+        10,
+        10
+      ],
       "alineas": [
         "Sans restreindre les pouvoirs dévolus au fonctionnaire désigné en vertu de la Loi, les pouvoirs du fonctionnaire désigné",
         "comprennent les pouvoirs suivants :",
@@ -659,30 +1036,48 @@
         "15. Procéder à l’inspection de toute construction existante lorsque l’application de tout règlement le nécessite;",
         "16. Exiger que des essais soient faits sur les matériaux, les dispositifs, les méthodes de construction, les éléments",
         "fonctionnels ou structuraux de construction ou sur la condition des fondations;"
-      ]
+      ],
+      "numero": 16,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 0
     },
     {
-      "numero": 17,
-      "page": 10,
       "titre": "Demander l’arrêt des travaux lorsque le résultat des essais démontre que les dispositions de ce règlement ne",
+      "pages": [
+        10,
+        10
+      ],
       "alineas": [
         "sont pas respectées;"
-      ]
+      ],
+      "numero": 17,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 0
     },
     {
-      "numero": 18,
-      "page": 10,
       "titre": "Interdire tout ouvrage n’ayant pas la résistance exigée et faire suspendre l’érection de toute construction non",
+      "pages": [
+        10,
+        11
+      ],
       "alineas": [
         "conforme à ce règlement ou à l’autorisation accordée dans le permis de construction;",
         "",
         ""
-      ]
+      ],
+      "numero": 18,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 0
     },
     {
-      "numero": 19,
-      "page": 11,
       "titre": "Enjoindre à cesser tous travaux exécutés en contravention aux règlements d’urbanisme et exiger que soit",
+      "pages": [
+        11,
+        13
+      ],
       "alineas": [
         "corrigée toute situation qui constitue une infraction aux règlements d’urbanisme. À cette fin, il peut exiger la",
         "remise en état des lieux avec les délais qu’il détermine.",
@@ -783,12 +1178,18 @@
         "9. Dénigre, injure, menace ou d’une quelconque autre façon porte ou menace de porter atteinte à l’intégrité",
         "physique ou mentale d’un fonctionnaire de la Ville de Sainte-Adèle.",
         "2023-05-09 (R1314-2021-Z-8, a. 2)"
-      ]
+      ],
+      "numero": 19,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 0
     },
     {
-      "numero": 20,
-      "page": 13,
       "titre": "Pénalités et recours",
+      "pages": [
+        13,
+        14
+      ],
       "alineas": [
         "Quiconque commet une infraction au présent règlement, est passible, pour chaque jour ou partie de jour que dure",
         "l’infraction, d’une amende qui ne peut être inférieure à 500 $ et n’excédant pas 1 000 $ lorsqu’il s’agit d’une personne",
@@ -831,24 +1232,36 @@
         "autant d'infractions qu'il y a de jours dans sa durée et l'amende sera fixée pour chaque jour d'infraction si un avis, verbal",
         "ou écrit, a été donné au contrevenant. Si cet avis est donné, l'amende sera imposée pour tous les jours suivants que dure",
         "l'infraction."
-      ]
+      ],
+      "numero": 20,
+      "sous_section": -1,
+      "section": 3,
+      "chapitre": 0
     },
     {
-      "numero": 21,
-      "page": 14,
       "titre": "Recours judiciaire",
+      "pages": [
+        14,
+        16
+      ],
       "alineas": [
         "La délivrance d’un constat d’infraction par le fonctionnaire désigné ne limite en aucune manière le pouvoir du Conseil",
         "d’exercer, aux fins de faire respecter les dispositions des règlements d’urbanisme, tout autre recours de nature civile ou",
         "pénale et tous les recours prévus par la Loi sur l’aménagement et l’urbanisme (L.R.Q., c. A-19.1).",
         "",
         ""
-      ]
+      ],
+      "numero": 21,
+      "sous_section": -1,
+      "section": 3,
+      "chapitre": 0
     },
     {
-      "numero": 22,
-      "page": 16,
       "titre": "Procuration",
+      "pages": [
+        16,
+        16
+      ],
       "alineas": [
         "Si le requérant ou un mandataire d’un permis ou d’un certificat n’est pas le propriétaire de l’immeuble ou du bien meuble",
         "visé par la demande, il doit joindre à ladite demande une procuration signée du propriétaire l’autorisant à procéder en son",
@@ -856,110 +1269,170 @@
         "En cas de copropriété ou d’une compagnie, une résolution d’autorisation des travaux et une résolution désignant une",
         "personne comme étant le représentant des copropriétaires ou des actionnaires de la compagnie émises par les",
         "administrateurs sont requises."
-      ]
+      ],
+      "numero": 22,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 23,
-      "page": 16,
       "titre": "Obligation de fournir certains renseignements et documents additionnels",
+      "pages": [
+        16,
+        16
+      ],
       "alineas": [
         "Lorsque les documents et informations fournis avec la demande sont insuffisants afin de vérifier la conformité à certaines",
         "normes prévues à la règlementation d’urbanisme, le fonctionnaire désigné peut demander au requérant de fournir des",
         "renseignements et documents additionnels à ceux exigés au présent règlement s’ils sont essentiels afin de vérifier la",
         "conformité de la demande aux dispositions applicables de la règlementation d’urbanisme."
-      ]
+      ],
+      "numero": 23,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 24,
-      "page": 16,
       "titre": "Exemption de fournir certains documents",
+      "pages": [
+        16,
+        16
+      ],
       "alineas": [
         "Lorsque la nature de la demande est telle que certains documents ou informations exigées au présent règlement ne sont",
         "pas nécessaires afin de vérifier la conformité de la demande ou que la conformité peut être démontrée autrement, le",
         "fonctionnaire désigné peut indiquer au requérant les renseignements et documents, parmi ceux énumérés au règlement,",
         "qui ne sont pas requis pour l’analyse de sa demande et, en conséquence, qu’il n’a pas à fournir."
-      ]
+      ],
+      "numero": 24,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 25,
-      "page": 16,
       "titre": "Délivrance d’un permis ou d’un certificat visé par une demande de dérogation mineure",
+      "pages": [
+        16,
+        16
+      ],
       "alineas": [
         "Lorsque la délivrance d’un permis de construction, d’un permis de lotissement, d’un certificat d’autorisation ou d’un certificat",
         "d’occupation est assujettie à une dérogation mineure, le fonctionnaire désigné ne peut délivrer le permis ou le certificat tant",
         "que le Conseil n’a pas accordé la dérogation mineure par résolution."
-      ]
+      ],
+      "numero": 25,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 26,
-      "page": 16,
       "titre": "Délivrance d’un permis ou d’un certificat visé par une demande de plan d’implantation et d’intégration",
+      "pages": [
+        16,
+        16
+      ],
       "alineas": [
         "architecturale",
         "Lorsque la délivrance d’un permis de construction, d’un permis de lotissement ou d’un certificat d’autorisation est assujettie",
         "à l’approbation par le Conseil des plans relatifs à l’implantation et à l’architecture des constructions ou à l’aménagement",
         "des terrains ou aux travaux qui y sont reliés, le fonctionnaire désigné ne peut délivrer le permis ou le certificat tant que le",
         "Conseil n’a pas approuvé le plan d’implantation et d’intégration architecturale par résolution."
-      ]
+      ],
+      "numero": 26,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 27,
-      "page": 16,
       "titre": "Délivrance d’un permis ou d’un certificat visé par une demande d’autorisation d’un usage conditionnel",
+      "pages": [
+        16,
+        16
+      ],
       "alineas": [
         "Lorsque la délivrance d’un permis de construction, d’un permis de lotissement ou d’un certificat d’autorisation est assujettie",
         "à l’autorisation par le Conseil d’un usage conditionnel, le fonctionnaire désigné ne peut délivrer le permis ou le certificat",
         "tant que le Conseil n’a pas approuvé l’usage conditionnel par résolution."
-      ]
+      ],
+      "numero": 27,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 28,
-      "page": 16,
       "titre": "Exigence relative à la présentation des rapports sur support de papier",
+      "pages": [
+        16,
+        16
+      ],
       "alineas": [
         "Est exigée une copie papier des plans pour le type de demandes suivantes :",
         "1. Plan d’architecture d’un projet de construction d’un bâtiment principal, d’un agrandissement majeur ou d’un",
         "bâtiment accessoire de plus de 20 m2;",
         "2. Demande d’approbation d’un projet de lotissement mineur ou majeur;"
-      ]
+      ],
+      "numero": 28,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 29,
-      "page": 16,
       "titre": "Exigence relative à la présentation et à la numérisation des plans",
+      "pages": [
+        16,
+        16
+      ],
       "alineas": [
         "Une version numérique de tous les documents présentés à l’appui d’une demande doit accompagner une demande :",
         "1. Pour un projet majeur de lotissement, pour les plans d’opération cadastrale ou pour les plans accompagnant",
         "une demande de modification à un règlement d’urbanisme,",
         "2. Pour les plans, coupes et détails architecturaux, formulaires, etc., la version numérique doit être fournie en",
         "format « ADOBE ACROBATE ® »."
-      ]
+      ],
+      "numero": 29,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 30,
-      "page": 16,
       "titre": "Exigences relatives aux photographies",
+      "pages": [
+        16,
+        16
+      ],
       "alineas": [
         "Toute photographie déposée à l’appui d’une demande doit être de format numérique et d’une résolution suffisante pour",
         "être reproduite et numérisée. Des fichiers individuels sont exigibles pour chaque photo, leur regroupement dans un même",
         "document diminuant leur qualité n’est pas accepté."
-      ]
+      ],
+      "numero": 30,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 31,
-      "page": 16,
       "titre": "Paiement des tarifs d’honoraires",
+      "pages": [
+        16,
+        17
+      ],
       "alineas": [
         "",
         "",
         "Toute demande de permis, de certificat ou autre doit être accompagnée du paiement complet du tarif d’honoraires",
         "applicable établi au présent règlement."
-      ]
+      ],
+      "numero": 31,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 32,
-      "page": 17,
       "titre": "Suspension de l’étude d’une demande",
+      "pages": [
+        17,
+        17
+      ],
       "alineas": [
         "Lorsqu’une demande est incomplète, insuffisante ou non conforme, le fonctionnaire désigné avise le requérant verbalement",
         "ou par écrit des raisons de cette suspension et que l’analyse de ladite demande est suspendue pour une période maximale",
@@ -969,86 +1442,134 @@
         "fournis à l’appui de sa demande.",
         "Toute nouvelle demande doit être présentée de nouveau avec tous les documents et informations requis, incluant le",
         "paiement des frais applicables."
-      ]
+      ],
+      "numero": 32,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 33,
-      "page": 17,
       "titre": "Annulation d’un permis ou d’un certificat pour des travaux suspendus ou non débutés",
+      "pages": [
+        17,
+        17
+      ],
       "alineas": [
         "Tout permis de construction ainsi que tout certificat d’autorisation deviennent nuls et non avenus si les travaux n’ont pas",
         "débuté dans un délai de 6 mois à compter de son émission. Toute interruption des travaux durant une période de plus de",
         "6 mois conduira automatiquement à l’annulation du permis ou du certificat d’autorisation."
-      ]
+      ],
+      "numero": 33,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 34,
-      "page": 17,
       "titre": "Document erroné ou fausse information",
+      "pages": [
+        17,
+        17
+      ],
       "alineas": [
         "Un permis ou un certificat d’autorisation devient nul et non avenu lorsqu’il appert que ce permis ou certificat aurait été émis",
         "à la suite de la présentation de documents erronés, d’une fausse déclaration ou d’une fausse représentation."
-      ]
+      ],
+      "numero": 34,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 35,
-      "page": 17,
       "titre": "Nullité d’un permis ou certificat",
+      "pages": [
+        17,
+        17
+      ],
       "alineas": [
         "En cas de nullité d’une demande, d’un permis ou d’un certificat d’autorisation indiquée aux articles précédents ou pour",
         "quelques raisons que ce soit, aucun cout défrayé n’est remboursé et les documents déposés peuvent être conservés par",
         "la Ville. Dès l’annulation du permis ou du certificat, les autorisations sont levées et les travaux doivent cesser",
         "immédiatement."
-      ]
+      ],
+      "numero": 35,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 36,
-      "page": 17,
       "titre": "Validité générale d’un permis ou d’un certificat",
+      "pages": [
+        17,
+        17
+      ],
       "alineas": [
         "Un permis ou un certificat n’est valide que lorsque signé et que l’ensemble des frais soient acquittés par le requérant.",
         "De plus, un permis ou un certificat autorise son requérant à procéder uniquement aux seules opérations qui y sont prévues,",
         "et ce, dans les limites du délai prévu et du respect de l’ensemble des règlements et conditions applicables. Dans le cas",
         "contraire, un permis ou un certificat est nul et non avenu."
-      ]
+      ],
+      "numero": 36,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 37,
-      "page": 17,
       "titre": "Obligation d’affichage d’un permis ou d’un certificat",
+      "pages": [
+        17,
+        17
+      ],
       "alineas": [
         "Pour être valide, un permis ou un certificat lié à des travaux doit être affiché et visible à partir de la voie publique sur les",
         "lieux des dits travaux tout au long de leurs durées."
-      ]
+      ],
+      "numero": 37,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 38,
-      "page": 17,
       "titre": "Modification des informations ou documents",
+      "pages": [
+        17,
+        17
+      ],
       "alineas": [
         "Le requérant doit effectuer les travaux conformément aux conditions stipulées au permis et aux déclarations faites lors de",
         "la demande. Toute modification apportée aux plans et documents de la demande après l’émission du permis doit être",
         "approuvée par le fonctionnaire désigné avant l’exécution des travaux ainsi modifiés. Le fonctionnaire désigné ne peut",
         "approuver les modifications que si elles sont conformes aux dispositions de la règlementation d’urbanisme. Cette",
         "approbation n’a pas pour effet de prolonger la durée du permis ou du certificat."
-      ]
+      ],
+      "numero": 38,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 39,
-      "page": 17,
       "titre": "Remboursement en cas d’annulation, de refus ou de révocation d’un permis de construction",
+      "pages": [
+        17,
+        17
+      ],
       "alineas": [
         "Si le requérant d’un permis de construction avise le fonctionnaire désigné qu’il désire retirer sa demande et qu’il le fait avant",
         "que le fonctionnaire désigné n’ait débuté l’analyse de la demande, la Ville conserve la somme de 20,00 $ et rembourse au",
         "requérant la différence entre cette somme et le tarif qu’il a déboursé pour la demande de permis.",
         "Dans tout cas d’annulation, de refus ou de révocation d’un permis ou d’un certificat délivré par le fonctionnaire désigné, la",
         "Ville conserve la totalité du tarif déboursé par le requérant pour la demande de permis."
-      ]
+      ],
+      "numero": 39,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 40,
-      "page": 17,
       "titre": "Utilisation de la voie publique",
+      "pages": [
+        17,
+        18
+      ],
       "alineas": [
         "L'utilisation de la voie publique, relative à l'exécution de travaux effectués à la suite de l'obtention d'un permis de",
         "construction ou d’un certificat, ne doit pas être effectuée sans l'autorisation du fonctionnaire désigné.",
@@ -1058,12 +1579,18 @@
         "la voie publique lui a été accordée.",
         "",
         ""
-      ]
+      ],
+      "numero": 40,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 41,
-      "page": 18,
       "titre": "Travaux débutés sans permis ou certificats",
+      "pages": [
+        18,
+        20
+      ],
       "alineas": [
         "Lorsque le requérant a omis de demander un permis ou un certificat avant le début des travaux, mais qu’il ne se conforme",
         "pas dans un délai de 30 jours à partir du moment où le fonctionnaire désigné lui signale les manquements au présent",
@@ -1072,12 +1599,18 @@
         "2022-04-20 (R1314-2021-PC-1, a. 2)",
         "",
         ""
-      ]
+      ],
+      "numero": 41,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 1
     },
     {
-      "numero": 42,
-      "page": 20,
       "titre": "Nécessité d’un permis de lotissement",
+      "pages": [
+        20,
+        20
+      ],
       "alineas": [
         "Un permis de lotissement est requis pour toute opération cadastrale.",
         "Un plan relatif à une opération cadastrale ne peut pas être déposé auprès du ministre responsable du cadastre si le permis",
@@ -1085,31 +1618,49 @@
         "Le premier alinéa ne s’applique pas à l’identification d’un lot effectuée en application de la Loi favorisant la réforme du",
         "cadastre québécois (L.R.Q., c. R-3.1), ou pour une opération cadastrale visant la création de lots de cadastre vertical",
         "associés à une copropriété divise verticale ou de coemphytéose verticale."
-      ]
+      ],
+      "numero": 42,
+      "sous_section": 0,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 43,
-      "page": 20,
       "titre": "Changement de numéro de lot assigné",
+      "pages": [
+        20,
+        20
+      ],
       "alineas": [
         "Lorsque le numéro d’un lot assigné au bureau du cadastre diffère de celui inscrit sur la demande de permis de lotissement,",
         "le requérant est tenu de transmettre, au fonctionnaire désigné, la copie électronique de la demande et 1 copie du plan de",
         "l’opération cadastrale où est indiqué tout numéro de lot qui diffère."
-      ]
+      ],
+      "numero": 43,
+      "sous_section": 0,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 44,
-      "page": 20,
       "titre": "Tarif d’honoraires relatif aux permis de lotissement",
+      "pages": [
+        20,
+        20
+      ],
       "alineas": [
         "Le tarif d’honoraires pour la délivrance d’un permis de lotissement est établi à 75,00 $ par nouveau lot compris dans le plan",
         "de l’opération cadastrale. Ce tarif s’applique également à un lot horizontal créé sous le mode de la copropriété."
-      ]
+      ],
+      "numero": 44,
+      "sous_section": 0,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 45,
-      "page": 20,
       "titre": "Conditions de délivrance d’un permis de lotissement",
+      "pages": [
+        20,
+        20
+      ],
       "alineas": [
         "Le fonctionnaire désigné délivre un permis de lotissement si les conditions générales suivantes sont respectées :",
         "1. La demande est conforme au Règlement de lotissement en vigueur et à tout autre règlement d’urbanisme",
@@ -1140,12 +1691,18 @@
         "terrain contaminé;",
         "13. Le cas échéant, la demande est accompagnée de toute déclaration ou toute autorisation additionnelle exigée",
         "en vertu d’une loi ou d’un règlement gouvernemental."
-      ]
+      ],
+      "numero": 45,
+      "sous_section": 0,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 46,
-      "page": 20,
       "titre": "Annulation et caducité du permis de lotissement",
+      "pages": [
+        20,
+        21
+      ],
       "alineas": [
         "Un permis de lotissement devient nul, caduc et sans effet dans les cas suivants :",
         "1. L’opération cadastrale déposée pour enregistrement au ministère responsable du cadastre n'est pas en tous",
@@ -1161,12 +1718,18 @@
         "erroné;",
         "4. Une modification a été apportée aux documents approuvés sans l’approbation préalable du fonctionnaire",
         "désigné."
-      ]
+      ],
+      "numero": 46,
+      "sous_section": 0,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 47,
-      "page": 21,
       "titre": "Dispositions particulières pour un terrain contaminé",
+      "pages": [
+        21,
+        21
+      ],
       "alineas": [
         "Dans le cas où le terrain visé par la demande de permis de lotissement est inscrit dans le répertoire des terrains contaminés",
         "du Ministère de l’environnement et de la lutte contre les changements climatiques et ayant fait l’objet d’un plan de",
@@ -1177,46 +1740,70 @@
         "2. Un rapport d’un professionnel membre d’un ordre professionnel établissant que le projet est conforme aux",
         "exigences de la Politique de protection des sols et de réhabilitation des terrains contaminés quant aux usages",
         "projetés et s’il y a lieu, aux travaux de décontamination ou de réhabilitation."
-      ]
+      ],
+      "numero": 47,
+      "sous_section": 0,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 48,
-      "page": 21,
       "titre": "Disposition particulière pour une opération cadastrale à l'intérieur d'un projet intégré",
+      "pages": [
+        21,
+        21
+      ],
       "alineas": [
         "Dans le cas d'un projet intégré pour lequel un projet de lotissement a été approuvé selon les dispositions applicables de la",
         "présente règlementation, tout projet doit être constitué d’un lot de fond, respectant la règlementation en matière de",
         "lotissement. Les portions privatives ou faisant l’objet de déclarations de copropriété doivent être subdivisées verticalement",
         "par-dessus ce lot conforme. À ce moment, seules les exigences relatives aux parties privatives identifiées dans les projets",
         "intégrés s’appliquent."
-      ]
+      ],
+      "numero": 48,
+      "sous_section": 0,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 49,
-      "page": 21,
       "titre": "Dispositions particulières relatives aux plans de remplacement en territoire rénové",
+      "pages": [
+        21,
+        21
+      ],
       "alineas": [
         "En territoire rénové, dans le cas d’une opération cadastrale qui vise la vente d’une parcelle d’un terrain, en plus du plan",
         "identifiant par un lot distinct cette parcelle, le requérant doit déposer simultanément un plan de remplacement pour rattacher",
         "cette parcelle au lot adjacent auquel elle est reliée et ainsi l’éliminer pour ne former qu’un seul lot distinct ou un seul lot",
         "distinct par lot originaire, à moins que le lot adjacent ne soit localisé sur le territoire d’une autre municipalité auquel cas cet",
         "article ne s’applique pas."
-      ]
+      ],
+      "numero": 49,
+      "sous_section": 0,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 50,
-      "page": 21,
       "titre": "Modification d’une demande",
+      "pages": [
+        21,
+        21
+      ],
       "alineas": [
         "Toute modification aux plans et documents après leurs approbations nécessite la présentation d’une nouvelle demande.",
         "Tout plan déjà approuvé et déposé avant l’entrée en vigueur du présent règlement devra répondre aux dispositions",
         "prescrites au présent règlement pour toute modification que l’on voudrait y apporter ou pour l’intégrer à un nouveau plan."
-      ]
+      ],
+      "numero": 50,
+      "sous_section": 0,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 51,
-      "page": 21,
       "titre": "Non-responsabilité",
+      "pages": [
+        21,
+        21
+      ],
       "alineas": [
         "L'émission d'un permis de lotissement relatif à une opération cadastrale ne peut constituer d'obligation d'aucune sorte pour",
         "la Ville.",
@@ -1224,12 +1811,18 @@
         "obligation d'accepter la cession des rues et voies proposées paraissant au plan, ni de décréter l'ouverture de ces rues ou",
         "voies, ni d'en prendre à sa charge les frais de construction et d'entretien, ni d'en assumer les responsabilités civiles, ni de",
         "fournir des services d'utilité publique ou l’aménagement d’un parc ou d’un espace public."
-      ]
+      ],
+      "numero": 51,
+      "sous_section": 0,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 52,
-      "page": 21,
       "titre": "Contenu de la demande",
+      "pages": [
+        21,
+        22
+      ],
       "alineas": [
         "Le présent article s’applique à tout projet d’opération cadastrale dont le nombre de lots à former est égal ou inférieur à 5,",
         "ne comprend aucune rue, ni aucun espace de terrains de jeux et d’espaces naturels, ne fait pas l’objet d’une déclaration",
@@ -1273,12 +1866,18 @@
         "vertu de l’article 256.1 de la Loi sur l’aménagement et de l’urbanisme (L.R.Q., c.A-19.1)",
         "p. Tout autre document requis par le fonctionnaire désigné pour confirmer le respect du plan à la",
         "règlementation d’urbanisme en vigueur;"
-      ]
+      ],
+      "numero": 52,
+      "sous_section": 1,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 53,
-      "page": 22,
       "titre": "Cheminement de la demande",
+      "pages": [
+        22,
+        22
+      ],
       "alineas": [
         "Saisi de la demande de permis de lotissement pour un projet mineur de lotissement, le fonctionnaire désigné délivre le",
         "permis de lotissement si l’opération cadastrale est conforme au présent règlement et aux règlements d’urbanisme",
@@ -1287,12 +1886,18 @@
         "moins qu’un sentier récréatif soit présent sur l’immeuble ou à son périmètre et qu’aucune entente assurant sa pérennité",
         "n’ait été conclue. Dans un tel cas, la demande de permis de lotissement est transmise au Conseil afin que ce dernier",
         "détermine le mode contribution à appliquer conformément au Règlement de lotissement en vigueur."
-      ]
+      ],
+      "numero": 53,
+      "sous_section": 1,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 54,
-      "page": 22,
       "titre": "Contenu de la demande",
+      "pages": [
+        22,
+        24
+      ],
       "alineas": [
         "Le présent article s’applique à tout projet d’opération cadastrale, dont le nombre potentiel de lots que peut contenir",
         "l'ensemble de la propriété d'un même tenant et aboutissant est supérieur à 5 même s'il s'agit d'un projet de 5 lots ou moins",
@@ -1406,12 +2011,18 @@
         "congestion, sécurité, viabilité des infrastructures) ou, le cas échéant, les mesures de mitigations et de",
         "diversification des déplacements proposés.",
         "2022-04-20 (R1314-2021-PC-1, a. 3)"
-      ]
+      ],
+      "numero": 54,
+      "sous_section": 2,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 55,
-      "page": 24,
       "titre": "Cheminement de la demande",
+      "pages": [
+        24,
+        25
+      ],
       "alineas": [
         "Saisi d’une demande complète relative à un projet majeur de lotissement, le fonctionnaire désigné étudie la demande afin",
         "d’établir la conformité de celle-ci aux règlements d’urbanisme.",
@@ -1440,12 +2051,18 @@
         "",
         "",
         "L’EMPRISE DU PARC LINÉAIRE LE P’TIT TRAIN DU NORD"
-      ]
+      ],
+      "numero": 55,
+      "sous_section": 2,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 56,
-      "page": 25,
       "titre": "Documents additionnels requis",
+      "pages": [
+        25,
+        27
+      ],
       "alineas": [
         "En plus de tout autre document ou information exigés en vertu du présent règlement. Une demande de permis de",
         "lotissement visant une opération cadastrale adjacente à l’emprise du parc linéaire le P’tit train du nord ou sur l’emprise de",
@@ -1485,12 +2102,18 @@
         "appréhendés sur l’emprise des parcs linéaires.",
         "",
         ""
-      ]
+      ],
+      "numero": 56,
+      "sous_section": 3,
+      "section": 0,
+      "chapitre": 2
     },
     {
-      "numero": 57,
-      "page": 27,
       "titre": "Nécessité d’un permis de construction et tarifs",
+      "pages": [
+        27,
+        28
+      ],
       "alineas": [
         "Quiconque désire entreprendre des travaux, des constructions ou des ouvrages cités au tableau suivant doit, au préalable,",
         "obtenir un permis de construction selon les dispositions du présent règlement et de toute autre loi ou règlement municipal",
@@ -1560,12 +2183,18 @@
         "Note 5 : un permis est nécessaire pour construire, installer ou remplacer une piscine, pour installer un plongeoir, ou pour",
         "ériger, transformer, agrandir ou modifier une construction donnant ou empêchant l’accès à une piscine",
         "2022-04-20 (R1314-2021-PC-1, a. 4)"
-      ]
+      ],
+      "numero": 57,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 3
     },
     {
-      "numero": 58,
-      "page": 28,
       "titre": "Cas d’exception",
+      "pages": [
+        28,
+        28
+      ],
       "alineas": [
         "L'obtention d'un permis de construction n'est pas requise pour les menus travaux que nécessite l'entretien normal d'une",
         "construction, à moins que l’une ou plusieurs des situations suivantes soient rencontrées :",
@@ -1612,12 +2241,18 @@
         "L'exemption de l'obligation d'obtenir un permis de construction ne soustrait aucunement de l'obligation de se conformer au",
         "présent règlement et à tout autre règlement s'appliquant en l'espèce, non plus que de l'obligation de s'enquérir auprès du",
         "fonctionnaire désigné des dispositions applicables."
-      ]
+      ],
+      "numero": 58,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 3
     },
     {
-      "numero": 59,
-      "page": 28,
       "titre": "Dépôt de garantie",
+      "pages": [
+        28,
+        29
+      ],
       "alineas": [
         "",
         "",
@@ -1647,12 +2282,18 @@
         "façon définitive le dépôt et se réserve le droit d’entreprendre tous les recours à sa disposition pour assurer le respect de la",
         "règlementation comme prévu dans le présent règlement.",
         "2022-04-20 (R1314-2021-PC-1, a. 5)"
-      ]
+      ],
+      "numero": 59,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 3
     },
     {
-      "numero": 60,
-      "page": 29,
       "titre": "Conditions générales de délivrance du permis de construction",
+      "pages": [
+        29,
+        31
+      ],
       "alineas": [
         "Le fonctionnaire désigné délivre le permis de construction si les conditions générales suivantes sont respectées :",
         "1. La demande est conforme aux dispositions du Règlement de zonage en vigueur, du Règlement de construction",
@@ -1776,12 +2417,18 @@
         "permis de construction à la condition que l’ensemble des éléments requis au règlement 1314-2021-PIIA soit déposé ainsi",
         "que tout document permettant une évaluation adéquate du projet en vertu des critères d’évaluation.",
         "2022-04-20 (R1314-2021-PC-1, a. 6)"
-      ]
+      ],
+      "numero": 60,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 3
     },
     {
-      "numero": 61,
-      "page": 31,
       "titre": "Conditions particulières de délivrance d’un permis de construction relatif à une résidence pour",
+      "pages": [
+        31,
+        31
+      ],
       "alineas": [
         "personnes âgées ou retraitées",
         "Dans le cas où le permis de construction concerne une résidence pour personnes âgées ou retraitées, le fonctionnaire",
@@ -1791,12 +2438,18 @@
         "formulaire prévu à l’article 120.1 de la Loi sur l’aménagement et l’urbanisme (L.R.Q., c. A-19.1);",
         "2. Le requérant a remis au fonctionnaire désigné la déclaration prévue à l’article 120.0.1 de la Loi sur",
         "l’aménagement et l’urbanisme (L.R.Q., c. A-19.1)."
-      ]
+      ],
+      "numero": 61,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 3
     },
     {
-      "numero": 62,
-      "page": 31,
       "titre": "Conditions particulières de délivrance d’un permis de construction sur un terrain ayant fait l’objet d’un",
+      "pages": [
+        31,
+        31
+      ],
       "alineas": [
         "plan de réhabilitation",
         "Dans le cas où la demande concerne un permis de construction relatif à une construction destinée à occuper un terrain",
@@ -1805,24 +2458,36 @@
         "fourni une attestation établissant que le projet pour lequel le permis est demandé est compatible avec les dispositions du",
         "plan de réhabilitation approuvé par le ministre de l'Environnement et de la Lutte contre les changements climatiques à",
         "l’égard du terrain contaminé."
-      ]
+      ],
+      "numero": 62,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 3
     },
     {
-      "numero": 63,
-      "page": 31,
       "titre": "Conditions particulières de délivrance d’un permis de construction sur un terrain localisé à l’intérieur",
+      "pages": [
+        31,
+        31
+      ],
       "alineas": [
         "d’un projet intégré d’habitations",
         "Dans le cas où la demande concerne un permis de construction relatif à la construction d’un bâtiment principal à l’intérieur",
         "d’un projet intégré d’habitations en copropriété divise, le fonctionnaire désigné délivre le permis de construction si, en plus",
         "des conditions générales de la présente section, le requérant a fourni une copie de la déclaration de copropriété notariée",
         "et publiée au registre foncier du Québec en vertu de l’article 1038 et suivants du Code civil du Québec."
-      ]
+      ],
+      "numero": 63,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 3
     },
     {
-      "numero": 64,
-      "page": 31,
       "titre": "Annulation et caducité du permis de construction",
+      "pages": [
+        31,
+        32
+      ],
       "alineas": [
         "Tout permis de construction devient nul, caduc et sans effet dans les cas suivants :",
         "1. Les travaux ne sont pas commencés et une période de 180 jours s’est écoulée depuis la délivrance du permis;",
@@ -1842,12 +2507,18 @@
         "architecturale. La remise en vigueur du permis n’a pas pour effet de prolonger les délais prévus aux",
         "paragraphes 1 et 3. Le paragraphe 2 s’applique même si les travaux sont interrompus en raison de l’annulation",
         "du permis pour les motifs visés aux paragraphes 5 et 6."
-      ]
+      ],
+      "numero": 64,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 3
     },
     {
-      "numero": 65,
-      "page": 32,
       "titre": "Renouvèlement d’un permis de construction",
+      "pages": [
+        32,
+        32
+      ],
       "alineas": [
         "Lorsque les travaux prévus à un permis de construction ne sont pas commencés ou exécutés dans les délais prévus au",
         "paragraphe 1, 2 ou 3 de l’article 64, le permis peut être renouvelé aux conditions suivantes :",
@@ -1862,12 +2533,18 @@
         "Le tarif applicable pour le renouvèlement d’un permis de construction est de 20,00 $ si aucune modification au projet initial",
         "n’est apportée. Si des modifications sont apportées au projet initial, le tarif applicable correspond à 50 % du tarif dans le",
         "cadre de la demande de permis initiale."
-      ]
+      ],
+      "numero": 65,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 3
     },
     {
-      "numero": 66,
-      "page": 32,
       "titre": "Modification aux plans et devis approuvés",
+      "pages": [
+        32,
+        33
+      ],
       "alineas": [
         "Toute modification aux plans et devis approuvés dans le cadre d’un permis de construction doit être soumise à l'approbation",
         "par le fonctionnaire désigné qui déterminera si les modifications sont conformes aux règlements d’urbanisme. Si, de l'avis",
@@ -1879,12 +2556,18 @@
         "de permis initiale.",
         "",
         ""
-      ]
+      ],
+      "numero": 66,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 3
     },
     {
-      "numero": 67,
-      "page": 33,
       "titre": "Renseignements généraux requis pour une demande de permis de construction",
+      "pages": [
+        33,
+        33
+      ],
       "alineas": [
         "Toute demande de permis de construction doit être accompagnée des renseignements généraux suivants :",
         "1. Le formulaire officiel de demande de permis de la Ville dument complété et signé selon le cas, par le",
@@ -1905,12 +2588,18 @@
         "d’autorisation requise en vertu d’une loi ou d’un règlement du Gouvernement du Québec doit être accompagnée d’une",
         "copie de tous les documents requis par ladite loi ou ledit règlement pour l’émission dudit permis, certificat ou autre forme",
         "d’autorisation, de même que d’une copie desdits permis, certificats ou autre forme d’autorisation."
-      ]
+      ],
+      "numero": 67,
+      "sous_section": 0,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 68,
-      "page": 33,
       "titre": "Plans et devis de travaux d’architecture",
+      "pages": [
+        33,
+        33
+      ],
       "alineas": [
         "Tous les plans et devis d’architecture pour une nouvelle construction, un agrandissement majeur ou pour une reconstruction",
         "d’un bâtiment principal doivent être signés et scellés par un technologue membre de l’Ordre des technologues du Québec,",
@@ -1925,12 +2614,18 @@
         "les architectes (L.R.Q. c. A-21) ou par la Loi sur les ingénieurs (L.R.Q. c. I-9);",
         "Tous les plans de travaux d’architecture exigés doivent être à une échelle de 1 : 200 (1/16\" : 1’), 1 : 100 (1/8\" : 1’) ou à",
         "1 : 50 (1/4\" : 1’)."
-      ]
+      ],
+      "numero": 68,
+      "sous_section": 0,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 69,
-      "page": 33,
       "titre": "Contenu supplémentaire",
+      "pages": [
+        33,
+        34
+      ],
       "alineas": [
         "Pour une demande de permis de construction pour la construction ou la reconstruction d’un bâtiment principal, les plans",
         "suivants énumérés au paragraphe 2 sont exigés en 1 exemplaire papier et l’ensemble des documents doivent être déposés",
@@ -1999,12 +2694,18 @@
         "sur l’aménagement et l’urbanisme (L.R.Q., c. A-19.1).",
         "8. Si le projet implique la construction de 50 unités d’habitation ou d’hébergement ou plus, la réalisation d’une",
         "étude de circulation démontrant l’impact du projet sur la circulation locale et la fluidité."
-      ]
+      ],
+      "numero": 69,
+      "sous_section": 1,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 70,
-      "page": 34,
       "titre": "Contenu supplémentaire",
+      "pages": [
+        34,
+        35
+      ],
       "alineas": [
         "Pour une demande de permis de construction pour l’agrandissement majeur d’un bâtiment principal, les plans suivants",
         "énumérés au paragraphe 2 sont exigés en 1 exemplaire papier et l’ensemble des documents doivent être déposés en",
@@ -2064,12 +2765,18 @@
         "Dans le cadre d’une demande de permis pour des travaux d’agrandissement n’augmentant pas la superficie d’occupation",
         "au sol du bâtiment, si les travaux ne requièrent pas des modifications aux allées d’accès véhiculaires et aux espaces de",
         "stationnement, le dépôt d’un plan d’implantation projetée n’est pas requis."
-      ]
+      ],
+      "numero": 70,
+      "sous_section": 2,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 71,
-      "page": 35,
       "titre": "Contenu supplémentaire",
+      "pages": [
+        35,
+        36
+      ],
       "alineas": [
         "Pour une demande de permis de construction pour l’agrandissement mineur d’un bâtiment principal, les plans suivants",
         "énumérés au paragraphe 2 sont exigés en 1 exemplaire papier et l’ensemble des documents doivent être déposés en",
@@ -2136,12 +2843,18 @@
         "6. Les limites de toute zone d’érosion de sol, le cas échéant;",
         "7. La pente naturelle moyenne du terrain à l’intérieur de l’assiette de la construction projetée pour une",
         "construction localisée en tout ou en partie à l’intérieur d’une aire de sommet de montagne."
-      ]
+      ],
+      "numero": 71,
+      "sous_section": 3,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 72,
-      "page": 36,
       "titre": "Contenu supplémentaire",
+      "pages": [
+        36,
+        37
+      ],
       "alineas": [
         "Pour une demande de permis de construction pour une modification ou une rénovation d’un bâtiment principal, les plans",
         "suivants énumérés au paragraphe 2 sont exigés en 1 exemplaire papier et l’ensemble des documents doivent être déposés",
@@ -2173,12 +2886,18 @@
         "4. Les documents relatifs au plan d’implantation et d’intégration architecturale (PIIA) approuvé, le cas échéant;",
         "5. Un plan des fondations signé et scellé par un ingénieur membre de l’Ordre des ingénieurs du Québec",
         "lorsqu’exigé en vertu du Règlement de construction en vigueur."
-      ]
+      ],
+      "numero": 72,
+      "sous_section": 4,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 73,
-      "page": 37,
       "titre": "Contenu supplémentaire",
+      "pages": [
+        37,
+        38
+      ],
       "alineas": [
         "Une demande de permis pour la construction, l’agrandissement, la reconstruction, la modification (incluant la rénovation),",
         "la transformation, l’installation ou l’ajout d’un bâtiment ou construction accessoire, incluant un bâtiment communautaire ou",
@@ -2227,12 +2946,18 @@
         "",
         "",
         "6. Les limites de toute zone d’érosion de sol."
-      ]
+      ],
+      "numero": 73,
+      "sous_section": 5,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 74,
-      "page": 38,
       "titre": "Documents et renseignements additionnels requis pour une demande de permis de construction",
+      "pages": [
+        38,
+        38
+      ],
       "alineas": [
         "Une demande de permis pour la construction, l’aménagement ou la modification d’un dispositif d’évacuation, de réception",
         "ou de traitement des eaux usées, des eaux de cabinets d’aisances ou des eaux ménagères visé par le Règlement sur",
@@ -2259,12 +2984,18 @@
         "règlementation;",
         "4. Une série de photographies prises par le consultant lors de l’inspection et présentant la localisation des",
         "éléments de même que les marques de certification exigées."
-      ]
+      ],
+      "numero": 74,
+      "sous_section": 6,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 75,
-      "page": 38,
       "titre": "Documents et renseignements additionnels requis pour une demande de permis de construction",
+      "pages": [
+        38,
+        38
+      ],
       "alineas": [
         "Une demande de permis pour la construction, l’aménagement ou la modification d’un ouvrage de captage d’eau souterraine",
         "visé par le Règlement sur le prélèvement des eaux et leur protection (L.R.Q., c. Q 2, r. 35.2), sauf dans les cas où",
@@ -2288,12 +3019,18 @@
         "- Les limites d’une zone à risque de mouvement de terrain;",
         "- Une parcelle de terrain en culture.",
         "2022-04-20 (R1314-2021-PC-1, a. 7)"
-      ]
+      ],
+      "numero": 75,
+      "sous_section": 7,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 76,
-      "page": 38,
       "titre": "Documents et renseignements additionnels requis pour une demande de permis de construction",
+      "pages": [
+        38,
+        40
+      ],
       "alineas": [
         "",
         "",
@@ -2319,12 +3056,18 @@
         "3. Dans le cas d’une piscine hors terre : la hauteur de la paroi.",
         "",
         ""
-      ]
+      ],
+      "numero": 76,
+      "sous_section": 8,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 77,
-      "page": 40,
       "titre": "Document additionnel requis",
+      "pages": [
+        40,
+        40
+      ],
       "alineas": [
         "Dans le cas d’un terrain contaminé inscrit sur la liste des terrains contaminés constituée par la Ville en application de l’article",
         "31.68 de la Loi sur la qualité de l’environnement (L.R.Q., c. Q-2) : une lettre, signée sous serment par le propriétaire,",
@@ -2335,34 +3078,52 @@
         "c. Q-2), le permis ne peut être délivré que si la demande est accompagnée d’une attestation d’un expert visé à l’article",
         "31.65 de la loi précitée établissant que le projet pour lequel le permis est demandé est compatible avec les dispositions du",
         "plan de réhabilitation mentionné ci-dessus."
-      ]
+      ],
+      "numero": 77,
+      "sous_section": 9,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 78,
-      "page": 40,
       "titre": "Document additionnel requis",
+      "pages": [
+        40,
+        40
+      ],
       "alineas": [
         "Pour une demande de permis de construction qui vise un terrain ou une partie de terrain adjacente à une route dont la",
         "gestion incombe au ministère des Transports, à l’exception des tronçons où la limite de vitesse est de 50 kilomètres par",
         "heure ou moins, une copie de l’autorisation d’accès, en vertu de la Loi sur la voirie (L.R.Q., c. V-9) doit être déposée avec",
         "la demande de permis."
-      ]
+      ],
+      "numero": 78,
+      "sous_section": 10,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 79,
-      "page": 40,
       "titre": "Document additionnel requis",
+      "pages": [
+        40,
+        40
+      ],
       "alineas": [
         "Dans le cas d’une demande de permis pour des travaux affectant, en tout ou en partie, un milieu humide présente sur le",
         "terrain, une copie de l’autorisation ou de l’avis certifié du ministre de l'Environnement et de la Lutte contre les changements",
         "climatiques faisant foi que l’intervention projetée n’est pas assujettie ou peut être autorisée, selon le cas, en vertu de la Loi",
         "sur la Qualité de l’environnement (L.R.Q., c. Q-2), doit être déposée avec la demande."
-      ]
+      ],
+      "numero": 79,
+      "sous_section": 11,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 80,
-      "page": 40,
       "titre": "Document additionnel requis",
+      "pages": [
+        40,
+        40
+      ],
       "alineas": [
         "Dans les cas où tout ou partie de l’objet de la demande dans une zone d’inondation soumis à la procédure de dérogation",
         "est autorisée ou autrement traitée par un ministère du gouvernement, un de ses mandataires ou la MRC des Pays-d’en-",
@@ -2370,12 +3131,18 @@
         "ou de l’attestation de la MRC confirmant l’intégration du projet visé au schéma d’aménagement et de développement révisé",
         "doit être déposée avec la demande.",
         "L'ÉROSION DU SOL"
-      ]
+      ],
+      "numero": 80,
+      "sous_section": 12,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 81,
-      "page": 40,
       "titre": "Document additionnel requis",
+      "pages": [
+        40,
+        40
+      ],
       "alineas": [
         "Toute demande de permis pour des travaux, constructions ou ouvrages nécessitant le remaniement, le nivèlement ou tout",
         "autre travail du sol doit être accompagnée d’une description des méthodes utilisées pour le contrôle de l’érosion du sol.",
@@ -2388,12 +3155,18 @@
         "6. Les travaux de construction et d’installations de bâtiments, de constructions ou d'équipements accessoires.",
         "COMPRENANT L’AJOUT DE NOUVELLE SURFACE IMPERMÉABLE D’UNE",
         "SUPERFICIE ÉGALE OU SUPÉRIEURE À 1 000 MÈTRES CARRÉS"
-      ]
+      ],
+      "numero": 81,
+      "sous_section": 13,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 82,
-      "page": 40,
       "titre": "Document additionnel requis",
+      "pages": [
+        40,
+        41
+      ],
       "alineas": [
         "Une demande de permis de construction pour des travaux de construction, d’agrandissement ou d’aménagement prévoyant",
         "l’ajout de nouvelle surface imperméable de 1 000 mètres carrés ou plus, ou qui porterait la superficie totale des surfaces",
@@ -2413,12 +3186,18 @@
         "aux plans et devis signés par un ingénieur et approuvés et dans le cadre du permis de construction délivré.",
         "L’EMPRISE DU PARC LINÉAIRE LE P’TIT TRAIN DU NORD OU SUR UN TERRAIN",
         "ADJACENT À CELUI-CI"
-      ]
+      ],
+      "numero": 82,
+      "sous_section": 14,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 83,
-      "page": 41,
       "titre": "Documents additionnels requis",
+      "pages": [
+        41,
+        43
+      ],
       "alineas": [
         "En plus de tout autre document ou information exigés en vertu du présent règlement, une demande de permis de",
         "construction pour un bâtiment, un ouvrage ou des travaux sur l’emprise du parc linéaire le P’tit train du nord ou sur un",
@@ -2443,12 +3222,18 @@
         "12. Un plan d’ingénieur relatif au croisement envisagé, le cas échéant.",
         "",
         ""
-      ]
+      ],
+      "numero": 83,
+      "sous_section": 15,
+      "section": 2,
+      "chapitre": 3
     },
     {
-      "numero": 84,
-      "page": 43,
       "titre": "Nécessité d’un certificat d’autorisation et tarifs",
+      "pages": [
+        43,
+        45
+      ],
       "alineas": [
         "Quiconque désire entreprendre des travaux, des constructions ou des ouvrages cités au tableau suivant doit, au préalable,",
         "obtenir un certificat d’autorisation selon les dispositions du présent règlement et de toute autre loi ou règlement municipal",
@@ -2532,12 +3317,18 @@
         "inférieure à 1 mètre; ou des ouvrages d’aménagement de mur de soutènement ou de talus de moins de 1,5 m de hauteur.",
         "",
         ""
-      ]
+      ],
+      "numero": 84,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 4
     },
     {
-      "numero": 85,
-      "page": 45,
       "titre": "Conditions générales de délivrance du certificat d’autorisation",
+      "pages": [
+        45,
+        45
+      ],
       "alineas": [
         "Le fonctionnaire désigné délivre le certificat d’autorisation si les conditions générales suivantes sont respectées :",
         "1. La demande est conforme aux dispositions du Règlement de zonage en vigueur, du Règlement de construction",
@@ -2550,12 +3341,18 @@
         "d’intégration architecturale ou à un usage conditionnel a été adoptée;",
         "7. Le cas échéant, la demande est accompagnée de tout certificat, autorisation ou approbation délivré par le",
         "gouvernement et requis en vertu d’une loi ou d’un règlement édicté sous l’empire d’une loi."
-      ]
+      ],
+      "numero": 85,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 4
     },
     {
-      "numero": 86,
-      "page": 45,
       "titre": "Annulation et caducité du certificat d’autorisation",
+      "pages": [
+        45,
+        46
+      ],
       "alineas": [
         "Tout certificat d’autorisation devient nul, caduc et sans effet dans les cas suivants :",
         "1. Les travaux ne sont pas commencés ou le changement d’usage n’est pas effectué et une période de 180 jours",
@@ -2575,12 +3372,18 @@
         "du permis pour les motifs visés aux paragraphes 5 et 6.",
         "",
         ""
-      ]
+      ],
+      "numero": 86,
+      "sous_section": -1,
+      "section": 1,
+      "chapitre": 4
     },
     {
-      "numero": 87,
-      "page": 46,
       "titre": "Renseignements généraux requis pour une demande de certificat d’autorisation",
+      "pages": [
+        46,
+        46
+      ],
       "alineas": [
         "Toute demande de certificat d’autorisation doit être accompagnée des renseignements généraux suivants, en format",
         "électronique PDF à une résolution suffisante pour permettre leur lecture et leur analyse :",
@@ -2596,46 +3399,70 @@
         "6. La durée probable des travaux;",
         "7. S’il y a lieu, une procuration signée par le propriétaire autorisant une personne autre que le propriétaire à faire",
         "une demande de permis pour les travaux visés par la demande."
-      ]
+      ],
+      "numero": 87,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 88,
-      "page": 46,
       "titre": "Document additionnel requis pour un terrain contaminé",
+      "pages": [
+        46,
+        46
+      ],
       "alineas": [
         "Dans le cas d’un terrain contaminé inscrit sur la liste des terrains contaminés constituée par la Ville en application de l’article",
         "31.68 de la Loi sur la qualité de l’environnement (L.R.Q., c. Q-2) : une lettre, signée sous serment par le propriétaire,",
         "attestant, selon le cas, que le terrain fait ou ne fait pas l’objet d’un plan de réhabilitation approuvé par le ministre, en vertu",
         "de cette loi, doit être déposée avec la demande."
-      ]
+      ],
+      "numero": 88,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 89,
-      "page": 46,
       "titre": "Document additionnel requis pour une demande de certificat avec intervention sur un milieu humide",
+      "pages": [
+        46,
+        46
+      ],
       "alineas": [
         "Dans le cas d’une demande de certificat d’autorisation pour des travaux affectant, en tout ou en partie, un milieu humide",
         "présente sur le terrain, une copie de l’autorisation ou de l’avis certifié du ministère de l'Environnement et de la Lutte contre",
         "les changements climatiques faisant foi que l’intervention projetée n’est pas assujettie ou peut être autorisée, selon le cas,",
         "en vertu de la Loi sur la qualité de l’environnement (L.R.Q., c. Q-2), doit être déposée avec la demande."
-      ]
+      ],
+      "numero": 89,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 90,
-      "page": 46,
       "titre": "Documents et renseignements additionnels dans le cadre de travaux réalisés en proximité d’un lac, d’un",
+      "pages": [
+        46,
+        46
+      ],
       "alineas": [
         "cours d’eau ou d’un milieu humide",
         "lorsque des travaux assujettis à l’obtention préalable d’un certificat d’autorisation doivent être réalisés à proximité de la rive",
         "d’un lac, d’un cours d’eau ou d’un milieu humide, doit accompagner la demande de certificat d’autorisation, un relevé sur",
         "plan de la ligne des hautes eaux réalisé conjointement par un arpenteur-géomètre et un biologiste ou tout professionnel",
         "compétent en la matière à moins que le fonctionnaire évalue que cette démarche serait superflue."
-      ]
+      ],
+      "numero": 90,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 91,
-      "page": 46,
       "titre": "Document additionnel requis pour une demande de certificat pour terrain situé en zone d’inondation et",
+      "pages": [
+        46,
+        46
+      ],
       "alineas": [
         "faisant l’objet d’une dérogation de la MRC",
         "Dans les cas où tout ou partie de l’objet de la demande dans une zone d’inondation soumis à la procédure de dérogation",
@@ -2643,12 +3470,18 @@
         "une copie de l’autorisation ou de la déclaration émise, exigée en vertu d’une loi ou d’un règlement gouvernemental, ou de",
         "l’attestation de la MRC confirmant l’intégration du projet visé au schéma d’aménagement et de développement révisé doit",
         "être déposée avec la demande."
-      ]
+      ],
+      "numero": 91,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 92,
-      "page": 46,
       "titre": "Document additionnel requis pour des travaux, constructions ou ouvrages nécessitant le contrôle de",
+      "pages": [
+        46,
+        46
+      ],
       "alineas": [
         "l’érosion du sol",
         "Toute demande de certificat pour des travaux, constructions ou ouvrages nécessitant le remaniement, le nivèlement ou",
@@ -2661,12 +3494,18 @@
         "4. L’établissement ou le déplacement d’une installation septique (fosse ou champ d’épuration) ou d’un puits;",
         "5. L’abattage d’arbres, incluant l’enlèvement des souches;",
         "6. Les travaux de construction et d’installations de bâtiments, de construction ou de bâtiments accessoires."
-      ]
+      ],
+      "numero": 92,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 93,
-      "page": 46,
       "titre": "Documents additionnels requis pour des travaux, constructions ou ouvrages relatifs à une conduite",
+      "pages": [
+        46,
+        47
+      ],
       "alineas": [
         "souterraine à l’intérieur de l’emprise du parc linéaire le P’tit train du nord",
         "",
@@ -2682,12 +3521,18 @@
         "5. Un échéancier et un calendrier préliminaire des travaux et de la mise en service;",
         "6. Une copie de l'autorisation du ministère des Transports du Québec à l’égard de la conduite souterraine",
         "projetée ainsi qu’une copie de l’autorisation de la MRC."
-      ]
+      ],
+      "numero": 93,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 94,
-      "page": 47,
       "titre": "Documents et renseignements additionnels requis",
+      "pages": [
+        47,
+        47
+      ],
       "alineas": [
         "Les renseignements et les documents techniques suivants doivent également accompagner une demande de certificat",
         "d’autorisation visant l’implantation, l’installation, la modification ou le déplacement d’une éolienne, en format électronique",
@@ -2695,12 +3540,18 @@
         "1. Un plan à l’échelle de la localisation prévue de l’éolienne, en y incluant les dimensions, les couleurs, le type",
         "de matériau, la forme et le lieu d’implantation par rapport aux bâtiments existants, aux limites du terrain et au",
         "lac, cours d’eau ou milieu humide et au sommet de montagne, le cas échéant."
-      ]
+      ],
+      "numero": 94,
+      "sous_section": 0,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 95,
-      "page": 47,
       "titre": "Documents et renseignements additionnels requis",
+      "pages": [
+        47,
+        47
+      ],
       "alineas": [
         "Les renseignements et les documents techniques suivants doivent accompagner une demande de certificat d’autorisation",
         "visant un l’abattage d’arbres, en format électronique PDF à une résolution suffisante pour permettre leur lecture et leur",
@@ -2725,12 +3576,18 @@
         "b. L’emplacement, la largeur et la longueur du déboisement projeté;",
         "c. Les caractéristiques naturelles du terrain (espaces déboisés, escarpements et caps rocheux, etc.).",
         "DÉCHARGEMENT ET D’AIRE D’ENTREPOSAGE EXTÉRIEUR"
-      ]
+      ],
+      "numero": 95,
+      "sous_section": 1,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 96,
-      "page": 47,
       "titre": "Documents et renseignements additionnels",
+      "pages": [
+        47,
+        48
+      ],
       "alineas": [
         "Les renseignements et documents techniques suivants, doivent, de plus, accompagner une demande de certificat",
         "d’autorisation visant des travaux d’aménagement ou d’agrandissement d’un espace de stationnement, d’une aire de",
@@ -2772,12 +3629,18 @@
         "fonctionnaire désigné un rapport signé par un ingénieur à l’effet que les travaux furent réalisés conformément",
         "aux plans et devis signés par un ingénieur et approuvés et dans le cadre du certificat d’autorisation délivrée.",
         "INTÉGRÉ D’HABITATIONS OU UN REGROUPE DE CHALETS EN LOCATION"
-      ]
+      ],
+      "numero": 96,
+      "sous_section": 2,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 97,
-      "page": 48,
       "titre": "Documents et renseignements additionnels requis",
+      "pages": [
+        48,
+        50
+      ],
       "alineas": [
         "Les renseignements et les documents techniques suivants, à l’échelle, préparés et signés par un ingénieur spécialisé en",
         "génie civil doivent également accompagner une demande de certificat d’autorisation visant l’aménagement d’un accès et",
@@ -2816,12 +3679,18 @@
         "approuvés dans le cadre du certificat d’autorisation délivré.",
         "",
         ""
-      ]
+      ],
+      "numero": 97,
+      "sous_section": 3,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 98,
-      "page": 50,
       "titre": "Documents et renseignements additionnels requis",
+      "pages": [
+        50,
+        50
+      ],
       "alineas": [
         "Les renseignements et les documents techniques suivants doivent également accompagner une demande de certificat",
         "d’autorisation visant l’installation ou d’une clôture ou la construction d’un muret sur un terrain situé dans un type de milieu",
@@ -2830,12 +3699,18 @@
         "1. Localisation de la clôture ou du muret par rapport aux limites du terrain;",
         "2. La hauteur de la clôture ou du muret;",
         "3. Les matériaux utilisés."
-      ]
+      ],
+      "numero": 98,
+      "sous_section": 4,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 99,
-      "page": 50,
       "titre": "Documents et renseignements additionnels requis",
+      "pages": [
+        50,
+        51
+      ],
       "alineas": [
         "Les renseignements et les documents techniques suivants doivent également accompagner une demande de certificat",
         "d’autorisation visant une coupe forestière assujettie à l’obtention d’un certificat d’autorisation, en 1 exemplaire papier et en",
@@ -2885,12 +3760,18 @@
         "superficie boisée.",
         "",
         ""
-      ]
+      ],
+      "numero": 99,
+      "sous_section": 5,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 100,
-      "page": 51,
       "titre": "Documents et renseignements additionnels requis",
+      "pages": [
+        51,
+        51
+      ],
       "alineas": [
         "Les renseignements et les documents techniques suivants doivent également accompagner une demande de certificat",
         "d’autorisation visant une démolition d’un bâtiment ou d’une construction, en format électronique PDF à une résolution",
@@ -2907,12 +3788,18 @@
         "travaux de démolition;",
         "9. Des moyens techniques qui seront utilisés pour fermer ou condamner les éléments suivants : le branchement",
         "à l’aqueduc et à l’égout et l’installation septique."
-      ]
+      ],
+      "numero": 100,
+      "sous_section": 6,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 101,
-      "page": 51,
       "titre": "Documents et renseignements additionnels requis",
+      "pages": [
+        51,
+        51
+      ],
       "alineas": [
         "Les renseignements et les documents techniques suivants doivent également accompagner une demande de certificat",
         "d’autorisation visant un déplacement d’une construction sur un autre terrain, en format électronique PDF à une résolution",
@@ -2932,12 +3819,18 @@
         "5. Le requérant doit déposer une garantie d’un montant estimé provisoirement suffisant ou une preuve de",
         "certificat d'assurance en vue d'assurer la compensation des dommages pouvant être encourus par la Ville en",
         "raison de ce déplacement."
-      ]
+      ],
+      "numero": 101,
+      "sous_section": 7,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 102,
-      "page": 51,
       "titre": "Documents et renseignements additionnels requis",
+      "pages": [
+        51,
+        51
+      ],
       "alineas": [
         "Les renseignements et les documents techniques suivants doivent également accompagner une demande de certificat",
         "d’autorisation visant un déplacement d’une construction sur le même terrain :",
@@ -2946,12 +3839,18 @@
         "69 du présent règlement;",
         "2. Pour un bâtiment accessoire, un plan d’implantation projetée conforme aux dispositions de l’article 73 du",
         "présent règlement."
-      ]
+      ],
+      "numero": 102,
+      "sous_section": 8,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 103,
-      "page": 51,
       "titre": "Documents et renseignements additionnels requis",
+      "pages": [
+        51,
+        52
+      ],
       "alineas": [
         "Les renseignements et les documents techniques suivants doivent également accompagner une demande de certificat",
         "d’autorisation visant la construction, l’installation, le déplacement ou la modification d’une enseigne, y compris son support,",
@@ -2971,12 +3870,18 @@
         "l’identification des éléments sculptés ou en reliefs;",
         "d. La fixation de ladite enseigne au bâtiment ou au sol;",
         "e. La méthode d'éclairage, le cas échéant."
-      ]
+      ],
+      "numero": 103,
+      "sous_section": 9,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 104,
-      "page": 52,
       "titre": "Documents et renseignements additionnels requis",
+      "pages": [
+        52,
+        52
+      ],
       "alineas": [
         "Les renseignements et les documents techniques suivants doivent également accompagner une demande de certificat",
         "d’autorisation visant un ouvrage de déblai ou de remblai, en format électronique PDF à une résolution suffisante pour",
@@ -3004,12 +3909,18 @@
         "fonctionnaire désigné un rapport signé par un ingénieur à l’effet que les travaux furent réalisés conformément",
         "aux plans et devis signés par un ingénieur et approuvés et dans le cadre du certificat d’autorisation délivrée.",
         "LA PLAINE INONDABLE"
-      ]
+      ],
+      "numero": 104,
+      "sous_section": 10,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 105,
-      "page": 52,
       "titre": "Documents et renseignements additionnels requis",
+      "pages": [
+        52,
+        53
+      ],
       "alineas": [
         "Les renseignements et les documents techniques suivants doivent également accompagner une demande de certificat",
         "d’autorisation visant un ouvrage, construction ou travail sur la rive ou le littoral, ou sur la plaine inondable, incluant la",
@@ -3054,12 +3965,18 @@
         "14. Dans les 60 jours suivant la fin des travaux visés par le certificat d’autorisation, le requérant doit déposer au",
         "fonctionnaire désigné un rapport signé par un ingénieur à l’effet que les travaux furent réalisés conformément",
         "aux plans et devis signés par un ingénieur et approuvés et dans le cadre du certificat d’autorisation délivrée."
-      ]
+      ],
+      "numero": 105,
+      "sous_section": 11,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 106,
-      "page": 53,
       "titre": "Documents et renseignements additionnels requis",
+      "pages": [
+        53,
+        54
+      ],
       "alineas": [
         "Les renseignements et les documents techniques suivants doivent également accompagner une demande de certificat",
         "d’autorisation visant un changement d’usage ou de destination d’un immeuble. Les plans et devis exigés au paragraphe 5",
@@ -3091,12 +4008,18 @@
         "i. La localisation des aires de stationnement, de chargement et de déchargement et pour les conteneurs",
         "à déchets, à recyclage et à compostage;",
         "j. Une copie de l’autorisation du ministère des Transports du Québec et de la MRC, lorsque requise."
-      ]
+      ],
+      "numero": 106,
+      "sous_section": 12,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 107,
-      "page": 54,
       "titre": "Documents et renseignements additionnels requis pour un changement d’usage ou de destination d’un",
+      "pages": [
+        54,
+        56
+      ],
       "alineas": [
         "immeuble sur un terrain situé en bordure de l’emprise ou dans l’emprise du parc linéaire le P’tit train du",
         "nord",
@@ -3111,23 +4034,35 @@
         "4. Une copie de l’autorisation du ministère des Transports du Québec et de la MRC, lorsque requise.",
         "",
         ""
-      ]
+      ],
+      "numero": 107,
+      "sous_section": 12,
+      "section": 2,
+      "chapitre": 4
     },
     {
-      "numero": 108,
-      "page": 56,
       "titre": "Permis d’affaires",
+      "pages": [
+        56,
+        56
+      ],
       "alineas": [
         "Pour l’application du règlement, le permis d’affaires constitue le certificat d’occupation pour un usage commercial, industriel,",
         "communautaire ou toute autre activité non résidentielle ainsi qu’un usage complémentaire aux usages résidentiels, exercé",
         "dans un lieu d’affaires ou pour occuper ou utiliser un terrain ou une construction existante ou nouvellement érigée prévus",
         "à l’article 122 de la Loi sur l’aménagement et l’urbanisme (L.R.Q., c. A-19.1)."
-      ]
+      ],
+      "numero": 108,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 5
     },
     {
-      "numero": 109,
-      "page": 56,
       "titre": "Nécessité d’un permis d’affaires",
+      "pages": [
+        56,
+        56
+      ],
       "alineas": [
         "Toute personne, société, entreprise, incluant le travailleur autonome qui entend exercer une activité économique ou",
         "administrative en matière de finance, de commerce, d'industrie ou de services, un métier, un art, une profession ou toute",
@@ -3140,31 +4075,49 @@
         "4. L’ajout d’un nouvel usage à un lieu d’affaires.",
         "Malgré les paragraphes précédents, un permis d’affaires n’est pas requis pour une famille d’accueil, une résidence",
         "d’accueil, une ressource intermédiaire en milieu familial et un service de garde en milieu familial."
-      ]
+      ],
+      "numero": 109,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 5
     },
     {
-      "numero": 110,
-      "page": 56,
       "titre": "Exemption de fournir certains documents",
+      "pages": [
+        56,
+        56
+      ],
       "alineas": [
         "Dans le cas d’un lieu d'affaires résidentiel (usage complémentaire), une copie de la déclaration d'immatriculation déposée",
         "à l'inspecteur général des institutions financières peut constituer l’information requise nécessaire à la demande de permis",
         "d’affaires."
-      ]
+      ],
+      "numero": 110,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 5
     },
     {
-      "numero": 111,
-      "page": 56,
       "titre": "Tarifs d’honoraires pour la délivrance d’un permis d’affaires",
+      "pages": [
+        56,
+        56
+      ],
       "alineas": [
         "Le tarif d’honoraires applicable pour la délivrance d’un permis d’affaires est de 50,00 $.",
         "Il n’y a pas de frais exigés à un organisme à but non lucratif pour l’émission d’un permis d’affaires."
-      ]
+      ],
+      "numero": 111,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 5
     },
     {
-      "numero": 112,
-      "page": 56,
       "titre": "Conditions de délivrance du permis d’affaires",
+      "pages": [
+        56,
+        56
+      ],
       "alineas": [
         "Le fonctionnaire désigné délivre le permis d’affaires si les conditions suivantes sont remplies :",
         "1. La demande est conforme aux dispositions du Règlement de zonage en vigueur, du Règlement de construction",
@@ -3179,20 +4132,32 @@
         "sécurité et de conformité aux différents codes et règlements applicables;",
         "5. La demande est accompagnée de tous les renseignements et documents exigés;",
         "6. Le tarif d’honoraires établi pour la délivrance du permis d’affaires a été payé."
-      ]
+      ],
+      "numero": 112,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 5
     },
     {
-      "numero": 113,
-      "page": 56,
       "titre": "Affichage du permis d’affaires",
+      "pages": [
+        56,
+        56
+      ],
       "alineas": [
         "Le titulaire d’un permis d’affaires doit l’afficher sur le lieu concerné par le permis, à un endroit visible du public."
-      ]
+      ],
+      "numero": 113,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 5
     },
     {
-      "numero": 114,
-      "page": 56,
       "titre": "Annulation et caducité du permis d’affaires",
+      "pages": [
+        56,
+        57
+      ],
       "alineas": [
         "Un permis d’affaires devient nul, caduc et sans effet dans les cas suivants :",
         "1. La personne physique ou morale ou la société dont le nom est inscrit au permis d’affaires ne donne pas suite",
@@ -3212,32 +4177,50 @@
         "7. Le titulaire du permis d’affaires ou le propriétaire de l’immeuble transmet un avis à la Ville où il atteste l’abandon",
         "de l’occupation visée par le permis;",
         "8. Le fonctionnaire désigné constate que l’occupation visée par le permis a cessé ou a été abandonné."
-      ]
+      ],
+      "numero": 114,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 5
     },
     {
-      "numero": 115,
-      "page": 57,
       "titre": "Validité d’un permis d’affaires",
+      "pages": [
+        57,
+        57
+      ],
       "alineas": [
         "Tout permis d'affaires émis en vertu du règlement est valide seulement pour :",
         "1. La personne, entreprise ou société au nom desquelles il est émis;",
         "2. Le lieu d'affaires qui y est indiqué;",
         "3. L'usage pour lequel il a été émis."
-      ]
+      ],
+      "numero": 115,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 5
     },
     {
-      "numero": 116,
-      "page": 57,
       "titre": "Délai de validité d’un permis d’affaires",
+      "pages": [
+        57,
+        57
+      ],
       "alineas": [
         "Un permis d’affaires pour l’occupation d’un lieu d’affaires est valide à compter de sa date d’émission jusqu’à ce qu’une",
         "modification du lieu d’affaires ou de l’usage implique l’obligation d’une nouvelle demande."
-      ]
+      ],
+      "numero": 116,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 5
     },
     {
-      "numero": 117,
-      "page": 57,
       "titre": "Renseignements et documents généraux requis pour toute demande de permis d’affaires",
+      "pages": [
+        57,
+        57
+      ],
       "alineas": [
         "Une demande de permis d’affaires doit être accompagnée des renseignements et documents suivants, en format",
         "électronique PDF à une résolution suffisante pour permettre leur lecture et leur analyse :",
@@ -3257,12 +4240,18 @@
         "9. La date prévue du début de l’occupation visée par la demande;",
         "10. La superficie occupée par l’usage ou les usages ou activités faisant l’objet de la demande;",
         "11. L’information sur les véhicules et la machinerie de transport nécessaires au fonctionnement de l’entreprise."
-      ]
+      ],
+      "numero": 117,
+      "sous_section": 0,
+      "section": 0,
+      "chapitre": 5
     },
     {
-      "numero": 118,
-      "page": 57,
       "titre": "Demande de permis d’affaire sur un terrain situé en bordure de l’emprise ou dans l’emprise du parc",
+      "pages": [
+        57,
+        57
+      ],
       "alineas": [
         "linéaire le P’tit train du nord",
         "En plus de tout document ou information mentionnée à l’article précédent, une demande de permis d’affaire visant un",
@@ -3278,12 +4267,18 @@
         "c. La distance entre les usages et ouvrages par rapport aux limites du terrain, d’un chemin, d’un parc",
         "linéaire et/ou d’un lac et cours d'eau.",
         "d. Une copie de l’autorisation du ministère des Transports du Québec et de la MRC, lorsque requise."
-      ]
+      ],
+      "numero": 118,
+      "sous_section": 0,
+      "section": 0,
+      "chapitre": 5
     },
     {
-      "numero": 119,
-      "page": 57,
       "titre": "Renseignement et documents additionnels requis",
+      "pages": [
+        57,
+        58
+      ],
       "alineas": [
         "",
         "",
@@ -3305,34 +4300,52 @@
         "l’implantation des usages et des bâtiments, qu’ils soient existants ou projetés;",
         "6. Lorsque requis, toute autorisation émise par un gouvernement ou l’un de ses mandataires ou par un service",
         "de la Ville qui est nécessaire à l’exercice de l’usage projeté."
-      ]
+      ],
+      "numero": 119,
+      "sous_section": 1,
+      "section": 0,
+      "chapitre": 5
     },
     {
-      "numero": 120,
-      "page": 58,
       "titre": "Renseignements et documents additionnels requis",
+      "pages": [
+        58,
+        60
+      ],
       "alineas": [
         "Une demande de permis d’affaires visant l’exploitation d’un terrain de camping ou de caravaning doit être accompagnée",
         "d’une copie du permis d’exploitation délivré par le ministère ou l’organisme responsable du Gouvernement du Québec.",
         "",
         ""
-      ]
+      ],
+      "numero": 120,
+      "sous_section": 2,
+      "section": 0,
+      "chapitre": 5
     },
     {
-      "numero": 121,
-      "page": 60,
       "titre": "Dépôt de la demande",
+      "pages": [
+        60,
+        60
+      ],
       "alineas": [
         "La personne qui souhaite demander au Conseil de modifier une disposition du Règlement de zonage en vigueur, du",
         "Règlement de lotissement en vigueur ou tout autre règlement d’urbanisme en vigueur doit faire parvenir une demande",
         "écrite au fonctionnaire désigné indiquant précisément le type de modification recherchée et justifiant le bienfondé de la",
         "demande."
-      ]
+      ],
+      "numero": 121,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 6
     },
     {
-      "numero": 122,
-      "page": 60,
       "titre": "Documents requis lors du dépôt d’une demande",
+      "pages": [
+        60,
+        60
+      ],
       "alineas": [
         "La demande doit être accompagnée des documents suivants :",
         "1. Le nom, le prénom, l’adresse postale, l’adresse courriel et le numéro de téléphone du ou des propriétaires ou",
@@ -3383,12 +4396,18 @@
         "8. Le Conseil ou le Comité consultatif d’urbanisme peut également demander tout autres renseignement ou",
         "document non mentionné aux paragraphes précédents afin de permettre la bonne compréhension de la",
         "demande."
-      ]
+      ],
+      "numero": 122,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 6
     },
     {
-      "numero": 123,
-      "page": 60,
       "titre": "Transmission de la demande au CCU",
+      "pages": [
+        60,
+        61
+      ],
       "alineas": [
         "Lorsque fonctionnaire désigné a en main tous les documents requis en vertu de l’article précédent, il doit transmettre le",
         "dossier au Comité consultatif d’urbanisme. Le dossier doit être étudié à la première réunion du Comité qui suit le jour où le",
@@ -3397,52 +4416,82 @@
         "",
         "document au moins 10 jours ouvrables avant la date de la réunion du Comité consultatif d’urbanisme sans quoi le dépôt du",
         "dossier au Comité peut être reporté à la première réunion suivante."
-      ]
+      ],
+      "numero": 123,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 6
     },
     {
-      "numero": 124,
-      "page": 61,
       "titre": "Étude de la demande par le CCU",
+      "pages": [
+        61,
+        61
+      ],
       "alineas": [
         "Le Comité consultatif d’urbanisme étudie la demande de modification déposée. Après analyse de la demande, le Comité",
         "consultatif d’urbanisme doit formuler par écrit sa recommandation."
-      ]
+      ],
+      "numero": 124,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 6
     },
     {
-      "numero": 125,
-      "page": 61,
       "titre": "Transmission de la demande au Conseil",
+      "pages": [
+        61,
+        61
+      ],
       "alineas": [
         "La demande de modification déposée ainsi que la recommandation du Comité consultatif d’urbanisme sont transmises au",
         "Conseil qui rend une décision. Les documents doivent être soumis à la première réunion régulière du Conseil qui suit la",
         "réunion du Comité consultatif d’urbanisme."
-      ]
+      ],
+      "numero": 125,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 6
     },
     {
-      "numero": 126,
-      "page": 61,
       "titre": "Demande refusée par le Conseil",
+      "pages": [
+        61,
+        61
+      ],
       "alineas": [
         "lorsque le Conseil refuse de donner suite à la demande de modification déposée, la résolution par laquelle le Conseil refuse",
         "la demande est transmise au requérant accompagné d’un chèque remboursant au requérant le montant selon les modalités",
         "prévues au Règlement sur la tarification applicable."
-      ]
+      ],
+      "numero": 126,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 6
     },
     {
-      "numero": 127,
-      "page": 61,
       "titre": "Demande acceptée par le Conseil",
+      "pages": [
+        61,
+        61
+      ],
       "alineas": [
         "Lorsque le Conseil accepte de donner suite à la demande de modification déposée, la résolution par laquelle le Conseil",
         "accepte la demande est transmise au requérant. Le Conseil entreprend les procédures d’adoption prévues à la Loi sur",
         "l’aménagement et l’urbanisme (L.R.Q., c. A-19.1) dans les 60 jours qui suivent la date du dépôt du projet ou des projets de",
         "règlements."
-      ]
+      ],
+      "numero": 127,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 6
     },
     {
-      "numero": 128,
-      "page": 61,
       "titre": "Discrétion du Conseil",
+      "pages": [
+        61,
+        63
+      ],
       "alineas": [
         "Rien dans le présent chapitre ne peut être interprété comme réduisant le pouvoir discrétionnaire du Conseil à l’égard de la",
         "modification d’un règlement qu’il a promulgué. Le Conseil peut, notamment, mettre fin à tout moment au processus de",
@@ -3451,7 +4500,11 @@
         "",
         "",
         ""
-      ]
+      ],
+      "numero": 128,
+      "sous_section": -1,
+      "section": 0,
+      "chapitre": 6
     }
   ],
   "annexes": []

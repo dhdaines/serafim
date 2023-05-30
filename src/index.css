@@ -14,7 +14,7 @@
     float: left;
 }
 
-.acronym, .placeholder {
+.acronym {
     font-style: italic;
     color: #999;
 }
@@ -42,15 +42,28 @@
     overflow-y: auto;
 }
 
-#search-results dd {
+.search-result {
     margin-left: 0;
     margin-top: 0.5em;
 }
 
-p#search-results dt {
-    font-weight: bold;
-    margin-left: 0;
-    margin-top: 1em;
+.search-result a:visited, a:link {
+    padding: 1ex;
+    display: block;
+    background: #eee;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+
+.search-result a:hover, a:active {
+    color: #33f;
+}
+
+.search-result p {
+    padding: 1ex;
+    display: block;
+    margin: 0;
 }
 
 #document-box {
