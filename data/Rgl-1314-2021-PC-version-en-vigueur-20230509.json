@@ -10,14 +10,14 @@
   "chapitres": [
     {
       "numero": "1",
-      "titre": "DISPOSITIONS DÉCLARATOIRES,\nINTERPRÉTATIVES ET ADMINISTRATIVES\n",
+      "titre": "DISPOSITIONS DÉCLARATOIRES, INTERPRÉTATIVES ET ADMINISTRATIVES",
       "pages": [
         7,
         15
       ],
       "articles": [
         0,
-        21
+        22
       ],
       "sections": [
         {
@@ -68,7 +68,7 @@
           ],
           "articles": [
             19,
-            21
+            22
           ],
           "sous_sections": []
         }
@@ -76,14 +76,14 @@
     },
     {
       "numero": "2",
-      "titre": "DISPOSITIONS GÉNÉRALES AUX DEMANDES\nDE PERMIS, CERTIFICATS OU AUTRES\n",
+      "titre": "DISPOSITIONS GÉNÉRALES AUX DEMANDES DE PERMIS, CERTIFICATS OU AUTRES",
       "pages": [
         15,
         19
       ],
       "articles": [
-        21,
-        41
+        22,
+        42
       ],
       "sections": [
         {
@@ -94,8 +94,8 @@
             19
           ],
           "articles": [
-            21,
-            41
+            22,
+            42
           ],
           "sous_sections": []
         }
@@ -103,14 +103,14 @@
     },
     {
       "numero": "3",
-      "titre": "DISPOSITIONS RELATIVES AUX PERMIS DE\nLOTISSEMENT\n",
+      "titre": "DISPOSITIONS RELATIVES AUX PERMIS DE LOTISSEMENT",
       "pages": [
         19,
         26
       ],
       "articles": [
-        41,
-        56
+        42,
+        58
       ],
       "sections": [
         {
@@ -121,8 +121,8 @@
             26
           ],
           "articles": [
-            41,
-            56
+            42,
+            58
           ],
           "sous_sections": [
             {
@@ -133,8 +133,8 @@
                 21
               ],
               "articles": [
-                41,
-                51
+                42,
+                52
               ]
             },
             {
@@ -145,8 +145,8 @@
                 22
               ],
               "articles": [
-                51,
-                53
+                52,
+                54
               ]
             },
             {
@@ -157,8 +157,8 @@
                 25
               ],
               "articles": [
-                53,
-                55
+                54,
+                56
               ]
             },
             {
@@ -169,8 +169,8 @@
                 26
               ],
               "articles": [
-                55,
-                56
+                56,
+                58
               ]
             }
           ]
@@ -179,14 +179,14 @@
     },
     {
       "numero": "4",
-      "titre": "DISPOSITIONS RELATIVES AUX PERMIS DE\nCONSTRUCTION\n",
+      "titre": "DISPOSITIONS RELATIVES AUX PERMIS DE CONSTRUCTION",
       "pages": [
         26,
         42
       ],
       "articles": [
-        56,
-        83
+        58,
+        88
       ],
       "sections": [
         {
@@ -197,8 +197,8 @@
             29
           ],
           "articles": [
-            56,
-            59
+            58,
+            61
           ],
           "sous_sections": []
         },
@@ -210,8 +210,8 @@
             33
           ],
           "articles": [
-            59,
-            66
+            61,
+            68
           ],
           "sous_sections": []
         },
@@ -223,8 +223,8 @@
             42
           ],
           "articles": [
-            66,
-            83
+            68,
+            88
           ],
           "sous_sections": [
             {
@@ -235,8 +235,8 @@
                 33
               ],
               "articles": [
-                66,
-                68
+                68,
+                70
               ]
             },
             {
@@ -247,8 +247,8 @@
                 34
               ],
               "articles": [
-                68,
-                69
+                70,
+                71
               ]
             },
             {
@@ -259,8 +259,8 @@
                 35
               ],
               "articles": [
-                69,
-                70
+                71,
+                72
               ]
             },
             {
@@ -271,8 +271,8 @@
                 36
               ],
               "articles": [
-                70,
-                71
+                72,
+                73
               ]
             },
             {
@@ -283,8 +283,8 @@
                 37
               ],
               "articles": [
-                71,
-                72
+                73,
+                74
               ]
             },
             {
@@ -295,8 +295,8 @@
                 38
               ],
               "articles": [
-                72,
-                73
+                74,
+                75
               ]
             },
             {
@@ -307,8 +307,8 @@
                 38
               ],
               "articles": [
-                73,
-                74
+                75,
+                76
               ]
             },
             {
@@ -319,8 +319,8 @@
                 38
               ],
               "articles": [
-                74,
-                75
+                76,
+                77
               ]
             },
             {
@@ -331,8 +331,8 @@
                 40
               ],
               "articles": [
-                75,
-                76
+                77,
+                78
               ]
             },
             {
@@ -343,8 +343,8 @@
                 40
               ],
               "articles": [
-                76,
-                77
+                78,
+                79
               ]
             },
             {
@@ -355,8 +355,8 @@
                 40
               ],
               "articles": [
-                77,
-                78
+                79,
+                80
               ]
             },
             {
@@ -367,8 +367,8 @@
                 40
               ],
               "articles": [
-                78,
-                79
+                80,
+                81
               ]
             },
             {
@@ -379,8 +379,8 @@
                 40
               ],
               "articles": [
-                79,
-                80
+                81,
+                82
               ]
             },
             {
@@ -391,8 +391,8 @@
                 40
               ],
               "articles": [
-                80,
-                81
+                82,
+                84
               ]
             },
             {
@@ -403,8 +403,8 @@
                 41
               ],
               "articles": [
-                81,
-                82
+                84,
+                86
               ]
             },
             {
@@ -415,8 +415,8 @@
                 42
               ],
               "articles": [
-                82,
-                83
+                86,
+                88
               ]
             }
           ]
@@ -425,14 +425,14 @@
     },
     {
       "numero": "5",
-      "titre": "DISPOSITIONS RELATIVES AUX CERTIFICATS\nD'AUTORISATION\n",
+      "titre": "DISPOSITIONS RELATIVES AUX CERTIFICATS D'AUTORISATION",
       "pages": [
         42,
         55
       ],
       "articles": [
-        83,
-        107
+        88,
+        115
       ],
       "sections": [
         {
@@ -443,8 +443,8 @@
             45
           ],
           "articles": [
-            83,
-            84
+            88,
+            89
           ],
           "sous_sections": []
         },
@@ -456,8 +456,8 @@
             46
           ],
           "articles": [
-            84,
-            86
+            89,
+            91
           ],
           "sous_sections": []
         },
@@ -469,8 +469,8 @@
             55
           ],
           "articles": [
-            86,
-            107
+            91,
+            115
           ],
           "sous_sections": [
             {
@@ -481,8 +481,8 @@
                 47
               ],
               "articles": [
-                93,
-                94
+                98,
+                99
               ]
             },
             {
@@ -493,8 +493,8 @@
                 47
               ],
               "articles": [
-                94,
-                95
+                99,
+                100
               ]
             },
             {
@@ -505,8 +505,8 @@
                 48
               ],
               "articles": [
-                95,
-                96
+                100,
+                102
               ]
             },
             {
@@ -517,8 +517,8 @@
                 50
               ],
               "articles": [
-                96,
-                97
+                102,
+                104
               ]
             },
             {
@@ -529,8 +529,8 @@
                 50
               ],
               "articles": [
-                97,
-                98
+                104,
+                105
               ]
             },
             {
@@ -541,8 +541,8 @@
                 51
               ],
               "articles": [
-                98,
-                99
+                105,
+                106
               ]
             },
             {
@@ -553,8 +553,8 @@
                 51
               ],
               "articles": [
-                99,
-                100
+                106,
+                107
               ]
             },
             {
@@ -565,8 +565,8 @@
                 51
               ],
               "articles": [
-                100,
-                101
+                107,
+                108
               ]
             },
             {
@@ -577,8 +577,8 @@
                 51
               ],
               "articles": [
-                101,
-                102
+                108,
+                109
               ]
             },
             {
@@ -589,8 +589,8 @@
                 52
               ],
               "articles": [
-                102,
-                103
+                109,
+                110
               ]
             },
             {
@@ -601,8 +601,8 @@
                 52
               ],
               "articles": [
-                103,
-                104
+                110,
+                111
               ]
             },
             {
@@ -613,8 +613,8 @@
                 53
               ],
               "articles": [
-                104,
-                105
+                111,
+                113
               ]
             },
             {
@@ -625,8 +625,8 @@
                 55
               ],
               "articles": [
-                105,
-                107
+                113,
+                115
               ]
             }
           ]
@@ -635,14 +635,14 @@
     },
     {
       "numero": "6",
-      "titre": "DISPOSITIONS RELATIVES AUX PERMIS\nD'AFFAIRES\n",
+      "titre": "DISPOSITIONS RELATIVES AUX PERMIS D'AFFAIRES",
       "pages": [
         55,
         59
       ],
       "articles": [
-        107,
-        120
+        115,
+        128
       ],
       "sections": [
         {
@@ -653,8 +653,8 @@
             59
           ],
           "articles": [
-            107,
-            120
+            115,
+            128
           ],
           "sous_sections": [
             {
@@ -665,8 +665,8 @@
                 57
               ],
               "articles": [
-                116,
-                118
+                124,
+                126
               ]
             },
             {
@@ -677,8 +677,8 @@
                 58
               ],
               "articles": [
-                118,
-                119
+                126,
+                127
               ]
             },
             {
@@ -689,8 +689,8 @@
                 59
               ],
               "articles": [
-                119,
-                120
+                127,
+                128
               ]
             }
           ]
@@ -699,14 +699,14 @@
     },
     {
       "numero": "7",
-      "titre": "DEMANDE DE MODIFICATION AUX\nRÈGLEMENTS D'URBANISME\n",
+      "titre": "DEMANDE DE MODIFICATION AUX RÈGLEMENTS D'URBANISME",
       "pages": [
         59,
         63
       ],
       "articles": [
-        120,
-        128
+        128,
+        136
       ],
       "sections": [
         {
@@ -717,8 +717,8 @@
             63
           ],
           "articles": [
-            120,
-            128
+            128,
+            136
           ],
           "sous_sections": []
         }
@@ -825,9 +825,7 @@
         9
       ],
       "alineas": [
-        "Le présent règlement entre en vigueur conformément à la loi.",
-        "",
-        ""
+        "Le présent règlement entre en vigueur conformément à la loi."
       ],
       "numero": 7,
       "sous_section": -1,
@@ -930,9 +928,7 @@
         "l’annexe B du Règlement de zonage en vigueur de la Ville de Sainte-Adèle.",
         "Une expression, un terme ou un mot n’étant pas spécifiquement défini au Règlement de zonage en vigueur de la Ville de",
         "Sainte-Adèle s'emploie selon le sens communément attribué à cette expression, terme ou mot.",
-        ".",
-        "",
-        ""
+        "."
       ],
       "numero": 12,
       "sous_section": -1,
@@ -1063,9 +1059,7 @@
         11
       ],
       "alineas": [
-        "conforme à ce règlement ou à l’autorisation accordée dans le permis de construction;",
-        "",
-        ""
+        "conforme à ce règlement ou à l’autorisation accordée dans le permis de construction;"
       ],
       "numero": 18,
       "sous_section": -1,
@@ -1140,8 +1134,6 @@
         "et doit promptement déposer une copie des rapports d’essais et d’inspection auprès de l’autorité compétente;",
         "17. Informer la Ville par écrit, advenant la vente d’un immeuble alors que des travaux sont en cours. Une",
         "modification effectuée par le fonctionnaire désigné doit alors être apportée au permis de construction ou au",
-        "",
-        "",
         "certificat d’autorisation dans lequel le nouveau propriétaire s’engage à respecter l’ensemble des clauses et",
         "conditions faisant partie intégrante dudit permis de construction ou certificat d’autorisation émis par la Ville au",
         "propriétaire ou requérant initial. Cet addenda n’a cependant pas pour effet de prolonger la durée du permis ou",
@@ -1150,10 +1142,20 @@
         "désigné ou ses adjoints ne peuvent relever le propriétaire d'un bâtiment de sa responsabilité d'exécuter les travaux ou de",
         "faire exécuter les travaux suivant les dispositions de tout règlement ou code.",
         "2022-04-20 (R1314-2021-PC-1, a. 1)",
-        "2023-05-09 (R1314-2021-PC-2, a. 1)",
-        "",
-        "",
-        "19. Infraction",
+        "2023-05-09 (R1314-2021-PC-2, a. 1)"
+      ],
+      "numero": 19,
+      "sous_section": -1,
+      "section": 2,
+      "chapitre": 0
+    },
+    {
+      "titre": "19. Infraction",
+      "pages": [
+        13,
+        13
+      ],
+      "alineas": [
         "Commets une infraction, quiconque ne se conforme pas à une disposition du présent règlement ainsi qu’à tout règlement",
         "d’urbanisme en vigueur.",
         "Sans restreindre la portée du premier alinéa commet une infraction, quiconque :",
@@ -1179,9 +1181,9 @@
         "physique ou mentale d’un fonctionnaire de la Ville de Sainte-Adèle.",
         "2023-05-09 (R1314-2021-Z-8, a. 2)"
       ],
-      "numero": 19,
+      "numero": -1,
       "sous_section": -1,
-      "section": 2,
+      "section": 3,
       "chapitre": 0
     },
     {
@@ -1221,8 +1223,6 @@
         "1 000 $ 2 000 $",
         "tourisme en zone interdite",
         "Dans tous les cas, les frais de la poursuite sont en sus du montant de l’amende.",
-        "",
-        "",
         "En cas de récidive dans les 2 ans de la date de la dernière infraction, l’amende est doublée en fonction du dernier montant",
         "imposé.",
         "Les délais pour le paiement des amendes et des frais imposés en vertu du présent règlement, et les conséquences du",
@@ -1242,14 +1242,12 @@
       "titre": "Recours judiciaire",
       "pages": [
         14,
-        16
+        15
       ],
       "alineas": [
         "La délivrance d’un constat d’infraction par le fonctionnaire désigné ne limite en aucune manière le pouvoir du Conseil",
         "d’exercer, aux fins de faire respecter les dispositions des règlements d’urbanisme, tout autre recours de nature civile ou",
-        "pénale et tous les recours prévus par la Loi sur l’aménagement et l’urbanisme (L.R.Q., c. A-19.1).",
-        "",
-        ""
+        "pénale et tous les recours prévus par la Loi sur l’aménagement et l’urbanisme (L.R.Q., c. A-19.1)."
       ],
       "numero": 21,
       "sous_section": -1,
@@ -1417,8 +1415,6 @@
         17
       ],
       "alineas": [
-        "",
-        "",
         "Toute demande de permis, de certificat ou autre doit être accompagnée du paiement complet du tarif d’honoraires",
         "applicable établi au présent règlement."
       ],
@@ -1576,9 +1572,7 @@
         "Le fonctionnaire désigné du service des travaux publics donne l'autorisation d'utiliser la voie publique si les conditions du",
         "règlement sur l’occupation du domaine public sont respectées.",
         "La responsabilité du constructeur envers le public ou envers la Ville n'est pas dégagée du fait qu'une autorisation d'utiliser",
-        "la voie publique lui a été accordée.",
-        "",
-        ""
+        "la voie publique lui a été accordée."
       ],
       "numero": 40,
       "sous_section": -1,
@@ -1589,16 +1583,14 @@
       "titre": "Travaux débutés sans permis ou certificats",
       "pages": [
         18,
-        20
+        19
       ],
       "alineas": [
         "Lorsque le requérant a omis de demander un permis ou un certificat avant le début des travaux, mais qu’il ne se conforme",
         "pas dans un délai de 30 jours à partir du moment où le fonctionnaire désigné lui signale les manquements au présent",
         "règlement, un montant additionnel de 250 $ sera ajouté aux couts du permis requis, tel que prévus en vertu du présent",
         "règlement.",
-        "2022-04-20 (R1314-2021-PC-1, a. 2)",
-        "",
-        ""
+        "2022-04-20 (R1314-2021-PC-1, a. 2)"
       ],
       "numero": 41,
       "sous_section": -1,
@@ -1712,8 +1704,6 @@
         "2. L’opération cadastrale n’est pas enregistrée auprès du ministre responsable du cadastre dans les 6 mois",
         "suivant sa délivrance. Dans ce cas, le requérant doit alors en aviser l’autorité compétente et doit soumettre",
         "une nouvelle demande de permis de lotissement s’il désire enregistrer l’opération cadastrale;",
-        "",
-        "",
         "3. Le permis a été délivré sur la base d’une déclaration, d’une information, d’un plan ou d’un document faux ou",
         "erroné;",
         "4. Une modification a été apportée aux documents approuvés sans l’approbation préalable du fonctionnaire",
@@ -1838,8 +1828,6 @@
         "b. La localisation des services publics, des rues, des servitudes et des droits de passage existants ou",
         "proposés, s'il a lieu;",
         "c. L'emplacement de toute construction existante;",
-        "",
-        "",
         "d. La localisation des lacs, des cours d'eau et des milieux humides, incluant la superficie par lot de ces",
         "derniers, ainsi que l’identification de la ligne des hautes eaux de ceux-ci déterminée par un biologiste",
         "ou tout professionnel en la matière;",
@@ -1922,8 +1910,6 @@
         "b. Les caractéristiques naturelles du terrain (escarpements rocheux, espaces déboisés, zones d’érosion",
         "de sol probable, héronnières, etc.);",
         "c. La localisation des lacs, des cours d'eau et des milieux humides, ainsi que :",
-        "",
-        "",
         "- L’identification de la ligne des hautes eaux de ceux-ci déterminée par un biologiste ou toute",
         "personne apte à la déterminer;",
         "- L’identification de la limite de la rive applicable de ceux-ci en vertu du Règlement de zonage",
@@ -1990,8 +1976,6 @@
         "eaux usées, un rapport technique comprenant une étude de caractérisation du site et du terrain naturel réalisée",
         "par une personne membre d’un ordre professionnel habilité, confirmant la possibilité de desservir les lots",
         "projetés des installations sanitaires conformes à la règlementation en vigueur. L’étude de caractérisation doit",
-        "",
-        "",
         "être exécutée sur au moins 25 % des terrains constructibles projetés montrés au plan concept et doit viser les",
         "terrains les plus problématiques à l’aménagement d’une installation sanitaire conforme à la règlementation",
         "provinciale applicable;",
@@ -2047,10 +2031,7 @@
         "12 mois de l’approbation par le Conseil du projet majeur de lotissement, à défaut de quoi la résolution du Conseil acceptant",
         "le projet majeur de lotissement devient caduque.",
         "Toute demande visant à modifier une demande de projet majeur de lotissement ayant fait l’objet d’une approbation doit",
-        "faire l’objet d’une nouvelle demande de projet majeur de lotissement selon les dispositions du présent article.",
-        "",
-        "",
-        "L’EMPRISE DU PARC LINÉAIRE LE P’TIT TRAIN DU NORD"
+        "faire l’objet d’une nouvelle demande de projet majeur de lotissement selon les dispositions du présent article."
       ],
       "numero": 55,
       "sous_section": 2,
@@ -2058,10 +2039,22 @@
       "chapitre": 2
     },
     {
+      "titre": "L’EMPRISE DU PARC LINÉAIRE LE P’TIT TRAIN DU NORD",
+      "pages": [
+        25,
+        25
+      ],
+      "alineas": [],
+      "numero": -1,
+      "sous_section": 3,
+      "section": 0,
+      "chapitre": 2
+    },
+    {
       "titre": "Documents additionnels requis",
       "pages": [
         25,
-        27
+        26
       ],
       "alineas": [
         "En plus de tout autre document ou information exigés en vertu du présent règlement. Une demande de permis de",
@@ -2099,9 +2092,7 @@
         "dont notamment le patron de drainage projeté, etc.;",
         "j. L’évaluation des impacts potentiels ou appréhendés des ouvrages projetés sur le parc linéaire;",
         "k. Les mesures préventives et d’atténuations envisagées prévues pour empêcher ou éviter les impacts",
-        "appréhendés sur l’emprise des parcs linéaires.",
-        "",
-        ""
+        "appréhendés sur l’emprise des parcs linéaires."
       ],
       "numero": 56,
       "sous_section": 3,
@@ -2166,8 +2157,6 @@
         "40 $",
         "(Voir note 2 et 5)",
         "Rénovation d’un bâtiment ou construction accessoire 25 $",
-        "",
-        "",
         "Terrasse commerciale 40 $",
         "Note 1 : À l’exception d’un bâtiment ou d’une construction détachée du bâtiment principal qui respecte les conditions",
         "suivantes, pour lequel l’obtention d’un permis n’est pas requise :",
@@ -2254,8 +2243,6 @@
         29
       ],
       "alineas": [
-        "",
-        "",
         "Dans le cadre de l’émission d’un permis pour une nouvelle construction ou un agrandissement de 50 % ou plus du bâtiment",
         "principal ou avec l’ajout d’au moins un logement (usage « Habitation (H) ») à l’exception de l’ajout d’un logement",
         "accessoire, un dépôt de garantie de 2000$ doit être déposé.",
@@ -2324,8 +2311,6 @@
         "seul ce service est existant, ou aux services d’aqueduc et d’égout sanitaire lorsque ces deux services sont",
         "existants, les services d’aqueduc et d’égout sanitaire, le cas échéant, doivent être établis sur la rue en bordure",
         "de laquelle la construction est projetée ou, s’ils ne sont pas établis :",
-        "",
-        "",
         "a. La Ville doit être maitre d’œuvre de l’installation des conduites d’aqueduc et d’égout sanitaire, le cas",
         "échéant, sur la rue en bordure de laquelle la construction est projetée et le règlement d’emprunt à cet",
         "effet doit être adopté ou;",
@@ -2392,8 +2377,6 @@
         "moment de la délivrance du permis a, selon le cas, cédé le terrain ou versé la somme ou cédé le terrain et",
         "versé la somme qu’il doit fournir en compensation selon les dispositions du Règlement de lotissement en",
         "vigueur;",
-        "",
-        "",
         "13. Le cas échéant, la résolution relative à une demande de dérogation mineure, à un plan d’implantation et",
         "d’intégration architecturale ou à un usage conditionnel a été adoptée;",
         "14. Le cas échéant, la demande est accompagnée de tout certificat, autorisation ou approbation délivré par le",
@@ -2502,8 +2485,6 @@
         "7. Dans les cas prévus aux paragraphes 5 et 6, l’annulation du permis est temporaire et dure jusqu’à ce que les",
         "travaux soient corrigés ou que les modifications apportées soient approuvées par le fonctionnaire désigné ou",
         "par le Conseil si les travaux sont assujettis à l’approbation d’un plan d’implantation et d’intégration",
-        "",
-        "",
         "architecturale. La remise en vigueur du permis n’a pas pour effet de prolonger les délais prévus aux",
         "paragraphes 1 et 3. Le paragraphe 2 s’applique même si les travaux sont interrompus en raison de l’annulation",
         "du permis pour les motifs visés aux paragraphes 5 et 6."
@@ -2553,9 +2534,7 @@
         "nouveau les tarifs prévus au présent règlement.",
         "Le tarif applicable dans le cadre de l’évaluation et l’approbation de modifications aux plans et devis ne nécessitant pas le",
         "dépôt d’une nouvelle demande de permis de construction correspond à 50 % du tarif exigé dans le cadre de la demande",
-        "de permis initiale.",
-        "",
-        ""
+        "de permis initiale."
       ],
       "numero": 66,
       "sous_section": -1,
@@ -2644,8 +2623,6 @@
         "cours d’eau, lac ou milieu humide;",
         "g. L’emplacement et le type de mesures de contrôle permanent de l’érosion du sol, le cas échéant;",
         "h. La pente naturelle moyenne du terrain à l’intérieur de l’assiette de la construction projetée;",
-        "",
-        "",
         "i. La localisation et le pourcentage d’espace naturel du terrain lorsque le Règlement de zonage en",
         "vigueur exige l’aménagement ou la conservation d’espace naturel;",
         "j. Dans les cas où le terrain est affecté par une zone inondable, les élévations du terrain en mètre et le",
@@ -2722,8 +2699,6 @@
         "30 mètres de l’agrandissement projeté. Le cours d’eau, lac ou milieu humide doit cependant être",
         "identifié sur le plan d’implantation;",
         "d. La limite de la rive applicable selon le Règlement de zonage en vigueur;",
-        "",
-        "",
         "e. L’emplacement des mesures de contrôle temporaire de l’érosion du sol lorsqu’il y a présence d’un",
         "cours d’eau, lac ou milieu humide;",
         "f. L’emplacement et le type de mesures de contrôle permanent de l’érosion du sol, le cas échéant;",
@@ -2797,8 +2772,6 @@
         "des plans de construction signés et scellés par un technologue membre de l’Ordre des technologues du",
         "Québec, ou par un architecte membre de l’Ordre des architectes du Québec, doivent être déposés avec la",
         "demande de permis et comprendre les renseignements suivants :",
-        "",
-        "",
         "a. Les plans de chaque plancher où est projeté l’ajout d’un logement avec l’ensemble des dimensions",
         "nécessaires pour la bonne compréhension du projet;",
         "b. La valeur de résistance au feu obtenue des séparations coupe-feu, l’emplacement et degré pare-",
@@ -2870,8 +2843,6 @@
         "e. Les coupes détaillées des murs et des planchers;",
         "f. Les revêtements des murs extérieurs et des toits;",
         "g. Les galeries, balcon, escaliers, garde-corps, etc.",
-        "",
-        "",
         "3. Lorsque les travaux de modification ou de rénovation comprennent l’ajout d’un logement, incluant un logement",
         "accessoire, des plans architecturaux signés et scellés par un technologue membre de l’Ordre des",
         "technologues du Québec ou par un architecte membre de l’Ordre des architectes du Québec, doivent être",
@@ -2943,8 +2914,6 @@
         "4. L’emplacement des mesures de contrôle temporaire de l’érosion du sol lorsqu’il y a présence d’un cours d’eau,",
         "lac ou milieu humide;",
         "5. L’emplacement et le type de mesures de contrôle permanent de l’érosion du sol, le cas échéant;",
-        "",
-        "",
         "6. Les limites de toute zone d’érosion de sol."
       ],
       "numero": 73,
@@ -3032,8 +3001,6 @@
         40
       ],
       "alineas": [
-        "",
-        "",
         "Une demande de permis pour la construction, l’installation, le déplacement ou la modification d’une piscine, doit être",
         "accompagnée des documents et informations suivants, en format électronique PDF à une résolution suffisante pour",
         "permettre leur lecture et leur analyse :",
@@ -3053,9 +3020,7 @@
         "a. La ligne naturelle des hautes eaux du lac, cours d’eau ou milieu humide, déterminé conjointement par",
         "un biologiste ou tout professionnel en la matière;",
         "b. Les lignes correspondant aux cotes de crue de récurrence 20 ans et 100 ans, le cas échéant;",
-        "3. Dans le cas d’une piscine hors terre : la hauteur de la paroi.",
-        "",
-        ""
+        "3. Dans le cas d’une piscine hors terre : la hauteur de la paroi."
       ],
       "numero": 76,
       "sous_section": 8,
@@ -3129,11 +3094,22 @@
         "est autorisée ou autrement traitée par un ministère du gouvernement, un de ses mandataires ou la MRC des Pays-d’en-",
         "Haut, une copie de l’autorisation ou de la déclaration émise, exigée en vertu d’une loi ou d’un règlement gouvernemental,",
         "ou de l’attestation de la MRC confirmant l’intégration du projet visé au schéma d’aménagement et de développement révisé",
-        "doit être déposée avec la demande.",
-        "L'ÉROSION DU SOL"
+        "doit être déposée avec la demande."
       ],
       "numero": 80,
       "sous_section": 12,
+      "section": 2,
+      "chapitre": 3
+    },
+    {
+      "titre": "L'ÉROSION DU SOL",
+      "pages": [
+        40,
+        40
+      ],
+      "alineas": [],
+      "numero": -1,
+      "sous_section": 13,
       "section": 2,
       "chapitre": 3
     },
@@ -3152,12 +3128,24 @@
         "3. Les travaux relatifs à l’aménagement ou à la réfection majeure d’une rue, d’un chemin ou d’une route;",
         "4. L’établissement ou le déplacement d’une installation septique (fosse ou champ d’épuration) ou d’un puits;",
         "5. L’abattage d’arbres, incluant l’enlèvement des souches;",
-        "6. Les travaux de construction et d’installations de bâtiments, de constructions ou d'équipements accessoires.",
-        "COMPRENANT L’AJOUT DE NOUVELLE SURFACE IMPERMÉABLE D’UNE",
-        "SUPERFICIE ÉGALE OU SUPÉRIEURE À 1 000 MÈTRES CARRÉS"
+        "6. Les travaux de construction et d’installations de bâtiments, de constructions ou d'équipements accessoires."
       ],
       "numero": 81,
       "sous_section": 13,
+      "section": 2,
+      "chapitre": 3
+    },
+    {
+      "titre": "COMPRENANT L’AJOUT DE NOUVELLE SURFACE IMPERMÉABLE D’UNE",
+      "pages": [
+        40,
+        40
+      ],
+      "alineas": [
+        "SUPERFICIE ÉGALE OU SUPÉRIEURE À 1 000 MÈTRES CARRÉS"
+      ],
+      "numero": -1,
+      "sous_section": 14,
       "section": 2,
       "chapitre": 3
     },
@@ -3170,8 +3158,6 @@
       "alineas": [
         "Une demande de permis de construction pour des travaux de construction, d’agrandissement ou d’aménagement prévoyant",
         "l’ajout de nouvelle surface imperméable de 1 000 mètres carrés ou plus, ou qui porterait la superficie totale des surfaces",
-        "",
-        "",
         "imperméables sur le terrain à 1 000 mètres carrés ou plus, doit être accompagnée des documents et renseignements",
         "additionnels suivants, en format électronique PDF à une résolution suffisante pour permettre leur lecture et leur analyse :",
         "1. Un plan à l’échelle signé et scellé par un ingénieur membre de l’Ordre des ingénieurs du Québec indiquant :",
@@ -3183,9 +3169,7 @@
         "e. Toute autre surface imperméable existante ou projetée;",
         "2. Dans les 60 jours suivant la fin des travaux visés par le permis de construction, le requérant doit déposer au",
         "fonctionnaire désigné un rapport signé par un ingénieur à l’effet que les travaux furent réalisés conformément",
-        "aux plans et devis signés par un ingénieur et approuvés et dans le cadre du permis de construction délivré.",
-        "L’EMPRISE DU PARC LINÉAIRE LE P’TIT TRAIN DU NORD OU SUR UN TERRAIN",
-        "ADJACENT À CELUI-CI"
+        "aux plans et devis signés par un ingénieur et approuvés et dans le cadre du permis de construction délivré."
       ],
       "numero": 82,
       "sous_section": 14,
@@ -3193,10 +3177,24 @@
       "chapitre": 3
     },
     {
+      "titre": "L’EMPRISE DU PARC LINÉAIRE LE P’TIT TRAIN DU NORD OU SUR UN TERRAIN",
+      "pages": [
+        41,
+        41
+      ],
+      "alineas": [
+        "ADJACENT À CELUI-CI"
+      ],
+      "numero": -1,
+      "sous_section": 15,
+      "section": 2,
+      "chapitre": 3
+    },
+    {
       "titre": "Documents additionnels requis",
       "pages": [
         41,
-        43
+        42
       ],
       "alineas": [
         "En plus de tout autre document ou information exigés en vertu du présent règlement, une demande de permis de",
@@ -3219,9 +3217,7 @@
         "9. Le patron de drainage actuel et celui projeté en fonction des travaux proposés sur la propriété;",
         "10. Une évaluation du cout probable des travaux et la durée prévue;",
         "11. Une copie de l'autorisation du ministère des Transports du Québec et de la MRC, lorsque requise;",
-        "12. Un plan d’ingénieur relatif au croisement envisagé, le cas échéant.",
-        "",
-        ""
+        "12. Un plan d’ingénieur relatif au croisement envisagé, le cas échéant."
       ],
       "numero": 83,
       "sous_section": 15,
@@ -3290,8 +3286,6 @@
         "Note 1 : À l’exception :",
         "a. Des travaux d’abattage d’arbres morts équivalant à moins de 20 cordes de bois annuellement, sauf ceux",
         "exécutés sur la rive d’un lac, d’un cours d’eau ou d’un milieu humide;",
-        "",
-        "",
         "b. Des travaux d’abattage d’arbres exécutés dans le cadre d’une construction ou d’un ouvrage ayant fait",
         "l’objet d’un permis de construction ou d’un certificat d’autorisation en vertu du présent règlement;",
         "c. Des travaux d’abattage d’arbres exécutés pour l’entretien, la mise en place ou le prolongement d’un",
@@ -3314,9 +3308,7 @@
         "Note 7 : applicable aux coupes d’assainissement et de jardinage sur des terrains de plus de 2 hectares et aux coupes",
         "d’éclaircie commerciale.",
         "Note 8 : À l’exception : des ouvrages pour supprimer des buttes de moins de 1 mètre ou des cavités d’une profondeur",
-        "inférieure à 1 mètre; ou des ouvrages d’aménagement de mur de soutènement ou de talus de moins de 1,5 m de hauteur.",
-        "",
-        ""
+        "inférieure à 1 mètre; ou des ouvrages d’aménagement de mur de soutènement ou de talus de moins de 1,5 m de hauteur."
       ],
       "numero": 84,
       "sous_section": -1,
@@ -3369,9 +3361,7 @@
         "jusqu’à ce que les travaux soient corrigés ou que les modifications apportées soient approuvées par le",
         "fonctionnaire désigné. La remise en vigueur du certificat n’a pas pour effet de prolonger les délais prévus aux",
         "paragraphes 1 et 3. Le paragraphe 2 s’applique même si les travaux sont interrompus en raison de l’annulation",
-        "du permis pour les motifs visés aux paragraphes 5 et 6.",
-        "",
-        ""
+        "du permis pour les motifs visés aux paragraphes 5 et 6."
       ],
       "numero": 86,
       "sous_section": -1,
@@ -3508,8 +3498,6 @@
       ],
       "alineas": [
         "souterraine à l’intérieur de l’emprise du parc linéaire le P’tit train du nord",
-        "",
-        "",
         "Lorsque la demande vise des travaux, constructions ou ouvrages relatifs à une conduite souterraine à l’intérieur de l’emprise",
         "du parc linéaire le P’tit train du nord, la demande doit minimalement être accompagné des informations suivantes :",
         "1. L’identification du propriétaire, de ses coordonnées et de ses représentants officiels, s’il y a lieu;",
@@ -3574,11 +3562,22 @@
         "a. Les lacs, cours d’eau ou milieux humides avec la ligne des hautes eaux déterminée conjointement par",
         "un arpenteur-géomètre et un biologiste ou tout professionnel en la matière;",
         "b. L’emplacement, la largeur et la longueur du déboisement projeté;",
-        "c. Les caractéristiques naturelles du terrain (espaces déboisés, escarpements et caps rocheux, etc.).",
-        "DÉCHARGEMENT ET D’AIRE D’ENTREPOSAGE EXTÉRIEUR"
+        "c. Les caractéristiques naturelles du terrain (espaces déboisés, escarpements et caps rocheux, etc.)."
       ],
       "numero": 95,
       "sous_section": 1,
+      "section": 2,
+      "chapitre": 4
+    },
+    {
+      "titre": "DÉCHARGEMENT ET D’AIRE D’ENTREPOSAGE EXTÉRIEUR",
+      "pages": [
+        47,
+        47
+      ],
+      "alineas": [],
+      "numero": -1,
+      "sous_section": 2,
       "section": 2,
       "chapitre": 4
     },
@@ -3596,8 +3595,6 @@
         "carrés, en 3 exemplaires papiers et 1 exemplaire électronique en format PDF :",
         "1. Un plan à l’échelle signé et scellé par un ingénieur membre de l’Ordre des ingénieurs du Québec indiquant :",
         "a. Le système de drainage, de rétention et d’évacuation des eaux pluviales;",
-        "",
-        "",
         "b. L’emplacement et les dimensions des espaces de stationnement, des allées véhiculaires, des aires de",
         "chargement et de déchargement, des aires d’entreposage extérieur, etc.;",
         "c. La description des matériaux de recouvrement de sol des surfaces imperméable;",
@@ -3627,11 +3624,22 @@
         "accès.",
         "5. Dans les 60 jours suivant la fin des travaux visés par le certificat d’autorisation, le requérant doit déposer au",
         "fonctionnaire désigné un rapport signé par un ingénieur à l’effet que les travaux furent réalisés conformément",
-        "aux plans et devis signés par un ingénieur et approuvés et dans le cadre du certificat d’autorisation délivrée.",
-        "INTÉGRÉ D’HABITATIONS OU UN REGROUPE DE CHALETS EN LOCATION"
+        "aux plans et devis signés par un ingénieur et approuvés et dans le cadre du certificat d’autorisation délivrée."
       ],
       "numero": 96,
       "sous_section": 2,
+      "section": 2,
+      "chapitre": 4
+    },
+    {
+      "titre": "INTÉGRÉ D’HABITATIONS OU UN REGROUPE DE CHALETS EN LOCATION",
+      "pages": [
+        48,
+        48
+      ],
+      "alineas": [],
+      "numero": -1,
+      "sous_section": 3,
       "section": 2,
       "chapitre": 4
     },
@@ -3669,16 +3677,12 @@
         "7. Une copie de l’autorisation du ministère de l'Environnement et de la Lutte contre les changements climatiques",
         "faisant foi que les travaux projetés peuvent être autorisée en vertu de la Loi sur la Qualité de l’environnement",
         "(L.R.Q., c. Q-2) lorsque cette loi s’applique;",
-        "",
-        "",
         "8. Pour un terrain ou une partie de terrain adjacente à une route dont la gestion incombe au ministère des",
         "Transports, à l’exception des tronçons où la limite de vitesse est de 50 kilomètres par heure ou moins, une",
         "copie de l’autorisation d’accès, en vertu de la Loi sur la voirie (L.R.Q., c. V-9).",
         "Dans les 60 jours suivant la fin des travaux visés par le certificat d’autorisation, le requérant doit déposer au fonctionnaire",
         "désigné un rapport signé par un ingénieur indiquant que les travaux furent réalisés conformément aux plans et devis",
-        "approuvés dans le cadre du certificat d’autorisation délivré.",
-        "",
-        ""
+        "approuvés dans le cadre du certificat d’autorisation délivré."
       ],
       "numero": 97,
       "sous_section": 3,
@@ -3757,9 +3761,7 @@
         "7. Le volume par hectare et par essence;",
         "8. L'évaluation de la qualité des tiges par essence;",
         "9. Toutes autres informations pertinentes justifiant une coupe de plus de 40 % de la surface terrière totale de la",
-        "superficie boisée.",
-        "",
-        ""
+        "superficie boisée."
       ],
       "numero": 99,
       "sous_section": 5,
@@ -3858,8 +3860,6 @@
         "1. Dans le cas d’une enseigne rattachée au bâtiment, un plan d’élévation à l’échelle montrant toute la largeur de",
         "la façade du bâtiment ou de la construction, et la localisation exacte de l’enseigne sur le bâtiment et la méthode",
         "d’ancrage;",
-        "",
-        "",
         "2. Dans le cas d'une enseigne détachée du bâtiment, un plan à l'échelle montrant l’implantation exacte de",
         "l’enseigne par rapport au bâtiment existant ou projeté et par rapport aux accès, allée d’accès et espaces de",
         "stationnement, la méthode d’ancrage, ainsi que le détail de la plantation projetée à la base de l’enseigne;",
@@ -3907,11 +3907,22 @@
         "(L.R.Q., c. Q-2) lorsque cette loi s’applique;",
         "7. Dans les 60 jours suivant la fin des travaux visés par le certificat d’autorisation, le requérant doit déposer au",
         "fonctionnaire désigné un rapport signé par un ingénieur à l’effet que les travaux furent réalisés conformément",
-        "aux plans et devis signés par un ingénieur et approuvés et dans le cadre du certificat d’autorisation délivrée.",
-        "LA PLAINE INONDABLE"
+        "aux plans et devis signés par un ingénieur et approuvés et dans le cadre du certificat d’autorisation délivrée."
       ],
       "numero": 104,
       "sous_section": 10,
+      "section": 2,
+      "chapitre": 4
+    },
+    {
+      "titre": "LA PLAINE INONDABLE",
+      "pages": [
+        52,
+        52
+      ],
+      "alineas": [],
+      "numero": -1,
+      "sous_section": 11,
       "section": 2,
       "chapitre": 4
     },
@@ -3942,8 +3953,6 @@
         "9. Pour des travaux sur la plaine inondable, un plan réalisé par un arpenteur-géomètre, à une échelle d’au moins",
         "1 : 500, indiquant :",
         "a. La ligne correspondant aux cotes de crue de récurrence de 20 ans et de 100 ans;",
-        "",
-        "",
         "b. La cote d’élévation de l’ouvrage ou de la construction par rapport au niveau de la cote de crue",
         "récurrence de crue 20 ans et 100 ans;",
         "c. La cote d’élévation du plancher du rez-de-chaussée par rapport au niveau de la cote de crue de",
@@ -3993,8 +4002,6 @@
         "5. Dans le cas d’un bâtiment, les plans et devis requis pour avoir une compréhension claire du projet de",
         "changement d’usage ou de destination du bâtiment;",
         "6. Dans le cas d’un terrain, un plan à l’échelle montrant :",
-        "",
-        "",
         "a. Les limites de terrain visé et son identification cadastrale;",
         "b. La localisation et les dimensions de la nouvelle utilisation du sol sur l’ensemble du terrain visé;",
         "c. Les lignes de rues;",
@@ -4018,7 +4025,7 @@
       "titre": "Documents et renseignements additionnels requis pour un changement d’usage ou de destination d’un",
       "pages": [
         54,
-        56
+        55
       ],
       "alineas": [
         "immeuble sur un terrain situé en bordure de l’emprise ou dans l’emprise du parc linéaire le P’tit train du",
@@ -4031,9 +4038,7 @@
         "2. La localisation et les dimensions au sol des usages et les ouvrages s'il y a lieu;",
         "3. La distance entre les usages et ouvrages par rapport aux limites du terrain, d’un chemin, d’un parc linéaire",
         "et/ou d’un lac et cours d'eau.",
-        "4. Une copie de l’autorisation du ministère des Transports du Québec et de la MRC, lorsque requise.",
-        "",
-        ""
+        "4. Une copie de l’autorisation du ministère des Transports du Québec et de la MRC, lorsque requise."
       ],
       "numero": 107,
       "sous_section": 12,
@@ -4168,8 +4173,6 @@
         "4. Le Conseil a adopté un avis de motion relatif à une modification du Règlement de zonage en vigueur qui,",
         "advenant son adoption, rendrait l’occupation non conforme. Ce paragraphe ne s’applique qu’à l’intérieur des",
         "délais mentionnés à l’article 114 de la Loi sur l’aménagement et l’urbanisme (L.R.Q. c. A-19.1);",
-        "",
-        "",
         "5. Le permis d’affaires a été délivré sur la base d’une déclaration, d’une information, d’un plan ou d’un document",
         "faux ou erroné;",
         "6. L’occupation de l’immeuble n’est pas réalisée conformément aux prescriptions des règlements d’urbanisme",
@@ -4280,8 +4283,6 @@
         58
       ],
       "alineas": [
-        "",
-        "",
         "Le présent article s’applique aux :",
         "1. Usages principaux d’une catégorie autre que « Habitation » (H);",
         "2. Usages additionnels ou complémentaires à un usage autre que « Habitation » (H);",
@@ -4310,13 +4311,11 @@
       "titre": "Renseignements et documents additionnels requis",
       "pages": [
         58,
-        60
+        59
       ],
       "alineas": [
         "Une demande de permis d’affaires visant l’exploitation d’un terrain de camping ou de caravaning doit être accompagnée",
-        "d’une copie du permis d’exploitation délivré par le ministère ou l’organisme responsable du Gouvernement du Québec.",
-        "",
-        ""
+        "d’une copie du permis d’exploitation délivré par le ministère ou l’organisme responsable du Gouvernement du Québec."
       ],
       "numero": 120,
       "sous_section": 2,
@@ -4412,8 +4411,6 @@
         "Lorsque fonctionnaire désigné a en main tous les documents requis en vertu de l’article précédent, il doit transmettre le",
         "dossier au Comité consultatif d’urbanisme. Le dossier doit être étudié à la première réunion du Comité qui suit le jour où le",
         "fonctionnaire désigné a reçu le dernier document requis. Cependant, le fonctionnaire désigné doit recevoir le dernier",
-        "",
-        "",
         "document au moins 10 jours ouvrables avant la date de la réunion du Comité consultatif d’urbanisme sans quoi le dépôt du",
         "dossier au Comité peut être reporté à la première réunion suivante."
       ],
@@ -4497,8 +4494,6 @@
         "modification d’un règlement qu’il a promulgué. Le Conseil peut, notamment, mettre fin à tout moment au processus de",
         "modification des règlements sans indemnité pour le requérant, autre que les remboursements expressément prévus à",
         "certaines étapes spécifiques par le Règlement sur la tarification applicable.",
-        "",
-        "",
         ""
       ],
       "numero": 128,

@@ -10,14 +10,14 @@
   "chapitres": [
     {
       "numero": "1",
-      "titre": "DISPOSITIONS DÉCLARATOIRES,\nINTERPRÉTATIVES ET ADMINISTRATIVES\n",
+      "titre": "DISPOSITIONS DÉCLARATOIRES, INTERPRÉTATIVES ET ADMINISTRATIVES",
       "pages": [
         4,
         13
       ],
       "articles": [
         0,
-        36
+        37
       ],
       "sections": [
         {
@@ -81,7 +81,7 @@
           ],
           "articles": [
             28,
-            36
+            37
           ],
           "sous_sections": []
         }
@@ -89,14 +89,14 @@
     },
     {
       "numero": "2",
-      "titre": "DISPOSITIONS RELATIVES AUX RUES ET AUX\nILOTS\n",
+      "titre": "DISPOSITIONS RELATIVES AUX RUES ET AUX ILOTS",
       "pages": [
         13,
         17
       ],
       "articles": [
-        36,
-        55
+        37,
+        56
       ],
       "sections": [
         {
@@ -107,8 +107,8 @@
             17
           ],
           "articles": [
-            36,
-            55
+            37,
+            56
           ],
           "sous_sections": []
         }
@@ -116,14 +116,14 @@
     },
     {
       "numero": "3",
-      "titre": "DISPOSITIONS RELATIVES À LA SUPERFICIE\nET AUX DIMENSIONS DES LOTS\n",
+      "titre": "DISPOSITIONS RELATIVES À LA SUPERFICIE ET AUX DIMENSIONS DES LOTS",
       "pages": [
         17,
         22
       ],
       "articles": [
-        55,
-        69
+        56,
+        70
       ],
       "sections": [
         {
@@ -134,8 +134,8 @@
             20
           ],
           "articles": [
-            55,
-            62
+            56,
+            63
           ],
           "sous_sections": []
         },
@@ -147,8 +147,8 @@
             22
           ],
           "articles": [
-            62,
-            69
+            63,
+            70
           ],
           "sous_sections": []
         }
@@ -156,14 +156,14 @@
     },
     {
       "numero": "4",
-      "titre": "DISPOSITIONS RELATIVES AUX DROITS\nACQUIS\n",
+      "titre": "DISPOSITIONS RELATIVES AUX DROITS ACQUIS",
       "pages": [
         22,
         26
       ],
       "articles": [
-        69,
-        76
+        70,
+        77
       ],
       "sections": [
         {
@@ -174,8 +174,8 @@
             24
           ],
           "articles": [
-            69,
-            73
+            70,
+            74
           ],
           "sous_sections": []
         },
@@ -187,8 +187,8 @@
             26
           ],
           "articles": [
-            73,
-            76
+            74,
+            77
           ],
           "sous_sections": []
         }
@@ -301,9 +301,7 @@
         6
       ],
       "alineas": [
-        "Le présent règlement entre en vigueur conformément à la loi.",
-        "",
-        ""
+        "Le présent règlement entre en vigueur conformément à la loi."
       ],
       "numero": 7,
       "sous_section": -1,
@@ -405,9 +403,7 @@
         "Les expressions, termes et mots utilisés dans le présent règlement ont le sens et l’application qui leur sont attribués à",
         "l’annexe B du Règlement de zonage en vigueur de la Ville de Sainte-Adèle.",
         "Une expression, un terme ou un mot n’étant pas spécifiquement défini au Règlement de zonage en vigueur de la Ville de",
-        "Sainte-Adèle s'emploie selon le sens communément attribué à cette expression, terme ou mot.",
-        "",
-        ""
+        "Sainte-Adèle s'emploie selon le sens communément attribué à cette expression, terme ou mot."
       ],
       "numero": 12,
       "sous_section": -1,
@@ -485,9 +481,7 @@
       "alineas": [
         "Toute personne qui contrevient à l'une ou l'autre des dispositions de ce règlement commet une infraction et est passible",
         "d'une amende avec ou sans frais, tel que prescrit au Règlement sur les permis et certificats en vigueur de la Ville de Sainte-",
-        "Adèle.",
-        "",
-        ""
+        "Adèle."
       ],
       "numero": 17,
       "sous_section": -1,
@@ -633,8 +627,6 @@
         "3. D’agrandir un terrain dérogatoire protégé par droits acquis. Le terrain résultant de cette opération cadastrale",
         "doit former un seul lot à moins que le terrain ne soit situé sur des lots originaires différents, auquel cas un seul",
         "lot par lot originaire résulte de l’opération cadastrale;",
-        "",
-        "",
         "4. De créer un lot adjacent à un lot localisé sur le territoire d’une autre municipalité, dans la mesure où ce lot créé",
         "et celui auquel il est adjacent sur le territoire de l’autre municipalité est pour fins de constituer une seule",
         "propriété sur laquelle un seul bâtiment principal est érigé ou est projeté, à l’exception d’un projet intégré",
@@ -715,14 +707,23 @@
         "respecte les normes de superficie et de dimensions applicables;",
         "10. Le terrain doit être situé en bordure d'une voie publique existante ou prévue, ou d'une voie privée existante",
         "construite conformément aux dispositions du présent règlement et des autres règlements municipaux",
-        "applicables.",
-        "",
-        "",
-        "DE TERRAINS DE JEUX OU D'ESPACES NATURELS"
+        "applicables."
       ],
       "numero": 28,
       "sous_section": -1,
       "section": 3,
+      "chapitre": 0
+    },
+    {
+      "titre": "DE TERRAINS DE JEUX OU D'ESPACES NATURELS",
+      "pages": [
+        10,
+        10
+      ],
+      "alineas": [],
+      "numero": -1,
+      "sous_section": -1,
+      "section": 4,
       "chapitre": 0
     },
     {
@@ -793,8 +794,6 @@
         "4. Une opération cadastrale visant le regroupement de lot diminuant le nombre de lot aux conditions suivantes :",
         "a. Aucun lot ainsi créé ne remplace un lot dont l’immatriculation à titre de lot distinct n’a pas fait l’objet de",
         "la délivrance d’un permis de lotissement en raison du fait qu’elle a résulté de la rénovation cadastrale.",
-        "",
-        "",
         "5. La portion verticale d’une opération cadastrale requise et effectuée lors de la constitution d’un immeuble en",
         "copropriété divise;",
         "6. Une opération cadastrale rendue nécessaire par la cession d’un immeuble au profit d’un organisme public",
@@ -907,9 +906,7 @@
         "Toute contestation de la valeur du terrain ne dispense pas le propriétaire de verser la somme et, le cas échéant, de céder",
         "la superficie de terrain exigée par la Ville sur la base de la valeur établie par l'évaluateur.",
         "Cette contestation s’effectue suivant les dispositions prévues à cet effet aux articles 117.7 à 117.14 de la Loi sur",
-        "l’aménagement et l’urbanisme (c A-19.1).",
-        "",
-        ""
+        "l’aménagement et l’urbanisme (c A-19.1)."
       ],
       "numero": 35,
       "sous_section": -1,
@@ -920,14 +917,12 @@
       "titre": "Contrat notarié",
       "pages": [
         12,
-        14
+        13
       ],
       "alineas": [
         "Un contrat notarié nécessaire en vertu des présentes dispositions le sera devant un notaire désigné et nommé par la Ville.",
         "Les frais de contrat notarié de cession pour fins de parcs, de terrain de jeux ou d’espaces naturels sont à la charge du",
-        "cédant incluant la description technique préparé par un arpenteur-géomètre.",
-        "",
-        ""
+        "cédant incluant la description technique préparé par un arpenteur-géomètre."
       ],
       "numero": 36,
       "sous_section": -1,
@@ -1081,8 +1076,6 @@
         "2. 60 mètres si les terrains situés entre la rue et la ligne des hautes eaux sont partiellement desservis ou non",
         "desservis.",
         "Cette disposition ne s’applique pas dans les cas suivants :",
-        "",
-        "",
         "1. Pour les rues publiques ou privées conduisant à un débarcadère ou permettant la traversée le plus",
         "perpendiculairement possible d’un cours d’eau ou d’un lac.",
         "Une distance inférieure peut être acceptée lorsqu’il s’agit d’un raccordement de rue existante ou que la construction d’une",
@@ -1202,8 +1195,6 @@
         "L’angle formé par 2 rues à une intersection doit tendre vers 90°. Lorsque les conditions locales ne permettent pas de",
         "réaliser une intersection à angle droit, une variation maximale de 15° est permise. L’alignement de la rue doit être maintenu",
         "sur une distance minimale de 30 mètres, mesurée à partir du point d’intersection de la ligne médiane de chaque rue.",
-        "",
-        "",
         "Les axes de deux intersections de rues donnant sur une même rue doivent respecter les distances minimales suivantes",
         "calculées entre les lignes d’emprise les plus rapprochées des 2 axes :",
         "1. 50 mètres pour 2 intersections de rues donnant sur une rue locale;",
@@ -1281,7 +1272,7 @@
       "titre": "Pistes multifonctionnelles, liens récréatifs et pistes cyclables",
       "pages": [
         16,
-        18
+        17
       ],
       "alineas": [
         "La Ville se réserve le droit d’exiger des pistes multifonctionnelles, des liens récréatifs ou des pistes cyclables partout où",
@@ -1292,9 +1283,7 @@
         "1. Sentiers de vélo de montagne, de ski nordique et de raquettes : 9 mètres;",
         "2. Sentier piétonnier : 3 mètres;",
         "3. Piste cyclable : 2 mètres;",
-        "4. Accès aux plans d’eau : 15 mètres.",
-        "",
-        ""
+        "4. Accès aux plans d’eau : 15 mètres."
       ],
       "numero": 55,
       "sous_section": -1,
@@ -1387,8 +1376,6 @@
         "termine par un arc de cercle à l’intersection de deux rues, la largeur du lot sur la ligne avant doit être calculée à partir de",
         "l’intersection entre le prolongement imaginaire en ligne droite des lignes de terrain adjacentes à une voie de circulation,",
         "comme si les rues n’ étaient pas jointes par un arc de cercle, comme montré par les lignes « L1 » et « L2 » à la figure 2.",
-        "",
-        "",
         "Figure 2 – Calcul de la largeur sur la ligne avant d’un terrain d’angle"
       ],
       "numero": 60,
@@ -1425,9 +1412,7 @@
         "Dans les cas d’un terrain situé entre un lac ou un cours d’eau et une rue publique ou privée existante au 7 décembre 1983",
         "ou entre deux rues publiques ou privées existantes au 7 décembre 1983 ou entre un lot et une rue publique ou privée",
         "existante au 7 décembre 1983, les dispositions relatives à la profondeur moyenne minimale ne s’appliquent pas pour les",
-        "terrains lotis ou décrits par tenants et aboutissants à cette date.",
-        "",
-        ""
+        "terrains lotis ou décrits par tenants et aboutissants à cette date."
       ],
       "numero": 62,
       "sous_section": -1,
@@ -1526,8 +1511,6 @@
         "Les dispositions du tableau suivant s’appliquent aux lots desservis, partiellement desservis ou non desservis lorsque ceux-",
         "ci sont localisés à moins de 100 mètres d'un cours d'eau ou à moins de 300 mètres d'un lac à moins que la fiche de type",
         "de milieu ne prévoie un minimum plus exigeant auquel cas, celle-ci prévaut.",
-        "",
-        "",
         "Tableau 2 – Terrain situé à moins de 100 mètres d'un cours d'eau ou à moins de 300 mètres d'un lac",
         "Type de terrain Superficie minimale Largeur minimale Largeur moyenne Profondeur",
         "à la rue minimale moyenne minimale",
@@ -1568,7 +1551,7 @@
       "titre": "Exemptions sur l’application des normes minimales de lotissement",
       "pages": [
         21,
-        23
+        22
       ],
       "alineas": [
         "Les dimensions de lots prescrites au présent règlement ne s’appliquent pas aux opérations cadastrales suivantes :",
@@ -1593,9 +1576,7 @@
         "projet domiciliaire;",
         "7. Pour l’identification cadastrale d’un terrain pour fins l’installation d’un kiosque postal;",
         "8. Pour l’identification cadastrale d’un terrain jouissant d’un droit acquis à être subdivisé en vertu du présent",
-        "règlement.",
-        "",
-        ""
+        "règlement."
       ],
       "numero": 69,
       "sous_section": -1,
@@ -1685,9 +1666,7 @@
         "réalisée par une personne qui est membre d’un ordre professionnel compétent en la matière doit en faire la",
         "démonstration en respectant les dispositions du Règlement sur le captage des eaux souterraines (L.R.Q. c.",
         "Q-2, r. 6) et du Règlement sur l’évacuation et le traitement des eaux usées des résidences isolées (L.R.Q. c.",
-        "Q-2, r. 22).",
-        "",
-        ""
+        "Q-2, r. 22)."
       ],
       "numero": 73,
       "sous_section": -1,
@@ -1758,8 +1737,6 @@
         "vigueur ou il pouvait faire l’objet d’une opération cadastrale en vertu des articles 74 et 75 du présent règlement;",
         "2. Un seul lot résulte de l’opération cadastrale sauf si le terrain est compris dans plusieurs lots originaires, auquel",
         "cas un seul lot par lot originaire résulte de l’opération cadastrale.",
-        "",
-        "",
         ""
       ],
       "numero": 76,

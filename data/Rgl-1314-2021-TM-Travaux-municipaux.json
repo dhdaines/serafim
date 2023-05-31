@@ -10,14 +10,14 @@
   "chapitres": [
     {
       "numero": "1",
-      "titre": "DISPOSITIONS DÉCLARATOIRES,\nINTERPRÉTATIVES ET ADMINISTRATIVES\n",
+      "titre": "DISPOSITIONS DÉCLARATOIRES, INTERPRÉTATIVES ET ADMINISTRATIVES",
       "pages": [
         3,
         8
       ],
       "articles": [
         0,
-        17
+        18
       ],
       "sections": [
         {
@@ -28,8 +28,8 @@
             5
           ],
           "articles": [
-            0,
-            7
+            1,
+            8
           ],
           "sous_sections": []
         },
@@ -41,8 +41,8 @@
             7
           ],
           "articles": [
-            7,
-            12
+            8,
+            13
           ],
           "sous_sections": []
         },
@@ -54,8 +54,8 @@
             8
           ],
           "articles": [
-            12,
-            17
+            13,
+            18
           ],
           "sous_sections": []
         }
@@ -63,14 +63,14 @@
     },
     {
       "numero": "2",
-      "titre": "DISPOSITIONS APPLICABLES AU\nCHEMINEMENT D'UNE ENTENTE\n",
+      "titre": "DISPOSITIONS APPLICABLES AU CHEMINEMENT D'UNE ENTENTE",
       "pages": [
         8,
         16
       ],
       "articles": [
-        17,
-        40
+        18,
+        42
       ],
       "sections": [
         {
@@ -81,8 +81,8 @@
             16
           ],
           "articles": [
-            17,
-            40
+            19,
+            42
           ],
           "sous_sections": []
         }
@@ -90,6 +90,18 @@
     }
   ],
   "articles": [
+    {
+      "titre": "administratives",
+      "pages": [
+        4,
+        4
+      ],
+      "alineas": [],
+      "numero": -1,
+      "sous_section": -1,
+      "section": -1,
+      "chapitre": 0
+    },
     {
       "titre": "Titre du règlement",
       "pages": [
@@ -194,8 +206,6 @@
       ],
       "alineas": [
         "Le présent règlement entre en vigueur conformément à la loi.",
-        "",
-        "",
         "administratives"
       ],
       "numero": 7,
@@ -299,8 +309,6 @@
         "en vigueur de la Ville de Sainte-Adèle s'emploie selon le sens communément attribué à cette expression, terme ou mot. En",
         "cas de contradiction entre une définition prévue au présent règlement et au règlement de zonage, la définition du présent",
         "article doit être utilisée.",
-        "",
-        "",
         "administratives",
         "À moins que le contexte n'indique un sens différent, dans le présent règlement, les expressions et les mots suivants",
         "signifient :",
@@ -349,8 +357,6 @@
         "« Ville » : La ville de Sainte-Adèle;",
         "« Voie de circulation » : signifie tout endroit ou structure affectée à la circulation des véhicules.",
         ".",
-        "",
-        "",
         "administratives"
       ],
       "numero": 12,
@@ -424,21 +430,30 @@
       "titre": "Infractions et pénalités",
       "pages": [
         7,
-        9
+        8
       ],
       "alineas": [
         "Toute personne qui contrevient à l'une ou l'autre des dispositions de ce règlement commet une infraction et est passible",
         "d'une amende avec ou sans frais, comme prescrit au Règlement sur les permis et certificats en vigueur de la Ville de Sainte-",
         "Adèle.",
-        ".",
-        "",
-        "",
-        "entente"
+        "."
       ],
       "numero": 17,
       "sous_section": -1,
       "section": 2,
       "chapitre": 0
+    },
+    {
+      "titre": "entente",
+      "pages": [
+        9,
+        9
+      ],
+      "alineas": [],
+      "numero": -1,
+      "sous_section": -1,
+      "section": -1,
+      "chapitre": 1
     },
     {
       "titre": "Infrastructures et équipements visés par l'entente",
@@ -545,8 +560,6 @@
         10
       ],
       "alineas": [
-        "",
-        "",
         "entente",
         "Le Conseil conserve l’entière discrétion de l’acceptation d’un projet impliquant l’ouverture de nouvelles voies de circulation",
         "privées ou publiques en fonction de la règlementation d’urbanisme ou des autres règlementations applicables.",
@@ -632,8 +645,6 @@
         "lors de l’exécution des travaux, résultant de la faute, de la négligence ou de l’imprudence des employés",
         "ou préposés de l’entrepreneur ou des sous-traitants engagés pour la réalisation des travaux prévus et",
         "décrits à l’entente;",
-        "",
-        "",
         "entente",
         "10. Les modalités de relocalisation des infrastructures publiques ou privées existantes, si elles sont en conflit avec",
         "les infrastructures projetées;",
@@ -749,8 +760,6 @@
         "Nonobstant les alinéas 1 à 4 du présent article, si au cours de la procédure d’octroi des contrats nécessaires à la réalisation",
         "des travaux ou si au cours de la réalisation des travaux, il survient des circonstances hors de son contrôle, des difficultés",
         "ou des conditions qui peuvent légitimement causer des retards, le promoteur est tenu d’en aviser immédiatement par écrit",
-        "",
-        "",
         "entente",
         "la Ville. À ces conditions seulement, la Ville, par résolution du conseil municipal, peut accepter de prolonger les délais fixés",
         "par le contrat."
@@ -862,8 +871,6 @@
         "garantissant la qualité des travaux et tout défaut d’entretien des voies de circulations, infrastructures et autres équipements",
         "avant la cession de ceux-ci à la Ville. Cette lettre de garantie bancaire pourra être remplacée par la remise d’un chèque",
         "visé, d’un mandat ou d’une traite bancaire.",
-        "",
-        "",
         "entente"
       ],
       "numero": 34,
@@ -980,8 +987,6 @@
         "selon les soumissions obtenues par la Ville si le contrat n'est pas accordé par le requérant;",
         "2. Retenir l'émission de tout permis de construction pour un lot desservi ou à desservir par les travaux municipaux",
         "visés par l’entente;",
-        "",
-        "",
         "entente",
         "3. Imposer une taxe spéciale sur les lots visés par l'entente afin de couvrir les dépenses engagées par la Ville",
         "pour parachever les travaux;",
@@ -999,15 +1004,13 @@
       "titre": "Exonération",
       "pages": [
         14,
-        19
+        16
       ],
       "alineas": [
         "Dans l’éventualité d’un litige entre le promoteur et l’entrepreneur, ses fournisseurs, mains-d'œuvre et sous-traitants, le",
         "promoteur doit prévoir qu’il tient la Ville indemne de toutes réclamations ou hypothèques qui peuvent en résulter et s’engage",
         "explicitement à payer tous les frais de radiations des hypothèques légales, et les frais et honoraires judiciaires pouvant",
         "incomber à la Ville en raison de tel litige.",
-        "",
-        "",
         ""
       ],
       "numero": 40,
@@ -1018,13 +1021,12 @@
   ],
   "annexes": [
     {
-      "titre": "FORMULAIRE DE DEMANDE POUR LA\nRÉALISATION DE TRAVAUX MUNICIPAUX\n",
+      "titre": "FORMULAIRE DE DEMANDE POUR LA RÉALISATION DE TRAVAUX MUNICIPAUX",
       "pages": [
         16,
         19
       ],
       "alineas": [
-        "",
         "Annexe A – Formulaire de demande pour la réalisation de travaux municipaux",
         "1. PROMOTEUR",
         "Nom de l'entreprise :",
@@ -1045,8 +1047,6 @@
         "4. INGÉNIEUR RESPONSABLE DE LA CONCEPTION ET DE LA SURVEILLANCE",
         "Nom de l'ingénieur responsable :",
         "Numéros des plans :",
-        "",
-        "",
         "5. DÉCLARATION",
         "Je, soussigné(e), ____________________________, agissant pour et au nom de_________________________ demande",
         "à la Ville de Sainte-Adèle de procéder à la conclusion d’une entente relative aux travaux municipaux pour le projet ci-dessus",
@@ -1056,8 +1056,7 @@
         "applicable de la Ville et je reconnais avoir pris connaissance du règlement sur les ententes relatives aux travaux municipaux",
         "et de toute autre loi ou règlement qui s’appliquerait dans le cadre de mon projet.",
         "Signature : ______________________________________",
-        "Date : _________ / _________ / _________",
-        ""
+        "Date : _________ / _________ / _________"
       ],
       "numero": "A"
     }
