@@ -1,19 +1,8 @@
 import { Index } from "flexsearch";
-import * as fs from "node:fs";
+import { writeFile, readFile, readdir, mkdir } from "node:fs/promises";
 import * as path from "node:path";
 import { Reglement, Article, Annexe } from "src/alexi_types";
 import { Texte } from "src/index_types";
-
-const textes = new Array<Texte>();
-const index = new Index({
-  tokenize: "forward",
-  charset: "latin:advanced",
-  resolution: 20,
-  context: {
-    depth: 3,
-    resolution: 9,
-  },
-});
 
 function make_text_from_article(doc: Reglement, article: Article): Texte {
   const page = article.pages[0];
@@ -78,7 +67,11 @@ function make_text_from_annex(doc: Reglement, annexe: Annexe): Texte {
   };
 }
 
-function add_to_index(doc: Reglement) {
+async function add_to_index(
+  textes: Array<Texte>,
+  index: Index,
+  doc: Reglement
+) {
   if (doc.articles !== undefined) {
     for (const article of doc.articles) {
       const texte = make_text_from_article(doc, article);
@@ -106,32 +99,42 @@ ${texte.contenu}
   }
 }
 
-const dir: fs.Dir = fs.opendirSync("data");
-let dirent;
-while ((dirent = dir.readSync()) !== null) {
-  if (!dirent.name.endsWith(".json")) continue;
-  const data = fs.readFileSync(path.join("data", dirent.name), "utf8");
-  const doc = JSON.parse(data);
-  add_to_index(doc);
-}
+(async () => {
+  const textes = new Array<Texte>();
+  const index = new Index({
+    tokenize: "forward",
+    charset: "latin:advanced",
+    resolution: 20,
+    context: {
+      depth: 3,
+      resolution: 9,
+    },
+  });
 
-try {
-  fs.mkdirSync("public/index");
-} catch (err: any) {
-  if (err.code != "EEXIST") throw err;
-}
-fs.writeFileSync(path.join("public/index/textes.json"), JSON.stringify(textes));
-console.log(`Wrote public/index/textes.json`);
-const keys: Array<string> = [];
-/* Whoa, WTF, is this async or not, flexsearch?!?!? */
-index.export((key: string | number, data: any) => {
-  const keystr = key.toString();
-  fs.writeFileSync(
-    path.join(`public/index/${keystr}.json`),
-    JSON.stringify(data)
-  );
-  keys.push(keystr);
-  console.log(`Wrote public/index/${keystr}.json`);
-  /* Work around the problem by just writing it repeatedly */
-  fs.writeFileSync(path.join("public/index/keys.json"), JSON.stringify(keys));
-});
+  const names = await readdir("data");
+  for (const name of names) {
+    if (!name.endsWith(".json")) continue;
+    const data = await readFile(path.join("data", name), "utf8");
+    const doc = JSON.parse(data);
+    await add_to_index(textes, index, doc);
+  }
+
+  try {
+    await mkdir("public/index");
+  } catch (err: any) {
+    if (err.code != "EEXIST") throw err;
+  }
+  await writeFile("public/index/textes.json", JSON.stringify(textes));
+
+  const keys: Array<string> = [];
+  await index.export(async (key: string | number, data: any) => {
+    const keystr = key.toString();
+    await writeFile(`public/index/${keystr}.json`, JSON.stringify(data));
+    keys.push(keystr);
+    console.log(`Wrote public/index/${keystr}.json`);
+    /* It seems that export() maybe doesn't actually return a Promise.
+     * Flexsearch is Quality Code, so we just have to repeatedly write
+     * this file to make sure we get all the keys */
+    await writeFile("public/index/keys.json", JSON.stringify(keys));
+  });
+})();
