@@ -2,12 +2,17 @@ import { Index } from "flexsearch";
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { Reglement, Article, Annexe } from "src/alexi_types";
-import { Texte } from "src/index_types"; 
+import { Texte } from "src/index_types";
 
 const textes = new Array<Texte>();
 const index = new Index({
   tokenize: "forward",
-  charset: "latin:simple",
+  charset: "latin:advanced",
+  resolution: 20,
+  context: {
+    depth: 3,
+    resolution: 9,
+  },
 });
 
 function make_text_from_article(doc: Reglement, article: Article): Texte {
@@ -61,8 +66,7 @@ function make_text_from_annex(doc: Reglement, annexe: Annexe): Texte {
   const numero = annexe.numero;
   const fichier = doc.fichier;
   const document = `${doc.numero} ${doc.objet}`;
-  const contenu =
-    annexe.alineas === undefined ? "" : annexe.alineas.join("\n");
+  const contenu = annexe.alineas === undefined ? "" : annexe.alineas.join("\n");
   const titre = annexe.titre === undefined ? "" : annexe.titre;
   return {
     fichier,

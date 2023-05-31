@@ -24,20 +24,23 @@ class App {
     this.media_query = matchMedia("screen and (min-width: 48em)");
     this.index = new Index({
       tokenize: "forward",
-      charset: "latin:simple",
+      charset: "latin:advanced",
+      resolution: 20,
+      context: {
+        depth: 3,
+        resolution: 9,
+      },
     });
   }
 
   /* Read the index from a (presumably relative) URL */
   async read_index(url: string) {
     const response = await fetch(`${url}/keys.json`);
-    if (!response.ok)
-      throw "Failed to fetch keys.json";
+    if (!response.ok) throw "Failed to fetch keys.json";
     const keys: Array<string> = await response.json();
     for (const key of keys) {
       let response = await fetch(`${url}/${key}.json`);
-      if (!response.ok)
-        throw `Failed to fetch ${key}.json`;
+      if (!response.ok) throw `Failed to fetch ${key}.json`;
       this.index.import(key, await response.json());
     }
   }
@@ -45,15 +48,13 @@ class App {
   /* Read the content from a (presumably relative) URL */
   async read_content(url: string) {
     const response = await fetch(`${url}/textes.json`);
-    if (!response.ok)
-      throw "Failed to fetch textes.json";
+    if (!response.ok) throw "Failed to fetch textes.json";
     this.textes = await response.json();
   }
 
   /* Show document content */
   show_document(idx: number) {
-    if (this.textes === undefined)
-      throw "Database not loaded";
+    if (this.textes === undefined) throw "Database not loaded";
     if (idx < 0 || idx >= this.textes.length)
       throw `Out of bounds document index ${idx}`;
     const texte = this.textes[idx];
@@ -62,31 +63,31 @@ class App {
       PDFObject.embed(`${texte.fichier}`, "#document-view", {
         pdfOpenParams: { page: texte.page + 1, zoom: 100 },
       });
-    }
-    else {
+    } else {
       /* Show it in the appropriate place based on screen size */
-      const target = this.media_query.matches ? this.document_view : this.search_results;
+      const target = this.media_query.matches
+        ? this.document_view
+        : this.search_results;
       target.innerHTML = "";
       const result = document.createElement("div");
       result.setAttribute("class", "search-result");
-      result.innerHTML += `<h1>${texte.titre}</h1>\n`
+      result.innerHTML += `<h1>${texte.titre}</h1>\n`;
       if (texte.document)
-        result.innerHTML += `<h4>Règlement ${texte.document}</h4>\n`
+        result.innerHTML += `<h4>Règlement ${texte.document}</h4>\n`;
       if (texte.chapitre)
-        result.innerHTML += `<h4>Chapitre ${texte.chapitre}</h4>\n`
+        result.innerHTML += `<h4>Chapitre ${texte.chapitre}</h4>\n`;
       if (texte.section)
-        result.innerHTML += `<h4>Section ${texte.section}</h4>\n`
+        result.innerHTML += `<h4>Section ${texte.section}</h4>\n`;
       if (texte.sous_section)
-        result.innerHTML += `<h4>${texte.sous_section}</h4>\n`
+        result.innerHTML += `<h4>${texte.sous_section}</h4>\n`;
       for (const para of texte.contenu.split(".\n"))
-        result.innerHTML += `<p>${para}.</p>\n`
+        result.innerHTML += `<p>${para}.</p>\n`;
       target.append(result);
     }
   }
 
   create_result_entry(idx: number) {
-    if (this.textes === undefined)
-      throw "Database not loaded";
+    if (this.textes === undefined) throw "Database not loaded";
     if (idx < 0 || idx >= this.textes.length)
       throw `Out of bounds document index ${idx}`;
     const texte = this.textes[idx];
@@ -95,7 +96,7 @@ class App {
     result.innerHTML = `
 <a href="#?idx=${idx}">${texte.titre}</a>
 <p>${texte.contenu.substring(0, 80)}...</p>
-`
+`;
     result.addEventListener("click", (e) => {
       this.show_document(idx);
       e.preventDefault();
@@ -105,8 +106,7 @@ class App {
 
   /* Run a search and update the list */
   async search() {
-    if (this.textes === undefined)
-      return;
+    if (this.textes === undefined) return;
     const text = this.search_box.value;
     const results = this.index.search(text, 10);
     console.log(`${text}: ${JSON.stringify(results)}`);
@@ -125,10 +125,12 @@ class App {
     const docidx = urlParams.get("idx");
     console.log(urlParams);
     console.log(docidx);
-    if (docidx !== null)
-      this.show_document(parseInt(docidx));
+    if (docidx !== null) this.show_document(parseInt(docidx));
     await this.read_index("index");
-    this.search_box.addEventListener("input", debounce(async () => this.search(), 200));
+    this.search_box.addEventListener(
+      "input",
+      debounce(async () => this.search(), 200)
+    );
   }
 }
 
