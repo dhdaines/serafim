@@ -7,7 +7,7 @@ import { Texte } from "src/index_types";
 const textes = new Array<Texte>();
 const index = new Index({
   tokenize: "forward",
-  charset: "latin:advanced",
+  charset: "latin:simple",
 });
 
 function make_text_from_article(doc: Reglement, article: Article): Texte {

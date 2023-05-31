@@ -5,7 +5,7 @@ import * as path from "node:path";
 const textes = JSON.parse(fs.readFileSync("public/index/textes.json", "utf8"));
 const index = new Index({
   tokenize: "forward",
-  charset: "latin:advanced",
+  charset: "latin:simple",
 });
 const dir: fs.Dir = fs.opendirSync("public/index");
 let dirent;

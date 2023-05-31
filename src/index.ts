@@ -24,7 +24,7 @@ class App {
     this.media_query = matchMedia("screen and (min-width: 48em)");
     this.index = new Index({
       tokenize: "forward",
-      charset: "latin:advanced",
+      charset: "latin:simple",
     });
   }
 
