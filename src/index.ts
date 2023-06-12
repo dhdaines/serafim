@@ -1,17 +1,18 @@
+import * as lunr from "lunr";
+import * as PDFObject from "pdfobject";
+import { debounce } from "debounce";
+import { Texte } from "./index_types";
+import folding from "lunr-folding";
+
 // Fake requires that will be removed by webpack
 require("purecss");
 require("purecss/build/grids-responsive-min.css");
 require("./index.css");
 
-import * as lunr from "lunr";
-import * as PDFObject from "pdfobject";
-import { debounce } from "debounce";
-import { Texte } from "./index_types";
-
+// Unfortunately not fake requires due to lunr being ancient
 require("lunr-languages/lunr.stemmer.support")(lunr);
 require("lunr-languages/lunr.fr")(lunr);
-import accent_folding from "./accent-folding";
-accent_folding();
+folding(lunr);
 
 class App {
   search_box: HTMLInputElement;
@@ -102,12 +103,16 @@ class App {
     if (this.textes === undefined)
       this.index = await this.read_index();
     const text = this.search_box.value;
-    const results = this.index!.search(text);
-    console.log(`${text}: ${JSON.stringify(results)}`);
-    this.search_results.innerHTML = "";
-    for (const idx of results) {
-      const result = this.create_result_entry(parseInt(idx.ref));
-      this.search_results.append(result);
+    try {
+      const results = this.index!.search(text);
+      this.search_results.innerHTML = "";
+      for (const idx of results) {
+        const result = this.create_result_entry(parseInt(idx.ref));
+        this.search_results.append(result);
+      }
+    }
+    catch (e) {
+      console.log(`Query error: ${e}`);
     }
   }
 

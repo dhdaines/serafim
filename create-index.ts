@@ -3,11 +3,13 @@ import { writeFile, readFile, readdir, mkdir } from "node:fs/promises";
 import * as path from "node:path";
 import { Reglement, Article, Annexe } from "src/alexi_types";
 import { Texte } from "src/index_types";
-import accent_folding from "src/accent-folding";
+import folding from "lunr-folding";
 
 /* UGH! This API is SO WEIRD!!! */
 require("lunr-languages/lunr.stemmer.support")(lunr);
 require("lunr-languages/lunr.fr")(lunr);
+folding(lunr);
+/* WTF */
 declare module 'lunr' {
   function fr(): null;
 }
@@ -105,7 +107,7 @@ async function add_doc(
   /* OMG why is lunrjs' API so hecking weird */
   const index = lunr(function() {
     this.use(lunr.fr);
-    this.use(accent_folding);
+    this.use(folding);
     this.ref("id");
     this.field("titre");
     this.field("contenu");
