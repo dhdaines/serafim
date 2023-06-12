@@ -1,8 +1,18 @@
-import { Index } from "flexsearch";
+import * as lunr from "lunr";
 import { writeFile, readFile, readdir, mkdir } from "node:fs/promises";
 import * as path from "node:path";
 import { Reglement, Article, Annexe } from "src/alexi_types";
 import { Texte } from "src/index_types";
+import folding from "lunr-folding";
+
+/* UGH! This API is SO WEIRD!!! */
+require("lunr-languages/lunr.stemmer.support")(lunr);
+require("lunr-languages/lunr.fr")(lunr);
+folding(lunr);
+/* WTF */
+declare module 'lunr' {
+  function fr(): null;
+}
 
 function make_text_from_article(doc: Reglement, article: Article): Texte {
   const page = article.pages[0];
@@ -67,33 +77,19 @@ function make_text_from_annex(doc: Reglement, annexe: Annexe): Texte {
   };
 }
 
-async function add_to_index(
+async function add_doc(
   textes: Array<Texte>,
-  index: Index,
   doc: Reglement
 ) {
   if (doc.articles !== undefined) {
     for (const article of doc.articles) {
       const texte = make_text_from_article(doc, article);
-      const index_text = `
-${texte.chapitre}
-${texte.section}
-${texte.sous_section}
-${texte.titre}
-${texte.contenu}
-`;
-      index.add(textes.length, index_text);
       textes.push(texte);
     }
   }
   if (doc.annexes !== undefined) {
     for (const annexe of doc.annexes) {
       const texte = make_text_from_annex(doc, annexe);
-      const index_text = `
-${texte.titre}
-${texte.contenu}
-`;
-      index.add(textes.length, index_text);
       textes.push(texte);
     }
   }
@@ -101,40 +97,30 @@ ${texte.contenu}
 
 (async () => {
   const textes = new Array<Texte>();
-  const index = new Index({
-    tokenize: "forward",
-    charset: "latin:advanced",
-    resolution: 20,
-    context: {
-      depth: 3,
-      resolution: 9,
-    },
-  });
-
   const names = await readdir("data");
   for (const name of names) {
     if (!name.endsWith(".json")) continue;
     const data = await readFile(path.join("data", name), "utf8");
     const doc = JSON.parse(data);
-    await add_to_index(textes, index, doc);
+    await add_doc(textes, doc);
   }
+  /* OMG why is lunrjs' API so hecking weird */
+  const index = lunr(function() {
+    this.use(lunr.fr);
+    this.use(folding);
+    this.ref("id");
+    this.field("titre");
+    this.field("contenu");
 
-  try {
-    await mkdir("public/index");
-  } catch (err: any) {
-    if (err.code != "EEXIST") throw err;
-  }
-  await writeFile("public/index/textes.json", JSON.stringify(textes));
-
-  const keys: Array<string> = [];
-  await index.export(async (key: string | number, data: any) => {
-    const keystr = key.toString();
-    await writeFile(`public/index/${keystr}.json`, JSON.stringify(data));
-    keys.push(keystr);
-    console.log(`Wrote public/index/${keystr}.json`);
-    /* It seems that export() maybe doesn't actually return a Promise.
-     * Flexsearch is Quality Code, so we just have to repeatedly write
-     * this file to make sure we get all the keys */
-    await writeFile("public/index/keys.json", JSON.stringify(keys));
+    for (const i in textes) {
+      this.add({ id: i,
+                 titre: textes[i].titre,
+                 contenu: textes[i].contenu
+               });
+    }
   });
+  await writeFile(path.join("public", "textes.json"),
+                  JSON.stringify(textes));
+  await writeFile(path.join("public", "index.json"),
+                  JSON.stringify(index.toJSON()));
 })();

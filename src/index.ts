@@ -1,19 +1,25 @@
+import * as lunr from "lunr";
+import * as PDFObject from "pdfobject";
+import { debounce } from "debounce";
+import { Texte } from "./index_types";
+import folding from "lunr-folding";
+
 // Fake requires that will be removed by webpack
 require("purecss");
 require("purecss/build/grids-responsive-min.css");
 require("./index.css");
 
-import { Index } from "flexsearch";
-import * as PDFObject from "pdfobject";
-import { debounce } from "debounce";
-import { Texte } from "./index_types";
+// Unfortunately not fake requires due to lunr being ancient
+require("lunr-languages/lunr.stemmer.support")(lunr);
+require("lunr-languages/lunr.fr")(lunr);
+folding(lunr);
 
 class App {
   search_box: HTMLInputElement;
   document_view: HTMLElement;
   search_results: HTMLElement;
   media_query: MediaQueryList;
-  index: Index;
+  index?: lunr.Index;
   textes?: Array<Texte>;
 
   /* Get and construct objects */
@@ -22,34 +28,20 @@ class App {
     this.document_view = document.getElementById("document-view")!;
     this.search_results = document.getElementById("search-results")!;
     this.media_query = matchMedia("screen and (min-width: 48em)");
-    this.index = new Index({
-      tokenize: "forward",
-      charset: "latin:advanced",
-      resolution: 20,
-      context: {
-        depth: 3,
-        resolution: 9,
-      },
-    });
   }
 
-  /* Read the index from a (presumably relative) URL */
-  async read_index(url: string) {
-    const response = await fetch(`${url}/keys.json`);
-    if (!response.ok) throw "Failed to fetch keys.json";
-    const keys: Array<string> = await response.json();
-    for (const key of keys) {
-      let response = await fetch(`${url}/${key}.json`);
-      if (!response.ok) throw `Failed to fetch ${key}.json`;
-      this.index.import(key, await response.json());
-    }
+  /* Read the index */
+  async read_index(): Promise<lunr.Index> {
+    const response = await fetch("index.json");
+    if (!response.ok) throw "Failed to fetch index.json";
+    return lunr.Index.load(await response.json());
   }
 
-  /* Read the content from a (presumably relative) URL */
-  async read_content(url: string) {
-    const response = await fetch(`${url}/textes.json`);
+  /* Read the content */
+  async read_content(): Promise<Array<Texte>> {
+    const response = await fetch("textes.json");
     if (!response.ok) throw "Failed to fetch textes.json";
-    this.textes = await response.json();
+    return response.json();
   }
 
   /* Show document content */
@@ -106,27 +98,34 @@ class App {
 
   /* Run a search and update the list */
   async search() {
-    if (this.textes === undefined) return;
+    if (this.textes === undefined)
+      this.textes = await this.read_content();
+    if (this.textes === undefined)
+      this.index = await this.read_index();
     const text = this.search_box.value;
-    const results = this.index.search(text, 10);
-    console.log(`${text}: ${JSON.stringify(results)}`);
-    this.search_results.innerHTML = "";
-    for (const idx of results) {
-      const result = this.create_result_entry(idx as number);
-      this.search_results.append(result);
+    try {
+      const results = this.index!.search(text);
+      this.search_results.innerHTML = "";
+      for (const idx of results) {
+        const result = this.create_result_entry(parseInt(idx.ref));
+        this.search_results.append(result);
+      }
+    }
+    catch (e) {
+      console.log(`Query error: ${e}`);
     }
   }
 
   /* Do asynchronous initialization things */
   async initialize() {
-    await this.read_content("index");
+    this.textes = await this.read_content();
     /* Display a document, for fun, if requested */
     const urlParams = new URLSearchParams(window.location.search);
     const docidx = urlParams.get("idx");
     console.log(urlParams);
     console.log(docidx);
     if (docidx !== null) this.show_document(parseInt(docidx));
-    await this.read_index("index");
+    this.index = await this.read_index();
     this.search_box.addEventListener(
       "input",
       debounce(async () => this.search(), 200)
