@@ -32,7 +32,7 @@ jobs:
       run: |
         npm install
         npx tsc
-        node dist/create-index.js
+        node bin/create-index.js
         npx webpack
         cp -R public/* dist/
     - name: Setup Pages
