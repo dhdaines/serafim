@@ -1,7 +1,7 @@
 {
-  "name": "serafin",
+  "name": "serafim",
   "version": "0.0.1",
-  "description": "SErvice de Recherche Adélois pour Fouiller dans les INformations municipales",
+  "description": "SErvice de Recherche Adélois pour Fouiller dans les Informations Municipales",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development --node-env=development",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dhdaines/serafin.git"
+    "url": "git+https://github.com/dhdaines/serafim.git"
   },
   "keywords": [
     "search",
@@ -22,9 +22,9 @@
   "author": "David Huggins-Daines <district6@vdsa.ca>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dhdaines/serafin/issues"
+    "url": "https://github.com/dhdaines/serafim/issues"
   },
-  "homepage": "https://github.com/dhdaines/serafin#readme",
+  "homepage": "https://github.com/dhdaines/serafim#readme",
   "devDependencies": {
     "@types/node": "^20.2.0",
     "@types/pdfobject": "^2.2.3",

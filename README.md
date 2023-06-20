@@ -1,6 +1,5 @@
-SÈRAFIN: SystÈme Adélois pour Fouiller dans les INformations municipales
+SÈRAFIM: SystÈme Adélois pour Fouiller dans les Informations Municipales
 ------------------------------------------------------------------------
 
-Sèrafin est un petit moteur de recherche qui prend en charge les
+Sèrafim est un petit moteur de recherche qui prend en charge les
 règlements et autres documents officiels de la ville de Sainte-Adèle.
-
