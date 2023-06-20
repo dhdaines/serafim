@@ -78,22 +78,68 @@ class App {
     }
   }
 
-  create_result_entry(idx: number) {
+  create_title(texte: Texte, result: lunr.Index.Result) {
+    const a = document.createElement("a");
+    a.href = `#?idx=${result.ref}`;
+    a.innerText = texte.titre;
+    return a;
+  }
+
+  create_subtitles(texte: Texte, result: lunr.Index.Result) {
+    const div = document.createElement("div");
+    div.setAttribute("class", "soustitre");
+    if (texte.document)
+      div.innerHTML += `<p>${texte.document}</p>\n`;
+    if (texte.chapitre)
+      div.innerHTML += `<p>${texte.chapitre}</p>\n`;
+    if (texte.section)
+      div.innerHTML += `<p>${texte.section}</p>\n`;
+    if (texte.sous_section)
+      div.innerHTML += `<p>${texte.sous_section}</p>\n`;
+    return div;
+  }
+
+  create_extract(texte: Texte, result: lunr.Index.Result) {
+    const spans = [];
+    for (const term in result.matchData.metadata) {
+      // @ts-ignore
+      const metadata = result.matchData.metadata[term];
+      if (!("contenu" in metadata))
+        continue;
+      if (!("position" in metadata.contenu))
+        continue;
+      spans.push(...metadata.contenu.position);
+    }
+    spans.sort();
+    const p = document.createElement("p");
+    p.setAttribute("class", "extrait");
+    if (spans.length) {
+      p.innerText = ("..."
+        + texte.contenu.substring(Math.max(0, spans[0][0] - 80),
+                                  Math.min(texte.contenu.length, spans[0][0] + spans[0][1] + 40))
+        + "...");
+    }
+    else
+      p.innerText = texte.contenu.substring(0, 80) + "...";
+    return p;
+  }
+
+  create_result_entry(result: lunr.Index.Result) {
     if (this.textes === undefined) throw "Database not loaded";
+    const idx = parseInt(result.ref);
     if (idx < 0 || idx >= this.textes.length)
       throw `Out of bounds document index ${idx}`;
     const texte = this.textes[idx];
-    const result = document.createElement("div");
-    result.setAttribute("class", "search-result");
-    result.innerHTML = `
-<a href="#?idx=${idx}">${texte.titre}</a>
-<p>${texte.contenu.substring(0, 80)}...</p>
-`;
-    result.addEventListener("click", (e) => {
+    const div = document.createElement("div");
+    div.setAttribute("class", "search-result");
+    div.append(this.create_title(texte, result));
+    div.append(this.create_subtitles(texte, result));
+    div.append(this.create_extract(texte, result));
+    div.addEventListener("click", (e) => {
       this.show_document(idx);
       e.preventDefault();
     });
-    return result;
+    return div;
   }
 
   /* Run a search and update the list */
@@ -106,9 +152,8 @@ class App {
     try {
       const results = this.index!.search(text);
       this.search_results.innerHTML = "";
-      for (const idx of results) {
-        const result = this.create_result_entry(parseInt(idx.ref));
-        this.search_results.append(result);
+      for (const result of results) {
+        this.search_results.append(this.create_result_entry(result));
       }
     }
     catch (e) {

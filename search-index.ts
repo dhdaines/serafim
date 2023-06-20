@@ -12,5 +12,6 @@ const textes = JSON.parse(fs.readFileSync("public/textes.json", "utf8"));
 const index = lunr.Index.load(JSON.parse(fs.readFileSync("public/index.json", "utf8")));
 
 for (const result of index.search("Occupation de la Foret")) {
+  console.log(JSON.stringify(result));
   console.log(textes[result.ref]);
 }

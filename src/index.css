@@ -49,11 +49,12 @@
 }
 
 .search-result a:visited, a:link {
-    padding: 1ex;
+    padding: 2px;
     display: block;
     background: #eee;
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
+    cursor: pointer;
     margin: 0;
 }
 
@@ -61,8 +62,17 @@
     color: #33f;
 }
 
-.search-result p {
-    padding: 1ex;
+.soustitre {
+    font-size: small;
+    padding: 2px;
+}
+
+.soustitre p {
+    margin: 0;
+}
+
+.extrait {
+    padding: 2px;
     display: block;
     margin: 0;
 }

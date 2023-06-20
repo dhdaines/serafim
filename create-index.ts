@@ -107,10 +107,11 @@ async function add_doc(
   /* OMG why is lunrjs' API so hecking weird */
   const index = lunr(function() {
     this.use(lunr.fr);
-    this.use(folding);
     this.ref("id");
     this.field("titre");
     this.field("contenu");
+    // Yes this is undocumented
+    this.metadataWhitelist = ['position']
 
     for (const i in textes) {
       this.add({ id: i,
