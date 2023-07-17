@@ -16,7 +16,7 @@ declare module 'lunr' {
 
 function make_text_from_article(doc: Reglement, article: Article): Texte {
   const page = article.pages[0];
-  const numero = article.numero.toString();
+  const numero = article.article.toString();
   let chapitre, section, sous_section;
   if (
     article.chapitre !== undefined &&
@@ -62,7 +62,7 @@ function make_text_from_article(doc: Reglement, article: Article): Texte {
 
 function make_text_from_annex(doc: Reglement, annexe: Annexe): Texte {
   const page = annexe.pages[0];
-  const numero = annexe.numero;
+  const numero = annexe.annexe;
   const fichier = doc.fichier;
   const document = `${doc.numero} ${doc.objet}`;
   const contenu = annexe.alineas === undefined ? "" : annexe.alineas.join("\n");
@@ -81,16 +81,16 @@ async function add_doc(
   textes: Array<Texte>,
   doc: Reglement
 ) {
-  if (doc.articles !== undefined) {
-    for (const article of doc.articles) {
-      const texte = make_text_from_article(doc, article);
-      textes.push(texte);
-    }
-  }
-  if (doc.annexes !== undefined) {
-    for (const annexe of doc.annexes) {
-      const texte = make_text_from_annex(doc, annexe);
-      textes.push(texte);
+  if (doc.contenus !== undefined) {
+    for (const contenu of doc.contenus) {
+      if ("article" in contenu) {
+	const texte = make_text_from_article(doc, contenu as Article);
+	textes.push(texte);
+      }
+      else if ("annexe" in contenu) {
+	const texte = make_text_from_annex(doc, contenu as Annexe);
+	textes.push(texte);
+      }
     }
   }
 }
@@ -102,6 +102,7 @@ async function add_doc(
     if (!name.endsWith(".json")) continue;
     const data = await readFile(path.join("data", name), "utf8");
     const doc = JSON.parse(data);
+    console.log(`Adding document ${name}`);
     await add_doc(textes, doc);
   }
   /* OMG why is lunrjs' API so hecking weird */

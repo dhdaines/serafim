@@ -22,10 +22,12 @@ export interface Ancrage {
    */
   pages: [number, number];
   /**
+   * Première et dernière indices de contenus (articles, alinéas, tableaux, etc)
+   *
    * @minItems 2
    * @maxItems 2
    */
-  articles?: [number, number];
+  contenus?: [number, number];
 }
 /**
  * Annexe du texte.
@@ -38,7 +40,7 @@ export interface Annexe {
    */
   pages: [number, number];
   alineas?: string[];
-  numero: string;
+  annexe: string;
 }
 /**
  * Article du texte.
@@ -52,9 +54,9 @@ export interface Article {
   pages: [number, number];
   alineas?: string[];
   /**
-   * Numéro de cet article tel qu'il apparaît dans le texte
+   * Numéro de cet article tel qu'il apparaît dans le texte, ou -1 pour un article sans numéro
    */
-  numero: number;
+  article: number;
   /**
    * Indice (en partant de 0) de la sous-section dans laquelle cet article apparaît, ou -1 s'il n'y en a pas
    */
@@ -67,6 +69,18 @@ export interface Article {
    * Indice (en partant de 0) du chapitre dans laquelle cet article apparaît, ou -1 s'il n'y en a pas
    */
   chapitre?: number;
+}
+/**
+ * Attendu du texte.
+ */
+export interface Attendu {
+  titre?: string;
+  /**
+   * @minItems 2
+   * @maxItems 2
+   */
+  pages: [number, number];
+  alineas?: string[];
 }
 /**
  * Chapitre du texte.
@@ -85,10 +99,12 @@ export interface Chapitre {
    */
   pages: [number, number];
   /**
+   * Première et dernière indices de contenus (articles, alinéas, tableaux, etc)
+   *
    * @minItems 2
    * @maxItems 2
    */
-  articles?: [number, number];
+  contenus?: [number, number];
   sections?: Section[];
 }
 /**
@@ -111,10 +127,12 @@ export interface Section {
    */
   pages: [number, number];
   /**
+   * Première et dernière indices de contenus (articles, alinéas, tableaux, etc)
+   *
    * @minItems 2
    * @maxItems 2
    */
-  articles?: [number, number];
+  contenus?: [number, number];
   sous_sections?: SousSection[];
 }
 /**
@@ -137,10 +155,12 @@ export interface SousSection {
    */
   pages: [number, number];
   /**
+   * Première et dernière indices de contenus (articles, alinéas, tableaux, etc)
+   *
    * @minItems 2
    * @maxItems 2
    */
-  articles?: [number, number];
+  contenus?: [number, number];
 }
 /**
  * Modèle de base pour du contenu textuel.
@@ -163,6 +183,10 @@ export interface Dates {
    */
   adoption: string;
   /**
+   * Date de l'adoption d'un projet de règlement
+   */
+  projet?: string;
+  /**
    * Date de l'avis de motion pour un règlement
    */
   avis?: string;
@@ -170,12 +194,48 @@ export interface Dates {
    * Date d'entrée en vigueur d'un règlement
    */
   entree?: string;
-}
-export interface Reglement {
   /**
-   * Nom du fichier source du règlement
+   * Date de la consultation publique
+   */
+  publique?: string;
+  /**
+   * Date de la consultation écrite
+   */
+  ecrite?: string;
+  /**
+   * Date du certificat de conformité de la MRC
+   */
+  mrc?: string;
+}
+/**
+ * Document municipal générique.
+ */
+export interface Document {
+  /**
+   * Nom du fichier source PDF du document
    */
   fichier: string;
+  /**
+   * Titre du document (tel qu'il apparaît sur le site web)
+   */
+  titre?: string;
+  chapitres?: Chapitre[];
+  contenus?: Contenu[];
+}
+/**
+ * Structure et contenu d'un règlement.
+ */
+export interface Reglement {
+  /**
+   * Nom du fichier source PDF du document
+   */
+  fichier: string;
+  /**
+   * Titre du document (tel qu'il apparaît sur le site web)
+   */
+  titre?: string;
+  chapitres?: Chapitre[];
+  contenus?: Contenu[];
   /**
    * Numéro du règlement, e.g. 1314-Z-09
    */
@@ -185,7 +245,4 @@ export interface Reglement {
    */
   objet?: string;
   dates: Dates;
-  chapitres?: Chapitre[];
-  articles?: Article[];
-  annexes?: Annexe[];
 }

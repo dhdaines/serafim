@@ -52,9 +52,13 @@ class App {
     const texte = this.textes[idx];
     if (this.media_query.matches && PDFObject.supportsPDFs) {
       /* Show the PDF in the page on large enough screens */
-      PDFObject.embed(`${texte.fichier}`, "#document-view", {
-        pdfOpenParams: { page: texte.page + 1, zoom: 100 },
-      });
+      PDFObject.embed(
+        `https://ville.sainte-adele.qc.ca/upload/documents/${texte.fichier}`,
+        "#document-view",
+        {
+          pdfOpenParams: { page: texte.page, zoom: 100 },
+        }
+      );
     } else {
       /* Show it in the appropriate place based on screen size */
       const target = this.media_query.matches
@@ -88,14 +92,10 @@ class App {
   create_subtitles(texte: Texte, result: lunr.Index.Result) {
     const div = document.createElement("div");
     div.setAttribute("class", "soustitre");
-    if (texte.document)
-      div.innerHTML += `<p>${texte.document}</p>\n`;
-    if (texte.chapitre)
-      div.innerHTML += `<p>${texte.chapitre}</p>\n`;
-    if (texte.section)
-      div.innerHTML += `<p>${texte.section}</p>\n`;
-    if (texte.sous_section)
-      div.innerHTML += `<p>${texte.sous_section}</p>\n`;
+    if (texte.document) div.innerHTML += `<p>${texte.document}</p>\n`;
+    if (texte.chapitre) div.innerHTML += `<p>${texte.chapitre}</p>\n`;
+    if (texte.section) div.innerHTML += `<p>${texte.section}</p>\n`;
+    if (texte.sous_section) div.innerHTML += `<p>${texte.sous_section}</p>\n`;
     return div;
   }
 
@@ -104,23 +104,22 @@ class App {
     for (const term in result.matchData.metadata) {
       // @ts-ignore
       const metadata = result.matchData.metadata[term];
-      if (!("contenu" in metadata))
-        continue;
-      if (!("position" in metadata.contenu))
-        continue;
+      if (!("contenu" in metadata)) continue;
+      if (!("position" in metadata.contenu)) continue;
       spans.push(...metadata.contenu.position);
     }
     spans.sort();
     const p = document.createElement("p");
     p.setAttribute("class", "extrait");
     if (spans.length) {
-      p.innerText = ("..."
-        + texte.contenu.substring(Math.max(0, spans[0][0] - 80),
-                                  Math.min(texte.contenu.length, spans[0][0] + spans[0][1] + 40))
-        + "...");
-    }
-    else
-      p.innerText = texte.contenu.substring(0, 80) + "...";
+      p.innerText =
+        "..." +
+        texte.contenu.substring(
+          Math.max(0, spans[0][0] - 80),
+          Math.min(texte.contenu.length, spans[0][0] + spans[0][1] + 40)
+        ) +
+        "...";
+    } else p.innerText = texte.contenu.substring(0, 80) + "...";
     return p;
   }
 
@@ -144,10 +143,8 @@ class App {
 
   /* Run a search and update the list */
   async search() {
-    if (this.textes === undefined)
-      this.textes = await this.read_content();
-    if (this.textes === undefined)
-      this.index = await this.read_index();
+    if (this.textes === undefined) this.textes = await this.read_content();
+    if (this.textes === undefined) this.index = await this.read_index();
     const text = this.search_box.value;
     try {
       const results = this.index!.search(text);
@@ -155,8 +152,7 @@ class App {
       for (const result of results) {
         this.search_results.append(this.create_result_entry(result));
       }
-    }
-    catch (e) {
+    } catch (e) {
       console.log(`Query error: ${e}`);
     }
   }
