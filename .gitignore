@@ -6,3 +6,4 @@ dist/
 bin/
 public/index.json
 public/textes.json
+data
