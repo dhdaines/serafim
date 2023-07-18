@@ -71,9 +71,9 @@ export interface Article {
   chapitre?: number;
 }
 /**
- * Attendu du texte.
+ * Attendus d'un reglement ou resolution.
  */
-export interface Attendu {
+export interface Attendus {
   titre?: string;
   /**
    * @minItems 2
@@ -220,6 +220,7 @@ export interface Document {
    */
   titre?: string;
   chapitres?: Chapitre[];
+  attendus?: Attendus;
   contenus?: Contenu[];
 }
 /**
@@ -235,6 +236,7 @@ export interface Reglement {
    */
   titre?: string;
   chapitres?: Chapitre[];
+  attendus?: Attendus;
   contenus?: Contenu[];
   /**
    * Numéro du règlement, e.g. 1314-Z-09

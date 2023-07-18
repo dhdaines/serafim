@@ -1,7 +1,7 @@
 import * as lunr from "lunr";
 import { writeFile, readFile, readdir, mkdir } from "node:fs/promises";
 import * as path from "node:path";
-import { Reglement, Article, Annexe } from "src/alexi_types";
+import { Reglement, Article, Annexe, Attendus } from "src/alexi_types";
 import { Texte } from "src/index_types";
 import folding from "lunr-folding";
 
@@ -43,7 +43,7 @@ function make_text_from_article(doc: Reglement, article: Article): Texte {
     }
   }
   const fichier = doc.fichier;
-  const document = `${doc.numero} ${doc.objet}`;
+  const document = `${doc.numero} ${doc.objet ?? ""}`;
   const contenu =
     article.alineas === undefined ? "" : article.alineas.join("\n");
   const titre = article.titre === undefined ? "" : article.titre;
@@ -64,9 +64,26 @@ function make_text_from_annex(doc: Reglement, annexe: Annexe): Texte {
   const page = annexe.pages[0];
   const numero = annexe.annexe;
   const fichier = doc.fichier;
-  const document = `${doc.numero} ${doc.objet}`;
+  const document = `${doc.numero} ${doc.objet ?? ""}`;
   const contenu = annexe.alineas === undefined ? "" : annexe.alineas.join("\n");
   const titre = annexe.titre === undefined ? "" : annexe.titre;
+  return {
+    fichier,
+    document,
+    page,
+    titre,
+    numero,
+    contenu,
+  };
+}
+
+function make_text_from_attendus(doc: Reglement, attendus: Attendus): Texte {
+  const page = attendus.pages[0];
+  const fichier = doc.fichier;
+  const document = `${doc.numero} ${doc.objet ?? ""}`;
+  const contenu = attendus.alineas === undefined ? "" : attendus.alineas.join("\n");
+  const titre = `ATTENDUS`;
+  const numero = "ATTENDUS";
   return {
     fichier,
     document,
@@ -81,6 +98,10 @@ async function add_doc(
   textes: Array<Texte>,
   doc: Reglement
 ) {
+  if (doc.attendus !== undefined) {
+    const texte = make_text_from_attendus(doc, doc.attendus);
+    textes.push(texte);
+  }
   if (doc.contenus !== undefined) {
     for (const contenu of doc.contenus) {
       if ("article" in contenu) {
@@ -102,7 +123,10 @@ async function add_doc(
     if (!name.endsWith(".json")) continue;
     const data = await readFile(path.join("data", name), "utf8");
     const doc = JSON.parse(data);
-    console.log(`Adding document ${name}`);
+    if (doc.numero === "INCONNU")
+      console.log(`Skipping unrecognized document ${name}`)
+    else
+      console.log(`Adding document ${name}`);
     await add_doc(textes, doc);
   }
   /* OMG why is lunrjs' API so hecking weird */
