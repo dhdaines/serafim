@@ -9,9 +9,9 @@
         4,
         9
       ],
-      "contenus": [
+      "textes": [
         0,
-        18
+        16
       ],
       "sections": [
         {
@@ -21,9 +21,9 @@
             5,
             6
           ],
-          "contenus": [
+          "textes": [
             0,
-            7
+            6
           ]
         },
         {
@@ -33,9 +33,9 @@
             6,
             8
           ],
-          "contenus": [
-            8,
-            13
+          "textes": [
+            7,
+            11
           ]
         },
         {
@@ -45,9 +45,9 @@
             8,
             9
           ],
-          "contenus": [
-            14,
-            18
+          "textes": [
+            12,
+            16
           ]
         }
       ]
@@ -59,9 +59,9 @@
         9,
         17
       ],
-      "contenus": [
-        19,
-        42
+      "textes": [
+        17,
+        39
       ],
       "sections": [
         {
@@ -71,37 +71,29 @@
             10,
             17
           ],
-          "contenus": [
-            19,
-            42
+          "textes": [
+            17,
+            39
           ]
         }
       ]
     }
   ],
-  "contenus": [
+  "textes": [
     {
       "titre": "Titre du règlement",
       "pages": [
         5,
         5
       ],
-      "alineas": [
-        "Le",
-        "règlement est intitulé « Règlement sur les ententes relatives à des travaux municipaux de la Ville de Sainte-\nAdèle » et porte le numéro 1314-2021-TM."
+      "contenu": [
+        {
+          "texte": "Le présent règlement est intitulé « Règlement sur les ententes relatives à des travaux municipaux de la Ville de Sainte-\nAdèle » et porte le numéro 1314-2021-TM."
+        }
       ],
       "article": 1,
       "section": 0,
       "chapitre": 0
-    },
-    {
-      "pages": [
-        5,
-        5
-      ],
-      "alineas": [
-        "présent"
-      ]
     },
     {
       "titre": "Abrogation",
@@ -109,9 +101,13 @@
         5,
         5
       ],
-      "alineas": [
-        "Le présent règlement abroge le règlement numéro 1200-2012-TM-1 intitulé « Règlement concernant les ententes relatives\nà des travaux municipaux » tel que modifié par tous leurs amendements ainsi que toutes dispositions inconciliables d’un\nautre règlement en vigueur.",
-        "Ces abrogations n’affectent pas les permis et certificats légalement émis sous l’autorité des règlements ainsi remplacés ni\nles droits acquis avant l’entrée en vigueur du présent règlement."
+      "contenu": [
+        {
+          "texte": "Le présent règlement abroge le règlement numéro 1200-2012-TM-1 intitulé « Règlement concernant les ententes relatives\nà des travaux municipaux » tel que modifié par tous leurs amendements ainsi que toutes dispositions inconciliables d’un\nautre règlement en vigueur."
+        },
+        {
+          "texte": "Ces abrogations n’affectent pas les permis et certificats légalement émis sous l’autorité des règlements ainsi remplacés ni\nles droits acquis avant l’entrée en vigueur du présent règlement."
+        }
       ],
       "article": 2,
       "section": 0,
@@ -123,8 +119,10 @@
         5,
         5
       ],
-      "alineas": [
-        "Le présent règlement, dont les dispositions s’appliquent aux personnes physiques comme aux personnes morales autant\nde droits publics que privés, s’applique à l’ensemble du territoire de la Ville de Sainte-Adèle."
+      "contenu": [
+        {
+          "texte": "Le présent règlement, dont les dispositions s’appliquent aux personnes physiques comme aux personnes morales autant\nde droits publics que privés, s’applique à l’ensemble du territoire de la Ville de Sainte-Adèle."
+        }
       ],
       "article": 3,
       "section": 0,
@@ -136,9 +134,13 @@
         5,
         5
       ],
-      "alineas": [
-        "Le présent règlement a pour objet de soumettre la délivrance d'un permis de construction ou de lotissement ou d’un certificat\nd’autorisation ou d’occupation à la conclusion préalable d'une entente entre un promoteur et la Ville, portant sur la\nréalisation de travaux relatifs aux voies de circulation, aux infrastructures et aux équipements municipaux et sur la prise en\ncharge de ces travaux et du paiement de leurs couts par le promoteur.",
-        "Le règlement vise des travaux réalisés sur des immeubles avec ou sans service municipal."
+      "contenu": [
+        {
+          "texte": "Le présent règlement a pour objet de soumettre la délivrance d'un permis de construction ou de lotissement ou d’un certificat\nd’autorisation ou d’occupation à la conclusion préalable d'une entente entre un promoteur et la Ville, portant sur la\nréalisation de travaux relatifs aux voies de circulation, aux infrastructures et aux équipements municipaux et sur la prise en\ncharge de ces travaux et du paiement de leurs couts par le promoteur."
+        },
+        {
+          "texte": "Le règlement vise des travaux réalisés sur des immeubles avec ou sans service municipal."
+        }
       ],
       "article": 4,
       "section": 0,
@@ -150,8 +152,10 @@
         5,
         5
       ],
-      "alineas": [
-        "Aucune disposition du présent règlement ne peut être interprétée comme ayant pour effet de soustraire une personne à\nl’application d’une loi ou d’un règlement du gouvernement provincial ou fédéral ou à l’application d’un règlement de la\nMunicipalité régionale de comté des Pays-d’en-Haut."
+      "contenu": [
+        {
+          "texte": "Aucune disposition du présent règlement ne peut être interprétée comme ayant pour effet de soustraire une personne à\nl’application d’une loi ou d’un règlement du gouvernement provincial ou fédéral ou à l’application d’un règlement de la\nMunicipalité régionale de comté des Pays-d’en-Haut."
+        }
       ],
       "article": 5,
       "section": 0,
@@ -163,8 +167,10 @@
         5,
         5
       ],
-      "alineas": [
-        "Lorsque le texte fait référence à un document de renvoi, celui-ci est partie intégrante du présent règlement."
+      "contenu": [
+        {
+          "texte": "Lorsque le texte fait référence à un document de renvoi, celui-ci est partie intégrante du présent règlement."
+        }
       ],
       "article": 6,
       "section": 0,
@@ -176,8 +182,10 @@
         5,
         6
       ],
-      "alineas": [
-        "Le présent règlement entre en vigueur conformément à la loi."
+      "contenu": [
+        {
+          "texte": "Le présent règlement entre en vigueur conformément à la loi."
+        }
       ],
       "article": 7,
       "section": 0,
@@ -189,8 +197,10 @@
         6,
         6
       ],
-      "alineas": [
-        "L’expression « Ville » est définie comme étant la Ville de Sainte-Adèle."
+      "contenu": [
+        {
+          "texte": "L’expression « Ville » est définie comme étant la Ville de Sainte-Adèle."
+        }
       ],
       "article": 8,
       "section": 1,
@@ -202,8 +212,10 @@
         6,
         6
       ],
-      "alineas": [
-        "L’interprétation du présent règlement doit tenir compte de la hiérarchie entre les divisions du texte : chapitres, sections,\nsous-sections, articles, alinéas, paragraphes, sous-paragraphes et tirets. À titre d’illustration, la typographie utilisée pour\ndistinguer les divisions du règlement répond au modèle suivant :"
+      "contenu": [
+        {
+          "texte": "L’interprétation du présent règlement doit tenir compte de la hiérarchie entre les divisions du texte : chapitres, sections,\nsous-sections, articles, alinéas, paragraphes, sous-paragraphes et tirets. À titre d’illustration, la typographie utilisée pour\ndistinguer les divisions du règlement répond au modèle suivant :"
+        }
       ],
       "article": 9,
       "section": 1,
@@ -215,19 +227,46 @@
         6,
         6
       ],
-      "alineas": [
-        "L’interprétation du texte de ce règlement doit respecter les règles suivantes :",
-        "1. L’emploi des verbes au présent inclut le futur, et vice-versa;",
-        "2. L’usage du singulier comprend le pluriel et l’usage du pluriel comprend le singulier, chaque fois que le contexte\ns’y prête;",
-        "3. L’emploi du verbe DEVOIR indique une obligation absolue; alors que l’emploi du verbe POUVOIR conserve\nun sens facultatif, sauf dans l’expression « NE PEUT » qui signifie « NE DOIT »;",
-        "4. Le mot « quiconque » inclut toute personne morale ou physique ou toute société en nom collectif, en\ncommandite ou en participation au sens du Code civil du Québec.",
-        "5. Lorsque deux dispositions ou plus du présent règlement s’appliquent à un usage, bâtiment, terrain ou autre\nobjet régi par le présent règlement, les règles suivantes s’appliquent :",
-        "a. La disposition particulière prévaut sur la disposition générale;",
-        "b. La disposition la plus contraignante prévaut.",
-        "6. Toute référence à un autre règlement ou à une Loi est ouverte, c’est-à-dire qu’il s’étend à toute modification\nque pourrait subir un tel règlement ou Loi suite à l’entrée en vigueur du présent règlement;",
-        "7. Toutes les mesures présentes dans le présent règlement sont celles du système international (SI);\n8. La table des matières et le titre des chapitres, des sections et des articles du présent règlement sont donnés\npour améliorer la compréhension du texte;",
-        "9. Les plans, annexes, tableaux, graphiques, figures, illustration et symboles et toute forme d’expression autre\nque le texte proprement dit et contenue dans le présent règlement en font partie intégrante à toutes fins que\nde droit;",
-        "10. Lorsqu’une distance séparatrice est mentionnée entre deux usages ou constructions, cette distance s’applique\navec réciprocité pour chacun de ces usages ou constructions."
+      "contenu": [
+        {
+          "texte": "L’interprétation du texte de ce règlement doit respecter les règles suivantes :"
+        },
+        {
+          "texte": "1. L’emploi des verbes au présent inclut le futur, et vice-versa;"
+        },
+        {
+          "texte": "2. L’usage du singulier comprend le pluriel et l’usage du pluriel comprend le singulier, chaque fois que le contexte\ns’y prête;"
+        },
+        {
+          "texte": "3. L’emploi du verbe DEVOIR indique une obligation absolue; alors que l’emploi du verbe POUVOIR conserve\nun sens facultatif, sauf dans l’expression « NE PEUT » qui signifie « NE DOIT »;"
+        },
+        {
+          "texte": "4. Le mot « quiconque » inclut toute personne morale ou physique ou toute société en nom collectif, en\ncommandite ou en participation au sens du Code civil du Québec."
+        },
+        {
+          "texte": "5. Lorsque deux dispositions ou plus du présent règlement s’appliquent à un usage, bâtiment, terrain ou autre\nobjet régi par le présent règlement, les règles suivantes s’appliquent :"
+        },
+        {
+          "texte": "a. La disposition particulière prévaut sur la disposition générale;"
+        },
+        {
+          "texte": "b. La disposition la plus contraignante prévaut."
+        },
+        {
+          "texte": "6. Toute référence à un autre règlement ou à une Loi est ouverte, c’est-à-dire qu’il s’étend à toute modification\nque pourrait subir un tel règlement ou Loi suite à l’entrée en vigueur du présent règlement;"
+        },
+        {
+          "texte": "7. Toutes les mesures présentes dans le présent règlement sont celles du système international (SI);"
+        },
+        {
+          "texte": "8. La table des matières et le titre des chapitres, des sections et des articles du présent règlement sont donnés\npour améliorer la compréhension du texte;"
+        },
+        {
+          "texte": "9. Les plans, annexes, tableaux, graphiques, figures, illustration et symboles et toute forme d’expression autre\nque le texte proprement dit et contenue dans le présent règlement en font partie intégrante à toutes fins que\nde droit;"
+        },
+        {
+          "texte": "10. Lorsqu’une distance séparatrice est mentionnée entre deux usages ou constructions, cette distance s’applique\navec réciprocité pour chacun de ces usages ou constructions."
+        }
       ],
       "article": 10,
       "section": 1,
@@ -239,12 +278,25 @@
         6,
         6
       ],
-      "alineas": [
-        "Dans ce règlement, à moins d'indications contraires, les règles suivantes s'appliquent :",
-        "1. En cas de contradiction entre le texte et un titre, le texte prévaut;",
-        "2. En cas de contradiction entre le texte et toute autre forme d'expression, sauf la fiche de type de milieu, le texte\nprévaut;",
-        "3. En cas de contradiction entre les données d'un tableau et un graphique, les données du tableau prévalent;\n4. En cas de contradiction entre le texte et la fiche de type de milieu, la fiche prévaut;",
-        "5. En cas de contradiction entre la fiche de type de milieu et le plan de zonage, la fiche prévaut."
+      "contenu": [
+        {
+          "texte": "Dans ce règlement, à moins d'indications contraires, les règles suivantes s'appliquent :"
+        },
+        {
+          "texte": "1. En cas de contradiction entre le texte et un titre, le texte prévaut;"
+        },
+        {
+          "texte": "2. En cas de contradiction entre le texte et toute autre forme d'expression, sauf la fiche de type de milieu, le texte\nprévaut;"
+        },
+        {
+          "texte": "3. En cas de contradiction entre les données d'un tableau et un graphique, les données du tableau prévalent;"
+        },
+        {
+          "texte": "4. En cas de contradiction entre le texte et la fiche de type de milieu, la fiche prévaut;"
+        },
+        {
+          "texte": "5. En cas de contradiction entre la fiche de type de milieu et le plan de zonage, la fiche prévaut."
+        }
       ],
       "article": 11,
       "section": 1,
@@ -256,38 +308,65 @@
         6,
         8
       ],
-      "alineas": [
-        "Une",
-        "terme ou un mot n’étant pas spécifiquement défini au présent règlement ou au Règlement de zonage\nen vigueur de la Ville de Sainte-Adèle s'emploie selon le sens communément attribué à cette expression, terme ou mot. En\ncas de contradiction entre une définition prévue au présent règlement et au règlement de zonage, la définition du présent\narticle doit être utilisée.",
-        "À moins que le contexte n'indique un sens différent, dans le présent règlement, les expressions et les mots suivants\nsignifient :",
-        "« Acceptation provisoire » : désigne l’acceptation avec réserve(s) de l’ouvrage par l’ingénieur mandaté par le promoteur\nsuite à son attestation écrite que les travaux demandés aux documents contractuels sont exécutés et sont prêts pour\nl’usage auquel ils sont destinés. Une liste de déficiences et de travaux différés, le cas échéant, est alors dressée par\nl’ingénieur;",
-        "« Acceptation finale » : désigne l’acceptation sans réserve de l’ouvrage par l’ingénieur mandaté par le promoteur, suite à\nson attestation écrite que l’entrepreneur a parachevé tous les travaux et corrigé toutes les déficiences relevées lors de\nl’acceptation provisoire;",
-        "« Conseil » : désigne le conseil municipal de la Ville de Sainte-Adèle;",
-        "« Ingénieur » : désigne un ingénieur membre de l’Ordre des ingénieurs du Québec ou une firme d'ingénieurs-conseils,\nlequel est mandaté par le promoteur pour la caractérisation des sols, la conception des plans et devis et la surveillance des\ntravaux et incluant toutes les autres tâches connexes des travaux exécutés par l’entrepreneur conformément aux normes\napplicables;",
-        "« Ouverture d'une voie de circulation » : comprends l’ouverture d’une voie de circulation ainsi que le prolongement d’une\nvoie de circulation existante (avec ou sans services municipaux) ;",
-        "« Projet » : désigne l’ensemble des travaux municipaux et autres équipements qui font l’objet de la demande présentée\npar le promoteur ou qui sont requis par la Ville dans le cadre du projet;",
-        "« Projet conventionnel » : Ensemble de bâtiments d’habitation érigés sur plusieurs terrains se caractérisant par la\nconstruction ou la prolongation d’une voie de circulation, sans partie commune;",
-        "« Projet intégré résidentiel » : Ensemble de bâtiments d’habitation, sous forme de copropriété divise au sens du Code\ncivil du Québec (L.Q., 1991, c. 64.), érigés sur un même terrain, comprenant des parties privatives ou des parties\ncommunes, et se caractérisant par un aménagement intégré favorisant la mise en commun de certains espaces extérieurs,\nservices ou équipements tels les allées d’accès, les stationnements, les espaces récréatifs et les espaces verts. Ce type\nde projet intégré ne vise qu’un usage résidentiel (voir règlement de zonage en vigueur);",
-        "« Projet intégré commercial, communautaire, industriel et mixte » : Ensemble caractérisé par l’implantation, sur un\nmême terrain, d’au moins 2 bâtiments principaux, conçus comme un ensemble aménagé en harmonie, fournissant un\nespace de stationnement hors rue autonome utilisé en commun par les différents établissements, pouvant comprendre ou\nnon d’autres commodités sur le site destinées aux occupants ou à la clientèle, dont la planification et la mise en œuvre\nsont d’initiative unique, mais dont la gestion et la propriété peuvent être multiples (voir règlement de zonage en vigueur);",
-        "« Phase » : désigne la fraction d’un projet d’ensemble en plusieurs parties. L’entente pour la première phase d’un projet\ndoit prévoir le bouclage du réseau d’aqueduc;",
-        "« Promoteur » : désigne la personne physique ou morale qui demande formellement à la Ville d’accepter un projet de\ndéveloppement conventionnel par l’ouverture ou le prolongement d’une voie de circulation ou un projet intégré (résidentiel,\ncommercial, communautaire et industriel), ainsi que de la réalisation des infrastructures et équipements connexes, lesquels\nsont sujets à une entente de travaux municipaux préalable ; cette personne physique ou morale doit être propriétaire des\nterrains formant l’assiette du projet;",
-        "« Travaux – Étape A » : tous les travaux à être réalisés, relativement aux conduites d’aqueduc et d’égouts sanitaire et\npluvial, tous les branchements requis aux divers réseaux, la fondation de voie de circulation, les fossés et les talus, lesquels\nsont exécutés par le promoteur sur les lots identifiés et conformément aux plans et devis;",
-        "« Travaux – Étape B » : travaux à être réalisés relativement à la voirie au pavage, aux bordures, à l’éclairage ou tous\nautres travaux similaires, qui sont exécutés ultérieurement par le promoteur. Les travaux de pavage des voies de circulation\nne peuvent être effectués dans la même année que les travaux de première phase. La fondation de voie de circulation doit\navoir subi un cycle de gel et dégel avant d’effectuer le pavage;",
-        "« Ville » : La ville de Sainte-Adèle;",
-        "« Voie de circulation » : signifie tout endroit ou structure affectée à la circulation des véhicules."
+      "contenu": [
+        {
+          "texte": "Une expression, un terme ou un mot n’étant pas spécifiquement défini au présent règlement ou au Règlement de zonage\nen vigueur de la Ville de Sainte-Adèle s'emploie selon le sens communément attribué à cette expression, terme ou mot. En\ncas de contradiction entre une définition prévue au présent règlement et au règlement de zonage, la définition du présent\narticle doit être utilisée."
+        },
+        {
+          "texte": "À moins que le contexte n'indique un sens différent, dans le présent règlement, les expressions et les mots suivants\nsignifient :"
+        },
+        {
+          "texte": "« Acceptation provisoire » : désigne l’acceptation avec réserve(s) de l’ouvrage par l’ingénieur mandaté par le promoteur\nsuite à son attestation écrite que les travaux demandés aux documents contractuels sont exécutés et sont prêts pour\nl’usage auquel ils sont destinés. Une liste de déficiences et de travaux différés, le cas échéant, est alors dressée par\nl’ingénieur;"
+        },
+        {
+          "texte": "« Acceptation finale » : désigne l’acceptation sans réserve de l’ouvrage par l’ingénieur mandaté par le promoteur, suite à\nson attestation écrite que l’entrepreneur a parachevé tous les travaux et corrigé toutes les déficiences relevées lors de\nl’acceptation provisoire;"
+        },
+        {
+          "texte": "« Conseil » : désigne le conseil municipal de la Ville de Sainte-Adèle;"
+        },
+        {
+          "texte": "« Ingénieur » : désigne un ingénieur membre de l’Ordre des ingénieurs du Québec ou une firme d'ingénieurs-conseils,\nlequel est mandaté par le promoteur pour la caractérisation des sols, la conception des plans et devis et la surveillance des\ntravaux et incluant toutes les autres tâches connexes des travaux exécutés par l’entrepreneur conformément aux normes\napplicables;"
+        },
+        {
+          "texte": "« Ouverture d'une voie de circulation » : comprends l’ouverture d’une voie de circulation ainsi que le prolongement d’une\nvoie de circulation existante (avec ou sans services municipaux) ;"
+        },
+        {
+          "texte": "« Projet » : désigne l’ensemble des travaux municipaux et autres équipements qui font l’objet de la demande présentée\npar le promoteur ou qui sont requis par la Ville dans le cadre du projet;"
+        },
+        {
+          "texte": "« Projet conventionnel » : Ensemble de bâtiments d’habitation érigés sur plusieurs terrains se caractérisant par la\nconstruction ou la prolongation d’une voie de circulation, sans partie commune;"
+        },
+        {
+          "texte": "« Projet intégré résidentiel » : Ensemble de bâtiments d’habitation, sous forme de copropriété divise au sens du Code\ncivil du Québec (L.Q., 1991, c. 64.), érigés sur un même terrain, comprenant des parties privatives ou des parties\ncommunes, et se caractérisant par un aménagement intégré favorisant la mise en commun de certains espaces extérieurs,\nservices ou équipements tels les allées d’accès, les stationnements, les espaces récréatifs et les espaces verts. Ce type\nde projet intégré ne vise qu’un usage résidentiel (voir règlement de zonage en vigueur);"
+        },
+        {
+          "texte": "« Projet intégré commercial, communautaire, industriel et mixte » : Ensemble caractérisé par l’implantation, sur un\nmême terrain, d’au moins 2 bâtiments principaux, conçus comme un ensemble aménagé en harmonie, fournissant un\nespace de stationnement hors rue autonome utilisé en commun par les différents établissements, pouvant comprendre ou\nnon d’autres commodités sur le site destinées aux occupants ou à la clientèle, dont la planification et la mise en œuvre\nsont d’initiative unique, mais dont la gestion et la propriété peuvent être multiples (voir règlement de zonage en vigueur);"
+        },
+        {
+          "texte": "« Phase » : désigne la fraction d’un projet d’ensemble en plusieurs parties. L’entente pour la première phase d’un projet\ndoit prévoir le bouclage du réseau d’aqueduc;"
+        },
+        {
+          "texte": "« Promoteur » : désigne la personne physique ou morale qui demande formellement à la Ville d’accepter un projet de\ndéveloppement conventionnel par l’ouverture ou le prolongement d’une voie de circulation ou un projet intégré (résidentiel,\ncommercial, communautaire et industriel), ainsi que de la réalisation des infrastructures et équipements connexes, lesquels\nsont sujets à une entente de travaux municipaux préalable ; cette personne physique ou morale doit être propriétaire des\nterrains formant l’assiette du projet;"
+        },
+        {
+          "texte": "« Travaux – Étape A » : tous les travaux à être réalisés, relativement aux conduites d’aqueduc et d’égouts sanitaire et\npluvial, tous les branchements requis aux divers réseaux, la fondation de voie de circulation, les fossés et les talus, lesquels\nsont exécutés par le promoteur sur les lots identifiés et conformément aux plans et devis;"
+        },
+        {
+          "texte": "« Travaux – Étape B » : travaux à être réalisés relativement à la voirie au pavage, aux bordures, à l’éclairage ou tous\nautres travaux similaires, qui sont exécutés ultérieurement par le promoteur. Les travaux de pavage des voies de circulation\nne peuvent être effectués dans la même année que les travaux de première phase. La fondation de voie de circulation doit\navoir subi un cycle de gel et dégel avant d’effectuer le pavage;"
+        },
+        {
+          "texte": "« Ville » : La ville de Sainte-Adèle;"
+        },
+        {
+          "texte": "« Voie de circulation » : signifie tout endroit ou structure affectée à la circulation des véhicules."
+        },
+        {
+          "texte": "."
+        }
       ],
       "article": 12,
       "section": 1,
       "chapitre": 0
-    },
-    {
-      "pages": [
-        6,
-        6
-      ],
-      "alineas": [
-        "expression, un"
-      ]
     },
     {
       "titre": "Administration du règlement",
@@ -295,8 +374,10 @@
         8,
         8
       ],
-      "alineas": [
-        "L'administration du présent règlement est confiée à toute personne nommée ci-après « fonctionnaire désigné », par\nrésolution du Conseil."
+      "contenu": [
+        {
+          "texte": "L'administration du présent règlement est confiée à toute personne nommée ci-après « fonctionnaire désigné », par\nrésolution du Conseil."
+        }
       ],
       "article": 13,
       "section": 2,
@@ -308,8 +389,10 @@
         8,
         8
       ],
-      "alineas": [
-        "L’application, la surveillance et le contrôle du présent règlement relèvent du fonctionnaire désigné. Des fonctionnaires\ndésignés adjoints chargés d’aider ou de remplacer le fonctionnaire désigné peuvent être nommés par résolution du Conseil.\nLe fonctionnaire désigné et ses représentants autorisés constituent donc l’autorité compétente. Dans le présent règlement,\nl’utilisation de l’expression « fonctionnaire désigné » équivaut à l’utilisation de l’expression « autorité compétente »."
+      "contenu": [
+        {
+          "texte": "L’application, la surveillance et le contrôle du présent règlement relèvent du fonctionnaire désigné. Des fonctionnaires\ndésignés adjoints chargés d’aider ou de remplacer le fonctionnaire désigné peuvent être nommés par résolution du Conseil.\nLe fonctionnaire désigné et ses représentants autorisés constituent donc l’autorité compétente. Dans le présent règlement,\nl’utilisation de l’expression « fonctionnaire désigné » équivaut à l’utilisation de l’expression « autorité compétente »."
+        }
       ],
       "article": 14,
       "section": 2,
@@ -321,24 +404,29 @@
         8,
         8
       ],
-      "alineas": [
-        "Les devoirs et pouvoirs de l’autorité compétente sont ceux qui lui sont attribués au Règlement sur les permis et certificats\nen vigueur de la Ville de Sainte-Adèle.",
-        "16. Devoirs du",
-        "ou de l’exécutant de travaux",
-        "Les devoirs du propriétaire, de l’occupant, du requérant ou de l’exécutant de travaux sont ceux qui lui sont attribués au\nRèglement sur les permis et certificats en vigueur de la Ville de Sainte-Adèle."
+      "contenu": [
+        {
+          "texte": "Les devoirs et pouvoirs de l’autorité compétente sont ceux qui lui sont attribués au Règlement sur les permis et certificats\nen vigueur de la Ville de Sainte-Adèle."
+        }
       ],
       "article": 15,
       "section": 2,
       "chapitre": 0
     },
     {
+      "titre": "Devoirs du propriétaire, de l’occupant, du requérant ou de l’exécutant de travaux",
       "pages": [
         8,
         8
       ],
-      "alineas": [
-        "propriétaire, de l’occupant, du requérant"
-      ]
+      "contenu": [
+        {
+          "texte": "Les devoirs du propriétaire, de l’occupant, du requérant ou de l’exécutant de travaux sont ceux qui lui sont attribués au\nRèglement sur les permis et certificats en vigueur de la Ville de Sainte-Adèle."
+        }
+      ],
+      "article": 16,
+      "section": 2,
+      "chapitre": 0
     },
     {
       "titre": "Infractions et pénalités",
@@ -346,8 +434,13 @@
         8,
         9
       ],
-      "alineas": [
-        "Toute personne qui contrevient à l'une ou l'autre des dispositions de ce règlement commet une infraction et est passible\nd'une amende avec ou sans frais, comme prescrit au Règlement sur les permis et certificats en vigueur de la Ville de Sainte-\nAdèle."
+      "contenu": [
+        {
+          "texte": "Toute personne qui contrevient à l'une ou l'autre des dispositions de ce règlement commet une infraction et est passible\nd'une amende avec ou sans frais, comme prescrit au Règlement sur les permis et certificats en vigueur de la Ville de Sainte-\nAdèle."
+        },
+        {
+          "texte": "."
+        }
       ],
       "article": 17,
       "section": 2,
@@ -359,32 +452,65 @@
         10,
         10
       ],
-      "alineas": [
-        "Tous les travaux, relatifs aux infrastructures municipales, requis pour l’ouverture d’une voie de circulation ou pour la\nréalisation des infrastructures dans le cadre d’un projet intégré (résidentiel, commercial, communautaire, industriel ou\nmixte), tels que le réseau d’aqueduc, les réseaux d’égouts sanitaire et pluvial en incluant toutes les composantes\nnécessaires à leur fonctionnement. De plus, toutes les infrastructures de chaussées, du réseau de drainage, de l’éclairage,\ndes aménagements routiers, de l’aménagement pour la stabilisation de terrain et de l’aménagement pour la protection\nenvironnementale.",
-        "L’entente peut porter sur des infrastructures ou des équipements, où qu’ils se trouvent, qui sont destinés à desservir non\nseulement les immeubles visés par le permis de construction ou de lotissement ou d’un certificat d’autorisation ou\nd’occupation, mais également tout autre immeuble situé sur le territoire de la Ville.",
-        "19.",
-        "Le promoteur qui veut obtenir de la Ville l’autorisation de réaliser des travaux d’infrastructures municipales pour l’ouverture\nd’une voie de circulation ou pour la réalisation des infrastructures dans le cadre d’un projet intégré (résidentiel, commercial,\ncommunautaire, industriel ou mixte) doit faire une demande écrite à la Ville en fournissant les documents suivants :",
-        "1. Une lettre adressée et transmise à la Ville qui explique le projet ou le formulaire ci-joint à l’annexe A dument\nrempli;",
-        "2. Le nom, adresse, numéro de téléphone et adresse courriel du ou des promoteurs; si le promoteur est différent\ndu propriétaire, il doit fournir une lettre d’entente ou une procuration;",
-        "3. Un plan image, réalisé et signé par un arpenteur-géomètre, indiquant le nom des propriétaires actuels de\nchaque terrain à l’intérieur du périmètre du projet; ce plan doit montrer les voies de circulation et terrains\nprojetés avec rattachement au réseau géodésique; sur ce plan, on doit retrouver les servitudes existantes; ce\nplan doit aussi indiquer le niveau du terrain le long de la ligne de centre de chacune des voies de circulation\nprojetées et le long de deux lignes parallèles à cette ligne de centre, situées chacune à 15 mètres de cette\nligne de centre. Sur ces lignes, l’espacement entre les points de niveau ne doit pas être de plus de 20 mètres;\n4. Un plan d’ensemble, si le projet est fractionné en plusieurs phases;",
-        "5. Une démonstration que le projet respecte ou s’engage à respecter en tout point les normes édictées aux\nrèglements adoptés par la Ville, notamment, ceux adoptés en vertu de la Loi sur l’aménagement et l’urbanisme\net la Loi sur la qualité de l’environnement;",
-        "6. Tout document technique supplémentaire requis pour l’étude de la demande, ainsi que tout autre élément que\nla Ville juge pertinent à l’étude de sa demande, notamment une analyse et une attestation de l’ingénieur\nétablissant que les installations actuelles de la Ville sont suffisantes pour répondre aux besoins qui seront\nengendrés par les réseaux visés par le projet du promoteur.",
-        "Le promoteur, par l’entremise de son ingénieur, prépare et transmet également à la Ville :",
-        "1. Une prévision budgétaire pour chacune des phases du projet ou pour l’ensemble du projet, dans le cas où\ncelui-ci ne comporte qu’une seule phase;",
-        "2. L’ensemble des caractéristiques du projet et des exigences de la Ville pour sa réalisation, incluant toute étude\npréparatoire."
+      "contenu": [
+        {
+          "texte": "Tous les travaux, relatifs aux infrastructures municipales, requis pour l’ouverture d’une voie de circulation ou pour la\nréalisation des infrastructures dans le cadre d’un projet intégré (résidentiel, commercial, communautaire, industriel ou\nmixte), tels que le réseau d’aqueduc, les réseaux d’égouts sanitaire et pluvial en incluant toutes les composantes\nnécessaires à leur fonctionnement. De plus, toutes les infrastructures de chaussées, du réseau de drainage, de l’éclairage,\ndes aménagements routiers, de l’aménagement pour la stabilisation de terrain et de l’aménagement pour la protection\nenvironnementale."
+        },
+        {
+          "texte": "L’entente peut porter sur des infrastructures ou des équipements, où qu’ils se trouvent, qui sont destinés à desservir non\nseulement les immeubles visés par le permis de construction ou de lotissement ou d’un certificat d’autorisation ou\nd’occupation, mais également tout autre immeuble situé sur le territoire de la Ville."
+        }
       ],
       "article": 18,
       "section": 0,
       "chapitre": 1
     },
     {
+      "titre": "Demande du promoteur et documents requis pour la demande",
       "pages": [
         10,
         10
       ],
-      "alineas": [
-        "Demande du promoteur et documents requis pour la demande"
-      ]
+      "contenu": [
+        {
+          "texte": "Le promoteur qui veut obtenir de la Ville l’autorisation de réaliser des travaux d’infrastructures municipales pour l’ouverture\nd’une voie de circulation ou pour la réalisation des infrastructures dans le cadre d’un projet intégré (résidentiel, commercial,\ncommunautaire, industriel ou mixte) doit faire une demande écrite à la Ville en fournissant les documents suivants :"
+        },
+        {
+          "texte": "1. Une lettre adressée et transmise à la Ville qui explique le projet ou le formulaire ci-joint à l’annexe A dument\nrempli;"
+        },
+        {
+          "texte": "2. Le nom, adresse, numéro de téléphone et adresse courriel du ou des promoteurs; si le promoteur est différent\ndu propriétaire, il doit fournir une lettre d’entente ou une procuration;"
+        },
+        {
+          "texte": "3. Un plan image, réalisé et signé par un arpenteur-géomètre, indiquant le nom des propriétaires actuels de\nchaque terrain à l’intérieur du périmètre du projet; ce plan doit montrer les voies de circulation et terrains\nprojetés avec rattachement au réseau géodésique; sur ce plan, on doit retrouver les servitudes existantes; ce\nplan doit aussi indiquer le niveau du terrain le long de la ligne de centre de chacune des voies de circulation\nprojetées et le long de deux lignes parallèles à cette ligne de centre, situées chacune à"
+        },
+        {
+          "texte": "15 mètres de cette\nligne de centre. Sur ces lignes, l’espacement entre les points de niveau ne doit pas être de plus de"
+        },
+        {
+          "texte": "20 mètres;"
+        },
+        {
+          "texte": "4. Un plan d’ensemble, si le projet est fractionné en plusieurs phases;"
+        },
+        {
+          "texte": "5. Une démonstration que le projet respecte ou s’engage à respecter en tout point les normes édictées aux\nrèglements adoptés par la Ville, notamment, ceux adoptés en vertu de la Loi sur l’aménagement et l’urbanisme\net la Loi sur la qualité de l’environnement;"
+        },
+        {
+          "texte": "6. Tout document technique supplémentaire requis pour l’étude de la demande, ainsi que tout autre élément que\nla Ville juge pertinent à l’étude de sa demande, notamment une analyse et une attestation de l’ingénieur\nétablissant que les installations actuelles de la Ville sont suffisantes pour répondre aux besoins qui seront\nengendrés par les réseaux visés par le projet du promoteur."
+        },
+        {
+          "texte": "Le promoteur, par l’entremise de son ingénieur, prépare et transmet également à la Ville :"
+        },
+        {
+          "texte": "1. Une prévision budgétaire pour chacune des phases du projet ou pour l’ensemble du projet, dans le cas où\ncelui-ci ne comporte qu’une seule phase;"
+        },
+        {
+          "texte": "2. L’ensemble des caractéristiques du projet et des exigences de la Ville pour sa réalisation, incluant toute étude\npréparatoire."
+        }
+      ],
+      "article": 19,
+      "section": 0,
+      "chapitre": 1
     },
     {
       "titre": "Fractionnement d'un projet en phases",
@@ -392,9 +518,13 @@
         10,
         10
       ],
-      "alineas": [
-        "Sur demande du promoteur et sujet à l’approbation par la Ville un projet peut être fractionné en différentes phases qui\nseront exécutées successivement.",
-        "Chacune des phases, pourra faire l’objet d’une entente individuelle avec la Ville, de même les garanties exigées en fonction\ndu présent règlement, pourront être fournie individuellement pour chacune des phases d’un projet."
+      "contenu": [
+        {
+          "texte": "Sur demande du promoteur et sujet à l’approbation par la Ville un projet peut être fractionné en différentes phases qui\nseront exécutées successivement."
+        },
+        {
+          "texte": "Chacune des phases, pourra faire l’objet d’une entente individuelle avec la Ville, de même les garanties exigées en fonction\ndu présent règlement, pourront être fournie individuellement pour chacune des phases d’un projet."
+        }
       ],
       "article": 20,
       "section": 0,
@@ -406,22 +536,17 @@
         10,
         10
       ],
-      "alineas": [
-        "La demande transmise par le promoteur doit être évaluée par le Service de l’urbanisme et de l'environnement et la division\ndes Services techniques, lesquels transmettent leurs recommandations au conseil pour l’approbation de toutes les étapes\ndu projet (projet majeur de lotissement, plan image, autorisation des consultants pour l’obtention des certificats, la signature\nde l’entente et la cession des",
-        "Au plus tard 90 jours après avoir reçu une demande complète, la Ville informe le promoteur, par une résolution du conseil\nmunicipal, de sa décision de donner suite ou non à cette demande. Dans l’affirmative, la résolution mentionne que la mise\nen œuvre du projet de développement est assujettie à la conclusion d’une entente."
+      "contenu": [
+        {
+          "texte": "La demande transmise par le promoteur doit être évaluée par le Service de l’urbanisme et de l'environnement et la division\ndes Services techniques, lesquels transmettent leurs recommandations au conseil pour l’approbation de toutes les étapes\ndu projet (projet majeur de lotissement, plan image, autorisation des consultants pour l’obtention des certificats, la signature\nde l’entente et la cession des infrastructures et autres équipements)."
+        },
+        {
+          "texte": "Au plus tard 90 jours après avoir reçu une demande complète, la Ville informe le promoteur, par une résolution du conseil\nmunicipal, de sa décision de donner suite ou non à cette demande. Dans l’affirmative, la résolution mentionne que la mise\nen œuvre du projet de développement est assujettie à la conclusion d’une entente."
+        }
       ],
       "article": 21,
       "section": 0,
       "chapitre": 1
-    },
-    {
-      "pages": [
-        10,
-        10
-      ],
-      "alineas": [
-        "infrastructures et autres équipements)."
-      ]
     },
     {
       "titre": "Pouvoir discrétionnaire du Conseil",
@@ -429,10 +554,16 @@
         10,
         11
       ],
-      "alineas": [
-        "Le Conseil conserve l’entière discrétion de l’acceptation d’un projet impliquant l’ouverture de nouvelles voies de circulation\nprivées ou publiques en fonction de la règlementation d’urbanisme ou des autres règlementations applicables.",
-        "Il conserve également, en tout temps, son pouvoir discrétionnaire de municipaliser ou non une voie de circulation et les\néquipements ou infrastructures. Il se réserve aussi le droit, avant d’accepter toute cession, de demander des travaux\nsupplémentaires, suivant une recommandation de la division Génie de la ville, afin de corriger des déficiences apparues\naprès l’acceptation finale de l’étape B.",
-        "Rien au présent règlement ne doit être interprété comme diminuant ou restreignant la discrétion du conseil d’adopter des\nrèglements ayant pour objet de décréter la réalisation de travaux de nature municipale et de pourvoir au financement de\nces travaux au moyen d’emprunts effectués conformément à la loi."
+      "contenu": [
+        {
+          "texte": "Le Conseil conserve l’entière discrétion de l’acceptation d’un projet impliquant l’ouverture de nouvelles voies de circulation\nprivées ou publiques en fonction de la règlementation d’urbanisme ou des autres règlementations applicables."
+        },
+        {
+          "texte": "Il conserve également, en tout temps, son pouvoir discrétionnaire de municipaliser ou non une voie de circulation et les\néquipements ou infrastructures. Il se réserve aussi le droit, avant d’accepter toute cession, de demander des travaux\nsupplémentaires, suivant une recommandation de la division Génie de la ville, afin de corriger des déficiences apparues\naprès l’acceptation finale de l’étape B."
+        },
+        {
+          "texte": "Rien au présent règlement ne doit être interprété comme diminuant ou restreignant la discrétion du conseil d’adopter des\nrèglements ayant pour objet de décréter la réalisation de travaux de nature municipale et de pourvoir au financement de\nces travaux au moyen d’emprunts effectués conformément à la loi."
+        }
       ],
       "article": 22,
       "section": 0,
@@ -444,9 +575,13 @@
         11,
         11
       ],
-      "alineas": [
-        "L'ensemble des couts de réalisation du projet sont à la charge du promoteur, incluant notamment la totalité des couts réels\nreliés à la préparation des plans et devis détaillés, la totalité des couts de construction et, sans limiter la généralité de ce\nqui précède, les honoraires professionnels et les frais relatifs à l’arpentage, au piquetage, aux relevés topographiques, à la\npréparation des actes de cession et de servitude ainsi que le plan final.",
-        "Les travaux ne peuvent débuter avant la signature de l’entente et de la remise, par le promoteur, des montants prévus et\nobligés en garantie financière et des frais de gestion à la Ville."
+      "contenu": [
+        {
+          "texte": "L'ensemble des couts de réalisation du projet sont à la charge du promoteur, incluant notamment la totalité des couts réels\nreliés à la préparation des plans et devis détaillés, la totalité des couts de construction et, sans limiter la généralité de ce\nqui précède, les honoraires professionnels et les frais relatifs à l’arpentage, au piquetage, aux relevés topographiques, à la\npréparation des actes de cession et de servitude ainsi que le plan final."
+        },
+        {
+          "texte": "Les travaux ne peuvent débuter avant la signature de l’entente et de la remise, par le promoteur, des montants prévus et\nobligés en garantie financière et des frais de gestion à la Ville."
+        }
       ],
       "article": 23,
       "section": 0,
@@ -458,27 +593,79 @@
         11,
         12
       ],
-      "alineas": [
-        "L’entente doit comprendre, obligatoirement, mais non limitativement les informations suivantes :",
-        "1. La désignation des parties avec les résolutions d’autorisation de signature pour la Ville et pour toute personne\nmorale;",
-        "2. La localisation et la désignation des lots visés par l’entente, soit le ou les lots officiels à la signature de l’entente.\nDans l’éventualité où la désignation des lots mentionnée dans l’entente était modifiée après la signature de\ncelle-ci, cette nouvelle désignation devra être acheminée à la Ville pour être ajouté comme faisant partie\nintégrante de l’entente;",
-        "3. Si le projet comprend plusieurs phases, l’entente doit détailler, par l’entremise d’un plan d’ensemble, les\ndifférentes phases;",
-        "4. Pour tous les projets intégrés, la portion du texte de la déclaration de copropriété, qu’il entend faire signer aux\nfuturs copropriétaires, qui concernent l’entretien des voies de circulation, l’entretien des accès, l’entretien des\néléments d’éclairage, le déneigement, la gestion des matières résiduelles ainsi que l’entretien des aires\ncommunes;",
-        "5. La description détaillée et l’analyse du projet incluant :",
-        "a. Les références aux avis, aux analyses et aux caractérisations environnementales;",
-        "b. Les références aux certificats requis en vertu des articles 22 et 32 de la Loi sur la qualité de\nl’environnement;",
-        "c. Les références aux offres de services pour la conception des plans et devis et pour la surveillance des\ntravaux;",
-        "d. Les modalités d’exécution et de garantie que les travaux d’entretien et de réparation des voies de\ncirculation et infrastructures soient à la charge du promoteur jusqu’à leur cession finale à la Ville;\ne. Les modalités attestant du paiement des honoraires et déboursés professionnels et autres frais reliés\naux études préparatoires, aux estimations budgétaires et préliminaires, à la préparation des plans et\ndevis, à la surveillance des travaux et aux tests de qualité et autres travaux accessoires;",
-        "f. Les modalités attestant de la surveillance et l’acceptation finale des travaux par l’ingénieur, de la\npréparation et de la transmission des plans « tels que construits géoréférencés » et de tous les\ncertificats de conformités requis;",
-        "6. La description et le cout détaillé estimé des travaux qui doivent être exécutés;",
-        "7. Si le projet comprend plusieurs phases, l’entente doit comprendre une estimation des couts des différentes\nphases, malgré que celles-ci puissent faire l’objet d’ententes distinctes;",
-        "8. L’échéancier détaillé prévu pour la réalisation de l’ensemble des travaux;",
-        "9. La description des couvertures d’assurance exigées pour chaque intervenant au projet, incluant le promoteur,\nles entrepreneurs, les sous-traitants et les professionnels engagés dans la réalisation du projet. Les\ncouvertures d’assurance sont notamment :",
-        "a. Un certificat d’assurance responsabilité pour un montant suffisant et qui couvre tous les risques\ninhérents à l’exécution des travaux prévus à l’entente; cette police d’assurance doit être souscrite et\nmaintenue en vigueur jusqu’à la cession des infrastructures à la Ville. Le montant minimum requis est\nde deux millions de dollars (2 000 000 $);",
-        "b. Un engagement du promoteur à faire ajouter la Ville en tant qu’assurée additionnelle à sa police\nd’assurance à l’effet qu’il tient la Ville exempte de tout dommage causé aux personnes ou aux biens\nlors de l’exécution des travaux, résultant de la faute, de la négligence ou de l’imprudence des employés\nou préposés de l’entrepreneur ou des sous-traitants engagés pour la réalisation des travaux prévus et\ndécrits à l’entente;",
-        "10. Les modalités de relocalisation des infrastructures publiques ou privées existantes, si elles sont en conflit avec\nles infrastructures projetées;",
-        "11. Les modalités destinées à la protection de l’environnement par la confection de bassins de sédimentations;\n12. La cession à titre gratuit des voies de circulation et des infrastructures selon le type de projet prévu, et défini\nau présent règlement, ainsi que du paiement par le promoteur de tous les honoraires professionnels qui s’y\nrattachent (entre autres le notaire, l’arpenteur-géomètre, l’ingénieur, le biologiste, etc.);\n13. Les coordonnées des parties pour toutes les communications;",
-        "14. Les modalités des sanctions et pénalités pour tout défaut du promoteur prévues;\n15. La durée de l’entente."
+      "contenu": [
+        {
+          "texte": "L’entente doit comprendre, obligatoirement, mais non limitativement les informations suivantes :"
+        },
+        {
+          "texte": "1. La désignation des parties avec les résolutions d’autorisation de signature pour la Ville et pour toute personne\nmorale;"
+        },
+        {
+          "texte": "2. La localisation et la désignation des lots visés par l’entente, soit le ou les lots officiels à la signature de l’entente.\nDans l’éventualité où la désignation des lots mentionnée dans l’entente était modifiée après la signature de\ncelle-ci, cette nouvelle désignation devra être acheminée à la Ville pour être ajouté comme faisant partie\nintégrante de l’entente;"
+        },
+        {
+          "texte": "3. Si le projet comprend plusieurs phases, l’entente doit détailler, par l’entremise d’un plan d’ensemble, les\ndifférentes phases;"
+        },
+        {
+          "texte": "4. Pour tous les projets intégrés, la portion du texte de la déclaration de copropriété, qu’il entend faire signer aux\nfuturs copropriétaires, qui concernent l’entretien des voies de circulation, l’entretien des accès, l’entretien des\néléments d’éclairage, le déneigement, la gestion des matières résiduelles ainsi que l’entretien des aires\ncommunes;"
+        },
+        {
+          "texte": "5. La description détaillée et l’analyse du projet incluant :"
+        },
+        {
+          "texte": "a. Les références aux avis, aux analyses et aux caractérisations environnementales;"
+        },
+        {
+          "texte": "b. Les références aux certificats requis en vertu des articles 22 et 32 de la Loi sur la qualité de\nl’environnement;"
+        },
+        {
+          "texte": "c. Les références aux offres de services pour la conception des plans et devis et pour la surveillance des\ntravaux;"
+        },
+        {
+          "texte": "d. Les modalités d’exécution et de garantie que les travaux d’entretien et de réparation des voies de\ncirculation et infrastructures soient à la charge du promoteur jusqu’à leur cession finale à la Ville;"
+        },
+        {
+          "texte": "e. Les modalités attestant du paiement des honoraires et déboursés professionnels et autres frais reliés\naux études préparatoires, aux estimations budgétaires et préliminaires, à la préparation des plans et\ndevis, à la surveillance des travaux et aux tests de qualité et autres travaux accessoires;"
+        },
+        {
+          "texte": "f. Les modalités attestant de la surveillance et l’acceptation finale des travaux par l’ingénieur, de la\npréparation et de la transmission des plans « tels que construits géoréférencés » et de tous les\ncertificats de conformités requis;"
+        },
+        {
+          "texte": "6. La description et le cout détaillé estimé des travaux qui doivent être exécutés;"
+        },
+        {
+          "texte": "7. Si le projet comprend plusieurs phases, l’entente doit comprendre une estimation des couts des différentes\nphases, malgré que celles-ci puissent faire l’objet d’ententes distinctes;"
+        },
+        {
+          "texte": "8. L’échéancier détaillé prévu pour la réalisation de l’ensemble des travaux;"
+        },
+        {
+          "texte": "9. La description des couvertures d’assurance exigées pour chaque intervenant au projet, incluant le promoteur,\nles entrepreneurs, les sous-traitants et les professionnels engagés dans la réalisation du projet. Les\ncouvertures d’assurance sont notamment :"
+        },
+        {
+          "texte": "a. Un certificat d’assurance responsabilité pour un montant suffisant et qui couvre tous les risques\ninhérents à l’exécution des travaux prévus à l’entente; cette police d’assurance doit être souscrite et\nmaintenue en vigueur jusqu’à la cession des infrastructures à la Ville. Le montant minimum requis est\nde deux millions de dollars (2 000 000 $);"
+        },
+        {
+          "texte": "b. Un engagement du promoteur à faire ajouter la Ville en tant qu’assurée additionnelle à sa police\nd’assurance à l’effet qu’il tient la Ville exempte de tout dommage causé aux personnes ou aux biens\nlors de l’exécution des travaux, résultant de la faute, de la négligence ou de l’imprudence des employés\nou préposés de l’entrepreneur ou des sous-traitants engagés pour la réalisation des travaux prévus et\ndécrits à l’entente;"
+        },
+        {
+          "texte": "10. Les modalités de relocalisation des infrastructures publiques ou privées existantes, si elles sont en conflit avec\nles infrastructures projetées;"
+        },
+        {
+          "texte": "11. Les modalités destinées à la protection de l’environnement par la confection de bassins de sédimentations;"
+        },
+        {
+          "texte": "12. La cession à titre gratuit des voies de circulation et des infrastructures selon le type de projet prévu, et défini\nau présent règlement, ainsi que du paiement par le promoteur de tous les honoraires professionnels qui s’y\nrattachent (entre autres le notaire, l’arpenteur-géomètre, l’ingénieur, le biologiste, etc.);"
+        },
+        {
+          "texte": "13. Les coordonnées des parties pour toutes les communications;"
+        },
+        {
+          "texte": "14. Les modalités des sanctions et pénalités pour tout défaut du promoteur prévues;"
+        },
+        {
+          "texte": "15. La durée de l’entente."
+        }
       ],
       "article": 24,
       "section": 0,
@@ -490,10 +677,16 @@
         12,
         12
       ],
-      "alineas": [
-        "L’entente doit prévoir le bouclage du réseau d’aqueduc au réseau existant.",
-        "Toutefois, advenant que le bouclage du réseau d’aqueduc soit impossible, un système de purge automatique doit être\nimplanté. Également, lorsque le projet est desservi par un réseau d’aqueduc non bouclé le promoteur doit s’engager à\nconstruire, en premier, le ou les bâtiments qui sont occupés à la fin de réseau afin d’assurer la circulation de l’eau potable\ndans le réseau prévu.",
-        "Dans tous les cas où un projet est fractionné en phases, la première phase du projet doit prévoir le bouclage du réseau\nd’aqueduc ou l’installation d’un système de purge automatique."
+      "contenu": [
+        {
+          "texte": "L’entente doit prévoir le bouclage du réseau d’aqueduc au réseau existant."
+        },
+        {
+          "texte": "Toutefois, advenant que le bouclage du réseau d’aqueduc soit impossible, un système de purge automatique doit être\nimplanté. Également, lorsque le projet est desservi par un réseau d’aqueduc non bouclé le promoteur doit s’engager à\nconstruire, en premier, le ou les bâtiments qui sont occupés à la fin de réseau afin d’assurer la circulation de l’eau potable\ndans le réseau prévu."
+        },
+        {
+          "texte": "Dans tous les cas où un projet est fractionné en phases, la première phase du projet doit prévoir le bouclage du réseau\nd’aqueduc ou l’installation d’un système de purge automatique."
+        }
       ],
       "article": 25,
       "section": 0,
@@ -505,8 +698,10 @@
         12,
         12
       ],
-      "alineas": [
-        "L’entente doit prévoir que le promoteur respectera le fuseau granulométrique, tel que prévu à la version la plus récente de\nla norme NQ 2560-114, lors de l’entrée en vigueur du présent règlement et par conséquent, assume tous les travaux de\nremplacement de la fondation granulaire contaminé avant la mise en forme finale pour les travaux de pavage (Étape B).\nCette étape doit être exécutée sous la supervision d’un laboratoire mandaté par le promoteur dont le rapport devra être\nacheminé à la Ville."
+      "contenu": [
+        {
+          "texte": "L’entente doit prévoir que le promoteur respectera le fuseau granulométrique, tel que prévu à la version la plus récente de\nla norme NQ 2560-114, lors de l’entrée en vigueur du présent règlement et par conséquent, assume tous les travaux de\nremplacement de la fondation granulaire contaminé avant la mise en forme finale pour les travaux de pavage (Étape B).\nCette étape doit être exécutée sous la supervision d’un laboratoire mandaté par le promoteur dont le rapport devra être\nacheminé à la Ville."
+        }
       ],
       "article": 26,
       "section": 0,
@@ -518,17 +713,37 @@
         12,
         12
       ],
-      "alineas": [
-        "Le promoteur s’engage à fournir à la signature de l’entente les documents suivants :",
-        "1. La résolution d’autorisation de signature du promoteur, pour une personne morale;",
-        "2. Les titres des immeubles visés par l’entente;",
-        "3. Les plans relatifs aux infrastructures, émis et présentés par un ingénieur;",
-        "4. L’estimation détaillée de l’ensemble des travaux;",
-        "5. Une copie des offres de services professionnels (plans et devis, étude environnementale, surveillance, mesure\nd’atténuations environnementales, contrôles qualitatifs, etc.) transmis par le promoteur;",
-        "6. Toutes les garanties financières et des frais de gestion prévus au présent règlement;",
-        "7. Les certificats d’assurance, de tous les intervenants au projet;",
-        "8. Les études et caractérisations environnementales rédigées par un biologiste et le certificat d’autorisation émis\npar le ministère du Développement durable, de l’Environnement et de la Lutte contre les changements\nclimatiques;",
-        "9. Tout autre document pertinent à la compréhension et au respect du projet et ayant été demandé par la Ville\navant la signature de l’entente."
+      "contenu": [
+        {
+          "texte": "Le promoteur s’engage à fournir à la signature de l’entente les documents suivants :"
+        },
+        {
+          "texte": "1. La résolution d’autorisation de signature du promoteur, pour une personne morale;"
+        },
+        {
+          "texte": "2. Les titres des immeubles visés par l’entente;"
+        },
+        {
+          "texte": "3. Les plans relatifs aux infrastructures, émis et présentés par un ingénieur;"
+        },
+        {
+          "texte": "4. L’estimation détaillée de l’ensemble des travaux;"
+        },
+        {
+          "texte": "5. Une copie des offres de services professionnels (plans et devis, étude environnementale, surveillance, mesure\nd’atténuations environnementales, contrôles qualitatifs, etc.) transmis par le promoteur;"
+        },
+        {
+          "texte": "6. Toutes les garanties financières et des frais de gestion prévus au présent règlement;"
+        },
+        {
+          "texte": "7. Les certificats d’assurance, de tous les intervenants au projet;"
+        },
+        {
+          "texte": "8. Les études et caractérisations environnementales rédigées par un biologiste et le certificat d’autorisation émis\npar le ministère du Développement durable, de l’Environnement et de la Lutte contre les changements\nclimatiques;"
+        },
+        {
+          "texte": "9. Tout autre document pertinent à la compréhension et au respect du projet et ayant été demandé par la Ville\navant la signature de l’entente."
+        }
       ],
       "article": 27,
       "section": 0,
@@ -540,9 +755,13 @@
         12,
         12
       ],
-      "alineas": [
-        "L’entente est signée en un minimum de 3 exemplaires, dont 1 exemplaire est remis au promoteur. Les annexes doivent\nfaire partie intégrante de l’entente.",
-        "Le maire, et le greffier sont autorisés à signer, pour et au nom de la Ville, toute entente avec les promoteurs après qu’une\nrésolution du conseil les y autorise."
+      "contenu": [
+        {
+          "texte": "L’entente est signée en un minimum de 3 exemplaires, dont 1 exemplaire est remis au promoteur. Les annexes doivent\nfaire partie intégrante de l’entente."
+        },
+        {
+          "texte": "Le maire, et le greffier sont autorisés à signer, pour et au nom de la Ville, toute entente avec les promoteurs après qu’une\nrésolution du conseil les y autorise."
+        }
       ],
       "article": 28,
       "section": 0,
@@ -554,13 +773,25 @@
         12,
         13
       ],
-      "alineas": [
-        "L’entente doit prévoir que la durée des travaux de l’Étape A ne doit pas dépasser un terme de 24 mois entre la signature\net l’acceptation finale des travaux.",
-        "L’entente doit également prévoir que la durée des travaux de l’Étape B ne doit pas dépasser un terme de 36 mois entre la\nsignature et l’acceptation finale des travaux.",
-        "Le promoteur doit prévoir une période complète de gel entre l’acceptation finale des travaux de l’étape A et le pavage.",
-        "Dans le cas d’un projet intégré, l’entente doit prévoir que la durée des travaux ne doit pas dépasser un terme de 36 mois\nentre la signature et l’acceptation finale des travaux;",
-        "Nonobstant les alinéas 1 à 4 du présent article, si au cours de la procédure d’octroi des contrats nécessaires à la réalisation\ndes travaux ou si au cours de la réalisation des travaux, il survient des circonstances hors de son contrôle, des difficultés\nou des conditions qui peuvent légitimement causer des retards, le promoteur est tenu d’en aviser immédiatement par écrit",
-        "la Ville. À ces conditions seulement, la Ville, par résolution du conseil municipal, peut accepter de prolonger les délais fixés\npar le contrat."
+      "contenu": [
+        {
+          "texte": "L’entente doit prévoir que la durée des travaux de l’Étape A ne doit pas dépasser un terme de 24 mois entre la signature\net l’acceptation finale des travaux."
+        },
+        {
+          "texte": "L’entente doit également prévoir que la durée des travaux de l’Étape B ne doit pas dépasser un terme de 36 mois entre la\nsignature et l’acceptation finale des travaux."
+        },
+        {
+          "texte": "Le promoteur doit prévoir une période complète de gel entre l’acceptation finale des travaux de l’étape A et le pavage."
+        },
+        {
+          "texte": "Dans le cas d’un projet intégré, l’entente doit prévoir que la durée des travaux ne doit pas dépasser un terme de 36 mois\nentre la signature et l’acceptation finale des travaux;"
+        },
+        {
+          "texte": "Nonobstant les alinéas 1 à 4 du présent article, si au cours de la procédure d’octroi des contrats nécessaires à la réalisation\ndes travaux ou si au cours de la réalisation des travaux, il survient des circonstances hors de son contrôle, des difficultés\nou des conditions qui peuvent légitimement causer des retards, le promoteur est tenu d’en aviser immédiatement par écrit"
+        },
+        {
+          "texte": "la Ville. À ces conditions seulement, la Ville, par résolution du conseil municipal, peut accepter de prolonger les délais fixés\npar le contrat."
+        }
       ],
       "article": 29,
       "section": 0,
@@ -572,12 +803,28 @@
         13,
         13
       ],
-      "alineas": [
-        "L’entente prévoit que le promoteur est responsable de l’entretien des voies de circulation (incluant non limitativement le\ndéneigement, le déglaçage, l’abat-poussière, le balayage, etc.) et des infrastructures jusqu’à leur cession finale à la Ville.",
-        "Dans le cas d’un projet intégré résidentiel, la déclaration de copropriété doit inclure la responsabilité des copropriétaires\npour l’entretien des voies de circulation, l’entretien des accès, l’entretien des éléments d’éclairage, le déneigement, la\ngestion des matières résiduelles ainsi que l’entretien des aires communes.",
-        "Dans le cas d’un projet intégré commercial, communautaire, industriel et mixte, le promoteur conserve la propriété de toutes\nles voies de circulation et infrastructures et doit :",
-        "1. Procéder à l’inspection des conduites d’égout au minimum à chaque période 5 ans débutant à l’acceptation\nfinale des travaux et transmettre à la Ville tout rapport témoignant de ces inspections et de leurs résultats.\n2. Transmettre à la Ville tous les rapports d’analyse de l’eau potable effectués selon les lois et règlements en\nvigueur;",
-        "3. Informer sans délai la Ville de toutes problématiques pouvant avoir un impact sur la qualité de l’eau potable."
+      "contenu": [
+        {
+          "texte": "L’entente prévoit que le promoteur est responsable de l’entretien des voies de circulation (incluant non limitativement le\ndéneigement, le déglaçage, l’abat-poussière, le balayage, etc.) et des infrastructures jusqu’à leur cession finale à la Ville."
+        },
+        {
+          "texte": "Dans le cas d’un projet intégré résidentiel, la déclaration de copropriété doit inclure la responsabilité des copropriétaires\npour l’entretien des voies de circulation, l’entretien des accès, l’entretien des éléments d’éclairage, le déneigement, la\ngestion des matières résiduelles ainsi que l’entretien des aires communes."
+        },
+        {
+          "texte": "Dans le cas d’un projet intégré commercial, communautaire, industriel et mixte, le promoteur conserve la propriété de toutes\nles voies de circulation et infrastructures et doit :"
+        },
+        {
+          "texte": "1. Procéder à l’inspection des conduites d’égout au minimum à chaque période"
+        },
+        {
+          "texte": "5 ans débutant à l’acceptation\nfinale des travaux et transmettre à la Ville tout rapport témoignant de ces inspections et de leurs résultats."
+        },
+        {
+          "texte": "2. Transmettre à la Ville tous les rapports d’analyse de l’eau potable effectués selon les lois et règlements en\nvigueur;"
+        },
+        {
+          "texte": "3. Informer sans délai la Ville de toutes problématiques pouvant avoir un impact sur la qualité de l’eau potable."
+        }
       ],
       "article": 30,
       "section": 0,
@@ -589,9 +836,13 @@
         13,
         13
       ],
-      "alineas": [
-        "Le promoteur doit, à la signature de l’entente, fournir à la Ville un chèque certifié, une traite bancaire ou un mandat poste\nà l’ordre de la Ville de Sainte-Adèle couvrant le montant spécifié à l’article 46 du règlement 1222 décrétant des tarifs de\ncertains biens, services et activités pour l’exercice financier en cours lors de la signature.",
-        "Le montant est exigé pour l’analyse et le suivi de l’entente et n’est pas remboursable."
+      "contenu": [
+        {
+          "texte": "Le promoteur doit, à la signature de l’entente, fournir à la Ville un chèque certifié, une traite bancaire ou un mandat poste\nà l’ordre de la Ville de Sainte-Adèle couvrant le montant spécifié à l’article 46 du règlement 1222 décrétant des tarifs de\ncertains biens, services et activités pour l’exercice financier en cours lors de la signature."
+        },
+        {
+          "texte": "Le montant est exigé pour l’analyse et le suivi de l’entente et n’est pas remboursable."
+        }
       ],
       "article": 31,
       "section": 0,
@@ -603,15 +854,34 @@
         13,
         13
       ],
-      "alineas": [
-        "Le promoteur doit, à la signature de l’entente, fournir à la Ville une garantie d’exécution de chacune de ses obligations et\nla maintenir valide pour toute la durée de l’entente.",
-        "La garantie d’exécution devra prendre une des formes suivantes :",
-        "1. Un cautionnement d’exécution émis par une compagnie légalement habilitée à se porter garante;",
-        "2. Une lettre de garantie bancaire irrévocable et inconditionnelle émise par une institution financière dument\nautorisée à se faire dans les limites de la province de Québec, payable à l’ordre de la Ville de Sainte-Adèle et\nencaissable suite à la signification d’un avis à l’institution financière de l’existence d’un défaut du promoteur;\n3. Un chèque certifié établi à l’ordre de la Ville de Sainte-Adèle;",
-        "4. Toute autre forme jugée équivalente par la Ville.",
-        "La garantie d’exécution correspond à un montant de 100 % du cout estimé du total (taxes comprises) des travaux assumés\npar le promoteur.",
-        "Nonobstant ce qui précède dans le cas où la garantie est fournie par lettre de garantie bancaire irrévocable ou par chèque\ncertifié, le montant de la garantie correspond à un montant de 25 % du cout estimé du total (taxes comprises) des travaux\nassumés par le promoteur.",
-        "Dans le cas où un promoteur prévoit un projet en plusieurs phases, toutes les garanties financières doivent être prévues\ndans un plan d’ensemble et gérées selon chacune des phases."
+      "contenu": [
+        {
+          "texte": "Le promoteur doit, à la signature de l’entente, fournir à la Ville une garantie d’exécution de chacune de ses obligations et\nla maintenir valide pour toute la durée de l’entente."
+        },
+        {
+          "texte": "La garantie d’exécution devra prendre une des formes suivantes :"
+        },
+        {
+          "texte": "1. Un cautionnement d’exécution émis par une compagnie légalement habilitée à se porter garante;"
+        },
+        {
+          "texte": "2. Une lettre de garantie bancaire irrévocable et inconditionnelle émise par une institution financière dument\nautorisée à se faire dans les limites de la province de Québec, payable à l’ordre de la Ville de Sainte-Adèle et\nencaissable suite à la signification d’un avis à l’institution financière de l’existence d’un défaut du promoteur;"
+        },
+        {
+          "texte": "3. Un chèque certifié établi à l’ordre de la Ville de Sainte-Adèle;"
+        },
+        {
+          "texte": "4. Toute autre forme jugée équivalente par la Ville."
+        },
+        {
+          "texte": "La garantie d’exécution correspond à un montant de 100 % du cout estimé du total (taxes comprises) des travaux assumés\npar le promoteur."
+        },
+        {
+          "texte": "Nonobstant ce qui précède dans le cas où la garantie est fournie par lettre de garantie bancaire irrévocable ou par chèque\ncertifié, le montant de la garantie correspond à un montant de 25 % du cout estimé du total (taxes comprises) des travaux\nassumés par le promoteur."
+        },
+        {
+          "texte": "Dans le cas où un promoteur prévoit un projet en plusieurs phases, toutes les garanties financières doivent être prévues\ndans un plan d’ensemble et gérées selon chacune des phases."
+        }
       ],
       "article": 32,
       "section": 0,
@@ -623,9 +893,13 @@
         13,
         13
       ],
-      "alineas": [
-        "Pour les projets conventionnels, lors de l’acceptation finale des travaux de l’étape A, la Ville accepte la libération de 50 %\nde la garantie d’exécution. Pour se prévaloir de cette libération, le promoteur doit fournir un cautionnement d’exécution\nconforme au présent règlement, correspondant à 50 % du cout estimé du total (taxes comprises) des travaux assumés par\nle promoteur. Lors de l’acceptation finale des travaux de l’étape B, la Ville accepte la libération du 50 % restant de la\ngarantie d’exécution.",
-        "Pour les projets intégrés, la libération de la garantie d’exécution se fera lors de l’acceptation finale des travaux."
+      "contenu": [
+        {
+          "texte": "Pour les projets conventionnels, lors de l’acceptation finale des travaux de l’étape A, la Ville accepte la libération de 50 %\nde la garantie d’exécution. Pour se prévaloir de cette libération, le promoteur doit fournir un cautionnement d’exécution\nconforme au présent règlement, correspondant à 50 % du cout estimé du total (taxes comprises) des travaux assumés par\nle promoteur. Lors de l’acceptation finale des travaux de l’étape B, la Ville accepte la libération du 50 % restant de la\ngarantie d’exécution."
+        },
+        {
+          "texte": "Pour les projets intégrés, la libération de la garantie d’exécution se fera lors de l’acceptation finale des travaux."
+        }
       ],
       "article": 33,
       "section": 0,
@@ -637,8 +911,10 @@
         13,
         14
       ],
-      "alineas": [
-        "Dans le cadre d’un projet conventionnel ou d’un projet intégré résidentiel, lors de la signature de l’entente, le promoteur\ndoit déposer, à la Ville, une lettre de garantie bancaire inconditionnelle et irrévocable, d’un montant fixe de 25 000 $,\ngarantissant la qualité des travaux et tout défaut d’entretien des voies de circulations, infrastructures et autres équipements\navant la cession de ceux-ci à la Ville. Cette lettre de garantie bancaire pourra être remplacée par la remise d’un chèque\nvisé, d’un mandat ou d’une traite bancaire."
+      "contenu": [
+        {
+          "texte": "Dans le cadre d’un projet conventionnel ou d’un projet intégré résidentiel, lors de la signature de l’entente, le promoteur\ndoit déposer, à la Ville, une lettre de garantie bancaire inconditionnelle et irrévocable, d’un montant fixe de 25 000 $,\ngarantissant la qualité des travaux et tout défaut d’entretien des voies de circulations, infrastructures et autres équipements\navant la cession de ceux-ci à la Ville. Cette lettre de garantie bancaire pourra être remplacée par la remise d’un chèque\nvisé, d’un mandat ou d’une traite bancaire."
+        }
       ],
       "article": 34,
       "section": 0,
@@ -650,8 +926,10 @@
         14,
         14
       ],
-      "alineas": [
-        "Dans la mesure où la Ville procède elle-même, en vertu de l’entente, à la réalisation de certains travaux visés par le projet\nou prend en charge l’exécution de tels travaux, le promoteur doit, à la signature de l’entente, fournir à la Ville, une garantie\nde paiement équivalente à 100 % du cout des travaux à être réalisés en tout ou en partie par la Ville."
+      "contenu": [
+        {
+          "texte": "Dans la mesure où la Ville procède elle-même, en vertu de l’entente, à la réalisation de certains travaux visés par le projet\nou prend en charge l’exécution de tels travaux, le promoteur doit, à la signature de l’entente, fournir à la Ville, une garantie\nde paiement équivalente à 100 % du cout des travaux à être réalisés en tout ou en partie par la Ville."
+        }
       ],
       "article": 35,
       "section": 0,
@@ -663,12 +941,25 @@
         14,
         14
       ],
-      "alineas": [
-        "La Ville peut acquérir les voies de circulation ou les infrastructures seulement lorsqu’un minimum de 25 % des lots visés\npar le projet contient des immeubles construits ou en construction.",
-        "Le promoteur s’engage à céder à la Ville les voies de circulation et infrastructures selon le type de projet :",
-        "1. Pour les projets conventionnels, le promoteur cède à la Ville, à titre gratuit, toutes les voies de circulation, les\npassages pour piétons et les trottoirs, les parcs ainsi que toutes les infrastructures souterraines, telles les\nconduites d’aqueduc, les conduites d’égouts sanitaire et pluvial. Le promoteur doit aussi consentir, à titre\ngratuit, à la Ville toutes les servitudes requises pour l’entretien des infrastructures.",
-        "2. Pour les projets intégrés résidentiels : le promoteur cède à la Ville, à titre gratuit, toutes les infrastructures\nsouterraines, telles les conduites d’aqueduc, les conduites d’égouts sanitaires à l’exception des conduites\nd’égouts pluviaux et des stations de pompage. Le promoteur doit aussi consentir, à titre gratuit, à la Ville toutes\nles servitudes requises pour l’entretien des infrastructures;",
-        "3. Pour un projet intégré commercial, communautaire, industriel et mixte : le promoteur conserve la propriété des\nvoies de circulation et de toutes les infrastructures du projet. Toutefois, il s’engage à transmettre à la Ville tous\nles documents l’entretien des infrastructures prévu au troisième alinéa de l’article 30."
+      "contenu": [
+        {
+          "texte": "La Ville peut acquérir les voies de circulation ou les infrastructures seulement lorsqu’un minimum de 25 % des lots visés\npar le projet contient des immeubles construits ou en construction."
+        },
+        {
+          "texte": "Le promoteur s’engage à céder à la Ville les voies de circulation et infrastructures selon le type de projet :"
+        },
+        {
+          "texte": "1. Pour les projets conventionnels, le promoteur cède à la Ville, à titre gratuit, toutes les voies de circulation, les\npassages pour piétons et les trottoirs, les parcs ainsi que toutes les infrastructures souterraines, telles les\nconduites d’aqueduc, les conduites d’égouts sanitaire et pluvial. Le promoteur doit aussi consentir, à titre\ngratuit, à la Ville toutes les servitudes requises pour l’entretien des infrastructures."
+        },
+        {
+          "texte": "2. Pour les projets intégrés résidentiels : le promoteur cède à la Ville, à titre gratuit, toutes les infrastructures\nsouterraines, telles les conduites d’aqueduc, les conduites d’égouts sanitaires à l’exception des conduites\nd’égouts pluviaux et des stations de pompage. Le promoteur doit aussi consentir, à titre gratuit, à la Ville toutes\nles servitudes requises pour l’entretien des infrastructures;"
+        },
+        {
+          "texte": "3. Pour un projet intégré commercial, communautaire, industriel et mixte : le promoteur conserve la propriété des\nvoies de circulation et de toutes les infrastructures du projet. Toutefois, il s’engage à transmettre à la Ville tous\nles documents l’entretien des infrastructures prévu au troisième alinéa de l’article"
+        },
+        {
+          "texte": "30."
+        }
       ],
       "article": 36,
       "section": 0,
@@ -680,8 +971,10 @@
         14,
         14
       ],
-      "alineas": [
-        "Tous les couts inhérents préparation, signature et publication des actes nécessaires à la cession et/ou des actes de\nservitudes sont à la charge du promoteur."
+      "contenu": [
+        {
+          "texte": "Tous les couts inhérents préparation, signature et publication des actes nécessaires à la cession et/ou des actes de\nservitudes sont à la charge du promoteur."
+        }
       ],
       "article": 37,
       "section": 0,
@@ -693,11 +986,19 @@
         14,
         14
       ],
-      "alineas": [
-        "Si une période de 5 ans s’écoule entre l’acceptation finale des travaux (Étape A ou Étape B) et la cession des voies de\ncirculation ou infrastructures, le promoteur doit mandater tous les professionnels requis afin de faire produire un rapport de\nconformité de l’ensemble des voies de circulation et infrastructures selon les exigences de la division Génie, au moment\nde la cession.",
-        "Le promoteur s’engage, lors de la cession de l’ensemble des voies de circulation ou des infrastructures à la Ville, à ce que\nles terrains visés soient libres de toute taxe municipale ou scolaire et quittes de tout privilège, hypothèque et autre charge\npouvant les grever.",
-        "Le promoteur doit, avant de céder les voies de circulation et infrastructures à la Ville, remettre à la division Génie une\ndéclaration statutaire confirmant le paiement des fournisseurs de matériaux, de la main-d'œuvre, de tout sous-traitant et\nde la CSST.",
-        "Tant que la voie de circulation reste privée, le promoteur s’engage à faire inscrire, par le notaire, aux actes de vente des\nterrains concernés une clause voulant que la voie de circulation soit privée et, par conséquent entretenue par le promoteur."
+      "contenu": [
+        {
+          "texte": "Si une période de 5 ans s’écoule entre l’acceptation finale des travaux (Étape A ou Étape B) et la cession des voies de\ncirculation ou infrastructures, le promoteur doit mandater tous les professionnels requis afin de faire produire un rapport de\nconformité de l’ensemble des voies de circulation et infrastructures selon les exigences de la division Génie, au moment\nde la cession."
+        },
+        {
+          "texte": "Le promoteur s’engage, lors de la cession de l’ensemble des voies de circulation ou des infrastructures à la Ville, à ce que\nles terrains visés soient libres de toute taxe municipale ou scolaire et quittes de tout privilège, hypothèque et autre charge\npouvant les grever."
+        },
+        {
+          "texte": "Le promoteur doit, avant de céder les voies de circulation et infrastructures à la Ville, remettre à la division Génie une\ndéclaration statutaire confirmant le paiement des fournisseurs de matériaux, de la main-d'œuvre, de tout sous-traitant et\nde la CSST."
+        },
+        {
+          "texte": "Tant que la voie de circulation reste privée, le promoteur s’engage à faire inscrire, par le notaire, aux actes de vente des\nterrains concernés une clause voulant que la voie de circulation soit privée et, par conséquent entretenue par le promoteur."
+        }
       ],
       "article": 38,
       "section": 0,
@@ -709,17 +1010,37 @@
         14,
         15
       ],
-      "alineas": [
-        "Le Promoteur sera considéré en défaut aux termes de l'entente et encourra les sanctions prévues au présent article en\nplus de celles prévues par les lois en vigueur dans les cas suivants :",
-        "1. Si le Promoteur ne débute pas l'exécution des travaux municipaux dans le délai mentionné ou omet de les\npoursuivre avec diligence;",
-        "2. Si le Promoteur, en temps utile, omet, néglige ou refuse d'obtenir le renouvèlement de toute garantie financière\nexigée en vertu du présent règlement ou de l’entente;",
-        "3. Si le Promoteur fait une cession de ses biens, est mis en faillite ou en liquidation, devient insolvable, tire\navantage de toute loi se rapportant à l'insolvabilité ou à la faillite ou tente de le faire ou si un séquestre ou\nsyndic est nommé à ses biens ou à toute partie de ceux-ci;",
-        "4. Si le Promoteur est en défaut de remplir l'un ou l'autre des engagements ou conditions de l'entente ou des\nplans et devis qui l'accompagnent.",
-        "Advenant tout défaut du Promoteur à l'une ou quelconque des obligations de l'entente, la Ville peut cumulativement ou\nalternativement :",
-        "1. Confisquer la garantie et s'adresser immédiatement et sans autre formalité, à la caution ou à l’institution\nfinancière ayant émis la lettre de garantie bancaire irrévocable, et requérir qu'elle verse immédiatement à la\nVille la somme nécessaire pour réaliser ou exécuter les travaux selon le contrat accordé par le titulaire ou\nselon les soumissions obtenues par la Ville si le contrat n'est pas accordé par le requérant;",
-        "2. Retenir l'émission de tout permis de construction pour un lot desservi ou à desservir par les travaux municipaux\nvisés par l’entente;",
-        "3. Imposer une taxe spéciale sur les lots visés par l'entente afin de couvrir les dépenses engagées par la Ville\npour parachever les travaux;",
-        "4. Exécuter ou faire exécuter les travaux si elle le juge approprié. Elle n'est aucunement responsable envers le\npromoteur ou ses ayants droit de son choix de ne pas terminer les travaux, de la conclusion d'une entente\navec un autre promoteur ou de les terminer ou les faire terminer autrement qu'en fonction des plans et devis\nsoumis."
+      "contenu": [
+        {
+          "texte": "Le Promoteur sera considéré en défaut aux termes de l'entente et encourra les sanctions prévues au présent article en\nplus de celles prévues par les lois en vigueur dans les cas suivants :"
+        },
+        {
+          "texte": "1. Si le Promoteur ne débute pas l'exécution des travaux municipaux dans le délai mentionné ou omet de les\npoursuivre avec diligence;"
+        },
+        {
+          "texte": "2. Si le Promoteur, en temps utile, omet, néglige ou refuse d'obtenir le renouvèlement de toute garantie financière\nexigée en vertu du présent règlement ou de l’entente;"
+        },
+        {
+          "texte": "3. Si le Promoteur fait une cession de ses biens, est mis en faillite ou en liquidation, devient insolvable, tire\navantage de toute loi se rapportant à l'insolvabilité ou à la faillite ou tente de le faire ou si un séquestre ou\nsyndic est nommé à ses biens ou à toute partie de ceux-ci;"
+        },
+        {
+          "texte": "4. Si le Promoteur est en défaut de remplir l'un ou l'autre des engagements ou conditions de l'entente ou des\nplans et devis qui l'accompagnent."
+        },
+        {
+          "texte": "Advenant tout défaut du Promoteur à l'une ou quelconque des obligations de l'entente, la Ville peut cumulativement ou\nalternativement :"
+        },
+        {
+          "texte": "1. Confisquer la garantie et s'adresser immédiatement et sans autre formalité, à la caution ou à l’institution\nfinancière ayant émis la lettre de garantie bancaire irrévocable, et requérir qu'elle verse immédiatement à la\nVille la somme nécessaire pour réaliser ou exécuter les travaux selon le contrat accordé par le titulaire ou\nselon les soumissions obtenues par la Ville si le contrat n'est pas accordé par le requérant;"
+        },
+        {
+          "texte": "2. Retenir l'émission de tout permis de construction pour un lot desservi ou à desservir par les travaux municipaux\nvisés par l’entente;"
+        },
+        {
+          "texte": "3. Imposer une taxe spéciale sur les lots visés par l'entente afin de couvrir les dépenses engagées par la Ville\npour parachever les travaux;"
+        },
+        {
+          "texte": "4. Exécuter ou faire exécuter les travaux si elle le juge approprié. Elle n'est aucunement responsable envers le\npromoteur ou ses ayants droit de son choix de ne pas terminer les travaux, de la conclusion d'une entente\navec un autre promoteur ou de les terminer ou les faire terminer autrement qu'en fonction des plans et devis\nsoumis."
+        }
       ],
       "article": 39,
       "section": 0,
@@ -731,8 +1052,44 @@
         15,
         17
       ],
-      "alineas": [
-        "Dans l’éventualité d’un litige entre le promoteur et l’entrepreneur, ses fournisseurs, mains-d'œuvre et sous-traitants, le\npromoteur doit prévoir qu’il tient la Ville indemne de toutes réclamations ou hypothèques qui peuvent en résulter et s’engage\nexplicitement à payer tous les frais de radiations des hypothèques légales, et les frais et honoraires judiciaires pouvant\nincomber à la Ville en raison de tel litige."
+      "contenu": [
+        {
+          "texte": "Dans l’éventualité d’un litige entre le promoteur et l’entrepreneur, ses fournisseurs, mains-d'œuvre et sous-traitants, le\npromoteur doit prévoir qu’il tient la Ville indemne de toutes réclamations ou hypothèques qui peuvent en résulter et s’engage\nexplicitement à payer tous les frais de radiations des hypothèques légales, et les frais et honoraires judiciaires pouvant\nincomber à la Ville en raison de tel litige."
+        },
+        {
+          "texte": "ENTRÉE EN VIGUEUR"
+        },
+        {
+          "texte": "Le présent règlement entre en vigueur conformément à la loi."
+        },
+        {
+          "texte": "Signé à Sainte-Adèle, ce 14e jour du mois d’octobre de l’an 2021."
+        },
+        {
+          "texte": "(s) Nadine Brière (s) Audrey Senécal\n__________________________ ___________________________________\nNadine Brière Me Audrey Senécal\nMairesse Greffière et directrice des services juridiques"
+        },
+        {
+          "texte": "**************************************************"
+        },
+        {
+          "texte": "CERTIFICAT D’APPROBATION"
+        },
+        {
+          "texte": "RÈGLEMENT 1314-2021-TM sur les ententes relatives à des travaux municipaux"
+        },
+        {
+          "texte": "En vertu de l’article 357 de la Loi sur les cités et villes :"
+        },
+        {
+          "texte": "« Règlement 1314-2021-TM sur les ententes relatives à des travaux municipaux »"
+        },
+        {
+          "texte": "Adoption 19 juillet 2021",
+          "tableau": "Rgl-1314-2021-TM-Travaux-municipaux/page16-table1.png"
+        },
+        {
+          "texte": "(s) Nadine Brière (s) Audrey Senécal\n__________________________ ___________________________________\nNadine Brière Me Audrey Senécal\nMairesse Greffière et directrice des services juridiques"
+        }
       ],
       "article": 40,
       "section": 0,
@@ -742,52 +1099,59 @@
       "titre": "FORMULAIRE DE DEMANDE POUR LA\nRÉALISATION DE TRAVAUX MUNICIPAUX",
       "pages": [
         17,
-        19
-      ],
-      "alineas": [
-        "Annexe A – Formulaire de demande pour la réalisation de travaux municipaux",
-        "1. PROMOTEUR",
-        "Nom de l'entreprise :",
-        "Adresse :",
-        "Téléphone :",
-        "Télécopieur :",
-        "Personne",
-        "2. DESCRIPTION DU PROJET",
-        "Type de projet : (Résidentiel, commercial, industriel, projet intégré)",
-        "Date prévue du début des travaux :",
-        "Description sommaire du projet :",
-        "Nombre de lots desservis par le projet :",
-        "3. LOCALISATION DU PROJET",
-        "Voie de circulation la plus proche :",
-        "Nom de l'arpenteur-géomètre :",
-        "Numéros et minutes des plans :",
-        "4. INGÉNIEUR RESPONSABLE DE LA CONCEPTION ET DE LA SURVEILLANCE",
-        "Nom de l'ingénieur responsable :",
-        "Numéros des plans :",
-        "DÉCLARATION",
-        "Je, soussigné(e), ____________________________, agissant pour et au nom de_________________________ demande\nà la Ville de Sainte-Adèle de procéder à la conclusion d’une entente relative aux travaux municipaux pour le projet ci-dessus\nmentionné. Je m’engage à ce que les infrastructures, équipements ou aménagements dans le projet qui sont à caractère\npublic, soient cédées à la Ville, libres de toute charge, priorité et hypothèque, et ce, sur demande de celle-ci à cet effet\nconformément au protocole d’entente à être conclu. Je m’engage à réaliser le projet dans le respect de la règlementation\napplicable de la Ville et je reconnais avoir pris connaissance du règlement sur les ententes relatives aux travaux municipaux\net de toute autre loi ou règlement qui s’appliquerait dans le cadre de mon projet.",
-        "Signature : ______________________________________",
-        "Date : _________ / _________ / _________"
+        18
       ],
       "annexe": "A"
     },
     {
+      "titre": "Formulaire de demande pour la réalisation de travaux municipaux",
       "pages": [
         18,
-        18
-      ],
-      "alineas": [
-        "responsable :"
-      ]
-    },
-    {
-      "pages": [
-        19,
         19
       ],
-      "alineas": [
-        "5."
-      ]
+      "contenu": [
+        {
+          "texte": "1. PROMOTEUR"
+        },
+        {
+          "texte": "Nom de l'entreprise :\nAdresse :\nTéléphone :\nTélécopieur :\nPersonne responsable :",
+          "tableau": "Rgl-1314-2021-TM-Travaux-municipaux/page18-table1.png"
+        },
+        {
+          "texte": "2. DESCRIPTION DU PROJET"
+        },
+        {
+          "texte": "Type de projet : (Résidentiel, commercial, industriel, projet intégré)\nDate prévue du début des travaux :\nDescription sommaire du projet :\nNombre de lots desservis par le projet :",
+          "tableau": "Rgl-1314-2021-TM-Travaux-municipaux/page18-table2.png"
+        },
+        {
+          "texte": "3. LOCALISATION DU PROJET"
+        },
+        {
+          "texte": "Voie de circulation la plus proche :\nNom de l'arpenteur-géomètre :\nNuméros et minutes des plans :",
+          "tableau": "Rgl-1314-2021-TM-Travaux-municipaux/page18-table3.png"
+        },
+        {
+          "texte": "4. INGÉNIEUR RESPONSABLE DE LA CONCEPTION ET DE LA SURVEILLANCE"
+        },
+        {
+          "texte": "Nom de l'ingénieur responsable :\nNuméros des plans :",
+          "tableau": "Rgl-1314-2021-TM-Travaux-municipaux/page18-table4.png"
+        },
+        {
+          "texte": "5. DÉCLARATION"
+        },
+        {
+          "texte": "Je, soussigné(e), ____________________________, agissant pour et au nom de_________________________ demande\nà la Ville de Sainte-Adèle de procéder à la conclusion d’une entente relative aux travaux municipaux pour le projet ci-dessus\nmentionné. Je m’engage à ce que les infrastructures, équipements ou aménagements dans le projet qui sont à caractère\npublic, soient cédées à la Ville, libres de toute charge, priorité et hypothèque, et ce, sur demande de celle-ci à cet effet\nconformément au protocole d’entente à être conclu. Je m’engage à réaliser le projet dans le respect de la règlementation\napplicable de la Ville et je reconnais avoir pris connaissance du règlement sur les ententes relatives aux travaux municipaux\net de toute autre loi ou règlement qui s’appliquerait dans le cadre de mon projet."
+        },
+        {
+          "texte": "Signature : ______________________________________"
+        },
+        {
+          "texte": "Date : _________ / _________ / _________"
+        }
+      ],
+      "annexe": "A"
     }
   ],
   "numero": "1314-2021-TM",

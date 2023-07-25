@@ -1,52 +1,16 @@
 {
   "fichier": "2023-03-20-Rgl-1314-2023-DEM-Adoption-_1.pdf",
-  "titre": "RÈGLEMENT 1314-2023-DEM",
-  "chapitres": [
-    {
-      "numero": "1",
-      "titre": "CERTIFICAT D’APPROBATION",
-      "pages": [
-        6,
-        6
-      ],
-      "contenus": [
-        21,
-        20
-      ]
-    },
-    {
-      "numero": "2",
-      "titre": "RÈGLEMENT 1314-2023-DEM",
-      "pages": [
-        6,
-        6
-      ],
-      "contenus": [
-        21,
-        23
-      ]
-    }
-  ],
-  "attendus": {
-    "pages": [
-      1,
-      1
-    ],
-    "alineas": [
-      "ATTENDU l’adoption de la Loi modifiant la Loi sur le patrimoine culturel et d’autres\ndispositions législatives;",
-      "ATTENDU l’obligation, à compter du",
-      "ATTENDU QU’une consultation publique a eu lieu le 7 mars 2023;",
-      "ATTENDU QU’une copie du règlement a été remise aux membres du conseil\nmunicipal dans les délais impartis par la loi;"
-    ]
-  },
-  "contenus": [
+  "titre": "RÈGLEMENT 1314-2023-DEM\nRégissant la démolition des constructions",
+  "textes": [
     {
       "pages": [
         1,
         1
       ],
-      "alineas": [
-        "Régissant la démolition des constructions"
+      "contenu": [
+        {
+          "texte": "Séance ordinaire du conseil municipal, tenue publiquement le 20 mars 2023, dans\nla salle du conseil municipal située au 1386, rue Dumouchel, lieu ordinaire des\nséances, à laquelle sont présents les membres du conseil suivants formant le\nquorum :"
+        }
       ]
     },
     {
@@ -54,8 +18,10 @@
         1,
         1
       ],
-      "alineas": [
-        "Séance ordinaire du conseil municipal, tenue publiquement le 20 mars 2023, dans\nla salle du conseil municipal située au 1386, rue Dumouchel, lieu ordinaire des\nséances, à laquelle sont présents les membres du conseil suivants formant le\nquorum :"
+      "contenu": [
+        {
+          "texte": "Monsieur Richard Allard Conseiller du district 1\nMadame Arielle Beaudin Conseillère du district 2\nMonsieur Alexandre Laganière Conseiller du district 3\nMonsieur Jean-François Robillard Conseiller du district 4\nMonsieur Gaëtan Gagné Conseiller du district 5\nMonsieur David Huggins-Daines Conseiller du district 6"
+        }
       ]
     },
     {
@@ -63,17 +29,10 @@
         1,
         1
       ],
-      "alineas": [
-        "Monsieur Richard Allard Conseiller du district 1\nMadame Arielle Beaudin Conseillère du district 2\nMonsieur Alexandre Laganière Conseiller du district 3\nMonsieur Jean-François Robillard Conseiller du district 4\nMonsieur Gaëtan Gagné Conseiller du district 5\nMonsieur David Huggins-Daines Conseiller du district 6"
-      ]
-    },
-    {
-      "pages": [
-        1,
-        1
-      ],
-      "alineas": [
-        "sous la présidence de madame la mairesse Michèle Lalonde."
+      "contenu": [
+        {
+          "texte": "sous la présidence de madame la mairesse Michèle Lalonde."
+        }
       ]
     },
     {
@@ -82,9 +41,13 @@
         1,
         1
       ],
-      "alineas": [
-        "LE CONSEIL MUNICIPAL décrète qu’il soit statué et ordonne par le présent\nrèglement ce qui suit :",
-        "Le présent règlement a pour objet de régir la démolition de certains immeubles\nconformément au chapitre V.0.1 du titre I de la Loi sur l’aménagement et l’urbanisme\n(LRQ, chapitre A-19.1)."
+      "contenu": [
+        {
+          "texte": "LE CONSEIL MUNICIPAL décrète qu’il soit statué et ordonne par le présent\nrèglement ce qui suit :"
+        },
+        {
+          "texte": "Le présent règlement a pour objet de régir la démolition de certains immeubles\nconformément au chapitre V.0.1 du titre I de la Loi sur l’aménagement et l’urbanisme\n(LRQ, chapitre A-19.1)."
+        }
       ],
       "article": 1
     },
@@ -93,8 +56,10 @@
         1,
         1
       ],
-      "alineas": [
-        "Article 1 But du règlement"
+      "contenu": [
+        {
+          "texte": "Article 1 But du règlement"
+        }
       ]
     },
     {
@@ -103,8 +68,10 @@
         1,
         1
       ],
-      "alineas": [
-        "En cas de contradiction entre une définition prévue au présent règlement et au\nRèglement de zonage 1314-2021-Z, la définition du présent article doit être utilisée."
+      "contenu": [
+        {
+          "texte": "En cas de contradiction entre une définition prévue au présent règlement et au\nRèglement de zonage 1314-2021-Z, la définition du présent article doit être utilisée."
+        }
       ],
       "article": 2
     },
@@ -114,10 +81,16 @@
         1,
         1
       ],
-      "alineas": [
-        "Les employés du Service de l’urbanisme et de l’environnement sont chargés de\nl’administration et de l’application du présent règlement et constituent l’autorité\ncompétente. Ils peuvent exercer les pouvoirs qui y sont prévus, délivrer des constats\nd’infraction au nom de la Ville relatifs à toute infraction à une disposition du présent\nrèglement et entreprendre tous les recours applicables prévus par la Loi.",
-        "L’autorité compétente peut aussi être toute autre personne désignée par le conseil.",
-        "L’autorité compétente exerce ces pouvoirs conformément aux modalités prévues au\nRèglement sur les permis et certificats 1314-2021-PC."
+      "contenu": [
+        {
+          "texte": "Les employés du Service de l’urbanisme et de l’environnement sont chargés de\nl’administration et de l’application du présent règlement et constituent l’autorité\ncompétente. Ils peuvent exercer les pouvoirs qui y sont prévus, délivrer des constats\nd’infraction au nom de la Ville relatifs à toute infraction à une disposition du présent\nrèglement et entreprendre tous les recours applicables prévus par la Loi."
+        },
+        {
+          "texte": "L’autorité compétente peut aussi être toute autre personne désignée par le conseil."
+        },
+        {
+          "texte": "L’autorité compétente exerce ces pouvoirs conformément aux modalités prévues au\nRèglement sur les permis et certificats 1314-2021-PC."
+        }
       ],
       "article": 3
     },
@@ -127,9 +100,13 @@
         1,
         2
       ],
-      "alineas": [
-        "Un comité nommé « Comité de démolition » est par les présentes constitué. Il est\ncomposé de trois membres du Conseil désigné pour un an par résolution du Conseil.\nLeur mandat est renouvelé automatiquement jusqu’à leur remplacement ou la fin de\nleur mandat en tant que membre du Conseil;",
-        "Le comité rend ses décisions en assemblée publique par voie de résolution à la\nmajorité."
+      "contenu": [
+        {
+          "texte": "Un comité nommé « Comité de démolition » est par les présentes constitué. Il est\ncomposé de trois membres du Conseil désigné pour un an par résolution du Conseil.\nLeur mandat est renouvelé automatiquement jusqu’à leur remplacement ou la fin de\nleur mandat en tant que membre du Conseil;"
+        },
+        {
+          "texte": "Le comité rend ses décisions en assemblée publique par voie de résolution à la\nmajorité."
+        }
       ],
       "article": 4
     },
@@ -139,17 +116,37 @@
         2,
         2
       ],
-      "alineas": [
-        "La démolition d’une construction identifiée au présent article, à plus de 25 % de sa\nvaleur marchande, est interdite, à moins que le propriétaire n’ait été autorisé à cet\neffet conformément au présent règlement.",
-        "1. Tout bâtiment faisant l’objet d’un statut de protection en vertu de la Loi sur le\npatrimoine culturel (LRQ P-9.002);",
-        "2. Tout bâtiment identifié à l’inventaire du patrimoine bâti de la MRC des Pays-\nd’en-Haut en vigueur au moment de la demande d’autorisation;",
-        "3. Une construction principale ou un vestige d’une construction principale\nconstruite avant",
-        "1940;",
-        "4. Une construction accessoire non résidentielle occupant plus de",
-        "50 m2 et\nconstruite avant",
-        "1960 et ce, même si elle a été remplacée depuis;",
-        "5. Un bâtiment principal situé dans les types des milieux T5.1, T5.2, T5.3, ZC.1\net ZC.2 du Règlement de zonage",
-        "1314-2021-Z et ses modifications."
+      "contenu": [
+        {
+          "texte": "La démolition d’une construction identifiée au présent article, à plus de 25 % de sa\nvaleur marchande, est interdite, à moins que le propriétaire n’ait été autorisé à cet\neffet conformément au présent règlement."
+        },
+        {
+          "texte": "1. Tout bâtiment faisant l’objet d’un statut de protection en vertu de la Loi sur le\npatrimoine culturel (LRQ P-9.002);"
+        },
+        {
+          "texte": "2. Tout bâtiment identifié à l’inventaire du patrimoine bâti de la MRC des Pays-\nd’en-Haut en vigueur au moment de la demande d’autorisation;"
+        },
+        {
+          "texte": "3. Une construction principale ou un vestige d’une construction principale\nconstruite avant"
+        },
+        {
+          "texte": "1940;"
+        },
+        {
+          "texte": "4. Une construction accessoire non résidentielle occupant plus de"
+        },
+        {
+          "texte": "50 m2 et\nconstruite avant"
+        },
+        {
+          "texte": "1960 et ce, même si elle a été remplacée depuis;"
+        },
+        {
+          "texte": "5. Un bâtiment principal situé dans les types des milieux T5.1, T5.2, T5.3, ZC.1\net ZC.2 du Règlement de zonage"
+        },
+        {
+          "texte": "1314-2021-Z et ses modifications."
+        }
       ],
       "article": 5
     },
@@ -159,8 +156,10 @@
         2,
         2
       ],
-      "alineas": [
-        "La démolition d’une construction identifiée aux alinéas 3, 4 et 5 de l’article 5 est\nexclue de l’application du présent règlement dans l’une des situations suivantes :\n1. Une démolition exigée par la Ville dans le cadre de l’application de la\nrèglementation d’urbanisme;\n2. Une démolition ordonnée en vertu des articles 227, 229 et 231 de la Loi sur\nl’aménagement et l’urbanisme (LRQ, A-19.1);\n3. Une démolition d’une construction menacée par l’imminence d’un sinistre ou\njugée dangereuse au sens de la Loi sur la sécurité civile (LRQ, chapitre S-2.3)\net sur demande du Service de sécurité des incendies ou de la direction de la\nsécurité publique."
+      "contenu": [
+        {
+          "texte": "La démolition d’une construction identifiée aux alinéas 3, 4 et 5 de l’article 5 est\nexclue de l’application du présent règlement dans l’une des situations suivantes :\n1. Une démolition exigée par la Ville dans le cadre de l’application de la\nrèglementation d’urbanisme;\n2. Une démolition ordonnée en vertu des articles 227, 229 et 231 de la Loi sur\nl’aménagement et l’urbanisme (LRQ, A-19.1);\n3. Une démolition d’une construction menacée par l’imminence d’un sinistre ou\njugée dangereuse au sens de la Loi sur la sécurité civile (LRQ, chapitre S-2.3)\net sur demande du Service de sécurité des incendies ou de la direction de la\nsécurité publique."
+        }
       ],
       "article": 6
     },
@@ -170,8 +169,10 @@
         2,
         2
       ],
-      "alineas": [
-        "Tout propriétaire désirant procéder à la démolition d’une construction doit, au\npréalable, obtenir un certificat d’autorisation en vertu du Règlement sur les permis\net certificats 1314-2021-PC en plus d’obtenir, le cas échéant, l’autorisation de\ndémolir en vertu du présent règlement."
+      "contenu": [
+        {
+          "texte": "Tout propriétaire désirant procéder à la démolition d’une construction doit, au\npréalable, obtenir un certificat d’autorisation en vertu du Règlement sur les permis\net certificats 1314-2021-PC en plus d’obtenir, le cas échéant, l’autorisation de\ndémolir en vertu du présent règlement."
+        }
       ],
       "article": 7
     },
@@ -181,15 +182,31 @@
         2,
         3
       ],
-      "alineas": [
-        "En plus des documents requis au Règlement sur les permis et certificats 1314-2021-\nPC, en vue d’obtenir une autorisation en vertu du présent règlement, les documents\nsuivants doivent être déposés et constituent la demande :",
-        "1. Une description détaillée de l’état de l’immeuble à démolir (ex. : état physique,\ndescription des composantes architecturales, identification des éléments\ndéfaillants);",
-        "2. Des photographies de l’intérieur et de l’extérieur de la construction;",
-        "3. Des photographies du terrain sur lequel la construction est située;",
-        "4. Les motifs justifiant la démolition;",
-        "5. Une estimation professionnelle, indépendante et détaillée, des coûts de la\nrestauration de l’immeuble pour l’usage projeté et pour l’usage existant;",
-        "6. Un programme de réutilisation du sol dégagé comprenant les renseignements\net documents suivants :\na. L’échéancier et le coût probable des travaux de démolition et de réutilisation\ndu sol dégagé;\nb. L’usage des constructions projetées;\nc. La volumétrie des constructions projetées. Ces plans doivent indiquer le\nnombre d’étages, la hauteur totale de la construction, les matériaux de\nrevêtement extérieur, les dimensions de l’immeuble et tout autre élément\npermettant de comprendre la construction de remplacement;\nd. Le plan du projet d’implantation de toute nouvelle construction projetée ainsi\nque le plan du projet de toute opération cadastrale projetée. Ces plans doivent\nmontrer la viabilité du projet de remplacement par rapport à la règlementation\nen vigueur;\ne. Dans le cas d’un terrain contaminé, l’échéancier des travaux de\ndécontamination et le coût probable de ces travaux;",
-        "f. Tout autre document ou information nécessaire, demandée par un\nfonctionnaire, le Comité consultatif d’urbanisme (CCU) ou le Comité de\ndémolition permettant la bonne compréhension du projet proposé ou de ses\nimpacts sur le milieu;\n7. L’échéancier et le coût probable des travaux de démolition;\n8. Dans le cas d’un immeuble comprenant un ou plusieurs logements, le loyer\nmensuel des logements prévus d’être détruit et le loyer projeté des logements\nde remplacement, le cas échéant;\n9. Dans le cas d’un immeuble visé aux alinéas 1 et 2 de l’article 5, une étude\npatrimoniale réalisée par un expert en la matière ainsi qu’une évaluation de\nl’état du bâtiment préparé par un ingénieur en structure identifiant les\ndéfaillances existantes de la construction;\n10. Le paiement de frais de 150 $, lequel sont en sus de la tarification de base\nprévue au Règlement sur les permis et certificats 1314-2021-PC."
+      "contenu": [
+        {
+          "texte": "En plus des documents requis au Règlement sur les permis et certificats 1314-2021-\nPC, en vue d’obtenir une autorisation en vertu du présent règlement, les documents\nsuivants doivent être déposés et constituent la demande :"
+        },
+        {
+          "texte": "1. Une description détaillée de l’état de l’immeuble à démolir (ex. : état physique,\ndescription des composantes architecturales, identification des éléments\ndéfaillants);"
+        },
+        {
+          "texte": "2. Des photographies de l’intérieur et de l’extérieur de la construction;"
+        },
+        {
+          "texte": "3. Des photographies du terrain sur lequel la construction est située;"
+        },
+        {
+          "texte": "4. Les motifs justifiant la démolition;"
+        },
+        {
+          "texte": "5. Une estimation professionnelle, indépendante et détaillée, des coûts de la\nrestauration de l’immeuble pour l’usage projeté et pour l’usage existant;"
+        },
+        {
+          "texte": "6. Un programme de réutilisation du sol dégagé comprenant les renseignements\net documents suivants :\na. L’échéancier et le coût probable des travaux de démolition et de réutilisation\ndu sol dégagé;\nb. L’usage des constructions projetées;\nc. La volumétrie des constructions projetées. Ces plans doivent indiquer le\nnombre d’étages, la hauteur totale de la construction, les matériaux de\nrevêtement extérieur, les dimensions de l’immeuble et tout autre élément\npermettant de comprendre la construction de remplacement;\nd. Le plan du projet d’implantation de toute nouvelle construction projetée ainsi\nque le plan du projet de toute opération cadastrale projetée. Ces plans doivent\nmontrer la viabilité du projet de remplacement par rapport à la règlementation\nen vigueur;\ne. Dans le cas d’un terrain contaminé, l’échéancier des travaux de\ndécontamination et le coût probable de ces travaux;"
+        },
+        {
+          "texte": "f. Tout autre document ou information nécessaire, demandée par un\nfonctionnaire, le Comité consultatif d’urbanisme (CCU) ou le Comité de\ndémolition permettant la bonne compréhension du projet proposé ou de ses\nimpacts sur le milieu;\n7. L’échéancier et le coût probable des travaux de démolition;\n8. Dans le cas d’un immeuble comprenant un ou plusieurs logements, le loyer\nmensuel des logements prévus d’être détruit et le loyer projeté des logements\nde remplacement, le cas échéant;\n9. Dans le cas d’un immeuble visé aux alinéas 1 et 2 de l’article 5, une étude\npatrimoniale réalisée par un expert en la matière ainsi qu’une évaluation de\nl’état du bâtiment préparé par un ingénieur en structure identifiant les\ndéfaillances existantes de la construction;\n10. Le paiement de frais de 150 $, lequel sont en sus de la tarification de base\nprévue au Règlement sur les permis et certificats 1314-2021-PC."
+        }
       ],
       "article": 8
     },
@@ -199,19 +216,43 @@
         3,
         4
       ],
-      "alineas": [
-        "Le fonctionnaire désigné analyse la demande et vérifie si tous les renseignements\net documents exigés ont été fournis. Il transmet ensuite la demande pour analyse\nen comité et entreprend le processus d’avis publics.",
-        "Si les renseignements et documents sont incomplets ou imprécis, le traitement de\nla demande est suspendu jusqu’à ce que les renseignements et documents exigés\naient été fournis par le requérant.",
-        "Le fonctionnaire désigné fait afficher sur l’immeuble un avis facilement visible pour\nles passants pour une période de dix (10) jours. De plus, la Ville publie un avis\npublic, conformément à ses règles en vigueur en la matière;",
-        "Une copie de l’avis est transmise au Ministère de la Culture et des Communications\npour un immeuble bénéficiant d’une protection en vertu de la Loi sur le patrimoine\nculturel (LRQ P-9.002)",
-        "Toute personne qui veut s’opposer à la démolition doit, dans les dix (10) jours de la\npublication de l’avis public, faire connaître par écrit son opposition motivée au\ngreffier de la Ville.",
-        "Avant de se prononcer sur une demande de démolition, le Comité de démolition\nprend l’avis du Comité consultatif d’urbanisme, lequel agit en sa qualité de Comité\nlocal du patrimoine.",
-        "Les comités doivent examiner la demande à la lumière des critères d’évaluation\nsuivants et transmettre une recommandation :\n1- L'état physique de l’immeuble;\n2- La détérioration de l'apparence architecturale, de la valeur patrimoniale, le\ncaractère esthétique de la construction et/ou son impact sur son milieu;\n3- Le coût de restauration de l’immeuble par rapport à la valeur de celui-ci;\n4- Les oppositions reçues;\n5- L'utilisation projetée du sol dégagé;\n6- Lorsque l’immeuble comprend un ou plusieurs logements :\na) Le préjudice causé aux locataires;\nb) Les besoins en logements dans les environs;\nc) L’impact sur l’offre de logement sur le territoire de la Ville.\n7- La valeur patrimoniale de la construction et la préservation des éléments\nidentifiée au règlement de citation de l’immeuble;\n8- La viabilité et la pertinence du projet de remplacement proposé en lien avec les\nobjectifs du Plan d’urbanisme;",
-        "Après avoir reçu la recommandation du Comité consultatif d’urbanisme, et si aucune\ndemande n’a été présentée en vertu des articles 148.0.8 et 148.0.9 de la Loi sur\nl’aménagement et l’urbanisme (LRQ A-19.1), le Comité de démolition tient une\nséance où il pourra recevoir les commentaires des personnes intéressées. À la fin\nde la séance, le Comité peut rendre une décision ou reporter une décision à une\nséance ultérieure;",
-        "Le Service du greffe transmet à l’ensemble des parties en cause la décision\nconformément à la Loi ;",
-        "Toute personne peut, dans les 30 jours de la décision du Comité, demander au\nconseil de réviser cette décision en transmettant un écrit à cet effet au greffier de la\nVille.",
-        "Le conseil peut, de son propre chef ou suite à la réception d’une demande, dans les\n30 jours d’une décision du Comité de démolition qui autorise la démolition d’un\nimmeuble patrimonial, adopter une résolution confirmant la décision du Comité de\ndémolition ou exprimant son intention de réviser cette décision. Cette révision devra\nalors être rendue dans les 60 jours, faute de quoi la décision du Comité de\ndémolition deviendra finale.",
-        "Pour un immeuble bénéficiant d’une protection en vertu de la Loi sur le patrimoine\nculturel (LRQ P-9.002), une copie de la décision est transmise à la MRC des Pays-\nd’en-Haut. Cette dernière bénéficie d’un délai de 90 jours pour désavouer la décision\nen vertu de l’article 148.0.20.1 de la Loi sur l’aménagement et l’urbanisme (LRQ A-\n19.1)"
+      "contenu": [
+        {
+          "texte": "Le fonctionnaire désigné analyse la demande et vérifie si tous les renseignements\net documents exigés ont été fournis. Il transmet ensuite la demande pour analyse\nen comité et entreprend le processus d’avis publics."
+        },
+        {
+          "texte": "Si les renseignements et documents sont incomplets ou imprécis, le traitement de\nla demande est suspendu jusqu’à ce que les renseignements et documents exigés\naient été fournis par le requérant."
+        },
+        {
+          "texte": "Le fonctionnaire désigné fait afficher sur l’immeuble un avis facilement visible pour\nles passants pour une période de dix (10) jours. De plus, la Ville publie un avis\npublic, conformément à ses règles en vigueur en la matière;"
+        },
+        {
+          "texte": "Une copie de l’avis est transmise au Ministère de la Culture et des Communications\npour un immeuble bénéficiant d’une protection en vertu de la Loi sur le patrimoine\nculturel (LRQ P-9.002)"
+        },
+        {
+          "texte": "Toute personne qui veut s’opposer à la démolition doit, dans les dix (10) jours de la\npublication de l’avis public, faire connaître par écrit son opposition motivée au\ngreffier de la Ville."
+        },
+        {
+          "texte": "Avant de se prononcer sur une demande de démolition, le Comité de démolition\nprend l’avis du Comité consultatif d’urbanisme, lequel agit en sa qualité de Comité\nlocal du patrimoine."
+        },
+        {
+          "texte": "Les comités doivent examiner la demande à la lumière des critères d’évaluation\nsuivants et transmettre une recommandation :\n1- L'état physique de l’immeuble;\n2- La détérioration de l'apparence architecturale, de la valeur patrimoniale, le\ncaractère esthétique de la construction et/ou son impact sur son milieu;\n3- Le coût de restauration de l’immeuble par rapport à la valeur de celui-ci;\n4- Les oppositions reçues;\n5- L'utilisation projetée du sol dégagé;\n6- Lorsque l’immeuble comprend un ou plusieurs logements :\na) Le préjudice causé aux locataires;\nb) Les besoins en logements dans les environs;\nc) L’impact sur l’offre de logement sur le territoire de la Ville.\n7- La valeur patrimoniale de la construction et la préservation des éléments\nidentifiée au règlement de citation de l’immeuble;\n8- La viabilité et la pertinence du projet de remplacement proposé en lien avec les\nobjectifs du Plan d’urbanisme;"
+        },
+        {
+          "texte": "Après avoir reçu la recommandation du Comité consultatif d’urbanisme, et si aucune\ndemande n’a été présentée en vertu des articles 148.0.8 et 148.0.9 de la Loi sur\nl’aménagement et l’urbanisme (LRQ A-19.1), le Comité de démolition tient une\nséance où il pourra recevoir les commentaires des personnes intéressées. À la fin\nde la séance, le Comité peut rendre une décision ou reporter une décision à une\nséance ultérieure;"
+        },
+        {
+          "texte": "Le Service du greffe transmet à l’ensemble des parties en cause la décision\nconformément à la Loi ;"
+        },
+        {
+          "texte": "Toute personne peut, dans les 30 jours de la décision du Comité, demander au\nconseil de réviser cette décision en transmettant un écrit à cet effet au greffier de la\nVille."
+        },
+        {
+          "texte": "Le conseil peut, de son propre chef ou suite à la réception d’une demande, dans les\n30 jours d’une décision du Comité de démolition qui autorise la démolition d’un\nimmeuble patrimonial, adopter une résolution confirmant la décision du Comité de\ndémolition ou exprimant son intention de réviser cette décision. Cette révision devra\nalors être rendue dans les 60 jours, faute de quoi la décision du Comité de\ndémolition deviendra finale."
+        },
+        {
+          "texte": "Pour un immeuble bénéficiant d’une protection en vertu de la Loi sur le patrimoine\nculturel (LRQ P-9.002), une copie de la décision est transmise à la MRC des Pays-\nd’en-Haut. Cette dernière bénéficie d’un délai de 90 jours pour désavouer la décision\nen vertu de l’article 148.0.20.1 de la Loi sur l’aménagement et l’urbanisme (LRQ A-\n19.1)"
+        }
       ],
       "article": 9
     },
@@ -221,11 +262,19 @@
         4,
         4
       ],
-      "alineas": [
-        "Le Comité de démolition peut imposer toute condition relative à la compétence\nmunicipale, notamment le déménagement des occupants, le délai de réalisation des\ntravaux et exiger une garantie financière d’une valeur qu’il détermine pour garantir\nune partie ou l’ensemble des travaux proposés.",
-        "Cette garantie monétaire doit être fournie au moyen d’un chèque certifié, d’un dépôt\nen argent ou d’une lettre de garantie bancaire irrévocable et sans condition d’une\ndurée minimale d’un an. Cette garantie doit être renouvelée avant son échéance,\ns’il en est, tant et aussi longtemps que le requérant n’a pas respecté toutes les\nconditions imposées par le comité. Elle est remboursée, le cas échéant, sans intérêt.",
-        "Lorsque les travaux entrepris ne sont pas terminés dans les délais fixés ou lorsque\nles conditions imposées par le Comité n’ont pas été remplies, la Ville peut encaisser\nla garantie monétaire.",
-        "Tout changement aux conditions doit faire l’objet d’une décision du Comité de\ndémolition."
+      "contenu": [
+        {
+          "texte": "Le Comité de démolition peut imposer toute condition relative à la compétence\nmunicipale, notamment le déménagement des occupants, le délai de réalisation des\ntravaux et exiger une garantie financière d’une valeur qu’il détermine pour garantir\nune partie ou l’ensemble des travaux proposés."
+        },
+        {
+          "texte": "Cette garantie monétaire doit être fournie au moyen d’un chèque certifié, d’un dépôt\nen argent ou d’une lettre de garantie bancaire irrévocable et sans condition d’une\ndurée minimale d’un an. Cette garantie doit être renouvelée avant son échéance,\ns’il en est, tant et aussi longtemps que le requérant n’a pas respecté toutes les\nconditions imposées par le comité. Elle est remboursée, le cas échéant, sans intérêt."
+        },
+        {
+          "texte": "Lorsque les travaux entrepris ne sont pas terminés dans les délais fixés ou lorsque\nles conditions imposées par le Comité n’ont pas été remplies, la Ville peut encaisser\nla garantie monétaire."
+        },
+        {
+          "texte": "Tout changement aux conditions doit faire l’objet d’une décision du Comité de\ndémolition."
+        }
       ],
       "article": 10
     },
@@ -235,10 +284,16 @@
         4,
         4
       ],
-      "alineas": [
-        "Lorsque l’immeuble fait l’objet, en tout ou en partie, d’une cession à un tiers avant\nque les travaux ne soient entièrement remplis, le nouvel acquéreur ne peut\npoursuivre ces travaux avant d’avoir obtenu, conformément aux dispositions du\nprésent règlement et du Règlement sur les permis et certificats 1314-2021-PC, un\nnouveau certificat d’autorisation de démolition.",
-        "Lorsque l’immeuble fait l’objet, en tout ou en partie, d’une cession à un tiers, pendant\nles travaux ou après l’achèvement des travaux, la personne qui a fourni à la Ville la\ngarantie monétaire exigée continue à être assujettie à l’obligation de la maintenir en\nvigueur tant que ne sont pas remplies les conditions imposées par le Comité de\ndémolition, à moins que le nouvel acquéreur ne fournisse la nouvelle garantie\nmonétaire exigée.",
-        "Lorsque l’immeuble fait l’objet, en tout ou en partie, d’une cession à un tiers, la Ville\npeut encaisser la garantie monétaire, qui avait été fournie par le vendeur, si le nouvel\nacquéreur n’exécute pas les travaux entrepris ou ne remplit pas les conditions\nimposées."
+      "contenu": [
+        {
+          "texte": "Lorsque l’immeuble fait l’objet, en tout ou en partie, d’une cession à un tiers avant\nque les travaux ne soient entièrement remplis, le nouvel acquéreur ne peut\npoursuivre ces travaux avant d’avoir obtenu, conformément aux dispositions du\nprésent règlement et du Règlement sur les permis et certificats 1314-2021-PC, un\nnouveau certificat d’autorisation de démolition."
+        },
+        {
+          "texte": "Lorsque l’immeuble fait l’objet, en tout ou en partie, d’une cession à un tiers, pendant\nles travaux ou après l’achèvement des travaux, la personne qui a fourni à la Ville la\ngarantie monétaire exigée continue à être assujettie à l’obligation de la maintenir en\nvigueur tant que ne sont pas remplies les conditions imposées par le Comité de\ndémolition, à moins que le nouvel acquéreur ne fournisse la nouvelle garantie\nmonétaire exigée."
+        },
+        {
+          "texte": "Lorsque l’immeuble fait l’objet, en tout ou en partie, d’une cession à un tiers, la Ville\npeut encaisser la garantie monétaire, qui avait été fournie par le vendeur, si le nouvel\nacquéreur n’exécute pas les travaux entrepris ou ne remplit pas les conditions\nimposées."
+        }
       ],
       "article": 11
     },
@@ -248,8 +303,10 @@
         4,
         5
       ],
-      "alineas": [
-        "Lorsque le Comité de démolition autorise la démolition et que sont écoulés\nl’ensemble des délais de révision, le fonctionnaire désigné délivre le certificat\nd’autorisation de démolition conformément aux modalités du Règlement sur les\npermis et certificats 1314-2021-PC en appliquant l’ensemble des conditions\nimposées ainsi qu’en prélevant tous les tarifs et garanties financières."
+      "contenu": [
+        {
+          "texte": "Lorsque le Comité de démolition autorise la démolition et que sont écoulés\nl’ensemble des délais de révision, le fonctionnaire désigné délivre le certificat\nd’autorisation de démolition conformément aux modalités du Règlement sur les\npermis et certificats 1314-2021-PC en appliquant l’ensemble des conditions\nimposées ainsi qu’en prélevant tous les tarifs et garanties financières."
+        }
       ],
       "article": 12
     },
@@ -259,8 +316,10 @@
         5,
         5
       ],
-      "alineas": [
-        "La décision du Comité de démolition devient nulle si les démarches d’obtention du\ncertificat d’autorisation de démolition ne sont pas complétées dans les 6 mois de la\ndécision et si les travaux ne sont pas exécutés un an après la délivrance du certificat\nd’autorisation."
+      "contenu": [
+        {
+          "texte": "La décision du Comité de démolition devient nulle si les démarches d’obtention du\ncertificat d’autorisation de démolition ne sont pas complétées dans les 6 mois de la\ndécision et si les travaux ne sont pas exécutés un an après la délivrance du certificat\nd’autorisation."
+        }
       ],
       "article": 13
     },
@@ -270,6 +329,11 @@
         5,
         5
       ],
+      "contenu": [
+        {
+          "texte": "Si les travaux ne sont pas terminés dans le délai fixé, la Ville peut les faire exécuter\net en recouvrer les frais du propriétaire. Ces frais constituent une créance prioritaire\nsur le terrain où était situé l’immeuble, au même titre et selon le même rang que les\ncréances visées au paragraphe 5° de l’article 2651 du Code civil, ces frais sont\ngarantis par une hypothèque légale sur ce terrain."
+        }
+      ],
       "article": 14
     },
     {
@@ -278,11 +342,19 @@
         5,
         5
       ],
-      "alineas": [
-        "Quiconque procède à, fait procéder à ou permet que soit effectuée la démolition\nd’un immeuble sans autorisation en vertu du présent règlement ou à l’encontre des\nconditions d’autorisation est passible d’une amende d’au moins 10 000 $ et d’au\nplus 250 000 $. L’amende maximale est toutefois de 1 140 000 $ dans le cas de la\ndémolition par une personne morale, d’un immeuble cité conformément à la Loi sur\nle patrimoine culturel (LRQ P-9.002);",
-        "De plus, le contrevenant doit reconstituer la construction ou l’immeuble démoli\nillégalement. À défaut pour le contrevenant de reconstituer l’immeuble\nconformément au règlement, le conseil peut faire exécuter les travaux et en\nrecouvrer les frais de ce dernier, auquel cas l’article 148.0.17 de la Loi sur\nl’aménagement et l’urbanisme (LRQ A-19.1) s’applique, compte tenu des\nadaptations nécessaires.",
-        "En tout temps, pendant l’exécution des travaux de démolition, une personne en\nautorité sur les lieux doit avoir en sa possession un exemplaire du certificat\nd’autorisation. Un fonctionnaire désigné peut pénétrer, à toute heure raisonnable,\nsur les lieux où s’effectuent ces travaux afin de vérifier si la démolition est conforme\naux conditions applicables et consulter le certificat en vigueur.",
-        "Est passible d’une amende de 500 $:\n1° quiconque empêche un fonctionnaire désigné de pénétrer sur les lieux où\ns’effectuent les travaux de démolition;\n2° quiconque travaille sur les lieux où doivent s’effectuer des travaux et refuse ou\nest incapable d’exhiber, sur demande d’un fonctionnaire désigné, un exemplaire du\ncertificat d’autorisation autorisant les travaux"
+      "contenu": [
+        {
+          "texte": "Quiconque procède à, fait procéder à ou permet que soit effectuée la démolition\nd’un immeuble sans autorisation en vertu du présent règlement ou à l’encontre des\nconditions d’autorisation est passible d’une amende d’au moins 10 000 $ et d’au\nplus 250 000 $. L’amende maximale est toutefois de 1 140 000 $ dans le cas de la\ndémolition par une personne morale, d’un immeuble cité conformément à la Loi sur\nle patrimoine culturel (LRQ P-9.002);"
+        },
+        {
+          "texte": "De plus, le contrevenant doit reconstituer la construction ou l’immeuble démoli\nillégalement. À défaut pour le contrevenant de reconstituer l’immeuble\nconformément au règlement, le conseil peut faire exécuter les travaux et en\nrecouvrer les frais de ce dernier, auquel cas l’article 148.0.17 de la Loi sur\nl’aménagement et l’urbanisme (LRQ A-19.1) s’applique, compte tenu des\nadaptations nécessaires."
+        },
+        {
+          "texte": "En tout temps, pendant l’exécution des travaux de démolition, une personne en\nautorité sur les lieux doit avoir en sa possession un exemplaire du certificat\nd’autorisation. Un fonctionnaire désigné peut pénétrer, à toute heure raisonnable,\nsur les lieux où s’effectuent ces travaux afin de vérifier si la démolition est conforme\naux conditions applicables et consulter le certificat en vigueur."
+        },
+        {
+          "texte": "Est passible d’une amende de 500 $:\n1° quiconque empêche un fonctionnaire désigné de pénétrer sur les lieux où\ns’effectuent les travaux de démolition;\n2° quiconque travaille sur les lieux où doivent s’effectuer des travaux et refuse ou\nest incapable d’exhiber, sur demande d’un fonctionnaire désigné, un exemplaire du\ncertificat d’autorisation autorisant les travaux"
+        }
       ],
       "article": 15
     },
@@ -292,43 +364,44 @@
         5,
         6
       ],
-      "alineas": [
-        "Le présent règlement entre en vigueur, conformément à la loi.",
-        "Signé à Sainte-Adèle, ce 19e jour du mois d’avril de l’an 2023",
-        "(s) Michèle Lalonde (s) Audrey Senécal\n________________________ ___________________________\nMme Michèle Lalonde Me Audrey Senécal\nMairesse Greffière et directrice des Services\njuridiques",
-        "*********************************************"
+      "contenu": [
+        {
+          "texte": "Le présent règlement entre en vigueur, conformément à la loi."
+        },
+        {
+          "texte": "Signé à Sainte-Adèle, ce 19e jour du mois d’avril de l’an 2023"
+        },
+        {
+          "texte": "(s) Michèle Lalonde (s) Audrey Senécal\n________________________ ___________________________\nMme Michèle Lalonde Me Audrey Senécal\nMairesse Greffière et directrice des Services\njuridiques"
+        },
+        {
+          "texte": "*********************************************"
+        },
+        {
+          "texte": "CERTIFICAT D’APPROBATION"
+        },
+        {
+          "texte": "RÈGLEMENT 1314-2023-DEM"
+        },
+        {
+          "texte": "En vertu de l’article 357 de la Loi sur les cités et villes (RLRQ, c. C-19) :"
+        },
+        {
+          "texte": "« Règlement 1314-2023-DEM régissant la démolition des constructions »."
+        },
+        {
+          "texte": "Adoption 20 mars 2023",
+          "tableau": "2023-03-20-Rgl-1314-2023-DEM-Adoption-_1/page6-table1.png"
+        },
+        {
+          "texte": "(s) Michèle Lalonde (s) Audrey Senécal\n_____________________ _________________________\nMme Michèle Lalonde Me Audrey Senécal\nMairesse Greffière et directrice des Services\njuridiques"
+        }
       ],
       "article": 16
-    },
-    {
-      "pages": [
-        6,
-        6
-      ],
-      "alineas": [
-        "En vertu de l’article 357 de la Loi sur les cités et villes (RLRQ, c. C-19) :"
-      ]
-    },
-    {
-      "pages": [
-        6,
-        6
-      ],
-      "alineas": [
-        "« Règlement 1314-2023-DEM régissant la démolition des constructions »."
-      ]
-    },
-    {
-      "pages": [
-        6,
-        6
-      ],
-      "alineas": [
-        "(s) Michèle Lalonde (s) Audrey Senécal\n_____________________ _________________________\nMme Michèle Lalonde Me Audrey Senécal\nMairesse Greffière et directrice des Services\njuridiques"
-      ]
     }
   ],
   "numero": "1314-2023-DEM",
+  "objet": "Régissant la démolition des constructions",
   "dates": {
     "adoption": "Adoption 20 mars 2023",
     "projet": "Assemblée publique de consultation 7 mars 2023",

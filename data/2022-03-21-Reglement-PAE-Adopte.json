@@ -1,25 +1,16 @@
 {
   "fichier": "2022-03-21-Reglement-PAE-Adopte.pdf",
-  "titre": "RÈGLEMENT 1323",
-  "attendus": {
-    "pages": [
-      1,
-      1
-    ],
-    "alineas": [
-      "ATTENDU QUE la Ville de Sainte-Adèle désire harmoniser le développement de\nses infrastructures routières ;",
-      "ATTENDU QUE l’intention de la ville de limiter la prolifération des chemins sans\nissus dans les nouveaux projets de développements ;",
-      "ATTENDU QU’une copie du règlement a été remise aux membres du conseil\nmunicipal dans les délais impartis par la Loi ;"
-    ]
-  },
-  "contenus": [
+  "titre": "RÈGLEMENT 1323\nConcernant les plans d’aménagement d’ensemble\n(PAE)",
+  "textes": [
     {
       "pages": [
         1,
         1
       ],
-      "alineas": [
-        "Concernant les plans d’aménagement d’ensemble\n(PAE)"
+      "contenu": [
+        {
+          "texte": "Séance ordinaire du conseil municipal, tenue en visioconférence, le 21 mars\n2022, à laquelle sont présents les membres du conseil suivants formant le\nquorum :"
+        }
       ]
     },
     {
@@ -27,8 +18,10 @@
         1,
         1
       ],
-      "alineas": [
-        "Séance ordinaire du conseil municipal, tenue en visioconférence, le 21 mars\n2022, à laquelle sont présents les membres du conseil suivants formant le\nquorum :"
+      "contenu": [
+        {
+          "texte": "Monsieur Richard Allard Conseiller du district 1\nMadame Arielle Beaudin Conseillère du district 2\nMonsieur Alexandre Laganière Conseiller du district 3\nMonsieur Jean-François Robillard Conseiller du district 4\nMonsieur Gaëtan Gagné Conseiller du district 5\nMonsieur David Huggins-Daines Conseiller du district 6"
+        }
       ]
     },
     {
@@ -36,8 +29,10 @@
         1,
         1
       ],
-      "alineas": [
-        "Monsieur Richard Allard Conseiller du district 1\nMadame Arielle Beaudin Conseillère du district 2\nMonsieur Alexandre Laganière Conseiller du district 3\nMonsieur Jean-François Robillard Conseiller du district 4\nMonsieur Gaëtan Gagné Conseiller du district 5\nMonsieur David Huggins-Daines Conseiller du district 6"
+      "contenu": [
+        {
+          "texte": "sous la présidence de madame la mairesse Michèle Lalonde."
+        }
       ]
     },
     {
@@ -45,17 +40,10 @@
         1,
         1
       ],
-      "alineas": [
-        "sous la présidence de madame la mairesse Michèle Lalonde."
-      ]
-    },
-    {
-      "pages": [
-        1,
-        1
-      ],
-      "alineas": [
-        "LE CONSEIL MUNICIPAL décrète qu’il soit statué et ordonné par le présent\nrèglement ce qui suit :"
+      "contenu": [
+        {
+          "texte": "LE CONSEIL MUNICIPAL décrète qu’il soit statué et ordonné par le présent\nrèglement ce qui suit :"
+        }
       ]
     },
     {
@@ -64,8 +52,10 @@
         1,
         1
       ],
-      "alineas": [
-        "Les dispositions du présent règlement s'appliquent à toutes les zones\nappartenant au type de milieu T3.1 (habitation en milieu boisé) tel que prévu au\nrèglement de zonage 1314-2021-Z"
+      "contenu": [
+        {
+          "texte": "Les dispositions du présent règlement s'appliquent à toutes les zones\nappartenant au type de milieu T3.1 (habitation en milieu boisé) tel que prévu au\nrèglement de zonage 1314-2021-Z"
+        }
       ],
       "article": 1
     },
@@ -75,9 +65,13 @@
         1,
         1
       ],
-      "alineas": [
-        "Assurer que tout prolongement routier puisse être interconnecté ainsi qu’assurer\nla continuité des différents réseaux.",
-        "Dans une perspective de développement durable, le bouclage des réseaux\nroutiers devient une priorité d’aménagement et les projets sans issues doivent\nêtre évités."
+      "contenu": [
+        {
+          "texte": "Assurer que tout prolongement routier puisse être interconnecté ainsi qu’assurer\nla continuité des différents réseaux."
+        },
+        {
+          "texte": "Dans une perspective de développement durable, le bouclage des réseaux\nroutiers devient une priorité d’aménagement et les projets sans issues doivent\nêtre évités."
+        }
       ],
       "article": 2
     },
@@ -87,8 +81,10 @@
         1,
         1
       ],
-      "alineas": [
-        "Le lotissement doit permettre, à l’intérieur du projet ou d’un projet subséquent, le\nbouclage du réseau routier, d’infrastructures ou de loisirs et de déplacement\nactifs."
+      "contenu": [
+        {
+          "texte": "Le lotissement doit permettre, à l’intérieur du projet ou d’un projet subséquent, le\nbouclage du réseau routier, d’infrastructures ou de loisirs et de déplacement\nactifs."
+        }
       ],
       "article": 3
     },
@@ -98,8 +94,10 @@
         1,
         2
       ],
-      "alineas": [
-        "Lorsqu'un ou des propriétaires souhaitent mettre en valeur une ou des propriétés\nsituées dans une ou plusieurs zones du type de milieu T 3.1 pour y construire\nune infrastructure routière, un plan d’aménagement d’ensemble (P.A.E.) doit être\nprésenté en conformité avec les dispositions définies par le présent règlement."
+      "contenu": [
+        {
+          "texte": "Lorsqu'un ou des propriétaires souhaitent mettre en valeur une ou des propriétés\nsituées dans une ou plusieurs zones du type de milieu T 3.1 pour y construire\nune infrastructure routière, un plan d’aménagement d’ensemble (P.A.E.) doit être\nprésenté en conformité avec les dispositions définies par le présent règlement."
+        }
       ],
       "article": 4
     },
@@ -109,19 +107,43 @@
         2,
         2
       ],
-      "alineas": [
-        "Un plan d’aménagement d’ensemble doit inclure l’ensemble des documents\nprévus par le Règlement sur les permis et certificat 1314-2012-PC visant les\nmodifications règlementaires et, le cas échéant, les projets majeurs de\nlotissement ou de construction.",
-        "De plus, la demande devra inclure un plan concept du plan d’aménagement\nd’ensemble effectué à une échelle de 1 : 500 à 2 500, identifiant et comprenant :",
-        "a. la date, le titre, le nord et l'échelle;",
-        "b. l’identification cadastrale du projet et des lots adjacents aux limites dudit\nprojet;",
-        "c. le tracé et l’emprise des rues proposées et des rues existantes ou déjà\nacceptées avec lequel les rues proposées communiquent sur l’immeuble\net les immeubles adjacents;",
-        "d. les caractéristiques des rues projetées (largeur d’emprise, pente, etc.), de\nmême que l’identification, la localisation et la typologie associées à tous les\nliens piétons, cyclables ou autres de même nature proposés sur le site et\nles immeubles adjacents;",
-        "e. les caractéristiques de toutes les intersections des rues projetées qui\ncommuniquent avec les rues existantes ou déjà acceptées;",
-        "f. la localisation des entrées charretières et des allées de circulation donnant\naccès au projet, le cas échéant;",
-        "g. la localisation des équipements et des infrastructures situés à l’intérieur du\nprojet et sur les lots ou parties de lots adjacents à l'aire du plan\nd’aménagement d’ensemble;",
-        "h. les servitudes et les droits de passages existants ou requis;",
-        "i. la topographie du terrain, exprimée par des courbes de niveau dont les\nintervalles sont suffisants à la bonne compréhension des caractéristiques\ndu site, en distinguant principalement : les zones de très fortes pentes\n(pente de 30 % et plus), les zones de fortes pentes (pente de 15 % à moins\nde 30 %), les zones de pentes moyennes (pente de plus de 10 % à moins\nde 15 %) et les zones de faibles pentes (pente de 10 % et moins), le cas\néchéant;",
-        "j. l’identification et la localisation des éléments de contrainte ou potentiel du\nsite incluant les caractéristiques naturelles du site et leurs localisations\n(cours d'eau, milieux humides, rocs de surface, espaces boisés, végétation\nexistante, zones d'inondations, etc.) et les modifications qui y sont\nprojetées;"
+      "contenu": [
+        {
+          "texte": "Un plan d’aménagement d’ensemble doit inclure l’ensemble des documents\nprévus par le Règlement sur les permis et certificat 1314-2012-PC visant les\nmodifications règlementaires et, le cas échéant, les projets majeurs de\nlotissement ou de construction."
+        },
+        {
+          "texte": "De plus, la demande devra inclure un plan concept du plan d’aménagement\nd’ensemble effectué à une échelle de 1 : 500 à 2 500, identifiant et comprenant :"
+        },
+        {
+          "texte": "a. la date, le titre, le nord et l'échelle;"
+        },
+        {
+          "texte": "b. l’identification cadastrale du projet et des lots adjacents aux limites dudit\nprojet;"
+        },
+        {
+          "texte": "c. le tracé et l’emprise des rues proposées et des rues existantes ou déjà\nacceptées avec lequel les rues proposées communiquent sur l’immeuble\net les immeubles adjacents;"
+        },
+        {
+          "texte": "d. les caractéristiques des rues projetées (largeur d’emprise, pente, etc.), de\nmême que l’identification, la localisation et la typologie associées à tous les\nliens piétons, cyclables ou autres de même nature proposés sur le site et\nles immeubles adjacents;"
+        },
+        {
+          "texte": "e. les caractéristiques de toutes les intersections des rues projetées qui\ncommuniquent avec les rues existantes ou déjà acceptées;"
+        },
+        {
+          "texte": "f. la localisation des entrées charretières et des allées de circulation donnant\naccès au projet, le cas échéant;"
+        },
+        {
+          "texte": "g. la localisation des équipements et des infrastructures situés à l’intérieur du\nprojet et sur les lots ou parties de lots adjacents à l'aire du plan\nd’aménagement d’ensemble;"
+        },
+        {
+          "texte": "h. les servitudes et les droits de passages existants ou requis;"
+        },
+        {
+          "texte": "i. la topographie du terrain, exprimée par des courbes de niveau dont les\nintervalles sont suffisants à la bonne compréhension des caractéristiques\ndu site, en distinguant principalement : les zones de très fortes pentes\n(pente de 30 % et plus), les zones de fortes pentes (pente de 15 % à moins\nde 30 %), les zones de pentes moyennes (pente de plus de 10 % à moins\nde 15 %) et les zones de faibles pentes (pente de 10 % et moins), le cas\néchéant;"
+        },
+        {
+          "texte": "j. l’identification et la localisation des éléments de contrainte ou potentiel du\nsite incluant les caractéristiques naturelles du site et leurs localisations\n(cours d'eau, milieux humides, rocs de surface, espaces boisés, végétation\nexistante, zones d'inondations, etc.) et les modifications qui y sont\nprojetées;"
+        }
       ],
       "article": 5
     },
@@ -131,8 +153,10 @@
         2,
         2
       ],
-      "alineas": [
-        "En plus des plans et documents requis en vertu du présent règlement, le\nfonctionnaire désigné peut également exiger du propriétaire qu’il fournisse, à ses\nfrais, tout autres renseignement, détail, plan ou attestation professionnelle\n(incluant le sceau et la signature originale du professionnel qui les aura\npréparés), de même qu’un rapport présentant les conclusions et les\nrecommandations relatives au projet nécessaire à la complète compréhension\nde la demande et/ou pour s’assurer de la parfaite observance des différentes\ndispositions de tout règlement pertinent et/ou pour s’assurer que la sécurité\npublique ou l’environnement ne seront pas indument mis en cause."
+      "contenu": [
+        {
+          "texte": "En plus des plans et documents requis en vertu du présent règlement, le\nfonctionnaire désigné peut également exiger du propriétaire qu’il fournisse, à ses\nfrais, tout autres renseignement, détail, plan ou attestation professionnelle\n(incluant le sceau et la signature originale du professionnel qui les aura\npréparés), de même qu’un rapport présentant les conclusions et les\nrecommandations relatives au projet nécessaire à la complète compréhension\nde la demande et/ou pour s’assurer de la parfaite observance des différentes\ndispositions de tout règlement pertinent et/ou pour s’assurer que la sécurité\npublique ou l’environnement ne seront pas indument mis en cause."
+        }
       ],
       "article": 6
     },
@@ -142,8 +166,10 @@
         2,
         3
       ],
-      "alineas": [
-        "Malgré toute autre disposition contraire, le fonctionnaire désigné peut dispenser\nle requérant de fournir l’un ou l’autre des renseignements, détails, documents ou\nattestations professionnelles spécifiées dans le présent règlement lorsque, de\nl’avis du fonctionnaire désigné, leur absence n’entraverait en rien la complète\ncompréhension de la demande, l’observance des différents règlements\nmunicipaux ou ne mettrait pas en cause la sécurité publique ou l’environnement."
+      "contenu": [
+        {
+          "texte": "Malgré toute autre disposition contraire, le fonctionnaire désigné peut dispenser\nle requérant de fournir l’un ou l’autre des renseignements, détails, documents ou\nattestations professionnelles spécifiées dans le présent règlement lorsque, de\nl’avis du fonctionnaire désigné, leur absence n’entraverait en rien la complète\ncompréhension de la demande, l’observance des différents règlements\nmunicipaux ou ne mettrait pas en cause la sécurité publique ou l’environnement."
+        }
       ],
       "article": 7
     },
@@ -153,9 +179,13 @@
         3,
         3
       ],
-      "alineas": [
-        "Une fois que le contenu du plan d’aménagement d’ensemble est réputé conforme\naux règlements d’urbanisme par le fonctionnaire désigné, ce dernier transmet la\ndemande au comité consultatif d’urbanisme qui prépare une recommandation\npour le conseil municipal.",
-        "Le comité consultatif d’urbanisme peut demander, si jugé nécessaire, des\nrenseignements supplémentaires au requérant du plan d’aménagement\nd’ensemble."
+      "contenu": [
+        {
+          "texte": "Une fois que le contenu du plan d’aménagement d’ensemble est réputé conforme\naux règlements d’urbanisme par le fonctionnaire désigné, ce dernier transmet la\ndemande au comité consultatif d’urbanisme qui prépare une recommandation\npour le conseil municipal."
+        },
+        {
+          "texte": "Le comité consultatif d’urbanisme peut demander, si jugé nécessaire, des\nrenseignements supplémentaires au requérant du plan d’aménagement\nd’ensemble."
+        }
       ],
       "article": 8
     },
@@ -165,11 +195,19 @@
         3,
         3
       ],
-      "alineas": [
-        "À la suite de la réception de l’avis du comité consultatif d’urbanisme, le plan\nd’aménagement d’ensemble est soumis au conseil municipal pour approbation;",
-        "Le conseil municipal peut approuver, avec ou sans condition, le plan\nd’aménagement d’ensemble par résolution, si, de l’avis de ce dernier, il rencontre\nles objectifs ou critères énoncés au présent règlement. Une copie de cette\nrésolution doit être transmise au requérant qui a présenté le plan.",
-        "Dans le cas où il décide de ne pas approuver le plan d’aménagement\nd’ensemble, le conseil peut, formuler les modifications requises permettant\nultérieurement d’accepter le plan d’aménagement d’ensemble.",
-        "L'approbation d'un plan d’aménagement d’ensemble n'engage d'aucune façon le\nconseil municipal à entreprendre une modification aux règlements d'urbanisme\net à délivrer les permis correspondants ou constituer pour la Ville une obligation\nd’accepter la cession des rues proposées apparaissant audit plan\nd’aménagement d’ensemble, ni d’en décréter l’ouverture, ni d’en prendre à sa\ncharge les frais de construction et d’entretien, ni d’en assumer les responsabilités\nciviles."
+      "contenu": [
+        {
+          "texte": "À la suite de la réception de l’avis du comité consultatif d’urbanisme, le plan\nd’aménagement d’ensemble est soumis au conseil municipal pour approbation;"
+        },
+        {
+          "texte": "Le conseil municipal peut approuver, avec ou sans condition, le plan\nd’aménagement d’ensemble par résolution, si, de l’avis de ce dernier, il rencontre\nles objectifs ou critères énoncés au présent règlement. Une copie de cette\nrésolution doit être transmise au requérant qui a présenté le plan."
+        },
+        {
+          "texte": "Dans le cas où il décide de ne pas approuver le plan d’aménagement\nd’ensemble, le conseil peut, formuler les modifications requises permettant\nultérieurement d’accepter le plan d’aménagement d’ensemble."
+        },
+        {
+          "texte": "L'approbation d'un plan d’aménagement d’ensemble n'engage d'aucune façon le\nconseil municipal à entreprendre une modification aux règlements d'urbanisme\net à délivrer les permis correspondants ou constituer pour la Ville une obligation\nd’accepter la cession des rues proposées apparaissant audit plan\nd’aménagement d’ensemble, ni d’en décréter l’ouverture, ni d’en prendre à sa\ncharge les frais de construction et d’entretien, ni d’en assumer les responsabilités\nciviles."
+        }
       ],
       "article": 9
     },
@@ -179,9 +217,13 @@
         3,
         3
       ],
-      "alineas": [
-        "À la suite de l'approbation d'un plan d’aménagement d’ensemble par le conseil\nmunicipal, celui-ci peut adopter un règlement ayant pour objet de modifier les\nrèglements d'urbanisme pour y intégrer le plan d’aménagement d’ensemble.",
-        "Le conseil peut, lorsqu'il remplace un règlement d'urbanisme, inclure le plan\nd’aménagement d’ensemble dans le règlement édicté en remplacement, au lieu\nd'effectuer l'inclusion par modification."
+      "contenu": [
+        {
+          "texte": "À la suite de l'approbation d'un plan d’aménagement d’ensemble par le conseil\nmunicipal, celui-ci peut adopter un règlement ayant pour objet de modifier les\nrèglements d'urbanisme pour y intégrer le plan d’aménagement d’ensemble."
+        },
+        {
+          "texte": "Le conseil peut, lorsqu'il remplace un règlement d'urbanisme, inclure le plan\nd’aménagement d’ensemble dans le règlement édicté en remplacement, au lieu\nd'effectuer l'inclusion par modification."
+        }
       ],
       "article": 10
     },
@@ -191,8 +233,10 @@
         3,
         3
       ],
-      "alineas": [
-        "Toute modification aux plans et documents après l’approbation du conseil,\nconformément au présent règlement, nécessite la présentation d’une nouvelle\ndemande."
+      "contenu": [
+        {
+          "texte": "Toute modification aux plans et documents après l’approbation du conseil,\nconformément au présent règlement, nécessite la présentation d’une nouvelle\ndemande."
+        }
       ],
       "article": 11
     },
@@ -202,8 +246,10 @@
         3,
         4
       ],
-      "alineas": [
-        "L'administration et l’application du présent règlement sont confiées à toute\npersonne nommée ci-après « fonctionnaire désigné », par résolution du Conseil\nmunicipal."
+      "contenu": [
+        {
+          "texte": "L'administration et l’application du présent règlement sont confiées à toute\npersonne nommée ci-après « fonctionnaire désigné », par résolution du Conseil\nmunicipal."
+        }
       ],
       "article": 12
     },
@@ -213,24 +259,56 @@
         4,
         4
       ],
-      "alineas": [
-        "Le présent règlement entre en vigueur conformément aux dispositions de la Loi.",
-        "Signé à Sainte-Adèle, ce",
-        "21e jour du mois d’avril de l’an",
-        "2022.",
-        "(s) Michèle Lalonde (s) Audrey Senécal",
-        "_____________________ _____________________________\nMichèle Lalonde Me Audrey Senécal\nMaires Mairesse Greffière et directrice des services juridiques",
-        "*********************************************",
-        "CERTIFICAT D’APPROBATION",
-        "En vertu de l’article 357 de la Loi sur les cités et villes (RLRQ, c. C-19) :",
-        "« Règlement 1323 concernant les plans d’aménagement d’ensemble (PAE)»",
-        "(s) Michèle Lalonde (s) Audrey Senécal",
-        "_____________________ _____________________________\nMichèle Lalonde Me Audrey Senécal\nMaires Mairesse Greffière et directrice des services juridiques"
+      "contenu": [
+        {
+          "texte": "Le présent règlement entre en vigueur conformément aux dispositions de la Loi."
+        },
+        {
+          "texte": "Signé à Sainte-Adèle, ce"
+        },
+        {
+          "texte": "21e jour du mois d’avril de l’an"
+        },
+        {
+          "texte": "2022."
+        },
+        {
+          "texte": "(s) Michèle Lalonde (s) Audrey Senécal"
+        },
+        {
+          "texte": "_____________________ _____________________________\nMichèle Lalonde Me Audrey Senécal\nMaires Mairesse Greffière et directrice des services juridiques"
+        },
+        {
+          "texte": "*********************************************"
+        },
+        {
+          "texte": "CERTIFICAT D’APPROBATION"
+        },
+        {
+          "texte": "RÈGLEMENT 1323"
+        },
+        {
+          "texte": "En vertu de l’article 357 de la Loi sur les cités et villes (RLRQ, c. C-19) :"
+        },
+        {
+          "texte": "« Règlement 1323 concernant les plans d’aménagement d’ensemble (PAE)»"
+        },
+        {
+          "texte": "Par le conseil 21 mars 2022",
+          "tableau": "2022-03-21-Reglement-PAE-Adopte/page4-table1.png"
+        },
+        {
+          "texte": "(s) Michèle Lalonde (s) Audrey Senécal"
+        },
+        {
+          "texte": "_____________________ _____________________________\nMichèle Lalonde Me Audrey Senécal\nMaires Mairesse Greffière et directrice des services juridiques"
+        }
       ],
       "article": 13
     }
   ],
   "numero": "1323",
+  "objet": "les plans d’aménagement d’ensemble\n(PAE)",
   "dates": {
     "adoption": "Adoption du règlement 21 mars 2022",
     "projet": "Adoption du projet 21 février 2022",
