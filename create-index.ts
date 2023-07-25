@@ -1,7 +1,7 @@
 import * as lunr from "lunr";
 import { writeFile, readFile, readdir, mkdir } from "node:fs/promises";
 import * as path from "node:path";
-import { Reglement, Article, Annexe, Attendus } from "src/alexi_types";
+import { Reglement, Article, Annexe, Attendus, Texte as AlexiTexte } from "src/alexi_types";
 import { Texte } from "src/index_types";
 import folding from "lunr-folding";
 
@@ -45,7 +45,7 @@ function make_text_from_article(doc: Reglement, article: Article): Texte {
   const fichier = doc.fichier;
   const document = `${doc.numero} ${doc.objet ?? ""}`;
   const contenu =
-    article.alineas === undefined ? "" : article.alineas.join("\n");
+    article.contenu === undefined ? "" : article.contenu.map(c => c.texte).join("\n");
   const titre = article.titre === undefined ? "" : article.titre;
   return {
     fichier,
@@ -65,7 +65,7 @@ function make_text_from_annex(doc: Reglement, annexe: Annexe): Texte {
   const numero = annexe.annexe;
   const fichier = doc.fichier;
   const document = `${doc.numero} ${doc.objet ?? ""}`;
-  const contenu = annexe.alineas === undefined ? "" : annexe.alineas.join("\n");
+  const contenu = annexe.contenu === undefined ? "" : annexe.contenu.map(c => c.texte).join("\n");
   const titre = annexe.titre === undefined ? "" : annexe.titre;
   return {
     fichier,
@@ -81,9 +81,26 @@ function make_text_from_attendus(doc: Reglement, attendus: Attendus): Texte {
   const page = attendus.pages[0];
   const fichier = doc.fichier;
   const document = `${doc.numero} ${doc.objet ?? ""}`;
-  const contenu = attendus.alineas === undefined ? "" : attendus.alineas.join("\n");
+  const contenu = attendus.contenu === undefined ? "" : attendus.contenu.map(c => c.texte).join("\n");
   const titre = `ATTENDUS`;
   const numero = "ATTENDUS";
+  return {
+    fichier,
+    document,
+    page,
+    titre,
+    numero,
+    contenu,
+  };
+}
+
+function make_text_from_text(doc: Reglement, at: AlexiTexte): Texte {
+  const page = at.pages[0];
+  const fichier = doc.fichier;
+  const document = `${doc.numero} ${doc.objet ?? ""}`;
+  const contenu = at.contenu === undefined ? "" : at.contenu.map(c => c.texte).join("\n");
+  const titre = contenu.substring(0, 80); // FIXME
+  const numero = "";
   return {
     fichier,
     document,
@@ -98,18 +115,22 @@ async function add_doc(
   textes: Array<Texte>,
   doc: Reglement
 ) {
-  if (doc.attendus !== undefined) {
-    const texte = make_text_from_attendus(doc, doc.attendus);
-    textes.push(texte);
-  }
-  if (doc.contenus !== undefined) {
-    for (const contenu of doc.contenus) {
+  if (doc.textes !== undefined) {
+    for (const contenu of doc.textes) {
       if ("article" in contenu) {
 	const texte = make_text_from_article(doc, contenu as Article);
 	textes.push(texte);
       }
       else if ("annexe" in contenu) {
 	const texte = make_text_from_annex(doc, contenu as Annexe);
+	textes.push(texte);
+      }
+      else if ("attendu" in contenu) {
+	const texte = make_text_from_attendus(doc, contenu as Annexe);
+	textes.push(texte);
+      }
+      else {
+	const texte = make_text_from_text(doc, contenu);
 	textes.push(texte);
       }
     }
