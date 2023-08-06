@@ -1,6 +1,6 @@
 {
   "name": "serafim",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "SErvice de Recherche Adélois pour Fouiller dans les Informations Municipales",
   "scripts": {
     "index": "tsc && node bin/create-index.js",
