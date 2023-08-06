@@ -1,8 +1,8 @@
-.content {
+div.content {
     padding: 1em;
 }
 
-.content-box {
+div.content-box {
     margin: 1ex;
     padding: 1em;
     border: solid black 1px;
@@ -25,7 +25,7 @@
     color: black;
 }
 
-.title-bar {
+div.title-bar {
     padding: 0.5em;
     height: 4em;
     margin: 0;
@@ -34,33 +34,36 @@
     text-align: center;
 }
 
-.title-bar h1 {
+div.title-bar h1 {
     margin: 0;
 }
 
-#search-view {
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
-.search-result {
+div.search-result {
     margin-left: 0;
     margin-top: 0.5em;
 }
 
-.search-result a:visited, a:link {
+div.search-result > a {
     padding: 2px;
     display: block;
     background: #eee;
-    color: black;
     text-decoration: underline;
     cursor: pointer;
     margin: 0;
 }
 
-.search-result a:hover, a:active {
+a.article-link {
+    font-size: smaller;
+}
+
+a:visited, a:link {
+    color: black;
+}
+
+a:hover,  a:active {
     color: #33f;
 }
+
 
 .soustitre {
     font-size: small;
@@ -77,24 +80,10 @@
     margin: 0;
 }
 
-.search-result h4 {
-    padding: 1ex;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#document-box {
-    display: none;
-}
-
 /* This is Pure's "medium" breakpoint */
 @media screen and (min-width: 48em) {
     #search-view, #document-view {
         height: 75vh;
-    }
-
-    #document-box {
-        display: block;
         overflow: auto;
     }
 
