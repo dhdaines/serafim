@@ -69,7 +69,7 @@ class App {
       result.innerHTML += `<h4>Section ${texte.section}</h4>\n`;
     if (texte.sous_section)
       result.innerHTML += `<h4>${texte.sous_section}</h4>\n`;
-    for (const para of texte.contenu.split(".\n"))
+    for (const para of texte.contenu.split("\n\n"))
       result.innerHTML += `<p>${para}.</p>\n`;
     target.append(result);
   }
