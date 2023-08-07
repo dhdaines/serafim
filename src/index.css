@@ -64,6 +64,9 @@ a:hover,  a:active {
     color: #33f;
 }
 
+div.article img {
+    max-width: 100%;
+}
 
 .soustitre {
     font-size: small;

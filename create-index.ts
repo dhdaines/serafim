@@ -20,6 +20,12 @@ function make_text_content(contenu?: Array<Contenu | Tableau>): string {
   return contenu.map(c => {
     if ("tableau" in c)
       return `<img src="img/${c.tableau}" alt="${c.texte}">`;
+    else if ("figure" in c)
+      return `
+<figure>
+  <img src="img/${c.figure}">
+  <figcaption>${c.texte}</figcaption>
+</figure>`;
     else
       return c.texte
   }).join("\n\n");
