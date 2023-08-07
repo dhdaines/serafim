@@ -90,7 +90,7 @@ class App {
       else
         prev.addEventListener("click", (e) => {
           this.show_document(idx - 1);
-          history.replaceState(null, "", `?idx=${idx}`)
+          history.replaceState(null, "", `?idx=${idx - 1}`)
           e.preventDefault();
         });
     }
@@ -101,7 +101,7 @@ class App {
       else {
         next.addEventListener("click", (e) => {
           this.show_document(idx + 1);
-          history.replaceState(null, "", `?idx=${idx}`)
+          history.replaceState(null, "", `?idx=${idx + 1}`)
           e.preventDefault();
         });
       }
