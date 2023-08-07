@@ -9,9 +9,7 @@ require("purecss");
 require("purecss/build/grids-responsive-min.css");
 require("./index.css");
 
-// Unfortunately not fake requires due to lunr being ancient
-require("lunr-languages/lunr.stemmer.support")(lunr);
-require("lunr-languages/lunr.fr")(lunr);
+// Unfortunately not fake require due to lunr being weird
 folding(lunr);
 
 class App {
@@ -137,15 +135,13 @@ class App {
     spans.sort();
     const p = document.createElement("p");
     p.setAttribute("class", "extrait");
-    let contenu;
+    let contenu = texte.contenu.replace(/<img(?:[^>]*alt="([^"]+)")?[^>]*>/, "$1");
     if (spans.length) {
-      contenu =  texte.contenu.substring(
+      contenu = contenu.substring(
           Math.max(0, spans[0][0] - 80),
           Math.min(texte.contenu.length, spans[0][0] + spans[0][1] + 40)
         )
-    } else contenu = texte.contenu.substring(0, 80) + "...";
-    contenu = contenu.replace(/.*alt="/, "");
-    contenu = contenu.replace('">', "");
+    } else contenu = contenu.substring(0, 80) + "...";
     p.innerText = `... ${contenu} ...`;
     return p;
   }

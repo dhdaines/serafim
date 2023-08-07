@@ -6,13 +6,7 @@ import { Texte } from "src/index_types";
 import folding from "lunr-folding";
 
 /* UGH! This API is SO WEIRD!!! */
-require("lunr-languages/lunr.stemmer.support")(lunr);
-require("lunr-languages/lunr.fr")(lunr);
 folding(lunr);
-/* WTF */
-declare module 'lunr' {
-  function fr(): null;
-}
 
 function make_text_content(contenu?: Array<Contenu | Tableau>): string {
   if (contenu === undefined)
@@ -168,18 +162,19 @@ async function add_doc(
   }
   /* OMG why is lunrjs' API so hecking weird */
   const index = lunr(function() {
-    this.use(lunr.fr);
+    //this.use(lunr.fr);
     this.ref("id");
     this.field("titre");
     this.field("contenu");
     // Yes this is undocumented
     this.metadataWhitelist = ['position']
 
-    for (const i in textes) {
-      this.add({ id: i,
-                 titre: textes[i].titre,
-                 contenu: textes[i].contenu
-               });
+    for (const id in textes) {
+      const titre = textes[id].titre;
+      let contenu = textes[id].contenu; 
+      contenu = contenu.replace(/<img(?:[^>]*alt="([^"]+)")?[^>]*>/, "$1");
+      const index_texte = { id, titre, contenu };
+      this.add(index_texte);
     }
   });
   await writeFile(path.join("public", "textes.json"),

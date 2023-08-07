@@ -47,7 +47,6 @@
     "json-schema-to-typescript": "^13.0.2",
     "lunr": "^2.3.9",
     "lunr-folding": "^0.0.2",
-    "lunr-languages": "^1.12.0",
     "pdfobject": "^2.2.11",
     "purecss": "^3.0.0"
   }
