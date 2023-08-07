@@ -50,41 +50,33 @@ class App {
     if (idx < 0 || idx >= this.textes.length)
       throw `Out of bounds document index ${idx}`;
     const texte = this.textes[idx];
-    if (this.media_query.matches && PDFObject.supportsPDFs) {
-      /* Show the PDF in the page on large enough screens */
-      PDFObject.embed(
-        `https://ville.sainte-adele.qc.ca/upload/documents/${texte.fichier}`,
-        "#document-view",
-        {
-          pdfOpenParams: { page: texte.page, zoom: 100 },
-        }
-      );
-    } else {
-      /* Show it in the appropriate place based on screen size */
-      const target = this.media_query.matches
-        ? this.document_view
-        : this.search_results;
-      target.innerHTML = "";
-      const result = document.createElement("div");
-      result.setAttribute("class", "search-result");
-      result.innerHTML += `<h1>${texte.titre}</h1>\n`;
-      if (texte.document)
-        result.innerHTML += `<h4>Règlement ${texte.document}</h4>\n`;
-      if (texte.chapitre)
-        result.innerHTML += `<h4>Chapitre ${texte.chapitre}</h4>\n`;
-      if (texte.section)
-        result.innerHTML += `<h4>Section ${texte.section}</h4>\n`;
-      if (texte.sous_section)
-        result.innerHTML += `<h4>${texte.sous_section}</h4>\n`;
-      for (const para of texte.contenu.split(".\n"))
-        result.innerHTML += `<p>${para}.</p>\n`;
-      target.append(result);
-    }
+    const target = this.document_view;
+    target.innerHTML = "";
+    const result = document.createElement("div");
+    result.setAttribute("class", "article");
+    result.innerHTML = "";
+    result.innerHTML += `
+<a class="article-link" target="_blank"
+   href="https://ville.sainte-adele.qc.ca/upload/documents/${texte.fichier}#page=${texte.page}&zoom=100"
+>Document PDF source</a>
+<a class="article-link" href="?idx=${idx}">Permalien</a><br>`;
+    result.innerHTML += `<h1>${texte.titre}</h1>\n`;
+    if (texte.document)
+      result.innerHTML += `<h4>Règlement ${texte.document}</h4>\n`;
+    if (texte.chapitre)
+      result.innerHTML += `<h4>Chapitre ${texte.chapitre}</h4>\n`;
+    if (texte.section)
+      result.innerHTML += `<h4>Section ${texte.section}</h4>\n`;
+    if (texte.sous_section)
+      result.innerHTML += `<h4>${texte.sous_section}</h4>\n`;
+    for (const para of texte.contenu.split("\n\n"))
+      result.innerHTML += `<p>${para}</p>\n`;
+    target.append(result);
   }
 
   create_title(texte: Texte, result: lunr.Index.Result) {
     const a = document.createElement("a");
-    a.href = `#?idx=${result.ref}`;
+    a.href = `?idx=${result.ref}`;
     a.innerText = texte.titre;
     return a;
   }
@@ -134,10 +126,13 @@ class App {
     div.append(this.create_title(texte, result));
     div.append(this.create_subtitles(texte, result));
     div.append(this.create_extract(texte, result));
-    div.addEventListener("click", (e) => {
-      this.show_document(idx);
-      e.preventDefault();
-    });
+    /* Show content on-page only on desktop. */
+    if (this.media_query.matches) {
+      div.addEventListener("click", (e) => {
+        this.show_document(idx);
+        e.preventDefault();
+      });
+    }
     return div;
   }
 

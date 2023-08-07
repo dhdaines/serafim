@@ -1,25 +1,16 @@
 {
   "fichier": "2022-04-19-Rgl-1324-redevances-adopte.pdf",
   "titre": "RÈGLEMENT 1324\nrelatif au paiement d’une contribution pour financer en\ntout ou en partie une dépense liée à l’ajout,\nl’agrandissement ou la modification d’infrastructures ou\nd’équipements municipaux",
-  "attendus": {
-    "pages": [
-      1,
-      1
-    ],
-    "alineas": [
-      "ATTENDU QUE la Ville doit financer l’ajout, l’agrandissement ou la modification de\nnombreuses infrastructures ou l’achat d’équipements municipaux rendus nécessaires\nen raison de sa croissance;",
-      "ATTENDU QUE l’article 145.21 de la Loi sur l’aménagement et l’urbanisme permet à\nla Ville d’assujettir la délivrance d’un permis de construction ou de lotissement ou d’un\ncertificat d’autorisation ou d’occupation au paiement d’une contribution monétaire\npour des dépenses liées à l’accroissement des services municipaux liés à la\ncroissance;",
-      "ATTENDU QUE l’avis de motion du présent règlement a été donné lors de la séance\nordinaire du 21 février 2022 par monsieur le conseiller David Huggins-Daines;"
-    ]
-  },
-  "contenus": [
+  "textes": [
     {
       "pages": [
         1,
         1
       ],
-      "alineas": [
-        "Séance ordinaire du conseil municipal, tenue publiquement le 19 avril 2022 à 19h,\ndans la salle du conseil municipal située au 1386, rue Dumouchel, Sainte-Adèle, lieu\nordinaire des séances à laquelle sont présents les membres du conseil suivants\nformant le quorum:"
+      "contenu": [
+        {
+          "texte": "Séance ordinaire du conseil municipal, tenue publiquement le 19 avril 2022 à 19h,\ndans la salle du conseil municipal située au 1386, rue Dumouchel, Sainte-Adèle, lieu\nordinaire des séances à laquelle sont présents les membres du conseil suivants\nformant le quorum:"
+        }
       ]
     },
     {
@@ -27,8 +18,10 @@
         1,
         1
       ],
-      "alineas": [
-        "Madame Arielle Beaudin Conseillère du district 2"
+      "contenu": [
+        {
+          "texte": "Madame Arielle Beaudin Conseillère du district 2\nMonsieur Alexandre Laganière Conseiller du district 3\nMonsieur Gaëtan Gagné Conseiller du district 5\nMonsieur David Huggins-Daines Conseiller du district 6"
+        }
       ]
     },
     {
@@ -36,8 +29,10 @@
         1,
         1
       ],
-      "alineas": [
-        "Monsieur Alexandre Laganière Conseiller du district 3"
+      "contenu": [
+        {
+          "texte": "Messieurs les conseillers Richard Allard et Jean-François Robillard sont absents\npendant toute la durée de la séance."
+        }
       ]
     },
     {
@@ -45,8 +40,10 @@
         1,
         1
       ],
-      "alineas": [
-        "Monsieur Gaëtan Gagné Conseiller du district 5"
+      "contenu": [
+        {
+          "texte": "sous la présidence de madame la mairesse Michèle Lalonde."
+        }
       ]
     },
     {
@@ -54,35 +51,10 @@
         1,
         1
       ],
-      "alineas": [
-        "Monsieur David Huggins-Daines Conseiller du district 6"
-      ]
-    },
-    {
-      "pages": [
-        1,
-        1
-      ],
-      "alineas": [
-        "Messieurs les conseillers Richard Allard et Jean-François Robillard sont absents\npendant toute la durée de la séance."
-      ]
-    },
-    {
-      "pages": [
-        1,
-        1
-      ],
-      "alineas": [
-        "sous la présidence de madame la mairesse Michèle Lalonde."
-      ]
-    },
-    {
-      "pages": [
-        1,
-        1
-      ],
-      "alineas": [
-        "LE CONSEIL MUNICIPAL décrète qu’il soit statué et ordonné par le présent\nrèglement ce qui suit :"
+      "contenu": [
+        {
+          "texte": "LE CONSEIL MUNICIPAL décrète qu’il soit statué et ordonné par le présent\nrèglement ce qui suit :"
+        }
       ]
     },
     {
@@ -91,8 +63,10 @@
         1,
         1
       ],
-      "alineas": [
-        "Le présent règlement a pour objet de financer l’agrandissement ou la\nmodification d’infrastructures ou d’équipements municipaux requis pour assurer la\nprestation accrue de services municipaux découlant de l’intervention visée par une\ndemande de permis en assujettissant certains travaux au paiement d’une\ncontribution."
+      "contenu": [
+        {
+          "texte": "Le présent règlement a pour objet de financer l’agrandissement ou la\nmodification d’infrastructures ou d’équipements municipaux requis pour assurer la\nprestation accrue de services municipaux découlant de l’intervention visée par une\ndemande de permis en assujettissant certains travaux au paiement d’une\ncontribution."
+        }
       ],
       "article": 1
     },
@@ -102,8 +76,10 @@
         1,
         1
       ],
-      "alineas": [
-        "Le règlement s’applique à l’ensemble des immeubles reliés au réseau d’égout\namenant au traitement des eaux à l’usine d’épuration Mont-Rolland."
+      "contenu": [
+        {
+          "texte": "Le règlement s’applique à l’ensemble des immeubles reliés au réseau d’égout\namenant au traitement des eaux à l’usine d’épuration Mont-Rolland."
+        }
       ],
       "article": 2
     },
@@ -113,11 +89,19 @@
         1,
         2
       ],
-      "alineas": [
-        "La délivrance d’un permis de construction ou certificat d’autorisation est assujettie\nau paiement par le requérant, au moment de la demande de permis, d’une\ncontribution à l’égard des travaux suivants :",
-        "1° La construction d’une unité de logement;",
-        "2° L’ajout d’une unité de logement et ceci, excluant les logements accessoires à\nl’habitation unifamiliale;",
-        "3° La construction ou l’aménagement d’une suite non résidentielle sur un nouveau\nbâtiment ou dans un bâtiment existant ou son agrandissement, augmentant par\nconséquent le débit théorique."
+      "contenu": [
+        {
+          "texte": "La délivrance d’un permis de construction ou certificat d’autorisation est assujettie\nau paiement par le requérant, au moment de la demande de permis, d’une\ncontribution à l’égard des travaux suivants :"
+        },
+        {
+          "texte": "1° La construction d’une unité de logement;"
+        },
+        {
+          "texte": "2° L’ajout d’une unité de logement et ceci, excluant les logements accessoires à\nl’habitation unifamiliale;"
+        },
+        {
+          "texte": "3° La construction ou l’aménagement d’une suite non résidentielle sur un nouveau\nbâtiment ou dans un bâtiment existant ou son agrandissement, augmentant par\nconséquent le débit théorique."
+        }
       ],
       "article": 3
     },
@@ -127,13 +111,25 @@
         2,
         2
       ],
-      "alineas": [
-        "Constitue une unité, un logement. Un logement est une pièce ou ensemble de\npièces dans une habitation, accessible directement de l’extérieur ou par un vestibule\nou corridor commun à plusieurs logements, comprenant des installations sanitaires\ncomplètes (toilette, lavabo et baignoire ou douche) ainsi que les installations et\nespaces nécessaires pour qu’une personne puisse y préparer un repas, y manger et\ny dormir.",
-        "Constitue une unité, un local où est effectué ou où il est prévu qu’il soit effectué un\nusage non résidentiel, qui rejette ou non des eaux usées et qui consomme ou non\ndes eaux du réseau d’aqueduc.",
-        "Constitue une unité, un local appartenant à la classe commerciale « Hébergement\n(C-03) » au sens du Règlement de zonage numéro 1314-2021-Z, chambre ou unité\nen location.",
-        "Ne sont pas des unités, les chambres individuelles d’une habitation collective au\nsens du Règlement de zonage numéro 1314-2021-Z",
-        "Toute suite non résidentielle dont le débit total quotidien en consommation ou en\nrejet est estimé à plus de 1620 l/j. est considéré comme un grand consommateur et\nconstitue une unité additionnelle à l’atteinte de chaque plateau de 1620 l/j qu’elle\nrejette dans le réseau d’assainissement des eaux municipal. Ce calcul doit être\neffectué par un membre de l’Ordre des ingénieurs du Québec.",
-        "Parallèlement, dans le cas des grands consommateurs, est considéré comme une\nmodification au nombre d’unités, l’agrandissement ou la modification d’un usage\nentrainant un changement au calcul de débit théorique."
+      "contenu": [
+        {
+          "texte": "Constitue une unité, un logement. Un logement est une pièce ou ensemble de\npièces dans une habitation, accessible directement de l’extérieur ou par un vestibule\nou corridor commun à plusieurs logements, comprenant des installations sanitaires\ncomplètes (toilette, lavabo et baignoire ou douche) ainsi que les installations et\nespaces nécessaires pour qu’une personne puisse y préparer un repas, y manger et\ny dormir."
+        },
+        {
+          "texte": "Constitue une unité, un local où est effectué ou où il est prévu qu’il soit effectué un\nusage non résidentiel, qui rejette ou non des eaux usées et qui consomme ou non\ndes eaux du réseau d’aqueduc."
+        },
+        {
+          "texte": "Constitue une unité, un local appartenant à la classe commerciale « Hébergement\n(C-03) » au sens du Règlement de zonage numéro 1314-2021-Z, chambre ou unité\nen location."
+        },
+        {
+          "texte": "Ne sont pas des unités, les chambres individuelles d’une habitation collective au\nsens du Règlement de zonage numéro 1314-2021-Z"
+        },
+        {
+          "texte": "Toute suite non résidentielle dont le débit total quotidien en consommation ou en\nrejet est estimé à plus de 1620 l/j. est considéré comme un grand consommateur et\nconstitue une unité additionnelle à l’atteinte de chaque plateau de 1620 l/j qu’elle\nrejette dans le réseau d’assainissement des eaux municipal. Ce calcul doit être\neffectué par un membre de l’Ordre des ingénieurs du Québec."
+        },
+        {
+          "texte": "Parallèlement, dans le cas des grands consommateurs, est considéré comme une\nmodification au nombre d’unités, l’agrandissement ou la modification d’un usage\nentrainant un changement au calcul de débit théorique."
+        }
       ],
       "article": 4
     },
@@ -143,11 +139,19 @@
         2,
         2
       ],
-      "alineas": [
-        "Tout demandeur d’un permis de construction ou certificat d’autorisation visé par le\nprésent règlement doit verser, au moment de son émission, la contribution\napplicable en vertu du calcul du nombre d’unités.",
-        "La date de dépôt d’une demande substantiellement conforme et complète constitue\nla date de référence à laquelle le calcul de la contribution doit être effectué.",
-        "Advenant l’annulation d’une autorisation sans que soient réalisés les travaux aucun\nremboursement ne sera effectué. Les contributions versées sont conservées et un\ncrédit sera appliqué à toute contribution subséquente qui devra être effectuée.",
-        "Aucun remboursement n’est effectué en cas de réduction du nombre d’unités.\nToutefois, un crédit est conservé au dossier, l’unité supprimée pouvant être remise\nen place sans effectuer une nouvelle contribution."
+      "contenu": [
+        {
+          "texte": "Tout demandeur d’un permis de construction ou certificat d’autorisation visé par le\nprésent règlement doit verser, au moment de son émission, la contribution\napplicable en vertu du calcul du nombre d’unités."
+        },
+        {
+          "texte": "La date de dépôt d’une demande substantiellement conforme et complète constitue\nla date de référence à laquelle le calcul de la contribution doit être effectué."
+        },
+        {
+          "texte": "Advenant l’annulation d’une autorisation sans que soient réalisés les travaux aucun\nremboursement ne sera effectué. Les contributions versées sont conservées et un\ncrédit sera appliqué à toute contribution subséquente qui devra être effectuée."
+        },
+        {
+          "texte": "Aucun remboursement n’est effectué en cas de réduction du nombre d’unités.\nToutefois, un crédit est conservé au dossier, l’unité supprimée pouvant être remise\nen place sans effectuer une nouvelle contribution."
+        }
       ],
       "article": 5
     },
@@ -157,8 +161,18 @@
         2,
         3
       ],
-      "alineas": [
-        "La contribution doit servir à financer la création, l’aménagement, le réaménagement,\nla mise à niveau, l’ajout, l’agrandissement ou la modification de tout équipement ou\ninfrastructure suivantes, qui desservent les immeubles visés à l’article 2;"
+      "contenu": [
+        {
+          "texte": "La contribution doit servir à financer la création, l’aménagement, le réaménagement,\nla mise à niveau, l’ajout, l’agrandissement ou la modification de tout équipement ou\ninfrastructure suivantes, qui desservent les immeubles visés à l’article 2;"
+        },
+        {
+          "texte": "Infrastructures pluviales, routières et de traitement des eaux usées\nincluant les subventions\nGainage et réfection secteur Paysan 2 120 000 $\nRéfection rue Valiquette Nord 3 056 000 $\nRéfection Saint-Georges 410 000 $\nRéfection Valiquette sud et Maurice-Aveline 1 627 000 $\nMise aux normes usine d'épuration Mont-Rolland - 5 330 000 $\ntravaux\nRéfection route 117 et Pierre-Péladeau 11 020 000 $",
+          "tableau": "2022-04-19-Rgl-1324-redevances-adopte/page2-table1.png"
+        },
+        {
+          "texte": "Phase I - Pentes 40-80 6 470 000 $\nPhase II - Pentes 40-80 3 790 000 $\nPhase III - Pentes 40-80 1 550 000 $\nPhase IV - Pentes 40-80 2 560 000 $\nPoste 117 Est 2 830 000 $\nRéfection Déversoir # 1 480 000 $\nTotal des travaux : 44 373 000 $\nSubventions anticipées : (20 728 083) $\nTOTAL ESTIME DU COUT DES TRAVAUX 23 644 917 $\nASSUMES PAR LA VILLE :",
+          "tableau": "2022-04-19-Rgl-1324-redevances-adopte/page3-table1.png"
+        }
       ],
       "article": 6
     },
@@ -168,8 +182,14 @@
         3,
         3
       ],
-      "alineas": [
-        "Étant donné que les coups de mise à niveau et les coups d’augmentation de la\ncapacité du réseau d’infrastructure sont indissociables et qu’une part importante\nde cette mise à niveau est rendue nécessaire par la croissance de l’utilisation, ils\ndoivent être répartis entre les immeubles existants et les nouveaux\nimmeubles. La Ville établie donc à 20% la part du coût des travaux qui est\nimputable aux nouvelles unités."
+      "contenu": [
+        {
+          "texte": "Étant donné que les coups de mise à niveau et les coups d’augmentation de la\ncapacité du réseau d’infrastructure sont indissociables et qu’une part importante\nde cette mise à niveau est rendue nécessaire par la croissance de l’utilisation, ils\ndoivent être répartis entre les immeubles existants et les nouveaux\nimmeubles. La Ville établie donc à 20% la part du coût des travaux qui est\nimputable aux nouvelles unités."
+        },
+        {
+          "texte": "20% du total estimé du coût des 4 728 983 $\ntravaux assumés par la ville\nNombre estimé de nouvelles unités qui 891\nseront construites sur la période de\nréalisation des travaux\nContribution par unité 5 308 $",
+          "tableau": "2022-04-19-Rgl-1324-redevances-adopte/page3-table2.png"
+        }
       ],
       "article": 7
     },
@@ -179,11 +199,19 @@
         3,
         4
       ],
-      "alineas": [
-        "Est créé, à compter de la date d’entrée en vigueur du présent règlement, le « Fonds\nde redevance au développement », au profit des travaux, équipements et\ninfrastructures énumérés au présent règlement. Le fonds est à durée indéterminée\net se compose des sommes versées par les requérants et des intérêts qu’elles\nproduisent.",
-        "L’actif du fonds est destiné exclusivement au financement des dépenses relatives à\nla création, l’aménagement, le réaménagement, la mise à niveau, l’ajout,\nl’agrandissement ou la modification de tout équipement ou infrastructure projetés\naux termes de l’article 6.",
-        "L’actif du fonds peut être utilisé par l’affectation de fonds équivalant aux dépenses\nengagées relativement aux intérêts et au remboursement en capital des échéances\nannuelles de tout emprunt contracté aux fins de l’exécution des travaux visés par de\ntelles dépenses.",
-        "Dans le cas où la Ville constate un surplus qui ne peut être utilisé aux fins pour\nlaquelle la contribution a été exigée, le solde résiduel du fonds doit être réparti par la\nVille entre les propriétaires des immeubles visés par les permis dont la délivrance a\nété assujettie au paiement de la contribution, au prorata des montants payés. Cette\nrépartition doit être faite au plus tard le 31 décembre de l’exercice financier qui suit\ncelui au cours duquel le surplus est constaté."
+      "contenu": [
+        {
+          "texte": "Est créé, à compter de la date d’entrée en vigueur du présent règlement, le « Fonds\nde redevance au développement », au profit des travaux, équipements et\ninfrastructures énumérés au présent règlement. Le fonds est à durée indéterminée\net se compose des sommes versées par les requérants et des intérêts qu’elles\nproduisent."
+        },
+        {
+          "texte": "L’actif du fonds est destiné exclusivement au financement des dépenses relatives à\nla création, l’aménagement, le réaménagement, la mise à niveau, l’ajout,\nl’agrandissement ou la modification de tout équipement ou infrastructure projetés\naux termes de l’article 6."
+        },
+        {
+          "texte": "L’actif du fonds peut être utilisé par l’affectation de fonds équivalant aux dépenses\nengagées relativement aux intérêts et au remboursement en capital des échéances\nannuelles de tout emprunt contracté aux fins de l’exécution des travaux visés par de\ntelles dépenses."
+        },
+        {
+          "texte": "Dans le cas où la Ville constate un surplus qui ne peut être utilisé aux fins pour\nlaquelle la contribution a été exigée, le solde résiduel du fonds doit être réparti par la\nVille entre les propriétaires des immeubles visés par les permis dont la délivrance a\nété assujettie au paiement de la contribution, au prorata des montants payés. Cette\nrépartition doit être faite au plus tard le 31 décembre de l’exercice financier qui suit\ncelui au cours duquel le surplus est constaté."
+        }
       ],
       "article": 8
     },
@@ -193,12 +221,25 @@
         4,
         4
       ],
-      "alineas": [
-        "L’exigence d’une contribution n’est pas applicable :",
-        "1) À un organisme public au sens du premier alinéa de l’article 3 de la Loi sur\nl’accès aux documents des organismes publics et sur la protection des\nrenseignements personnels (RLRQ, c. A-2.1).",
-        "2) À un centre de la petite enfance au sens de la Loi sur les services de garde\néducatifs à l’enfance (RLRQ, c. S-4.1.1).",
-        "3) À la reconstruction d’un bâtiment qui a été détruit volontairement ou par un\nsinistre qui n’a pas pour effet d’augmenter le nombre d’unités d’habitation\nexistant le jour précédent la destruction, conditionnellement à ce que les\npermis requis soient émis dans les douze (12) mois suivants la destruction.",
-        "4) À la portion d’un bâtiment résidentiel ou mixte permettant la mise en place\nde logements abordables dans le cadre d’un programme de subvention d’un\norganisme public."
+      "contenu": [
+        {
+          "texte": "L’exigence d’une contribution n’est pas applicable :"
+        },
+        {
+          "texte": "1) À un organisme public au sens du premier alinéa de l’article"
+        },
+        {
+          "texte": "3 de la Loi sur\nl’accès aux documents des organismes publics et sur la protection des\nrenseignements personnels (RLRQ, c. A-2.1)."
+        },
+        {
+          "texte": "2) À un centre de la petite enfance au sens de la Loi sur les services de garde\néducatifs à l’enfance (RLRQ, c. S-4.1.1)."
+        },
+        {
+          "texte": "3) À la reconstruction d’un bâtiment qui a été détruit volontairement ou par un\nsinistre qui n’a pas pour effet d’augmenter le nombre d’unités d’habitation\nexistant le jour précédent la destruction, conditionnellement à ce que les\npermis requis soient émis dans les douze (12) mois suivants la destruction."
+        },
+        {
+          "texte": "4) À la portion d’un bâtiment résidentiel ou mixte permettant la mise en place\nde logements abordables dans le cadre d’un programme de subvention d’un\norganisme public."
+        }
       ],
       "article": 9
     },
@@ -208,9 +249,13 @@
         4,
         4
       ],
-      "alineas": [
-        "Le montant de la contribution présenté au présent règlement est en vigueur jusqu’à\nsa modification ou l’abrogation du présent règlement.",
-        "Le montant applicable est calculé au jour de dépôt d’une demande de permis de\nconstruction substantiellement complète."
+      "contenu": [
+        {
+          "texte": "Le montant de la contribution présenté au présent règlement est en vigueur jusqu’à\nsa modification ou l’abrogation du présent règlement."
+        },
+        {
+          "texte": "Le montant applicable est calculé au jour de dépôt d’une demande de permis de\nconstruction substantiellement complète."
+        }
       ],
       "article": 10
     },
@@ -220,24 +265,73 @@
         4,
         4
       ],
-      "alineas": [
-        "Le présent règlement entre en vigueur suivant la Loi.",
-        "Signé à Sainte-Adèle, ce 16e jour du mois de mai de l’an 2022.",
-        "(s) Michèle Lalonde (s) Audrey Senécal",
-        "Michèle Lalonde Me Audrey Senécal\nMairesse Greffière",
-        "et directrice des Services\njuridiques",
-        "CERTIFICAT D’APPROBATION\nRÈGLEMENT 1324",
-        "En vertu de l’article 357 de la Loi sur les cités et villes :",
-        "« Règlement 1324 relatif au paiement d’une contribution pour financer en tout ou en\npartie une dépense liée à l’ajout, l’agrandissement ou la modification\nd’infrastructures ou d’équipements municipaux ».",
-        "Par le conseil 19 avril 2022",
-        "(s) Michèle Lalonde (s) Audrey Senécal",
-        "Michèle Lalonde Me Audrey Senécal\nMairesse Greffière et directrice des Services\njuridiques"
+      "contenu": [
+        {
+          "texte": "Le présent règlement entre en vigueur suivant la Loi."
+        },
+        {
+          "texte": "Signé à Sainte-Adèle, ce"
+        },
+        {
+          "texte": "16e jour du mois de mai de l’an"
+        },
+        {
+          "texte": "2022."
+        },
+        {
+          "texte": "(s) Michèle Lalonde (s) Audrey Senécal\n_____ _______\nMichèle Lalonde Me Audrey Senécal\nMairesse Greffière et directrice des Services\njuridiques"
+        }
       ],
       "article": 11
+    },
+    {
+      "pages": [
+        4,
+        4
+      ],
+      "contenu": [
+        {
+          "texte": "En vertu de l’article 357 de la Loi sur les cités et villes :"
+        }
+      ]
+    },
+    {
+      "pages": [
+        4,
+        4
+      ],
+      "contenu": [
+        {
+          "texte": "« Règlement 1324 relatif au paiement d’une contribution pour financer en tout ou en\npartie une dépense liée à l’ajout, l’agrandissement ou la modification\nd’infrastructures ou d’équipements municipaux »."
+        }
+      ]
+    },
+    {
+      "pages": [
+        4,
+        4
+      ],
+      "contenu": [
+        {
+          "texte": "Par le conseil 19 avril 2022",
+          "tableau": "2022-04-19-Rgl-1324-redevances-adopte/page4-table1.png"
+        }
+      ]
+    },
+    {
+      "pages": [
+        4,
+        4
+      ],
+      "contenu": [
+        {
+          "texte": "(s) Michèle Lalonde (s) Audrey Senécal\n______ _______\nMichèle Lalonde Me Audrey Senécal\nMairesse Greffière et directrice des Services\njuridiques"
+        }
+      ]
     }
   ],
   "numero": "1324",
-  "objet": "relatif au paiement d’une contribution pour financer en\ntout ou en partie une dépense liée à l’ajout,\nl’agrandissement ou la modification d’infrastructures ou\nd’équipements municipaux",
+  "objet": "paiement d’une contribution pour financer en\ntout ou en partie une dépense liée à l’ajout,\nl’agrandissement ou la modification d’infrastructures ou\nd’équipements municipaux",
   "dates": {
     "adoption": "Adoption du règlement 19 avril 2022",
     "projet": "Adoption du projet 21 mars 2022",

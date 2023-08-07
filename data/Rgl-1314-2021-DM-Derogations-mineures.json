@@ -7,11 +7,11 @@
       "titre": "DISPOSITIONS DÉCLARATOIRES,\nINTERPRÉTATIVES ET ADMINISTRATIVES",
       "pages": [
         3,
-        11
+        7
       ],
-      "contenus": [
+      "textes": [
         0,
-        32
+        16
       ],
       "sections": [
         {
@@ -21,7 +21,7 @@
             4,
             5
           ],
-          "contenus": [
+          "textes": [
             0,
             6
           ]
@@ -33,7 +33,7 @@
             5,
             6
           ],
-          "contenus": [
+          "textes": [
             7,
             11
           ]
@@ -43,13 +43,27 @@
           "titre": "DISPOSITIONS ADMINISTRATIVES",
           "pages": [
             6,
-            8
+            7
           ],
-          "contenus": [
+          "textes": [
             12,
             16
           ]
-        },
+        }
+      ]
+    },
+    {
+      "numero": "2",
+      "titre": "DISPOSITIONS APPLICABLES À UNE\nDEMANDE DE DÉROGATION MINEURE",
+      "pages": [
+        7,
+        11
+      ],
+      "textes": [
+        17,
+        32
+      ],
+      "sections": [
         {
           "numero": "1",
           "titre": "RECEVABILITÉ ET CONDITIONS PRÉALABLES",
@@ -57,7 +71,7 @@
             8,
             9
           ],
-          "contenus": [
+          "textes": [
             17,
             22
           ]
@@ -69,47 +83,25 @@
             9,
             11
           ],
-          "contenus": [
+          "textes": [
             23,
             32
           ]
         }
       ]
-    },
-    {
-      "numero": "1",
-      "titre": "ENTRÉE EN VIGUEUR",
-      "pages": [
-        11,
-        11
-      ],
-      "contenus": [
-        33,
-        36
-      ]
-    },
-    {
-      "numero": "2",
-      "titre": "CERTIFICAT D’APPROBATION",
-      "pages": [
-        11,
-        11
-      ],
-      "contenus": [
-        37,
-        40
-      ]
     }
   ],
-  "contenus": [
+  "textes": [
     {
       "titre": "Titre du règlement",
       "pages": [
         4,
         4
       ],
-      "alineas": [
-        "Le présent règlement est intitulé « Règlement sur les dérogations mineures de la Ville de Sainte-Adèle » et porte le numéro\n1314-2021-DM."
+      "contenu": [
+        {
+          "texte": "Le présent règlement est intitulé « Règlement sur les dérogations mineures de la Ville de Sainte-Adèle » et porte le numéro\n1314-2021-DM."
+        }
       ],
       "article": 1,
       "section": 0,
@@ -121,9 +113,13 @@
         4,
         4
       ],
-      "alineas": [
-        "Le présent règlement abroge les règlements numéro 1200-2012-DM « Règlement sur les dérogations mineures » tel que\nmodifié par tous leurs amendements ainsi que toutes dispositions inconciliables d’un autre règlement en vigueur.",
-        "Ces abrogations n’affectent pas les permis et certificats légalement émis sous l’autorité des règlements ainsi remplacés ni\nles droits acquis avant l’entrée en vigueur du présent règlement."
+      "contenu": [
+        {
+          "texte": "Le présent règlement abroge les règlements numéro 1200-2012-DM « Règlement sur les dérogations mineures » tel que\nmodifié par tous leurs amendements ainsi que toutes dispositions inconciliables d’un autre règlement en vigueur."
+        },
+        {
+          "texte": "Ces abrogations n’affectent pas les permis et certificats légalement émis sous l’autorité des règlements ainsi remplacés ni\nles droits acquis avant l’entrée en vigueur du présent règlement."
+        }
       ],
       "article": 2,
       "section": 0,
@@ -135,8 +131,10 @@
         4,
         4
       ],
-      "alineas": [
-        "Le présent règlement, dont les dispositions s’appliquent aux personnes physiques comme aux personnes morales autant\nde droits publics que privés, s’applique à l’ensemble du territoire de la Ville de Sainte-Adèle."
+      "contenu": [
+        {
+          "texte": "Le présent règlement, dont les dispositions s’appliquent aux personnes physiques comme aux personnes morales autant\nde droits publics que privés, s’applique à l’ensemble du territoire de la Ville de Sainte-Adèle."
+        }
       ],
       "article": 3,
       "section": 0,
@@ -148,8 +146,10 @@
         4,
         4
       ],
-      "alineas": [
-        "Le présent règlement régit le mode de présentation et la procédure d’analyse d’une demande de dérogation mineure, les\nobjets des règlements de zonage et de lotissement qui peuvent faire l’objet d’une demande de dérogation mineure de\nmême qu’il encadre les motifs d’admissibilité et de décision à l’égard d’une telle demande. Toute demande de dérogation\nmineure doit être déposée et étudiée conformément au présent règlement."
+      "contenu": [
+        {
+          "texte": "Le présent règlement régit le mode de présentation et la procédure d’analyse d’une demande de dérogation mineure, les\nobjets des règlements de zonage et de lotissement qui peuvent faire l’objet d’une demande de dérogation mineure de\nmême qu’il encadre les motifs d’admissibilité et de décision à l’égard d’une telle demande. Toute demande de dérogation\nmineure doit être déposée et étudiée conformément au présent règlement."
+        }
       ],
       "article": 4,
       "section": 0,
@@ -161,8 +161,10 @@
         4,
         4
       ],
-      "alineas": [
-        "Aucune disposition du présent règlement ne peut être interprétée comme ayant pour effet de soustraire une personne à\nl’application d’une loi ou d’un règlement du gouvernement provincial ou fédéral ou à l’application d’un règlement de la\nMunicipalité régionale de comté des Pays-d’en-Haut."
+      "contenu": [
+        {
+          "texte": "Aucune disposition du présent règlement ne peut être interprétée comme ayant pour effet de soustraire une personne à\nl’application d’une loi ou d’un règlement du gouvernement provincial ou fédéral ou à l’application d’un règlement de la\nMunicipalité régionale de comté des Pays-d’en-Haut."
+        }
       ],
       "article": 5,
       "section": 0,
@@ -174,8 +176,10 @@
         4,
         4
       ],
-      "alineas": [
-        "Lorsque le texte fait référence à un document de renvoi, celui-ci est partie intégrante du présent règlement."
+      "contenu": [
+        {
+          "texte": "Lorsque le texte fait référence à un document de renvoi, celui-ci est partie intégrante du présent règlement."
+        }
       ],
       "article": 6,
       "section": 0,
@@ -187,8 +191,10 @@
         4,
         5
       ],
-      "alineas": [
-        "Le présent règlement entre en vigueur conformément à la loi."
+      "contenu": [
+        {
+          "texte": "Le présent règlement entre en vigueur conformément à la loi."
+        }
       ],
       "article": 7,
       "section": 0,
@@ -200,8 +206,10 @@
         5,
         5
       ],
-      "alineas": [
-        "L’expression « Ville » est définie comme étant la Ville de Sainte-Adèle."
+      "contenu": [
+        {
+          "texte": "L’expression « Ville » est définie comme étant la Ville de Sainte-Adèle."
+        }
       ],
       "article": 8,
       "section": 1,
@@ -213,8 +221,10 @@
         5,
         5
       ],
-      "alineas": [
-        "L’interprétation du présent règlement doit tenir compte de la hiérarchie entre les divisions du texte : chapitres, sections,\nsous-sections, articles, alinéas, paragraphes, sous-paragraphes et tirets. À titre d’illustration, la typographie utilisée pour\ndistinguer les divisions du règlement répond au modèle suivant :"
+      "contenu": [
+        {
+          "texte": "L’interprétation du présent règlement doit tenir compte de la hiérarchie entre les divisions du texte : chapitres, sections,\nsous-sections, articles, alinéas, paragraphes, sous-paragraphes et tirets. À titre d’illustration, la typographie utilisée pour\ndistinguer les divisions du règlement répond au modèle suivant :"
+        }
       ],
       "article": 9,
       "section": 1,
@@ -226,20 +236,46 @@
         5,
         5
       ],
-      "alineas": [
-        "L’interprétation du texte de ce règlement doit respecter les règles suivantes :",
-        "1. L’emploi des verbes au présent inclut le futur, et vice-versa;",
-        "2. L’usage du singulier comprend le pluriel et l’usage du pluriel comprend le singulier, chaque fois que le contexte\ns’y prête;",
-        "3. L’emploi du verbe DEVOIR indique une obligation absolue; alors que l’emploi du verbe POUVOIR conserve\nun sens facultatif, sauf dans l’expression « NE PEUT » qui signifie « NE DOIT »;",
-        "4. Le mot « quiconque » inclut toute personne morale ou physique ou toute société en nom collectif, en\ncommandite ou en participation au sens du Code civil du Québec.",
-        "5. Lorsque deux dispositions ou plus du présent règlement s’appliquent à un usage, bâtiment, terrain ou autre\nobjet régi par le présent règlement, les règles suivantes s’appliquent :",
-        "a. La disposition particulière prévaut sur la disposition générale;",
-        "b. La disposition la plus contraignante prévaut.",
-        "6. Toute référence à un autre règlement ou à une Loi est ouverte, c’est-à-dire qu’il s’étend à toute modification\nque pourrait subir un tel règlement ou Loi suite à l’entrée en vigueur du présent règlement;",
-        "7. Toutes les mesures présentes dans le présent règlement sont celles du système international (SI);",
-        "8. La table des matières et le titre des chapitres, des sections et des articles du présent règlement sont donnés\npour améliorer la compréhension du texte;",
-        "9. Les plans, annexes, tableaux, graphiques, figures, illustration et symboles et toute forme d’expression autre\nque le texte proprement dit et contenue dans le présent règlement en font partie intégrante à toutes fins que\nde droit;",
-        "10. Lorsqu’une distance séparatrice est mentionnée entre deux usages ou constructions, cette distance s’applique\navec réciprocité pour chacun de ces usages ou constructions."
+      "contenu": [
+        {
+          "texte": "L’interprétation du texte de ce règlement doit respecter les règles suivantes :"
+        },
+        {
+          "texte": "1. L’emploi des verbes au présent inclut le futur, et vice-versa;"
+        },
+        {
+          "texte": "2. L’usage du singulier comprend le pluriel et l’usage du pluriel comprend le singulier, chaque fois que le contexte\ns’y prête;"
+        },
+        {
+          "texte": "3. L’emploi du verbe DEVOIR indique une obligation absolue; alors que l’emploi du verbe POUVOIR conserve\nun sens facultatif, sauf dans l’expression « NE PEUT » qui signifie « NE DOIT »;"
+        },
+        {
+          "texte": "4. Le mot « quiconque » inclut toute personne morale ou physique ou toute société en nom collectif, en\ncommandite ou en participation au sens du Code civil du Québec."
+        },
+        {
+          "texte": "5. Lorsque deux dispositions ou plus du présent règlement s’appliquent à un usage, bâtiment, terrain ou autre\nobjet régi par le présent règlement, les règles suivantes s’appliquent :"
+        },
+        {
+          "texte": "a. La disposition particulière prévaut sur la disposition générale;"
+        },
+        {
+          "texte": "b. La disposition la plus contraignante prévaut."
+        },
+        {
+          "texte": "6. Toute référence à un autre règlement ou à une Loi est ouverte, c’est-à-dire qu’il s’étend à toute modification\nque pourrait subir un tel règlement ou Loi suite à l’entrée en vigueur du présent règlement;"
+        },
+        {
+          "texte": "7. Toutes les mesures présentes dans le présent règlement sont celles du système international (SI);"
+        },
+        {
+          "texte": "8. La table des matières et le titre des chapitres, des sections et des articles du présent règlement sont donnés\npour améliorer la compréhension du texte;"
+        },
+        {
+          "texte": "9. Les plans, annexes, tableaux, graphiques, figures, illustration et symboles et toute forme d’expression autre\nque le texte proprement dit et contenue dans le présent règlement en font partie intégrante à toutes fins que\nde droit;"
+        },
+        {
+          "texte": "10. Lorsqu’une distance séparatrice est mentionnée entre deux usages ou constructions, cette distance s’applique\navec réciprocité pour chacun de ces usages ou constructions."
+        }
       ],
       "article": 10,
       "section": 1,
@@ -251,13 +287,25 @@
         5,
         5
       ],
-      "alineas": [
-        "Dans ce règlement, à moins d'indications contraires, les règles suivantes s'appliquent :",
-        "1. En cas de contradiction entre le texte et un titre, le texte prévaut;",
-        "2. En cas de contradiction entre le texte et toute autre forme d'expression, sauf la fiche de type de milieu, le texte\nprévaut;",
-        "3. En cas de contradiction entre les données d'un tableau et un graphique, les données du tableau prévalent;",
-        "4. En cas de contradiction entre le texte et la fiche de type de milieu, la fiche prévaut;",
-        "5. En cas de contradiction entre la fiche de type de milieu et le plan de zonage, la fiche prévaut."
+      "contenu": [
+        {
+          "texte": "Dans ce règlement, à moins d'indications contraires, les règles suivantes s'appliquent :"
+        },
+        {
+          "texte": "1. En cas de contradiction entre le texte et un titre, le texte prévaut;"
+        },
+        {
+          "texte": "2. En cas de contradiction entre le texte et toute autre forme d'expression, sauf la fiche de type de milieu, le texte\nprévaut;"
+        },
+        {
+          "texte": "3. En cas de contradiction entre les données d'un tableau et un graphique, les données du tableau prévalent;"
+        },
+        {
+          "texte": "4. En cas de contradiction entre le texte et la fiche de type de milieu, la fiche prévaut;"
+        },
+        {
+          "texte": "5. En cas de contradiction entre la fiche de type de milieu et le plan de zonage, la fiche prévaut."
+        }
       ],
       "article": 11,
       "section": 1,
@@ -269,9 +317,13 @@
         5,
         6
       ],
-      "alineas": [
-        "Les expressions, termes et mots utilisés dans le présent règlement ont le sens et l’application qui leur sont attribués à\nl’annexe B du Règlement de zonage en vigueur de la Ville de Sainte-Adèle.",
-        "Une expression, un terme ou un mot n’étant pas spécifiquement défini au Règlement de zonage en vigueur de la Ville de\nSainte-Adèle s'emploie selon le sens communément attribué à cette expression, terme ou mot."
+      "contenu": [
+        {
+          "texte": "Les expressions, termes et mots utilisés dans le présent règlement ont le sens et l’application qui leur sont attribués à\nl’annexe B du Règlement de zonage en vigueur de la Ville de Sainte-Adèle."
+        },
+        {
+          "texte": "Une expression, un terme ou un mot n’étant pas spécifiquement défini au Règlement de zonage en vigueur de la Ville de\nSainte-Adèle s'emploie selon le sens communément attribué à cette expression, terme ou mot."
+        }
       ],
       "article": 12,
       "section": 1,
@@ -283,8 +335,10 @@
         6,
         6
       ],
-      "alineas": [
-        "L'administration du présent règlement est confiée à toute personne nommée ci-après « fonctionnaire désigné », par\nrésolution du Conseil."
+      "contenu": [
+        {
+          "texte": "L'administration du présent règlement est confiée à toute personne nommée ci-après « fonctionnaire désigné », par\nrésolution du Conseil."
+        }
       ],
       "article": 13,
       "section": 2,
@@ -296,8 +350,10 @@
         6,
         6
       ],
-      "alineas": [
-        "L’application, la surveillance et le contrôle du présent règlement relèvent du fonctionnaire désigné. Des fonctionnaires\ndésignés adjoints chargés d’aider ou de remplacer le fonctionnaire désigné peuvent être nommés par résolution du Conseil.\nLe fonctionnaire désigné et ses représentants autorisés constituent donc l’autorité compétente. Dans le présent règlement,\nl’utilisation de l’expression « fonctionnaire désigné » équivaut à l’utilisation de l’expression « autorité compétente »."
+      "contenu": [
+        {
+          "texte": "L’application, la surveillance et le contrôle du présent règlement relèvent du fonctionnaire désigné. Des fonctionnaires\ndésignés adjoints chargés d’aider ou de remplacer le fonctionnaire désigné peuvent être nommés par résolution du Conseil.\nLe fonctionnaire désigné et ses représentants autorisés constituent donc l’autorité compétente. Dans le présent règlement,\nl’utilisation de l’expression « fonctionnaire désigné » équivaut à l’utilisation de l’expression « autorité compétente »."
+        }
       ],
       "article": 14,
       "section": 2,
@@ -309,8 +365,10 @@
         6,
         6
       ],
-      "alineas": [
-        "Les devoirs et pouvoirs de l’autorité compétente sont ceux qui lui sont attribués au Règlement sur les permis et certificats\nen vigueur de la Ville de Sainte-Adèle."
+      "contenu": [
+        {
+          "texte": "Les devoirs et pouvoirs de l’autorité compétente sont ceux qui lui sont attribués au Règlement sur les permis et certificats\nen vigueur de la Ville de Sainte-Adèle."
+        }
       ],
       "article": 15,
       "section": 2,
@@ -322,8 +380,10 @@
         6,
         6
       ],
-      "alineas": [
-        "Les devoirs du propriétaire, de l’occupant, du requérant ou de l’exécutant de travaux sont ceux qui lui sont attribués au\nRèglement sur les permis et certificats en vigueur de la Ville de Sainte-Adèle."
+      "contenu": [
+        {
+          "texte": "Les devoirs du propriétaire, de l’occupant, du requérant ou de l’exécutant de travaux sont ceux qui lui sont attribués au\nRèglement sur les permis et certificats en vigueur de la Ville de Sainte-Adèle."
+        }
       ],
       "article": 16,
       "section": 2,
@@ -333,11 +393,12 @@
       "titre": "Infractions et pénalités",
       "pages": [
         6,
-        8
+        7
       ],
-      "alineas": [
-        "Toute personne qui contrevient à l'une ou l'autre des dispositions de ce règlement commet une infraction et est passible\nd'une amende avec ou sans frais, tel que prescrit au Règlement sur les permis et certificats en vigueur de la Ville de Sainte-\nAdèle.",
-        "CHAPITRE 2 DISPOSITIONS APPLICABLES À UNE\nDEMANDE DE DÉROGATION MINEURE"
+      "contenu": [
+        {
+          "texte": "Toute personne qui contrevient à l'une ou l'autre des dispositions de ce règlement commet une infraction et est passible\nd'une amende avec ou sans frais, tel que prescrit au Règlement sur les permis et certificats en vigueur de la Ville de Sainte-\nAdèle."
+        }
       ],
       "article": 17,
       "section": 2,
@@ -349,14 +410,20 @@
         8,
         8
       ],
-      "alineas": [
-        "Une demande de dérogation mineure est recevable et peut être formulée :",
-        "1. Au moment d’une demande de permis de construction ou de certificat d’autorisation pour un nouvel ouvrage\nou une nouvelle construction;",
-        "2. Lorsque les travaux sont en cours ou déjà exécutés et que le requérant a obtenu un permis ou un certificat\npour ces travaux."
+      "contenu": [
+        {
+          "texte": "Une demande de dérogation mineure est recevable et peut être formulée :"
+        },
+        {
+          "texte": "1. Au moment d’une demande de permis de construction ou de certificat d’autorisation pour un nouvel ouvrage\nou une nouvelle construction;"
+        },
+        {
+          "texte": "2. Lorsque les travaux sont en cours ou déjà exécutés et que le requérant a obtenu un permis ou un certificat\npour ces travaux."
+        }
       ],
       "article": 18,
-      "section": 3,
-      "chapitre": 0
+      "section": 0,
+      "chapitre": 1
     },
     {
       "titre": "Dispositions du Règlement de zonage pouvant faire l’objet d’une dérogation mineure",
@@ -364,16 +431,26 @@
         8,
         8
       ],
-      "alineas": [
-        "Toutes les dispositions du Règlement de zonage en vigueur de la Ville de Sainte-Adèle, ainsi que leurs amendements\nsubséquents, peuvent faire l’objet d’une dérogation mineure, à l’exception des dispositions relatives :",
-        "1. Aux usages et aux densités d’occupation du sol (logement à l’hectare);",
-        "2. À la hauteur en étage d’un bâtiment principal;",
-        "3. À l’abattage d’arbres et aux coupes forestières;",
-        "4. Aux dispositions applicables aux fermettes."
+      "contenu": [
+        {
+          "texte": "Toutes les dispositions du Règlement de zonage en vigueur de la Ville de Sainte-Adèle, ainsi que leurs amendements\nsubséquents, peuvent faire l’objet d’une dérogation mineure, à l’exception des dispositions relatives :"
+        },
+        {
+          "texte": "1. Aux usages et aux densités d’occupation du sol (logement à l’hectare);"
+        },
+        {
+          "texte": "2. À la hauteur en étage d’un bâtiment principal;"
+        },
+        {
+          "texte": "3. À l’abattage d’arbres et aux coupes forestières;"
+        },
+        {
+          "texte": "4. Aux dispositions applicables aux fermettes."
+        }
       ],
       "article": 19,
-      "section": 3,
-      "chapitre": 0
+      "section": 0,
+      "chapitre": 1
     },
     {
       "titre": "Dispositions du Règlement de lotissement pouvant faire l’objet d’une dérogation mineure",
@@ -381,12 +458,14 @@
         8,
         8
       ],
-      "alineas": [
-        "Toutes les dispositions du Règlement de lotissement en vigueur de la Ville de Sainte-Adèle, ainsi que leurs amendements\nsubséquents, peuvent faire l’objet d’une dérogation mineure, à l’exception des dispositions relatives à la cession pour fins\nde parcs, de terrains de jeux ou d’espaces naturels."
+      "contenu": [
+        {
+          "texte": "Toutes les dispositions du Règlement de lotissement en vigueur de la Ville de Sainte-Adèle, ainsi que leurs amendements\nsubséquents, peuvent faire l’objet d’une dérogation mineure, à l’exception des dispositions relatives à la cession pour fins\nde parcs, de terrains de jeux ou d’espaces naturels."
+        }
       ],
       "article": 20,
-      "section": 3,
-      "chapitre": 0
+      "section": 0,
+      "chapitre": 1
     },
     {
       "titre": "Restriction",
@@ -394,12 +473,14 @@
         8,
         8
       ],
-      "alineas": [
-        "Aucune dérogation mineure ne peut être accordée dans une zone où l’occupation du sol est soumise à des contraintes\nparticulières pour des raisons de sécurité publique, conformément à la Loi sur l’aménagement et l’urbanisme (L.R.Q., c. A-\n19.1)."
+      "contenu": [
+        {
+          "texte": "Aucune dérogation mineure ne peut être accordée dans une zone où l’occupation du sol est soumise à des contraintes\nparticulières pour des raisons de sécurité publique, conformément à la Loi sur l’aménagement et l’urbanisme (L.R.Q., c. A-\n19.1)."
+        }
       ],
       "article": 21,
-      "section": 3,
-      "chapitre": 0
+      "section": 0,
+      "chapitre": 1
     },
     {
       "titre": "Conditions préalables à l’analyse d’une dérogation mineure",
@@ -407,12 +488,14 @@
         8,
         8
       ],
-      "alineas": [
-        "Une demande de dérogation mineure peut être présentée si celle-ci est conforme à toutes les dispositions des règlements\nde construction, de lotissement et de zonage ne faisant pas l’objet d’une dérogation mineure."
+      "contenu": [
+        {
+          "texte": "Une demande de dérogation mineure peut être présentée si celle-ci est conforme à toutes les dispositions des règlements\nde construction, de lotissement et de zonage ne faisant pas l’objet d’une dérogation mineure."
+        }
       ],
       "article": 22,
-      "section": 3,
-      "chapitre": 0
+      "section": 0,
+      "chapitre": 1
     },
     {
       "titre": "Conditions préalables à l’approbation d’une dérogation mineure",
@@ -420,18 +503,32 @@
         8,
         9
       ],
-      "alineas": [
-        "Une dérogation mineure ne peut être accordée que si toutes les conditions suivantes sont respectées.",
-        "1. Le requérant est dans l’impossibilité de se conformer au Règlement de zonage ou du Règlement de\nlotissement concernant les dispositions pouvant faire l’objet d’une demande de dérogation mineure;",
-        "2. L’application des dispositions du Règlement de zonage ou du Règlement de lotissement a pour effet de causer\nun préjudice sérieux au requérant;",
-        "3. La dérogation mineure ne porte pas atteinte à la jouissance, par les propriétaires des immeubles voisins, de\nleur droit de propriété;",
-        "4. Dans le cas où les travaux sont en cours ou déjà exécutés, ces travaux ont fait l’objet d’un permis de\nconstruction ou d’un certificat d’autorisation et ont été effectués de bonne foi;",
-        "5. La dérogation respecte les objectifs du plan d’urbanisme;",
-        "6. La dérogation demandée est mineure."
+      "contenu": [
+        {
+          "texte": "Une dérogation mineure ne peut être accordée que si toutes les conditions suivantes sont respectées."
+        },
+        {
+          "texte": "1. Le requérant est dans l’impossibilité de se conformer au Règlement de zonage ou du Règlement de\nlotissement concernant les dispositions pouvant faire l’objet d’une demande de dérogation mineure;"
+        },
+        {
+          "texte": "2. L’application des dispositions du Règlement de zonage ou du Règlement de lotissement a pour effet de causer\nun préjudice sérieux au requérant;"
+        },
+        {
+          "texte": "3. La dérogation mineure ne porte pas atteinte à la jouissance, par les propriétaires des immeubles voisins, de\nleur droit de propriété;"
+        },
+        {
+          "texte": "4. Dans le cas où les travaux sont en cours ou déjà exécutés, ces travaux ont fait l’objet d’un permis de\nconstruction ou d’un certificat d’autorisation et ont été effectués de bonne foi;"
+        },
+        {
+          "texte": "5. La dérogation respecte les objectifs du plan d’urbanisme;"
+        },
+        {
+          "texte": "6. La dérogation demandée est mineure."
+        }
       ],
       "article": 23,
-      "section": 3,
-      "chapitre": 0
+      "section": 0,
+      "chapitre": 1
     },
     {
       "titre": "Contenu de la demande",
@@ -439,28 +536,62 @@
         9,
         9
       ],
-      "alineas": [
-        "Toute demande de dérogation mineure doit être faite par écrit, en utilisant le formulaire intitulé « Demande de dérogation\nmineure » préparé à cette fin.",
-        "La demande doit être transmise au fonctionnaire désigné et doit comprendre :",
-        "1. Le formulaire rempli et dument signé par le propriétaire ou un mandataire autorisé;",
-        "2. Une procuration signée par le propriétaire, dans le cas d’une demande faite par un mandataire;",
-        "3. Les noms, prénoms et adresses du requérant et du propriétaire;",
-        "4. L’identification de l’immeuble visé;",
-        "5. Les titres de la propriété;",
-        "6. Un plan fait et signé par un arpenteur-géomètre dans le cas d’une demande de dérogation mineure relative à\nune distance ou une superficie pour une construction existante ou projetée. Ce plan, à jour, doit illustrer le\nterrain et les ouvrages en cause, la dérogation demandée et, s’il y a lieu, les terrains voisins avec leur\nconstruction;",
-        "7. Un plan projet de lotissement fait et signé par un arpenteur-géomètre dans le cas d’une demande de\ndérogation mineure relative à une superficie, une largeur, une profondeur ou une largeur minimale d’un lot. Ce\nplan, à jour, doit illustrer le terrain, avec ses dimensions, sa superficie et sa pente naturelle moyenne, et les\nconstructions existantes, le cas échéant, avec les distances par rapport aux limites de terrains;",
-        "8. Une description de la nature de la dérogation demandée. Dans le cas d’une construction ou d’un bâtiment\nprojeté et dont la réalisation nécessite plusieurs dérogations, celles-ci doivent obligatoirement faire l’objet\nd’une seule et même demande;",
-        "9. Des photographies claires et récentes de l’immeuble visé par la demande de dérogation mineure et permettant\nde bien identifier la dérogation demandée;",
-        "10. Une description des raisons pour lesquelles le requérant ne peut se conformer aux règlements en vigueur;",
-        "11. Une description du préjudice causé au requérant, autre que financier ou de commodité, découlant de\nl’application stricte du règlement;",
-        "12. Toute autre information connexe requise pour fins de compréhension de la demande.",
-        "Le fonctionnaire désigné peut également :",
-        "1. Exiger du propriétaire qu’il fournisse, à ses frais, tout autre renseignement, détail, plan ou attestation\nprofessionnelle (incluant les sceaux et signatures originales du professionnel qui les aura préparés), de même\nqu’un rapport présentant les conclusions et recommandations relatives au projet nécessaire à la complète\ncompréhension de la demande ou pour s’assurer du parfait respect des différentes dispositions de tout\nrèglement pertinent ou pour s’assurer que la sécurité publique ou l’environnement ne seront pas indument mis\nen cause;",
-        "2. Dispenser le requérant de fournir l’un ou l’autre des renseignements, détails, documents ou attestations\nprofessionnelles spécifiés dans le présent règlement lorsque de l’avis du fonctionnaire désigné, leur absence\nn’entraverait en rien la complète compréhension de la demande, le respect des différents règlements\nmunicipaux ou ne mettrait pas en cause la sécurité publique ou l’environnement."
+      "contenu": [
+        {
+          "texte": "Toute demande de dérogation mineure doit être faite par écrit, en utilisant le formulaire intitulé « Demande de dérogation\nmineure » préparé à cette fin."
+        },
+        {
+          "texte": "La demande doit être transmise au fonctionnaire désigné et doit comprendre :"
+        },
+        {
+          "texte": "1. Le formulaire rempli et dument signé par le propriétaire ou un mandataire autorisé;"
+        },
+        {
+          "texte": "2. Une procuration signée par le propriétaire, dans le cas d’une demande faite par un mandataire;"
+        },
+        {
+          "texte": "3. Les noms, prénoms et adresses du requérant et du propriétaire;"
+        },
+        {
+          "texte": "4. L’identification de l’immeuble visé;"
+        },
+        {
+          "texte": "5. Les titres de la propriété;"
+        },
+        {
+          "texte": "6. Un plan fait et signé par un arpenteur-géomètre dans le cas d’une demande de dérogation mineure relative à\nune distance ou une superficie pour une construction existante ou projetée. Ce plan, à jour, doit illustrer le\nterrain et les ouvrages en cause, la dérogation demandée et, s’il y a lieu, les terrains voisins avec leur\nconstruction;"
+        },
+        {
+          "texte": "7. Un plan projet de lotissement fait et signé par un arpenteur-géomètre dans le cas d’une demande de\ndérogation mineure relative à une superficie, une largeur, une profondeur ou une largeur minimale d’un lot. Ce\nplan, à jour, doit illustrer le terrain, avec ses dimensions, sa superficie et sa pente naturelle moyenne, et les\nconstructions existantes, le cas échéant, avec les distances par rapport aux limites de terrains;"
+        },
+        {
+          "texte": "8. Une description de la nature de la dérogation demandée. Dans le cas d’une construction ou d’un bâtiment\nprojeté et dont la réalisation nécessite plusieurs dérogations, celles-ci doivent obligatoirement faire l’objet\nd’une seule et même demande;"
+        },
+        {
+          "texte": "9. Des photographies claires et récentes de l’immeuble visé par la demande de dérogation mineure et permettant\nde bien identifier la dérogation demandée;"
+        },
+        {
+          "texte": "10. Une description des raisons pour lesquelles le requérant ne peut se conformer aux règlements en vigueur;"
+        },
+        {
+          "texte": "11. Une description du préjudice causé au requérant, autre que financier ou de commodité, découlant de\nl’application stricte du règlement;"
+        },
+        {
+          "texte": "12. Toute autre information connexe requise pour fins de compréhension de la demande."
+        },
+        {
+          "texte": "Le fonctionnaire désigné peut également :"
+        },
+        {
+          "texte": "1. Exiger du propriétaire qu’il fournisse, à ses frais, tout autre renseignement, détail, plan ou attestation\nprofessionnelle (incluant les sceaux et signatures originales du professionnel qui les aura préparés), de même\nqu’un rapport présentant les conclusions et recommandations relatives au projet nécessaire à la complète\ncompréhension de la demande ou pour s’assurer du parfait respect des différentes dispositions de tout\nrèglement pertinent ou pour s’assurer que la sécurité publique ou l’environnement ne seront pas indument mis\nen cause;"
+        },
+        {
+          "texte": "2. Dispenser le requérant de fournir l’un ou l’autre des renseignements, détails, documents ou attestations\nprofessionnelles spécifiés dans le présent règlement lorsque de l’avis du fonctionnaire désigné, leur absence\nn’entraverait en rien la complète compréhension de la demande, le respect des différents règlements\nmunicipaux ou ne mettrait pas en cause la sécurité publique ou l’environnement."
+        }
       ],
       "article": 24,
-      "section": 4,
-      "chapitre": 0
+      "section": 1,
+      "chapitre": 1
     },
     {
       "titre": "Frais exigibles",
@@ -468,14 +599,20 @@
         9,
         9
       ],
-      "alineas": [
-        "Le requérant doit, au moment du dépôt de la demande de dérogation et des documents demandés, acquitter les frais de\n500,00 $ pour l'étude de la demande. Cette somme n'est pas remboursable, quel que soit le sort réservé à la demande.",
-        "Malgré le premier alinéa, les frais à acquitter le sont par lot lorsqu’il s’agit d’une dérogation mineure relative à une superficie,\nune largeur, une profondeur, une largeur minimale d’un lot.",
-        "Ces frais comprennent les frais de publication de l’avis public requis en vertu du présent règlement."
+      "contenu": [
+        {
+          "texte": "Le requérant doit, au moment du dépôt de la demande de dérogation et des documents demandés, acquitter les frais de\n500,00 $ pour l'étude de la demande. Cette somme n'est pas remboursable, quel que soit le sort réservé à la demande."
+        },
+        {
+          "texte": "Malgré le premier alinéa, les frais à acquitter le sont par lot lorsqu’il s’agit d’une dérogation mineure relative à une superficie,\nune largeur, une profondeur, une largeur minimale d’un lot."
+        },
+        {
+          "texte": "Ces frais comprennent les frais de publication de l’avis public requis en vertu du présent règlement."
+        }
       ],
       "article": 25,
-      "section": 4,
-      "chapitre": 0
+      "section": 1,
+      "chapitre": 1
     },
     {
       "titre": "Conformité des documents",
@@ -483,12 +620,14 @@
         9,
         9
       ],
-      "alineas": [
-        "Le fonctionnaire désigné doit s’assurer que la demande est conforme aux exigences prévues au présent règlement,\nnotamment que toutes les informations nécessaires à la bonne compréhension de la demande ont été fournies et que les\nfrais exigibles ont été perçus. La demande ne sera considérée comme complète que lorsque tous les documents requis\nauront été fournis."
+      "contenu": [
+        {
+          "texte": "Le fonctionnaire désigné doit s’assurer que la demande est conforme aux exigences prévues au présent règlement,\nnotamment que toutes les informations nécessaires à la bonne compréhension de la demande ont été fournies et que les\nfrais exigibles ont été perçus. La demande ne sera considérée comme complète que lorsque tous les documents requis\nauront été fournis."
+        }
       ],
       "article": 26,
-      "section": 4,
-      "chapitre": 0
+      "section": 1,
+      "chapitre": 1
     },
     {
       "titre": "Analyse de la demande",
@@ -496,17 +635,29 @@
         9,
         10
       ],
-      "alineas": [
-        "Préalablement à la transmission de la demande au comité consultatif d’urbanisme, le fonctionnaire désigné doit procéder\nà une analyse préliminaire comprenant notamment :",
-        "1. L’identification des dispositions règlementaires en cause, ainsi que des objectifs généraux sous-jacents à ces\ndernières;",
-        "2. Une vérification de la conformité du projet ou de l’immeuble à toutes les autres dispositions règlementaires\napplicables;",
-        "3. Un avis, relatif à la conformité de la dérogation par rapport aux objectifs du plan d’urbanisme;",
-        "4. Une analyse des caractéristiques de l’immeuble et du voisinage qui affectent la gravité de la dérogation;",
-        "5. L’identification des décisions rendues dans le cadre de demandes antérieures pour des dérogations mineures\nsimilaires, ainsi que des principales caractéristiques de celles-ci."
+      "contenu": [
+        {
+          "texte": "Préalablement à la transmission de la demande au comité consultatif d’urbanisme, le fonctionnaire désigné doit procéder\nà une analyse préliminaire comprenant notamment :"
+        },
+        {
+          "texte": "1. L’identification des dispositions règlementaires en cause, ainsi que des objectifs généraux sous-jacents à ces\ndernières;"
+        },
+        {
+          "texte": "2. Une vérification de la conformité du projet ou de l’immeuble à toutes les autres dispositions règlementaires\napplicables;"
+        },
+        {
+          "texte": "3. Un avis, relatif à la conformité de la dérogation par rapport aux objectifs du plan d’urbanisme;"
+        },
+        {
+          "texte": "4. Une analyse des caractéristiques de l’immeuble et du voisinage qui affectent la gravité de la dérogation;"
+        },
+        {
+          "texte": "5. L’identification des décisions rendues dans le cadre de demandes antérieures pour des dérogations mineures\nsimilaires, ainsi que des principales caractéristiques de celles-ci."
+        }
       ],
       "article": 27,
-      "section": 4,
-      "chapitre": 0
+      "section": 1,
+      "chapitre": 1
     },
     {
       "titre": "Transmission de la demande au comité consultatif d’urbanisme",
@@ -514,12 +665,14 @@
         10,
         10
       ],
-      "alineas": [
-        "Sauf s’il y a relâche dans le calendrier des réunions du comité consultatif d’urbanisme, le fonctionnaire désigné transmet\ntoute demande recevable au comité dans les 30 jours suivant la réception, accompagnée de l’analyse prévue à l’article\nprécédent et de tout autre document pertinent."
+      "contenu": [
+        {
+          "texte": "Sauf s’il y a relâche dans le calendrier des réunions du comité consultatif d’urbanisme, le fonctionnaire désigné transmet\ntoute demande recevable au comité dans les 30 jours suivant la réception, accompagnée de l’analyse prévue à l’article\nprécédent et de tout autre document pertinent."
+        }
       ],
       "article": 28,
-      "section": 4,
-      "chapitre": 0
+      "section": 1,
+      "chapitre": 1
     },
     {
       "titre": "Étude de la demande par le comité consultatif d’urbanisme",
@@ -527,16 +680,26 @@
         10,
         10
       ],
-      "alineas": [
-        "Le comité consultatif d’urbanisme étudie la demande en tenant compte des conditions prévues au présent règlement et\ndes conclusions de l’analyse de la demande par le fonctionnaire désigné.",
-        "Le comité consultatif d’urbanisme peut exiger des informations supplémentaires du requérant ou de l’autorité compétente.\nIl peut également exiger d’entendre le requérant.",
-        "À l’exception des cas pour lesquels une telle démarche serait de toute évidence inutile, les membres du comité consultatif\nd’urbanisme peuvent visiter la propriété faisant l’objet de la demande de dérogation mineure et évaluer les effets de la\ndérogation demandée.",
-        "Dans les 45 jours suivant la réception de la demande par le comité consultatif d’urbanisme, celui-ci formule par écrit sa\nrecommandation en tenant compte des critères applicables. Cet avis est transmis au Conseil.",
-        "Dans le cas où le requérant apporte de nouveaux éléments concernant sa demande pendant la période d’étude de la\ndemande par le comité consultatif d’urbanisme, lorsqu’une expertise professionnelle est nécessaire ou lorsque des\ninformations supplémentaires sont demandées par le comité, le délai maximal est augmenté à 60 jours."
+      "contenu": [
+        {
+          "texte": "Le comité consultatif d’urbanisme étudie la demande en tenant compte des conditions prévues au présent règlement et\ndes conclusions de l’analyse de la demande par le fonctionnaire désigné."
+        },
+        {
+          "texte": "Le comité consultatif d’urbanisme peut exiger des informations supplémentaires du requérant ou de l’autorité compétente.\nIl peut également exiger d’entendre le requérant."
+        },
+        {
+          "texte": "À l’exception des cas pour lesquels une telle démarche serait de toute évidence inutile, les membres du comité consultatif\nd’urbanisme peuvent visiter la propriété faisant l’objet de la demande de dérogation mineure et évaluer les effets de la\ndérogation demandée."
+        },
+        {
+          "texte": "Dans les 45 jours suivant la réception de la demande par le comité consultatif d’urbanisme, celui-ci formule par écrit sa\nrecommandation en tenant compte des critères applicables. Cet avis est transmis au Conseil."
+        },
+        {
+          "texte": "Dans le cas où le requérant apporte de nouveaux éléments concernant sa demande pendant la période d’étude de la\ndemande par le comité consultatif d’urbanisme, lorsqu’une expertise professionnelle est nécessaire ou lorsque des\ninformations supplémentaires sont demandées par le comité, le délai maximal est augmenté à 60 jours."
+        }
       ],
       "article": 29,
-      "section": 4,
-      "chapitre": 0
+      "section": 1,
+      "chapitre": 1
     },
     {
       "titre": "Avis public",
@@ -544,16 +707,26 @@
         10,
         10
       ],
-      "alineas": [
-        "Le greffier de la Ville doit, au moins 15 jours avant la tenue de la séance où le Conseil doit statuer sur la demande de\ndérogations mineures, faire publier un avis qui indique :",
-        "1. La date, l’heure et le lieu de la séance du Conseil;",
-        "2. La nature et les effets de la dérogation demandée;",
-        "3. La désignation de l’immeuble affecté en utilisant la voie de circulation et le numéro civique de l’immeuble ou,\nà défaut, le numéro de subdivision cadastrale;",
-        "4. Que tout intéressé peut se faire entendre par le Conseil relativement à cette demande."
+      "contenu": [
+        {
+          "texte": "Le greffier de la Ville doit, au moins 15 jours avant la tenue de la séance où le Conseil doit statuer sur la demande de\ndérogations mineures, faire publier un avis qui indique :"
+        },
+        {
+          "texte": "1. La date, l’heure et le lieu de la séance du Conseil;"
+        },
+        {
+          "texte": "2. La nature et les effets de la dérogation demandée;"
+        },
+        {
+          "texte": "3. La désignation de l’immeuble affecté en utilisant la voie de circulation et le numéro civique de l’immeuble ou,\nà défaut, le numéro de subdivision cadastrale;"
+        },
+        {
+          "texte": "4. Que tout intéressé peut se faire entendre par le Conseil relativement à cette demande."
+        }
       ],
       "article": 30,
-      "section": 4,
-      "chapitre": 0
+      "section": 1,
+      "chapitre": 1
     },
     {
       "titre": "Décision du Conseil",
@@ -561,14 +734,20 @@
         10,
         10
       ],
-      "alineas": [
-        "Le Conseil rend sa décision par l’adoption d’une résolution. Il accepte, refuse ou accepte la demande.",
-        "La résolution par laquelle le Conseil rend sa décision peut prévoir toute condition, eu égard aux compétences de la Ville,\ndans le but d'atténuer l'impact de la dérogation.",
-        "Le Conseil n’est pas tenu de motiver sa décision. Une copie de la résolution est ensuite transmise par le greffier de la Ville\nau requérant."
+      "contenu": [
+        {
+          "texte": "Le Conseil rend sa décision par l’adoption d’une résolution. Il accepte, refuse ou accepte la demande."
+        },
+        {
+          "texte": "La résolution par laquelle le Conseil rend sa décision peut prévoir toute condition, eu égard aux compétences de la Ville,\ndans le but d'atténuer l'impact de la dérogation."
+        },
+        {
+          "texte": "Le Conseil n’est pas tenu de motiver sa décision. Une copie de la résolution est ensuite transmise par le greffier de la Ville\nau requérant."
+        }
       ],
       "article": 31,
-      "section": 4,
-      "chapitre": 0
+      "section": 1,
+      "chapitre": 1
     },
     {
       "titre": "Émission du permis",
@@ -576,13 +755,17 @@
         10,
         10
       ],
-      "alineas": [
-        "Sur présentation de la copie certifiée conforme de la résolution accordant une dérogation mineure, le fonctionnaire désigné\ndélivre le permis ou le certificat si les conditions prévues dans le cadre de l’acceptation, s’il y a lieu, sont remplies, et ce,\nau plus tard au moment de la demande de permis ou de certificat.",
-        "De plus, les objets de la demande qui ne font pas l'objet de la dérogation mineure accordée doivent être conformes aux\nrèglements de zonage, de lotissement et de construction applicables."
+      "contenu": [
+        {
+          "texte": "Sur présentation de la copie certifiée conforme de la résolution accordant une dérogation mineure, le fonctionnaire désigné\ndélivre le permis ou le certificat si les conditions prévues dans le cadre de l’acceptation, s’il y a lieu, sont remplies, et ce,\nau plus tard au moment de la demande de permis ou de certificat."
+        },
+        {
+          "texte": "De plus, les objets de la demande qui ne font pas l'objet de la dérogation mineure accordée doivent être conformes aux\nrèglements de zonage, de lotissement et de construction applicables."
+        }
       ],
       "article": 32,
-      "section": 4,
-      "chapitre": 0
+      "section": 1,
+      "chapitre": 1
     },
     {
       "titre": "Délai de validité",
@@ -590,86 +773,54 @@
         10,
         11
       ],
-      "alineas": [
-        "À la suite d’un délai de 18 mois après l'adoption de la résolution accordant une dérogation mineure, si les travaux qu'elle\nvise n'ont pas été réalisés ou ne sont pas en voie de réalisation selon un permis de lotissement ou de construction ou un\ncertificat d'autorisation valide, cette résolution devient nulle et non avenue.",
-        "Le délai mentionné au présent article ne s’applique pas lorsqu’il s’agit de régulariser une situation existante.",
-        "Une nouvelle demande de dérogation mineure pour le même objet peut être formulée."
+      "contenu": [
+        {
+          "texte": "À la suite d’un délai de 18 mois après l'adoption de la résolution accordant une dérogation mineure, si les travaux qu'elle\nvise n'ont pas été réalisés ou ne sont pas en voie de réalisation selon un permis de lotissement ou de construction ou un\ncertificat d'autorisation valide, cette résolution devient nulle et non avenue."
+        },
+        {
+          "texte": "Le délai mentionné au présent article ne s’applique pas lorsqu’il s’agit de régulariser une situation existante."
+        },
+        {
+          "texte": "Une nouvelle demande de dérogation mineure pour le même objet peut être formulée."
+        },
+        {
+          "texte": "ENTRÉE EN VIGUEUR"
+        },
+        {
+          "texte": "Le présent règlement entre en vigueur conformément à la loi."
+        },
+        {
+          "texte": "Signé à Sainte-Adèle, ce 13e jour du mois d’octobre de l’an 2021."
+        },
+        {
+          "texte": "(s) Nadine Brière (s) Audrey Senécal\n__________________________ ___________________________________\nNadine Brière Me Audrey Senécal\nMairesse Greffière et directrice des services juridiques"
+        },
+        {
+          "texte": "**************************************************"
+        },
+        {
+          "texte": "CERTIFICAT D’APPROBATION"
+        },
+        {
+          "texte": "RÈGLEMENT 1314-2021-DM sur les dérogations mineures"
+        },
+        {
+          "texte": "En vertu de l’article 357 de la Loi sur les cités et villes :"
+        },
+        {
+          "texte": "« Règlement 1314-2021-DM sur les dérogations mineures »"
+        },
+        {
+          "texte": "Adoption 19 juillet 2021",
+          "tableau": "Rgl-1314-2021-DM-Derogations-mineures/page11-table1.png"
+        },
+        {
+          "texte": "(s) Nadine Brière (s) Audrey Senécal\n__________________________ ___________________________________\nNadine Brière Me Audrey Senécal\nMairesse Greffière et directrice des services juridiques"
+        }
       ],
       "article": 33,
-      "section": 4,
-      "chapitre": 0
-    },
-    {
-      "pages": [
-        11,
-        11
-      ],
-      "alineas": [
-        "Le présent règlement entre en vigueur conformément à la loi."
-      ]
-    },
-    {
-      "pages": [
-        11,
-        11
-      ],
-      "alineas": [
-        "Signé à Sainte-Adèle, ce 13e jour du mois d’octobre de l’an 2021."
-      ]
-    },
-    {
-      "pages": [
-        11,
-        11
-      ],
-      "alineas": [
-        "(s) Nadine Brière (s) Audrey Senécal\n__________________________ ___________________________________\nNadine Brière Me Audrey Senécal\nMairesse Greffière et directrice des services juridiques"
-      ]
-    },
-    {
-      "pages": [
-        11,
-        11
-      ],
-      "alineas": [
-        "**************************************************"
-      ]
-    },
-    {
-      "pages": [
-        11,
-        11
-      ],
-      "alineas": [
-        "RÈGLEMENT 1314-2021-DM sur les dérogations mineures"
-      ]
-    },
-    {
-      "pages": [
-        11,
-        11
-      ],
-      "alineas": [
-        "En vertu de l’article 357 de la Loi sur les cités et villes :"
-      ]
-    },
-    {
-      "pages": [
-        11,
-        11
-      ],
-      "alineas": [
-        "« Règlement 1314-2021-DM sur les dérogations mineures »"
-      ]
-    },
-    {
-      "pages": [
-        11,
-        11
-      ],
-      "alineas": [
-        "(s) Nadine Brière (s) Audrey Senécal\n__________________________ ___________________________________\nNadine Brière Me Audrey Senécal\nMairesse Greffière et directrice des services juridiques"
-      ]
+      "section": 1,
+      "chapitre": 1
     }
   ],
   "numero": "1314-2021-DM",

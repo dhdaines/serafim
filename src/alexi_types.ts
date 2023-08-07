@@ -22,15 +22,15 @@ export interface Ancrage {
    */
   pages: [number, number];
   /**
-   * Première et dernière indices de contenus (articles, alinéas, tableaux, etc)
+   * Première et dernière indices de textes
    *
    * @minItems 2
    * @maxItems 2
    */
-  contenus?: [number, number];
+  textes?: [number, number];
 }
 /**
- * Annexe du texte.
+ * Annexe d'un document ou règlement.
  */
 export interface Annexe {
   titre?: string;
@@ -39,8 +39,37 @@ export interface Annexe {
    * @maxItems 2
    */
   pages: [number, number];
-  alineas?: string[];
+  /**
+   * Contenus (alinéas, tableaux, images) de ce texte
+   */
+  contenu?: (Contenu | Tableau)[];
+  /**
+   * Numéro de cet annexe
+   */
   annexe: string;
+}
+/**
+ * Modèle de base pour un élément du contenu, dont un alinéa, une énumération,
+ * un tableau, une image, etc.
+ */
+export interface Contenu {
+  /**
+   * Texte indexable pour ce contenu
+   */
+  texte: string;
+}
+/**
+ * Tableau, représenté pour le moment en image (peut-être HTML à l'avenir)
+ */
+export interface Tableau {
+  /**
+   * Texte indexable pour ce contenu
+   */
+  texte: string;
+  /**
+   * Fichier avec la représentation du tableau
+   */
+  tableau: string;
 }
 /**
  * Article du texte.
@@ -52,7 +81,10 @@ export interface Article {
    * @maxItems 2
    */
   pages: [number, number];
-  alineas?: string[];
+  /**
+   * Contenus (alinéas, tableaux, images) de ce texte
+   */
+  contenu?: (Contenu | Tableau)[];
   /**
    * Numéro de cet article tel qu'il apparaît dans le texte, ou -1 pour un article sans numéro
    */
@@ -80,7 +112,11 @@ export interface Attendus {
    * @maxItems 2
    */
   pages: [number, number];
-  alineas?: string[];
+  /**
+   * Contenus (alinéas, tableaux, images) de ce texte
+   */
+  contenu?: (Contenu | Tableau)[];
+  attendu?: boolean;
 }
 /**
  * Chapitre du texte.
@@ -99,12 +135,12 @@ export interface Chapitre {
    */
   pages: [number, number];
   /**
-   * Première et dernière indices de contenus (articles, alinéas, tableaux, etc)
+   * Première et dernière indices de textes
    *
    * @minItems 2
    * @maxItems 2
    */
-  contenus?: [number, number];
+  textes?: [number, number];
   sections?: Section[];
 }
 /**
@@ -127,12 +163,12 @@ export interface Section {
    */
   pages: [number, number];
   /**
-   * Première et dernière indices de contenus (articles, alinéas, tableaux, etc)
+   * Première et dernière indices de textes
    *
    * @minItems 2
    * @maxItems 2
    */
-  contenus?: [number, number];
+  textes?: [number, number];
   sous_sections?: SousSection[];
 }
 /**
@@ -155,24 +191,12 @@ export interface SousSection {
    */
   pages: [number, number];
   /**
-   * Première et dernière indices de contenus (articles, alinéas, tableaux, etc)
+   * Première et dernière indices de textes
    *
    * @minItems 2
    * @maxItems 2
    */
-  contenus?: [number, number];
-}
-/**
- * Modèle de base pour du contenu textuel.
- */
-export interface Contenu {
-  titre?: string;
-  /**
-   * @minItems 2
-   * @maxItems 2
-   */
-  pages: [number, number];
-  alineas?: string[];
+  textes?: [number, number];
 }
 /**
  * Dates de publication ou adoption d'un document ou règlement.
@@ -220,8 +244,23 @@ export interface Document {
    */
   titre?: string;
   chapitres?: Chapitre[];
-  attendus?: Attendus;
-  contenus?: Contenu[];
+  textes?: (Article | Attendus | Annexe | Texte)[];
+}
+/**
+ * Modèle de base pour un unité atomique (indexable) de texte, dont un
+ * article, une liste d'attendus, ou un annexe.
+ */
+export interface Texte {
+  titre?: string;
+  /**
+   * @minItems 2
+   * @maxItems 2
+   */
+  pages: [number, number];
+  /**
+   * Contenus (alinéas, tableaux, images) de ce texte
+   */
+  contenu?: (Contenu | Tableau)[];
 }
 /**
  * Structure et contenu d'un règlement.
@@ -236,8 +275,7 @@ export interface Reglement {
    */
   titre?: string;
   chapitres?: Chapitre[];
-  attendus?: Attendus;
-  contenus?: Contenu[];
+  textes?: (Article | Attendus | Annexe | Texte)[];
   /**
    * Numéro du règlement, e.g. 1314-Z-09
    */
