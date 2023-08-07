@@ -91,11 +91,16 @@ div.article img {
     margin: 0;
 }
 
+#document-view {
+    display: none;
+}
+
 /* This is Pure's "medium" breakpoint */
 @media screen and (min-width: 48em) {
     #search-view, #document-view {
         height: 75vh;
         overflow: auto;
+        display: block;
     }
 
     .acronym {

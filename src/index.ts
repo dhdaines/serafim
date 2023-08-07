@@ -51,17 +51,26 @@ class App {
       throw `Out of bounds document index ${idx}`;
     const texte = this.textes[idx];
     const target = this.document_view;
+    target.style.display = "block";
     target.innerHTML = "";
     const result = document.createElement("div");
     result.setAttribute("class", "article");
     result.innerHTML = "";
     result.innerHTML += `
+<div class="pure-g">
+<div class="pure-u-1-3" style="text-align: left">
 <a id="article-prev" class="article-button" href="?idx=${idx - 1}">&larr;</a>
-<a class="article-link" target="_blank"
+</div>
+<div class="pure-u-1-3" style="text-align: center">
+<a class="article-button" target="_blank"
    href="https://ville.sainte-adele.qc.ca/upload/documents/${texte.fichier}#page=${texte.page}&zoom=100"
->Document PDF source</a>
-<a class="article-link" href="?idx=${idx}">Permalien</a>
-<a id="article-next" class="article-button" href="?idx=${idx + 1}">&rarr;</a><br>`;
+>PDF</a>
+</div>
+<div class="pure-u-1-3" style="text-align: right">
+<a id="article-next" class="article-button" href="?idx=${idx + 1}">&rarr;</a>
+</div>
+</div>
+`;
     result.innerHTML += `<h1>${texte.titre}</h1>\n`;
     if (texte.document)
       result.innerHTML += `<h4>Règlement ${texte.document}</h4>\n`;
@@ -75,23 +84,27 @@ class App {
       result.innerHTML += `<p>${para}</p>\n`;
     target.append(result);
     const prev = document.getElementById("article-prev") as HTMLAnchorElement;
-    if (prev && idx == 0)
-      prev.style.pointerEvents = "none";
-    const next = document.getElementById("article-next") as HTMLAnchorElement;
-    console.log(this.textes.length);
-    if (next && idx == this.textes.length - 1)
-      next.style.pointerEvents = "none";
-    if (prev && next && this.media_query.matches) {
-      if (idx > 0)
+    if (prev) {
+      if (idx == 0)
+        prev.style.pointerEvents = "none";
+      else
         prev.addEventListener("click", (e) => {
           this.show_document(idx - 1);
+          history.replaceState(null, "", `?idx=${idx}`)
           e.preventDefault();
         });
-      if (idx < (this.textes.length - 1))
+    }
+    const next = document.getElementById("article-next") as HTMLAnchorElement;
+    if (next) {
+      if (idx == this.textes.length - 1)
+        next.style.pointerEvents = "none";
+      else {
         next.addEventListener("click", (e) => {
           this.show_document(idx + 1);
+          history.replaceState(null, "", `?idx=${idx}`)
           e.preventDefault();
         });
+      }
     }
   }
 
@@ -148,13 +161,16 @@ class App {
     div.append(this.create_title(texte, result));
     div.append(this.create_subtitles(texte, result));
     div.append(this.create_extract(texte, result));
-    /* Show content on-page only on desktop. */
-    if (this.media_query.matches) {
-      div.addEventListener("click", (e) => {
+    div.addEventListener("click", (e) => {
+      const query = encodeURIComponent(this.search_box.value);
+      history.replaceState(null, "", `?q=${query}`)
+      /* On desktop, do it in-browser, otherwise follow the link */
+      if (this.media_query.matches) {
         this.show_document(idx);
+        history.pushState(null, "", `?idx=${idx}`)
         e.preventDefault();
-      });
-    }
+      }
+    });
     return div;
   }
 
@@ -177,13 +193,17 @@ class App {
   /* Do asynchronous initialization things */
   async initialize() {
     this.textes = await this.read_content();
-    /* Display a document, for fun, if requested */
     const urlParams = new URLSearchParams(window.location.search);
+    /* Display a document, for fun, if requested */
     const docidx = urlParams.get("idx");
-    console.log(urlParams);
-    console.log(docidx);
     if (docidx !== null) this.show_document(parseInt(docidx));
     this.index = await this.read_index();
+    /* Display search results, for fun, if requested */
+    const query = urlParams.get("q");
+    if (query !== null) {
+      this.search_box.value = query;
+      this.search(); // asynchronously, sometime
+    }
     this.search_box.addEventListener(
       "input",
       debounce(async () => this.search(), 200)
