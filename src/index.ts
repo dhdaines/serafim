@@ -56,10 +56,12 @@ class App {
     result.setAttribute("class", "article");
     result.innerHTML = "";
     result.innerHTML += `
+<a id="article-prev" class="article-button" href="?idx=${idx - 1}">&larr;</a>
 <a class="article-link" target="_blank"
    href="https://ville.sainte-adele.qc.ca/upload/documents/${texte.fichier}#page=${texte.page}&zoom=100"
 >Document PDF source</a>
-<a class="article-link" href="?idx=${idx}">Permalien</a><br>`;
+<a class="article-link" href="?idx=${idx}">Permalien</a>
+<a id="article-next" class="article-button" href="?idx=${idx + 1}">&rarr;</a><br>`;
     result.innerHTML += `<h1>${texte.titre}</h1>\n`;
     if (texte.document)
       result.innerHTML += `<h4>Règlement ${texte.document}</h4>\n`;
@@ -72,6 +74,25 @@ class App {
     for (const para of texte.contenu.split("\n\n"))
       result.innerHTML += `<p>${para}</p>\n`;
     target.append(result);
+    const prev = document.getElementById("article-prev") as HTMLAnchorElement;
+    if (prev && idx == 0)
+      prev.style.pointerEvents = "none";
+    const next = document.getElementById("article-next") as HTMLAnchorElement;
+    console.log(this.textes.length);
+    if (next && idx == this.textes.length - 1)
+      next.style.pointerEvents = "none";
+    if (prev && next && this.media_query.matches) {
+      if (idx > 0)
+        prev.addEventListener("click", (e) => {
+          this.show_document(idx - 1);
+          e.preventDefault();
+        });
+      if (idx < (this.textes.length - 1))
+        next.addEventListener("click", (e) => {
+          this.show_document(idx + 1);
+          e.preventDefault();
+        });
+    }
   }
 
   create_title(texte: Texte, result: lunr.Index.Result) {
@@ -103,15 +124,16 @@ class App {
     spans.sort();
     const p = document.createElement("p");
     p.setAttribute("class", "extrait");
+    let contenu;
     if (spans.length) {
-      p.innerText =
-        "..." +
-        texte.contenu.substring(
+      contenu =  texte.contenu.substring(
           Math.max(0, spans[0][0] - 80),
           Math.min(texte.contenu.length, spans[0][0] + spans[0][1] + 40)
-        ) +
-        "...";
-    } else p.innerText = texte.contenu.substring(0, 80) + "...";
+        )
+    } else contenu = texte.contenu.substring(0, 80) + "...";
+    contenu = contenu.replace(/.*alt="/, "");
+    contenu = contenu.replace('">', "");
+    p.innerText = `... ${contenu} ...`;
     return p;
   }
 
@@ -144,7 +166,7 @@ class App {
     try {
       const results = this.index!.search(text);
       this.search_results.innerHTML = "";
-      for (const result of results) {
+      for (const result of results.slice(0, 10)) {
         this.search_results.append(this.create_result_entry(result));
       }
     } catch (e) {

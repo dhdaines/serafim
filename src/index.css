@@ -56,6 +56,14 @@ a.article-link {
     font-size: smaller;
 }
 
+a.article-button {
+    text-decoration: none;
+    display: inline-block;
+    background: #eee;
+    padding: 5px;
+    border-radius: 3px;
+}
+
 a:visited, a:link {
     color: black;
 }
