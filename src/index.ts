@@ -175,6 +175,8 @@ class App {
     if (this.textes === undefined) this.textes = await this.read_content();
     if (this.textes === undefined) this.index = await this.read_index();
     const text = this.search_box.value;
+    if (text.length < 2)
+      return;
     try {
       const results = this.index!.search(text);
       this.search_results.innerHTML = "";
