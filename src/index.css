@@ -76,6 +76,14 @@ div.article img {
     max-width: 100%;
 }
 
+div.article h1 {
+    font-size: 1.5em;
+}
+
+div.article h4 {
+    margin: 1ex 0;
+}
+
 .soustitre {
     font-size: small;
     padding: 2px;
