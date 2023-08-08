@@ -8,5 +8,6 @@ export interface Texte {
   sous_section?: string;
   titre: string;
   numero: string;
+  texte: string;
   contenu: string;
 }

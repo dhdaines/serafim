@@ -8,7 +8,7 @@ import folding from "lunr-folding";
 /* UGH! This API is SO WEIRD!!! */
 folding(lunr);
 
-function make_text_content(contenu?: Array<Contenu | Tableau>): string {
+function make_contenu(contenu?: Array<Contenu | Tableau>): string {
   if (contenu === undefined)
     return "";
   return contenu.map(c => {
@@ -25,9 +25,17 @@ function make_text_content(contenu?: Array<Contenu | Tableau>): string {
   }).join("\n\n");
 }
 
+function make_texte(contenu?: Array<Contenu| Tableau>): string {
+  if (contenu === undefined)
+    return "";
+  return contenu.map(c => c.texte).join("\n");
+}
+
 function make_text_from_article(doc: Reglement, article: Article): Texte {
   const page = article.pages[0];
-  let chapitre, section, sous_section;
+  let chapitre = "";
+  let section = "";
+  let sous_section = "";
   if (
     article.chapitre !== undefined &&
     article.chapitre !== -1 &&
@@ -54,9 +62,14 @@ function make_text_from_article(doc: Reglement, article: Article): Texte {
   }
   const fichier = doc.fichier;
   const document = `${doc.numero} ${doc.objet ?? ""}`;
-  const contenu = make_text_content(article.contenu);
+  const contenu = make_contenu(article.contenu);
   const titre = article.titre ?? "";
   const numero = article.article.toString();
+  let texte = `${numero} ${titre}
+${document}
+${chapitre}
+${section}
+${sous_section}\n\n` + make_texte(article.contenu);
   return {
     fichier,
     document,
@@ -66,6 +79,7 @@ function make_text_from_article(doc: Reglement, article: Article): Texte {
     sous_section,
     titre,
     numero,
+    texte,
     contenu,
   };
 }
@@ -75,14 +89,16 @@ function make_text_from_annex(doc: Reglement, annexe: Annexe): Texte {
   const numero = annexe.annexe;
   const fichier = doc.fichier;
   const document = `${doc.numero} ${doc.objet ?? ""}`;
-  const contenu = make_text_content(annexe.contenu);
+  const contenu = make_contenu(annexe.contenu);
   const titre = annexe.titre ?? "";
+  let texte = `${numero} ${titre}\n${document}\n\n` + make_texte(annexe.contenu);
   return {
     fichier,
     document,
     page,
     titre,
     numero,
+    texte,
     contenu,
   };
 }
@@ -91,15 +107,17 @@ function make_text_from_attendus(doc: Reglement, attendus: Attendus): Texte {
   const page = attendus.pages[0];
   const fichier = doc.fichier;
   const document = `${doc.numero} ${doc.objet ?? ""}`;
-  const contenu = make_text_content(attendus.contenu);
+  const contenu = make_contenu(attendus.contenu);
   const titre = `ATTENDUS`;
   const numero = "ATTENDUS";
+  let texte = `${numero}\n${document}\n\n` + make_texte(attendus.contenu);
   return {
     fichier,
     document,
     page,
     titre,
     numero,
+    texte,
     contenu,
   };
 }
@@ -108,15 +126,17 @@ function make_text_from_text(doc: Reglement, at: AlexiTexte): Texte {
   const page = at.pages[0];
   const fichier = doc.fichier;
   const document = `${doc.numero} ${doc.objet ?? ""}`;
-  const contenu = make_text_content(at.contenu);
+  const contenu = make_contenu(at.contenu);
   const titre = at.titre ?? contenu.substring(0, 80); // FIXME
   const numero = "";
+  let texte = `${document}\n\n` + make_texte(at.contenu);
   return {
     fichier,
     document,
     page,
     titre,
     numero,
+    texte,
     contenu,
   };
 }
@@ -165,16 +185,14 @@ async function add_doc(
     //this.use(lunr.fr);
     this.ref("id");
     this.field("titre");
-    this.field("contenu");
+    this.field("texte");
     // Yes this is undocumented
     this.metadataWhitelist = ['position']
 
     for (const id in textes) {
       const titre = textes[id].titre;
-      let contenu = textes[id].contenu; 
-      contenu = contenu.replace(/<img(?:[^>]*alt="([^"]+)")?[^>]*>/, "$1");
-      const index_texte = { id, titre, contenu };
-      this.add(index_texte);
+      let texte = textes[id].texte; 
+      this.add({ id, titre, texte });
     }
   });
   await writeFile(path.join("public", "textes.json"),

@@ -128,21 +128,22 @@ class App {
     for (const term in result.matchData.metadata) {
       // @ts-ignore
       const metadata = result.matchData.metadata[term];
-      if (!("contenu" in metadata)) continue;
-      if (!("position" in metadata.contenu)) continue;
-      spans.push(...metadata.contenu.position);
+      if (!("texte" in metadata)) continue;
+      if (!("position" in metadata.texte)) continue;
+      spans.push(...metadata.texte.position);
     }
     spans.sort();
     const p = document.createElement("p");
     p.setAttribute("class", "extrait");
-    let contenu = texte.contenu.replace(/<img(?:[^>]*alt="([^"]+)")?[^>]*>/, "$1");
+    let extrait;
     if (spans.length) {
-      contenu = contenu.substring(
-          Math.max(0, spans[0][0] - 80),
-          Math.min(texte.contenu.length, spans[0][0] + spans[0][1] + 40)
+      const last = spans.length - 1;
+      extrait = texte.texte.substring(
+          Math.max(0, spans[last][0] - 80),
+          Math.min(texte.texte.length, spans[last][0] + spans[last][1] + 40)
         )
-    } else contenu = contenu.substring(0, 80) + "...";
-    p.innerText = `... ${contenu} ...`;
+    } else extrait = texte.texte.substring(0, 80) + "...";
+    p.innerHTML = `... ${extrait} ...`;
     return p;
   }
 
