@@ -293,15 +293,63 @@
               "titre": "VENTE DE VÉHICULES USAGÉS",
               "pages": [
                 70,
-                72
+                70
               ],
               "textes": [
                 83,
-                97
+                83
               ]
             },
             {
               "numero": "3",
+              "titre": "VENTE DE FRUITS ET DE LÉGUMES, DE PRODUITS ALIMENTAIRES DE\nFABRICATION ARTISANALE, DE FLEURS ET DE PRODUITS ISSUS D’UN MÉTIER\nD’ART",
+              "pages": [
+                70,
+                70
+              ],
+              "textes": [
+                84,
+                84
+              ]
+            },
+            {
+              "numero": "4",
+              "titre": "ÉVÉNEMENTS PROMOTIONNELS",
+              "pages": [
+                70,
+                71
+              ],
+              "textes": [
+                85,
+                89
+              ]
+            },
+            {
+              "numero": "5",
+              "titre": "ÉVÉNEMENTS SPÉCIAUX (FÊTES FORAINES, CIRQUES, FESTIVALS ET AUTRES\nÉVÈNEMENTS SIMILAIRES)",
+              "pages": [
+                71,
+                71
+              ],
+              "textes": [
+                90,
+                94
+              ]
+            },
+            {
+              "numero": "6",
+              "titre": "ACTIVITÉS COMMUNAUTAIRES OU RÉCRÉATIVES",
+              "pages": [
+                71,
+                72
+              ],
+              "textes": [
+                95,
+                97
+              ]
+            },
+            {
+              "numero": "7",
               "titre": "CAMION DE CUISINE DE RUE",
               "pages": [
                 72,
@@ -343,10 +391,34 @@
               "titre": "USAGES COMPLÉMENTAIRES À UN USAGE DU GROUPE « HABITATION (H) »",
               "pages": [
                 73,
-                84
+                78
               ],
               "textes": [
                 103,
+                114
+              ]
+            },
+            {
+              "numero": "3",
+              "titre": "USAGE COMPLÉMENTAIRE À UN USAGE DES GROUPES « COMMERCE (C) », «\nINDUSTRIE (I) », « COMMUNAUTAIRE ET UTILITÉ PUBLIQUE (P) », « AGRICULTURE\nET FORESTERIE (A) » ET « CONSERVATION ET RÉCRÉATION (CO) »",
+              "pages": [
+                78,
+                80
+              ],
+              "textes": [
+                115,
+                123
+              ]
+            },
+            {
+              "numero": "4",
+              "titre": "USAGE COMPLÉMENTAIRE À UN USAGE DU GROUPE « INDUSTRIE (I) »",
+              "pages": [
+                80,
+                84
+              ],
+              "textes": [
+                124,
                 132
               ]
             }
@@ -395,10 +467,22 @@
               "titre": "DISPOSITIONS GÉNÉRALES APPLICABLES AUX BÂTIMENTS ET USAGES\nPRINCIPAUX",
               "pages": [
                 84,
-                88
+                86
               ],
               "textes": [
                 140,
+                145
+              ]
+            },
+            {
+              "numero": "3",
+              "titre": "DISPOSITIONS RELATIVES AUX MARGES",
+              "pages": [
+                86,
+                88
+              ],
+              "textes": [
+                146,
                 155
               ]
             }
@@ -433,15 +517,27 @@
               "titre": "FORME ET QUALITÉ ARCHITECTURALES",
               "pages": [
                 88,
-                93
+                89
               ],
               "textes": [
                 158,
-                182
+                164
               ]
             },
             {
               "numero": "3",
+              "titre": "MATÉRIAUX DE REVÊTEMENT EXTÉRIEUR",
+              "pages": [
+                89,
+                93
+              ],
+              "textes": [
+                165,
+                182
+              ]
+            },
+            {
+              "numero": "4",
               "titre": "ÉQUIPEMENT, CONSTRUCTION ET MEZZANINE HORS TOIT OU EN SAILLIE",
               "pages": [
                 93,
@@ -483,15 +579,39 @@
               "titre": "SURFACE MINIMALE VÉGÉTALISÉE",
               "pages": [
                 96,
-                101
+                97
               ],
               "textes": [
                 200,
-                216
+                202
               ]
             },
             {
               "numero": "3",
+              "titre": "ESPACES NATURELS",
+              "pages": [
+                97,
+                98
+              ],
+              "textes": [
+                203,
+                206
+              ]
+            },
+            {
+              "numero": "4",
+              "titre": "ARBRE",
+              "pages": [
+                98,
+                101
+              ],
+              "textes": [
+                207,
+                216
+              ]
+            },
+            {
+              "numero": "5",
               "titre": "REMBLAI, DÉBLAI, NIVELLEMENT ET MUR DE SOUTÈNEMENT",
               "pages": [
                 101,
@@ -503,7 +623,7 @@
               ]
             },
             {
-              "numero": "4",
+              "numero": "6",
               "titre": "HAIE, CLÔTURE ET MURET",
               "pages": [
                 104,
@@ -515,7 +635,7 @@
               ]
             },
             {
-              "numero": "5",
+              "numero": "7",
               "titre": "BANDE TAMPON",
               "pages": [
                 107,
@@ -527,7 +647,7 @@
               ]
             },
             {
-              "numero": "6",
+              "numero": "8",
               "titre": "ÉCLAIRAGE EXTÉRIEUR",
               "pages": [
                 108,
@@ -557,10 +677,34 @@
               "titre": "GÉNÉRALITÉS",
               "pages": [
                 109,
-                112
+                109
               ],
               "textes": [
                 235,
+                235
+              ]
+            },
+            {
+              "numero": "2",
+              "titre": "ÉTALAGE EXTÉRIEUR DE TYPE « AMBIANCE »",
+              "pages": [
+                109,
+                110
+              ],
+              "textes": [
+                236,
+                237
+              ]
+            },
+            {
+              "numero": "3",
+              "titre": "ÉTALAGE EXTÉRIEUR DE TYPE « ARTÉRIEL »",
+              "pages": [
+                110,
+                112
+              ],
+              "textes": [
+                238,
                 242
               ]
             }
@@ -583,15 +727,39 @@
               "titre": "GÉNÉRALITÉS",
               "pages": [
                 112,
-                113
+                112
               ],
               "textes": [
                 243,
-                247
+                243
               ]
             },
             {
               "numero": "2",
+              "titre": "ENTREPOSAGE EXTÉRIEUR POUR UN TERRAIN OCCUPÉ PAR UN USAGE DU\nGROUPE « HABITATION (H) »",
+              "pages": [
+                112,
+                113
+              ],
+              "textes": [
+                244,
+                245
+              ]
+            },
+            {
+              "numero": "3",
+              "titre": "ENTREPOSAGE EXTÉRIEUR DE TYPE « ARTÉRIEL »",
+              "pages": [
+                113,
+                113
+              ],
+              "textes": [
+                246,
+                247
+              ]
+            },
+            {
+              "numero": "4",
               "titre": "ENTREPOSAGE DE TYPE « INDUSTRIEL »",
               "pages": [
                 113,
@@ -603,7 +771,7 @@
               ]
             },
             {
-              "numero": "3",
+              "numero": "5",
               "titre": "ENTREPOSAGE DE TYPE « AGROFORESTIER »",
               "pages": [
                 114,
@@ -669,15 +837,27 @@
               "titre": "NOMBRE DE CASES DE STATIONNEMENT",
               "pages": [
                 118,
-                123
+                119
               ],
               "textes": [
                 276,
-                288
+                279
               ]
             },
             {
               "numero": "5",
+              "titre": "AIRE DE STATIONNEMENT",
+              "pages": [
+                119,
+                123
+              ],
+              "textes": [
+                280,
+                288
+              ]
+            },
+            {
+              "numero": "6",
               "titre": "AIRE DE STATIONNEMENT INTÉRIEUR",
               "pages": [
                 123,
@@ -689,7 +869,7 @@
               ]
             },
             {
-              "numero": "6",
+              "numero": "7",
               "titre": "AIRE DE CHARGEMENT ET DE DÉCHARGEMENT",
               "pages": [
                 124,
@@ -719,10 +899,70 @@
               "titre": "DISPOSITIONS GÉNÉRALES",
               "pages": [
                 126,
-                141
+                132
               ],
               "textes": [
                 294,
+                301
+              ]
+            },
+            {
+              "numero": "2",
+              "titre": "EMPLACEMENT D’UNE ENSEIGNE",
+              "pages": [
+                132,
+                133
+              ],
+              "textes": [
+                302,
+                303
+              ]
+            },
+            {
+              "numero": "3",
+              "titre": "CONCEPTION D’UNE ENSEIGNE",
+              "pages": [
+                133,
+                135
+              ],
+              "textes": [
+                304,
+                314
+              ]
+            },
+            {
+              "numero": "4",
+              "titre": "RÈGLES SPÉCIFIQUES SELON LES TYPES DE SUPPORTS ET L’EMPLACEMENT",
+              "pages": [
+                135,
+                138
+              ],
+              "textes": [
+                315,
+                324
+              ]
+            },
+            {
+              "numero": "5",
+              "titre": "DISPOSITIONS RELATIVES AUX CATÉGORIES D’AFFICHAGE ET SUPERFICIES",
+              "pages": [
+                138,
+                139
+              ],
+              "textes": [
+                325,
+                329
+              ]
+            },
+            {
+              "numero": "6",
+              "titre": "ENSEIGNES PARTICULIÈRES POUR CERTAINS USAGES",
+              "pages": [
+                139,
+                141
+              ],
+              "textes": [
+                330,
                 333
               ]
             }
@@ -771,10 +1011,22 @@
               "titre": "BÂTIMENTS ACCESSOIRES PERMANENTS",
               "pages": [
                 144,
-                160
+                150
               ],
               "textes": [
                 338,
+                353
+              ]
+            },
+            {
+              "numero": "2",
+              "titre": "CONSTRUCTIONS ET ÉQUIPEMENTS ACCESSOIRES PERMANENTS",
+              "pages": [
+                150,
+                160
+              ],
+              "textes": [
+                354,
                 379
               ]
             }
@@ -803,7 +1055,7 @@
       ],
       "textes": [
         389,
-        450
+        456
       ],
       "sections": [
         {
@@ -823,15 +1075,27 @@
               "titre": "GÉNÉRALITÉS",
               "pages": [
                 165,
-                169
+                165
               ],
               "textes": [
                 389,
-                395
+                390
               ]
             },
             {
               "numero": "2",
+              "titre": "DISPOSITIONS RELATIVES À LA RIVE",
+              "pages": [
+                165,
+                169
+              ],
+              "textes": [
+                391,
+                395
+              ]
+            },
+            {
+              "numero": "3",
               "titre": "DISPOSITIONS RELATIVES À LA RENATURALISATION DE LA RIVE",
               "pages": [
                 169,
@@ -843,7 +1107,7 @@
               ]
             },
             {
-              "numero": "3",
+              "numero": "4",
               "titre": "DISPOSITIONS RELATIVES AU LITTORAL",
               "pages": [
                 170,
@@ -855,7 +1119,7 @@
               ]
             },
             {
-              "numero": "4",
+              "numero": "5",
               "titre": "PROTECTION DES MILIEUX HUMIDES",
               "pages": [
                 171,
@@ -945,10 +1209,22 @@
               "titre": "COUPE DE JARDINAGE",
               "pages": [
                 184,
-                185
+                184
               ],
               "textes": [
                 440,
+                440
+              ]
+            },
+            {
+              "numero": "5",
+              "titre": "COUPE D’ÉCLAIRCIE COMMERCIALE",
+              "pages": [
+                184,
+                185
+              ],
+              "textes": [
+                441,
                 441
               ]
             }
@@ -987,7 +1263,7 @@
           ],
           "textes": [
             446,
-            450
+            456
           ],
           "sous_sections": [
             {
@@ -995,11 +1271,35 @@
               "titre": "CONTRAINTE SONORE MAJEURE",
               "pages": [
                 187,
-                189
+                187
               ],
               "textes": [
                 446,
-                450
+                447
+              ]
+            },
+            {
+              "numero": "2",
+              "titre": "DISPOSITIONS RELATIVES AUX PRISES D’EAU POTABLE",
+              "pages": [
+                187,
+                188
+              ],
+              "textes": [
+                448,
+                455
+              ]
+            },
+            {
+              "numero": "3",
+              "titre": "DISPOSITIONS RELATIVES À CERTAINS SECTEURS DE CONTRAINTE",
+              "pages": [
+                188,
+                189
+              ],
+              "textes": [
+                456,
+                456
               ]
             }
           ]
@@ -1014,8 +1314,8 @@
         407
       ],
       "textes": [
-        451,
-        721
+        457,
+        718
       ],
       "sections": [
         {
@@ -1026,8 +1326,8 @@
             205
           ],
           "textes": [
-            451,
-            463
+            457,
+            469
           ],
           "sous_sections": [
             {
@@ -1038,8 +1338,8 @@
                 190
               ],
               "textes": [
-                451,
-                451
+                457,
+                457
               ]
             },
             {
@@ -1050,8 +1350,8 @@
                 191
               ],
               "textes": [
-                452,
-                452
+                458,
+                458
               ]
             },
             {
@@ -1062,8 +1362,8 @@
                 193
               ],
               "textes": [
-                453,
-                453
+                459,
+                459
               ]
             },
             {
@@ -1074,8 +1374,8 @@
                 195
               ],
               "textes": [
-                454,
-                455
+                460,
+                461
               ]
             },
             {
@@ -1086,8 +1386,8 @@
                 199
               ],
               "textes": [
-                456,
-                456
+                462,
+                462
               ]
             },
             {
@@ -1098,8 +1398,8 @@
                 201
               ],
               "textes": [
-                457,
-                457
+                463,
+                463
               ]
             },
             {
@@ -1110,8 +1410,8 @@
                 202
               ],
               "textes": [
-                458,
-                458
+                464,
+                464
               ]
             },
             {
@@ -1119,47 +1419,59 @@
               "titre": "BÂTIMENTS ACCESSOIRES",
               "pages": [
                 202,
-                204
+                203
               ],
               "textes": [
-                459,
-                460
+                465,
+                465
               ]
             },
             {
               "numero": "9",
+              "titre": "USAGES AUTORISÉS",
+              "pages": [
+                203,
+                204
+              ],
+              "textes": [
+                466,
+                466
+              ]
+            },
+            {
+              "numero": "10",
               "titre": "AFFICHAGE",
               "pages": [
                 204,
                 204
               ],
               "textes": [
-                461,
-                461
+                467,
+                467
               ]
             },
             {
-              "numero": "10",
+              "numero": "11",
               "titre": "AUTRES DISPOSITIONS PARTICULIÈRES",
               "pages": [
                 204,
                 204
               ],
               "textes": [
-                462,
-                462
+                468,
+                468
               ]
             },
             {
-              "numero": "11",
+              "numero": "12",
               "titre": "EXCEPTIONS",
               "pages": [
                 204,
                 205
               ],
               "textes": [
-                463,
-                463
+                469,
+                469
               ]
             }
           ]
@@ -1172,8 +1484,8 @@
             222
           ],
           "textes": [
-            464,
-            485
+            470,
+            490
           ],
           "sous_sections": [
             {
@@ -1184,8 +1496,8 @@
                 214
               ],
               "textes": [
-                466,
-                475
+                471,
+                480
               ]
             },
             {
@@ -1196,8 +1508,8 @@
                 222
               ],
               "textes": [
-                476,
-                485
+                481,
+                490
               ]
             }
           ]
@@ -1210,8 +1522,8 @@
             239
           ],
           "textes": [
-            486,
-            507
+            491,
+            511
           ],
           "sous_sections": [
             {
@@ -1222,8 +1534,8 @@
                 231
               ],
               "textes": [
-                488,
-                497
+                492,
+                501
               ]
             },
             {
@@ -1234,8 +1546,8 @@
                 239
               ],
               "textes": [
-                498,
-                507
+                502,
+                511
               ]
             }
           ]
@@ -1248,8 +1560,8 @@
             272
           ],
           "textes": [
-            508,
-            549
+            512,
+            552
           ],
           "sous_sections": [
             {
@@ -1260,8 +1572,8 @@
                 248
               ],
               "textes": [
-                510,
-                519
+                513,
+                522
               ]
             },
             {
@@ -1272,8 +1584,8 @@
                 256
               ],
               "textes": [
-                520,
-                529
+                523,
+                532
               ]
             },
             {
@@ -1284,8 +1596,8 @@
                 264
               ],
               "textes": [
-                530,
-                539
+                533,
+                542
               ]
             },
             {
@@ -1296,8 +1608,8 @@
                 272
               ],
               "textes": [
-                540,
-                549
+                543,
+                552
               ]
             }
           ]
@@ -1310,8 +1622,8 @@
             297
           ],
           "textes": [
-            550,
-            581
+            553,
+            583
           ],
           "sous_sections": [
             {
@@ -1322,8 +1634,8 @@
                 281
               ],
               "textes": [
-                552,
-                561
+                554,
+                563
               ]
             },
             {
@@ -1334,8 +1646,8 @@
                 289
               ],
               "textes": [
-                562,
-                571
+                564,
+                573
               ]
             },
             {
@@ -1346,8 +1658,8 @@
                 297
               ],
               "textes": [
-                572,
-                581
+                574,
+                583
               ]
             }
           ]
@@ -1360,8 +1672,8 @@
             322
           ],
           "textes": [
-            582,
-            613
+            584,
+            614
           ],
           "sous_sections": [
             {
@@ -1372,8 +1684,8 @@
                 314
               ],
               "textes": [
-                584,
-                603
+                585,
+                604
               ]
             },
             {
@@ -1384,8 +1696,8 @@
                 322
               ],
               "textes": [
-                604,
-                613
+                605,
+                614
               ]
             }
           ]
@@ -1398,7 +1710,7 @@
             347
           ],
           "textes": [
-            614,
+            615,
             645
           ],
           "sous_sections": [
@@ -1449,7 +1761,7 @@
           ],
           "textes": [
             646,
-            657
+            656
           ],
           "sous_sections": [
             {
@@ -1460,8 +1772,8 @@
                 356
               ],
               "textes": [
-                648,
-                657
+                647,
+                656
               ]
             }
           ]
@@ -1474,8 +1786,8 @@
             390
           ],
           "textes": [
-            658,
-            699
+            657,
+            697
           ],
           "sous_sections": [
             {
@@ -1486,8 +1798,8 @@
                 366
               ],
               "textes": [
-                660,
-                669
+                658,
+                667
               ]
             },
             {
@@ -1498,8 +1810,8 @@
                 374
               ],
               "textes": [
-                670,
-                679
+                668,
+                677
               ]
             },
             {
@@ -1510,8 +1822,8 @@
                 382
               ],
               "textes": [
-                680,
-                689
+                678,
+                687
               ]
             },
             {
@@ -1522,8 +1834,8 @@
                 390
               ],
               "textes": [
-                690,
-                699
+                688,
+                697
               ]
             }
           ]
@@ -1536,8 +1848,8 @@
             407
           ],
           "textes": [
-            700,
-            721
+            698,
+            718
           ],
           "sous_sections": [
             {
@@ -1548,8 +1860,8 @@
                 399
               ],
               "textes": [
-                702,
-                711
+                699,
+                708
               ]
             },
             {
@@ -1560,8 +1872,8 @@
                 407
               ],
               "textes": [
-                712,
-                721
+                709,
+                718
               ]
             }
           ]
@@ -1576,8 +1888,8 @@
         424
       ],
       "textes": [
-        722,
-        821
+        719,
+        818
       ],
       "sections": [
         {
@@ -1588,8 +1900,8 @@
             408
           ],
           "textes": [
-            722,
-            722
+            719,
+            719
           ]
         },
         {
@@ -1600,8 +1912,8 @@
             408
           ],
           "textes": [
-            723,
-            723
+            720,
+            720
           ]
         },
         {
@@ -1612,8 +1924,8 @@
             414
           ],
           "textes": [
-            724,
-            761
+            721,
+            758
           ],
           "sous_sections": [
             {
@@ -1624,8 +1936,8 @@
                 412
               ],
               "textes": [
-                724,
-                752
+                721,
+                749
               ]
             },
             {
@@ -1636,8 +1948,8 @@
                 414
               ],
               "textes": [
-                753,
-                761
+                750,
+                758
               ]
             }
           ]
@@ -1650,8 +1962,8 @@
             421
           ],
           "textes": [
-            762,
-            799
+            759,
+            796
           ],
           "sous_sections": [
             {
@@ -1662,8 +1974,8 @@
                 414
               ],
               "textes": [
-                762,
-                762
+                759,
+                759
               ]
             },
             {
@@ -1674,8 +1986,8 @@
                 415
               ],
               "textes": [
-                763,
-                776
+                760,
+                773
               ]
             },
             {
@@ -1683,47 +1995,143 @@
               "titre": "CENTRE COMMERCIAUX",
               "pages": [
                 415,
-                417
+                416
               ],
               "textes": [
-                777,
-                782
+                774,
+                774
               ]
             },
             {
               "numero": "4",
+              "titre": "STATION-SERVICE ET POSTE D’ESSENCE",
+              "pages": [
+                416,
+                417
+              ],
+              "textes": [
+                775,
+                779
+              ]
+            },
+            {
+              "numero": "5",
               "titre": "TERRAIN DE CAMPING",
+              "pages": [
+                417,
+                417
+              ],
+              "textes": [
+                780,
+                780
+              ]
+            },
+            {
+              "numero": "6",
+              "titre": "REGROUPEMENT DE CHALETS EN LOCATION",
               "pages": [
                 417,
                 418
               ],
               "textes": [
-                783,
-                786
+                781,
+                781
               ]
             },
             {
-              "numero": "5",
+              "numero": "7",
+              "titre": "RÉSIDENCE DE TOURISME",
+              "pages": [
+                418,
+                418
+              ],
+              "textes": [
+                782,
+                782
+              ]
+            },
+            {
+              "numero": "8",
+              "titre": "COMMERCE D’HÉBERGEMENT D’ENVERGURE",
+              "pages": [
+                418,
+                418
+              ],
+              "textes": [
+                783,
+                783
+              ]
+            },
+            {
+              "numero": "9",
               "titre": "MOTEL",
               "pages": [
                 418,
-                420
+                418
               ],
               "textes": [
-                787,
-                798
+                784,
+                784
               ]
             },
             {
-              "numero": "6",
+              "numero": "10",
+              "titre": "LES ENTREPÔTS ET MINI-ENTREPÔTS",
+              "pages": [
+                418,
+                419
+              ],
+              "textes": [
+                785,
+                785
+              ]
+            },
+            {
+              "numero": "11",
+              "titre": "SERVICES POUR ANIMAUX DOMESTIQUES",
+              "pages": [
+                419,
+                419
+              ],
+              "textes": [
+                786,
+                789
+              ]
+            },
+            {
+              "numero": "12",
+              "titre": "COMMERCE RÉCRÉATIF D’IMPACT OU MOTORISÉS",
+              "pages": [
+                419,
+                420
+              ],
+              "textes": [
+                790,
+                791
+              ]
+            },
+            {
+              "numero": "13",
+              "titre": "MAISONS PRÉFABRIQUÉES EN DÉMONSTRATION",
+              "pages": [
+                420,
+                420
+              ],
+              "textes": [
+                792,
+                795
+              ]
+            },
+            {
+              "numero": "14",
               "titre": "CONTINGENTEMENT POUR UNE ANTENNE OU TOUR DE TÉLÉPHONIE OU\nTÉLÉCOMMUNICATION",
               "pages": [
                 420,
                 421
               ],
               "textes": [
-                799,
-                799
+                796,
+                796
               ]
             }
           ]
@@ -1736,8 +2144,8 @@
             424
           ],
           "textes": [
-            800,
-            821
+            797,
+            818
           ],
           "sous_sections": [
             {
@@ -1748,8 +2156,8 @@
                 421
               ],
               "textes": [
-                800,
-                800
+                797,
+                797
               ]
             },
             {
@@ -1760,8 +2168,8 @@
                 424
               ],
               "textes": [
-                801,
-                821
+                798,
+                818
               ]
             }
           ]
@@ -1776,8 +2184,8 @@
         435
       ],
       "textes": [
-        822,
-        865
+        819,
+        862
       ],
       "sections": [
         {
@@ -1788,8 +2196,8 @@
             426
           ],
           "textes": [
-            822,
-            822
+            819,
+            819
           ]
         },
         {
@@ -1800,8 +2208,8 @@
             427
           ],
           "textes": [
-            823,
-            824
+            820,
+            821
           ]
         },
         {
@@ -1812,8 +2220,8 @@
             429
           ],
           "textes": [
-            825,
-            835
+            822,
+            832
           ]
         },
         {
@@ -1824,8 +2232,8 @@
             432
           ],
           "textes": [
-            836,
-            851
+            833,
+            848
           ]
         },
         {
@@ -1836,8 +2244,8 @@
             433
           ],
           "textes": [
-            852,
-            857
+            849,
+            854
           ]
         },
         {
@@ -1848,8 +2256,8 @@
             435
           ],
           "textes": [
-            858,
-            865
+            855,
+            862
           ],
           "sous_sections": [
             {
@@ -1860,8 +2268,8 @@
                 435
               ],
               "textes": [
-                861,
-                865
+                858,
+                862
               ]
             }
           ]
@@ -3946,9 +4354,6 @@
         },
         {
           "texte": "Le véhicule doit être exposé seulement dans l'aire de stationnement."
-        },
-        {
-          "texte": "VENTE DE FRUITS ET DE LÉGUMES, DE PRODUITS ALIMENTAIRES DE\nFABRICATION ARTISANALE, DE FLEURS ET DE PRODUITS ISSUS D’UN MÉTIER\nD’ART"
         }
       ],
       "article": 69,
@@ -3980,13 +4385,10 @@
         },
         {
           "texte": "Le kiosque doit être installé aux abords directs du bâtiment principal et ne pas nuire à la circulation des clients,\ndes véhicules, des vélos ou des piétons."
-        },
-        {
-          "texte": "ÉVÉNEMENTS PROMOTIONNELS"
         }
       ],
       "article": 70,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 3,
       "chapitre": 2
     },
@@ -4011,7 +4413,7 @@
         }
       ],
       "article": 71,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 3,
       "chapitre": 2
     },
@@ -4027,7 +4429,7 @@
         }
       ],
       "article": 72,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 3,
       "chapitre": 2
     },
@@ -4043,7 +4445,7 @@
         }
       ],
       "article": 73,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 3,
       "chapitre": 2
     },
@@ -4062,7 +4464,7 @@
         }
       ],
       "article": 74,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 3,
       "chapitre": 2
     },
@@ -4090,13 +4492,10 @@
         },
         {
           "texte": "À l'issue de la tenue d’un évènement promotionnel, le site doit être nettoyé si nécessaire et remis en bon état\ndans un délai de 48 heures suivant la fin de l’événement."
-        },
-        {
-          "texte": "ÉVÉNEMENTS SPÉCIAUX (FÊTES FORAINES, CIRQUES, FESTIVALS ET AUTRES\nÉVÈNEMENTS SIMILAIRES)"
         }
       ],
       "article": 75,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 3,
       "chapitre": 2
     },
@@ -4115,7 +4514,7 @@
         }
       ],
       "article": 76,
-      "sous_section": 1,
+      "sous_section": 4,
       "section": 3,
       "chapitre": 2
     },
@@ -4137,7 +4536,7 @@
         }
       ],
       "article": 77,
-      "sous_section": 1,
+      "sous_section": 4,
       "section": 3,
       "chapitre": 2
     },
@@ -4153,7 +4552,7 @@
         }
       ],
       "article": 78,
-      "sous_section": 1,
+      "sous_section": 4,
       "section": 3,
       "chapitre": 2
     },
@@ -4172,7 +4571,7 @@
         }
       ],
       "article": 79,
-      "sous_section": 1,
+      "sous_section": 4,
       "section": 3,
       "chapitre": 2
     },
@@ -4194,13 +4593,10 @@
         },
         {
           "texte": "À l'issue de la tenue d’un évènement spécial, le site doit être nettoyé si nécessaire et remis en bon état dans\nun délai de 48 heures suivant la fin de l’événement."
-        },
-        {
-          "texte": "ACTIVITÉS COMMUNAUTAIRES OU RÉCRÉATIVES"
         }
       ],
       "article": 80,
-      "sous_section": 1,
+      "sous_section": 4,
       "section": 3,
       "chapitre": 2
     },
@@ -4216,7 +4612,7 @@
         }
       ],
       "article": 81,
-      "sous_section": 1,
+      "sous_section": 5,
       "section": 3,
       "chapitre": 2
     },
@@ -4235,7 +4631,7 @@
         }
       ],
       "article": 82,
-      "sous_section": 1,
+      "sous_section": 5,
       "section": 3,
       "chapitre": 2
     },
@@ -4251,7 +4647,7 @@
         }
       ],
       "article": 83,
-      "sous_section": 1,
+      "sous_section": 5,
       "section": 3,
       "chapitre": 2
     },
@@ -4267,7 +4663,7 @@
         }
       ],
       "article": 84,
-      "sous_section": 2,
+      "sous_section": 6,
       "section": 3,
       "chapitre": 2
     },
@@ -4283,7 +4679,7 @@
         }
       ],
       "article": 85,
-      "sous_section": 2,
+      "sous_section": 6,
       "section": 3,
       "chapitre": 2
     },
@@ -4299,7 +4695,7 @@
         }
       ],
       "article": 86,
-      "sous_section": 2,
+      "sous_section": 6,
       "section": 3,
       "chapitre": 2
     },
@@ -4899,9 +5295,6 @@
         },
         {
           "texte": "Une clinique médicale (C02-26-05)."
-        },
-        {
-          "texte": "USAGE COMPLÉMENTAIRE À UN USAGE DES GROUPES « COMMERCE (C) », «\nINDUSTRIE (I) », « COMMUNAUTAIRE ET UTILITÉ PUBLIQUE (P) », « AGRICULTURE\nET FORESTERIE (A) » ET « CONSERVATION ET RÉCRÉATION (CO) »"
         }
       ],
       "article": 100,
@@ -4939,7 +5332,7 @@
         }
       ],
       "article": 101,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 4,
       "chapitre": 2
     },
@@ -4955,7 +5348,7 @@
         }
       ],
       "article": 102,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 4,
       "chapitre": 2
     },
@@ -4980,7 +5373,7 @@
         }
       ],
       "article": 103,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 4,
       "chapitre": 2
     },
@@ -4996,7 +5389,7 @@
         }
       ],
       "article": 104,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 4,
       "chapitre": 2
     },
@@ -5024,7 +5417,7 @@
         }
       ],
       "article": 105,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 4,
       "chapitre": 2
     },
@@ -5049,7 +5442,7 @@
         }
       ],
       "article": 106,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 4,
       "chapitre": 2
     },
@@ -5068,7 +5461,7 @@
         }
       ],
       "article": 107,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 4,
       "chapitre": 2
     },
@@ -5093,7 +5486,7 @@
         }
       ],
       "article": 108,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 4,
       "chapitre": 2
     },
@@ -5142,13 +5535,10 @@
         },
         {
           "texte": "5)"
-        },
-        {
-          "texte": "USAGE COMPLÉMENTAIRE À UN USAGE DU GROUPE « INDUSTRIE (I) »"
         }
       ],
       "article": 109,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 4,
       "chapitre": 2
     },
@@ -5164,7 +5554,7 @@
         }
       ],
       "article": 110,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 4,
       "chapitre": 2
     },
@@ -5180,7 +5570,7 @@
         }
       ],
       "article": 111,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 4,
       "chapitre": 2
     },
@@ -5208,7 +5598,7 @@
         }
       ],
       "article": 112,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 4,
       "chapitre": 2
     },
@@ -5236,7 +5626,7 @@
         }
       ],
       "article": 113,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 4,
       "chapitre": 2
     },
@@ -5279,7 +5669,7 @@
         }
       ],
       "article": 114,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 4,
       "chapitre": 2
     },
@@ -5316,7 +5706,7 @@
         }
       ],
       "article": 115,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 4,
       "chapitre": 2
     },
@@ -5344,7 +5734,7 @@
         }
       ],
       "article": 116,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 4,
       "chapitre": 2
     },
@@ -5366,7 +5756,7 @@
         }
       ],
       "article": 117,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 4,
       "chapitre": 2
     },
@@ -5397,7 +5787,7 @@
         }
       ],
       "article": 118,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 4,
       "chapitre": 2
     },
@@ -5719,9 +6109,6 @@
         },
         {
           "texte": "15)"
-        },
-        {
-          "texte": "DISPOSITIONS RELATIVES AUX MARGES"
         }
       ],
       "article": 131,
@@ -5741,7 +6128,7 @@
         }
       ],
       "article": 132,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 3
     },
@@ -5760,7 +6147,7 @@
         }
       ],
       "article": 133,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 3
     },
@@ -5791,7 +6178,7 @@
         }
       ],
       "article": 134,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 3
     },
@@ -5810,7 +6197,7 @@
         }
       ],
       "article": 135,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 3
     },
@@ -5832,7 +6219,7 @@
         }
       ],
       "article": 136,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 3
     },
@@ -5848,7 +6235,7 @@
         }
       ],
       "article": 137,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 3
     },
@@ -5864,7 +6251,7 @@
         }
       ],
       "article": 138,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 3
     },
@@ -5880,7 +6267,7 @@
         }
       ],
       "article": 139,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 3
     },
@@ -5899,7 +6286,7 @@
         }
       ],
       "article": 140,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 3
     },
@@ -5915,7 +6302,7 @@
         }
       ],
       "article": 141,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 3
     },
@@ -6119,9 +6506,6 @@
         },
         {
           "texte": "Ce mur doit comporter au moins 10% de sa superficie en ouverture."
-        },
-        {
-          "texte": "MATÉRIAUX DE REVÊTEMENT EXTÉRIEUR"
         }
       ],
       "article": 150,
@@ -6141,7 +6525,7 @@
         }
       ],
       "article": 151,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6157,7 +6541,7 @@
         }
       ],
       "article": 152,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6179,7 +6563,7 @@
         }
       ],
       "article": 153,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6195,7 +6579,7 @@
         }
       ],
       "article": 154,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6217,7 +6601,7 @@
         }
       ],
       "article": 155,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6236,7 +6620,7 @@
         }
       ],
       "article": 156,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6255,7 +6639,7 @@
         }
       ],
       "article": 157,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6271,7 +6655,7 @@
         }
       ],
       "article": 158,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6341,7 +6725,7 @@
         }
       ],
       "article": 159,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6360,7 +6744,7 @@
         }
       ],
       "article": 160,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6376,7 +6760,7 @@
         }
       ],
       "article": 161,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6406,7 +6790,7 @@
         }
       ],
       "article": 162,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6425,7 +6809,7 @@
         }
       ],
       "article": 163,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6477,7 +6861,7 @@
         }
       ],
       "article": 164,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6493,7 +6877,7 @@
         }
       ],
       "article": 165,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6509,7 +6893,7 @@
         }
       ],
       "article": 166,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6534,7 +6918,7 @@
         }
       ],
       "article": 167,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6553,7 +6937,7 @@
         }
       ],
       "article": 168,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 1,
       "chapitre": 3
     },
@@ -6575,7 +6959,7 @@
         }
       ],
       "article": 169,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 1,
       "chapitre": 3
     },
@@ -6600,7 +6984,7 @@
         }
       ],
       "article": 170,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 1,
       "chapitre": 3
     },
@@ -6625,7 +7009,7 @@
         }
       ],
       "article": 171,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 1,
       "chapitre": 3
     },
@@ -6647,7 +7031,7 @@
         }
       ],
       "article": 172,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 1,
       "chapitre": 3
     },
@@ -6663,7 +7047,7 @@
         }
       ],
       "article": 173,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 1,
       "chapitre": 3
     },
@@ -6688,7 +7072,7 @@
         }
       ],
       "article": 174,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 1,
       "chapitre": 3
     },
@@ -6719,7 +7103,7 @@
         }
       ],
       "article": 175,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 1,
       "chapitre": 3
     },
@@ -6744,7 +7128,7 @@
         }
       ],
       "article": 176,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 1,
       "chapitre": 3
     },
@@ -6769,7 +7153,7 @@
         }
       ],
       "article": 177,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 1,
       "chapitre": 3
     },
@@ -6794,7 +7178,7 @@
         }
       ],
       "article": 178,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 1,
       "chapitre": 3
     },
@@ -6810,7 +7194,7 @@
         }
       ],
       "article": 179,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 1,
       "chapitre": 3
     },
@@ -7052,9 +7436,6 @@
         },
         {
           "texte": "5)"
-        },
-        {
-          "texte": "ESPACES NATURELS"
         }
       ],
       "article": 188,
@@ -7104,7 +7485,7 @@
         }
       ],
       "article": 189,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 2,
       "chapitre": 3
     },
@@ -7120,7 +7501,7 @@
         }
       ],
       "article": 190,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 2,
       "chapitre": 3
     },
@@ -7151,7 +7532,7 @@
         }
       ],
       "article": 191,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 2,
       "chapitre": 3
     },
@@ -7200,13 +7581,10 @@
         },
         {
           "texte": "6)"
-        },
-        {
-          "texte": "ARBRE"
         }
       ],
       "article": 192,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 2,
       "chapitre": 3
     },
@@ -7246,7 +7624,7 @@
         }
       ],
       "article": 193,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 2,
       "chapitre": 3
     },
@@ -7262,7 +7640,7 @@
         }
       ],
       "article": 194,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 2,
       "chapitre": 3
     },
@@ -7293,7 +7671,7 @@
         }
       ],
       "article": 195,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 2,
       "chapitre": 3
     },
@@ -7330,7 +7708,7 @@
         }
       ],
       "article": 196,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 2,
       "chapitre": 3
     },
@@ -7346,7 +7724,7 @@
         }
       ],
       "article": 197,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 2,
       "chapitre": 3
     },
@@ -7362,7 +7740,7 @@
         }
       ],
       "article": 198,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 2,
       "chapitre": 3
     },
@@ -7427,7 +7805,7 @@
         }
       ],
       "article": 199,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 2,
       "chapitre": 3
     },
@@ -7443,7 +7821,7 @@
         }
       ],
       "article": 200,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 2,
       "chapitre": 3
     },
@@ -7504,7 +7882,7 @@
         }
       ],
       "article": 201,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 2,
       "chapitre": 3
     },
@@ -7526,7 +7904,7 @@
         }
       ],
       "article": 202,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 2,
       "chapitre": 3
     },
@@ -7572,7 +7950,7 @@
         }
       ],
       "article": 203,
-      "sous_section": 2,
+      "sous_section": 4,
       "section": 2,
       "chapitre": 3
     },
@@ -7621,7 +7999,7 @@
         }
       ],
       "article": 204,
-      "sous_section": 2,
+      "sous_section": 4,
       "section": 2,
       "chapitre": 3
     },
@@ -7665,7 +8043,7 @@
         }
       ],
       "article": 205,
-      "sous_section": 2,
+      "sous_section": 4,
       "section": 2,
       "chapitre": 3
     },
@@ -7704,7 +8082,7 @@
         }
       ],
       "article": 206,
-      "sous_section": 2,
+      "sous_section": 4,
       "section": 2,
       "chapitre": 3
     },
@@ -7723,7 +8101,7 @@
         }
       ],
       "article": 207,
-      "sous_section": 2,
+      "sous_section": 4,
       "section": 2,
       "chapitre": 3
     },
@@ -7751,7 +8129,7 @@
         }
       ],
       "article": 208,
-      "sous_section": 3,
+      "sous_section": 5,
       "section": 2,
       "chapitre": 3
     },
@@ -7779,7 +8157,7 @@
         }
       ],
       "article": 209,
-      "sous_section": 3,
+      "sous_section": 5,
       "section": 2,
       "chapitre": 3
     },
@@ -7817,7 +8195,7 @@
         }
       ],
       "article": 210,
-      "sous_section": 3,
+      "sous_section": 5,
       "section": 2,
       "chapitre": 3
     },
@@ -7833,7 +8211,7 @@
         }
       ],
       "article": 211,
-      "sous_section": 3,
+      "sous_section": 5,
       "section": 2,
       "chapitre": 3
     },
@@ -7934,7 +8312,7 @@
         }
       ],
       "article": 212,
-      "sous_section": 3,
+      "sous_section": 5,
       "section": 2,
       "chapitre": 3
     },
@@ -7971,7 +8349,7 @@
         }
       ],
       "article": 213,
-      "sous_section": 3,
+      "sous_section": 5,
       "section": 2,
       "chapitre": 3
     },
@@ -7996,7 +8374,7 @@
         }
       ],
       "article": 214,
-      "sous_section": 3,
+      "sous_section": 5,
       "section": 2,
       "chapitre": 3
     },
@@ -8015,7 +8393,7 @@
         }
       ],
       "article": 215,
-      "sous_section": 3,
+      "sous_section": 5,
       "section": 2,
       "chapitre": 3
     },
@@ -8031,7 +8409,7 @@
         }
       ],
       "article": 216,
-      "sous_section": 3,
+      "sous_section": 5,
       "section": 2,
       "chapitre": 3
     },
@@ -8053,7 +8431,7 @@
         }
       ],
       "article": 217,
-      "sous_section": 4,
+      "sous_section": 6,
       "section": 2,
       "chapitre": 3
     },
@@ -8094,7 +8472,7 @@
         }
       ],
       "article": 218,
-      "sous_section": 4,
+      "sous_section": 6,
       "section": 2,
       "chapitre": 3
     },
@@ -8110,7 +8488,7 @@
         }
       ],
       "article": 219,
-      "sous_section": 4,
+      "sous_section": 6,
       "section": 2,
       "chapitre": 3
     },
@@ -8138,7 +8516,7 @@
         }
       ],
       "article": 220,
-      "sous_section": 5,
+      "sous_section": 7,
       "section": 2,
       "chapitre": 3
     },
@@ -8175,9 +8553,6 @@
         },
         {
           "texte": "Les dispositions de la présente section ne s’appliquent pas à l’usage saisonnier de vente d’arbres de Noël."
-        },
-        {
-          "texte": "ÉTALAGE EXTÉRIEUR DE TYPE « AMBIANCE »"
         }
       ],
       "article": 221,
@@ -8218,7 +8593,7 @@
         }
       ],
       "article": 222,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 3,
       "chapitre": 3
     },
@@ -8243,13 +8618,10 @@
         },
         {
           "texte": "Le nombre de bonbonnes ne peut excéder 30."
-        },
-        {
-          "texte": "ÉTALAGE EXTÉRIEUR DE TYPE « ARTÉRIEL »"
         }
       ],
       "article": 223,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 3,
       "chapitre": 3
     },
@@ -8283,7 +8655,7 @@
         }
       ],
       "article": 224,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 3,
       "chapitre": 3
     },
@@ -8320,7 +8692,7 @@
         }
       ],
       "article": 225,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 3,
       "chapitre": 3
     },
@@ -8348,7 +8720,7 @@
         }
       ],
       "article": 226,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 3,
       "chapitre": 3
     },
@@ -8379,7 +8751,7 @@
         }
       ],
       "article": 227,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 3,
       "chapitre": 3
     },
@@ -8401,7 +8773,7 @@
         }
       ],
       "article": 228,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 3,
       "chapitre": 3
     },
@@ -8432,9 +8804,6 @@
         },
         {
           "texte": "Les dispositions du présent chapitre ne s’appliquent pas à l’usage saisonnier de vente d’arbres de Noël."
-        },
-        {
-          "texte": "ENTREPOSAGE EXTÉRIEUR POUR UN TERRAIN OCCUPÉ PAR UN USAGE DU\nGROUPE « HABITATION (H) »"
         }
       ],
       "article": 229,
@@ -8469,7 +8838,7 @@
         }
       ],
       "article": 230,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 4,
       "chapitre": 3
     },
@@ -8503,13 +8872,10 @@
         },
         {
           "texte": "Le remisage ou l’entreposage d’une roulotte, d’une caravane motorisée, d’une remorque de camping ou autre\néquipement similaire n’autorise pas son occupation à des fins de villégiature, de séjour, d’entreposage ou\nautre."
-        },
-        {
-          "texte": "ENTREPOSAGE EXTÉRIEUR DE TYPE « ARTÉRIEL »"
         }
       ],
       "article": 231,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 4,
       "chapitre": 3
     },
@@ -8543,7 +8909,7 @@
         }
       ],
       "article": 232,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 4,
       "chapitre": 3
     },
@@ -8562,7 +8928,7 @@
         }
       ],
       "article": 233,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 4,
       "chapitre": 3
     },
@@ -8590,7 +8956,7 @@
         }
       ],
       "article": 234,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 4,
       "chapitre": 3
     },
@@ -8609,7 +8975,7 @@
         }
       ],
       "article": 235,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 4,
       "chapitre": 3
     },
@@ -8625,7 +8991,7 @@
         }
       ],
       "article": 236,
-      "sous_section": 1,
+      "sous_section": 3,
       "section": 4,
       "chapitre": 3
     },
@@ -8707,7 +9073,7 @@
         }
       ],
       "article": 237,
-      "sous_section": 2,
+      "sous_section": 4,
       "section": 4,
       "chapitre": 3
     },
@@ -9194,9 +9560,6 @@
         },
         {
           "texte": "Le produit du paiement est versé dans un fonds spécial qui ne peut servir qu’à l’achat ou à l’aménagement de\nterrains à des fins de stationnement. La Ville peut toutefois disposer, de la manière prévue par la Loi qui la\nrégit, des terrains qu’elle a acquis en vertu du présent article, s’ils ne sont plus requis à des fins d’établissement\nde terrains de stationnement, et le produit doit en être versé dans un fonds spécial."
-        },
-        {
-          "texte": "AIRE DE STATIONNEMENT"
         }
       ],
       "article": 259,
@@ -9249,7 +9612,7 @@
         }
       ],
       "article": 260,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 5,
       "chapitre": 3
     },
@@ -9277,7 +9640,7 @@
         }
       ],
       "article": 261,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 5,
       "chapitre": 3
     },
@@ -9306,7 +9669,7 @@
         }
       ],
       "article": 262,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 5,
       "chapitre": 3
     },
@@ -9334,7 +9697,7 @@
         }
       ],
       "article": 263,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 5,
       "chapitre": 3
     },
@@ -9374,7 +9737,7 @@
         }
       ],
       "article": 264,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 5,
       "chapitre": 3
     },
@@ -9390,7 +9753,7 @@
         }
       ],
       "article": 265,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 5,
       "chapitre": 3
     },
@@ -9425,7 +9788,7 @@
         }
       ],
       "article": 266,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 5,
       "chapitre": 3
     },
@@ -9467,7 +9830,7 @@
         }
       ],
       "article": 267,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 5,
       "chapitre": 3
     },
@@ -9499,7 +9862,7 @@
         }
       ],
       "article": 268,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 5,
       "chapitre": 3
     },
@@ -9521,7 +9884,7 @@
         }
       ],
       "article": 269,
-      "sous_section": 4,
+      "sous_section": 5,
       "section": 5,
       "chapitre": 3
     },
@@ -9564,7 +9927,7 @@
         }
       ],
       "article": 270,
-      "sous_section": 5,
+      "sous_section": 6,
       "section": 5,
       "chapitre": 3
     },
@@ -9587,7 +9950,7 @@
         }
       ],
       "article": 271,
-      "sous_section": 5,
+      "sous_section": 6,
       "section": 5,
       "chapitre": 3
     },
@@ -9612,7 +9975,7 @@
         }
       ],
       "article": 272,
-      "sous_section": 5,
+      "sous_section": 6,
       "section": 5,
       "chapitre": 3
     },
@@ -9649,7 +10012,7 @@
         }
       ],
       "article": 273,
-      "sous_section": 5,
+      "sous_section": 6,
       "section": 5,
       "chapitre": 3
     },
@@ -10039,9 +10402,6 @@
         },
         {
           "texte": "Une enseigne non lumineuse annonçant la tenue d’une vente de garage ou d’un bazar selon les dispositions\ndu règlement en vigueur concernant les ventes de garage ou les bazars."
-        },
-        {
-          "texte": "EMPLACEMENT D’UNE ENSEIGNE"
         }
       ],
       "article": 281,
@@ -10073,7 +10433,7 @@
         }
       ],
       "article": 282,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 6,
       "chapitre": 3
     },
@@ -10128,13 +10488,10 @@
         },
         {
           "texte": "Tout autre endroit non autorisé au présent règlement."
-        },
-        {
-          "texte": "CONCEPTION D’UNE ENSEIGNE"
         }
       ],
       "article": 283,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 6,
       "chapitre": 3
     },
@@ -10174,7 +10531,7 @@
         }
       ],
       "article": 284,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 6,
       "chapitre": 3
     },
@@ -10190,7 +10547,7 @@
         }
       ],
       "article": 285,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 6,
       "chapitre": 3
     },
@@ -10206,7 +10563,7 @@
         }
       ],
       "article": 286,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 6,
       "chapitre": 3
     },
@@ -10222,7 +10579,7 @@
         }
       ],
       "article": 287,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 6,
       "chapitre": 3
     },
@@ -10247,7 +10604,7 @@
         }
       ],
       "article": 288,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 6,
       "chapitre": 3
     },
@@ -10287,7 +10644,7 @@
         }
       ],
       "article": 289,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 6,
       "chapitre": 3
     },
@@ -10327,7 +10684,7 @@
         }
       ],
       "article": 290,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 6,
       "chapitre": 3
     },
@@ -10367,7 +10724,7 @@
         }
       ],
       "article": 291,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 6,
       "chapitre": 3
     },
@@ -10383,7 +10740,7 @@
         }
       ],
       "article": 292,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 6,
       "chapitre": 3
     },
@@ -10402,7 +10759,7 @@
         }
       ],
       "article": 293,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 6,
       "chapitre": 3
     },
@@ -10427,13 +10784,10 @@
         },
         {
           "texte": "L’aire d’isolement doit être laissée libre de toute construction."
-        },
-        {
-          "texte": "RÈGLES SPÉCIFIQUES SELON LES TYPES DE SUPPORTS ET L’EMPLACEMENT"
         }
       ],
       "article": 294,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 6,
       "chapitre": 3
     },
@@ -10467,7 +10821,7 @@
         }
       ],
       "article": 295,
-      "sous_section": 0,
+      "sous_section": 3,
       "section": 6,
       "chapitre": 3
     },
@@ -10495,7 +10849,7 @@
         }
       ],
       "article": 296,
-      "sous_section": 0,
+      "sous_section": 3,
       "section": 6,
       "chapitre": 3
     },
@@ -10535,7 +10889,7 @@
         }
       ],
       "article": 297,
-      "sous_section": 0,
+      "sous_section": 3,
       "section": 6,
       "chapitre": 3
     },
@@ -10566,7 +10920,7 @@
         }
       ],
       "article": 298,
-      "sous_section": 0,
+      "sous_section": 3,
       "section": 6,
       "chapitre": 3
     },
@@ -10597,7 +10951,7 @@
         }
       ],
       "article": 299,
-      "sous_section": 0,
+      "sous_section": 3,
       "section": 6,
       "chapitre": 3
     },
@@ -10637,7 +10991,7 @@
         }
       ],
       "article": 300,
-      "sous_section": 0,
+      "sous_section": 3,
       "section": 6,
       "chapitre": 3
     },
@@ -10674,7 +11028,7 @@
         }
       ],
       "article": 301,
-      "sous_section": 0,
+      "sous_section": 3,
       "section": 6,
       "chapitre": 3
     },
@@ -10711,7 +11065,7 @@
         }
       ],
       "article": 302,
-      "sous_section": 0,
+      "sous_section": 3,
       "section": 6,
       "chapitre": 3
     },
@@ -10760,7 +11114,7 @@
         }
       ],
       "article": 303,
-      "sous_section": 0,
+      "sous_section": 3,
       "section": 6,
       "chapitre": 3
     },
@@ -10788,13 +11142,10 @@
         },
         {
           "texte": "Toute partie d’une enseigne modulaire détachée ou projetante doit être à au plus 6 mètres au-dessus du\nniveau du sol, à moins de dispositions contraires au présent chapitre."
-        },
-        {
-          "texte": "DISPOSITIONS RELATIVES AUX CATÉGORIES D’AFFICHAGE ET SUPERFICIES"
         }
       ],
       "article": 304,
-      "sous_section": 0,
+      "sous_section": 3,
       "section": 6,
       "chapitre": 3
     },
@@ -10810,7 +11161,7 @@
         }
       ],
       "article": 305,
-      "sous_section": 0,
+      "sous_section": 4,
       "section": 6,
       "chapitre": 3
     },
@@ -10838,7 +11189,7 @@
         }
       ],
       "article": 306,
-      "sous_section": 0,
+      "sous_section": 4,
       "section": 6,
       "chapitre": 3
     },
@@ -10860,7 +11211,7 @@
         }
       ],
       "article": 307,
-      "sous_section": 0,
+      "sous_section": 4,
       "section": 6,
       "chapitre": 3
     },
@@ -10885,7 +11236,7 @@
         }
       ],
       "article": 308,
-      "sous_section": 0,
+      "sous_section": 4,
       "section": 6,
       "chapitre": 3
     },
@@ -10910,13 +11261,10 @@
         },
         {
           "texte": "L’enseigne peut être éclairée par réflexion."
-        },
-        {
-          "texte": "ENSEIGNES PARTICULIÈRES POUR CERTAINS USAGES"
         }
       ],
       "article": 309,
-      "sous_section": 0,
+      "sous_section": 4,
       "section": 6,
       "chapitre": 3
     },
@@ -10959,7 +11307,7 @@
         }
       ],
       "article": 310,
-      "sous_section": 0,
+      "sous_section": 5,
       "section": 6,
       "chapitre": 3
     },
@@ -10984,7 +11332,7 @@
         }
       ],
       "article": 311,
-      "sous_section": 0,
+      "sous_section": 5,
       "section": 6,
       "chapitre": 3
     },
@@ -11009,7 +11357,7 @@
         }
       ],
       "article": 312,
-      "sous_section": 0,
+      "sous_section": 5,
       "section": 6,
       "chapitre": 3
     },
@@ -11040,7 +11388,7 @@
         }
       ],
       "article": 313,
-      "sous_section": 0,
+      "sous_section": 5,
       "section": 6,
       "chapitre": 3
     },
@@ -11899,9 +12247,6 @@
         },
         {
           "texte": "Distance minimale d’une ligne de terrain :\nCour avant, avant secondaire, latérale ou arrière : 2 mètres."
-        },
-        {
-          "texte": "CONSTRUCTIONS ET ÉQUIPEMENTS ACCESSOIRES PERMANENTS"
         }
       ],
       "article": 333,
@@ -11921,7 +12266,7 @@
         }
       ],
       "article": 334,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -11937,7 +12282,7 @@
         }
       ],
       "article": 335,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -11983,7 +12328,7 @@
         }
       ],
       "article": 336,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12020,7 +12365,7 @@
         }
       ],
       "article": 337,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12042,7 +12387,7 @@
         }
       ],
       "article": 338,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12061,7 +12406,7 @@
         }
       ],
       "article": 339,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12080,7 +12425,7 @@
         }
       ],
       "article": 340,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12114,7 +12459,7 @@
         }
       ],
       "article": 341,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12145,7 +12490,7 @@
         }
       ],
       "article": 342,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12185,7 +12530,7 @@
         }
       ],
       "article": 343,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12219,7 +12564,7 @@
         }
       ],
       "article": 344,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12283,7 +12628,7 @@
         }
       ],
       "article": 345,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12323,7 +12668,7 @@
         }
       ],
       "article": 346,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12342,7 +12687,7 @@
         }
       ],
       "article": 347,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12373,7 +12718,7 @@
         }
       ],
       "article": 348,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12407,7 +12752,7 @@
         }
       ],
       "article": 349,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12441,7 +12786,7 @@
         }
       ],
       "article": 350,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12472,7 +12817,7 @@
         }
       ],
       "article": 351,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12722,7 +13067,7 @@
         }
       ],
       "article": 352,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12777,7 +13122,7 @@
         }
       ],
       "article": 353,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12808,7 +13153,7 @@
         }
       ],
       "article": 354,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12845,7 +13190,7 @@
         }
       ],
       "article": 355,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12876,7 +13221,7 @@
         }
       ],
       "article": 356,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12910,7 +13255,7 @@
         }
       ],
       "article": 357,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12944,7 +13289,7 @@
         }
       ],
       "article": 358,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -12978,7 +13323,7 @@
         }
       ],
       "article": 359,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 1,
       "chapitre": 4
     },
@@ -13448,9 +13793,6 @@
         },
         {
           "texte": "Ne pas avoir recourt à des travaux d’excavation, de remblai, de dragage, de nivellement ou autres travaux\nsimilaires, à l’exception des travaux suivants lorsqu’autorisés :\nl'aménagement de traverses de cours d'eau relatif aux passages à gué, aux ponceaux et ponts ainsi\nque les chemins y donnant accès ;\nl’installation d’un câble sous-marin ou d’une conduite d’amenée pour une prise d’eau dans un lac ou\nun cours d’eau ;\nles travaux de réfection ou de redressement d’une route existante ;\nles travaux mécaniques de stabilisation de la rive ;\nles travaux relatifs aux raccordements privés aux services d’aqueduc ou d’égout municipaux."
-        },
-        {
-          "texte": "DISPOSITIONS RELATIVES À LA RIVE"
         }
       ],
       "article": 370,
@@ -13470,7 +13812,7 @@
         }
       ],
       "article": 371,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 0,
       "chapitre": 5
     },
@@ -13513,7 +13855,7 @@
         }
       ],
       "article": 372,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 0,
       "chapitre": 5
     },
@@ -13550,7 +13892,7 @@
         }
       ],
       "article": 373,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 0,
       "chapitre": 5
     },
@@ -13566,7 +13908,7 @@
         }
       ],
       "article": 374,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 0,
       "chapitre": 5
     },
@@ -13585,7 +13927,7 @@
         }
       ],
       "article": 375,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 0,
       "chapitre": 5
     },
@@ -13625,7 +13967,7 @@
         }
       ],
       "article": 376,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 5
     },
@@ -13641,7 +13983,7 @@
         }
       ],
       "article": 377,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 5
     },
@@ -13675,7 +14017,7 @@
         }
       ],
       "article": 378,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 5
     },
@@ -13697,7 +14039,7 @@
         }
       ],
       "article": 379,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 5
     },
@@ -13716,7 +14058,7 @@
         }
       ],
       "article": 380,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 5
     },
@@ -13732,7 +14074,7 @@
         }
       ],
       "article": 381,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 5
     },
@@ -13748,7 +14090,7 @@
         }
       ],
       "article": 382,
-      "sous_section": 1,
+      "sous_section": 2,
       "section": 0,
       "chapitre": 5
     },
@@ -13770,7 +14112,7 @@
         }
       ],
       "article": 383,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 0,
       "chapitre": 5
     },
@@ -13804,7 +14146,7 @@
         }
       ],
       "article": 384,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 0,
       "chapitre": 5
     },
@@ -13820,7 +14162,7 @@
         }
       ],
       "article": 385,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 0,
       "chapitre": 5
     },
@@ -13836,7 +14178,7 @@
         }
       ],
       "article": 386,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 0,
       "chapitre": 5
     },
@@ -13873,7 +14215,7 @@
         }
       ],
       "article": 387,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 0,
       "chapitre": 5
     },
@@ -13901,7 +14243,7 @@
         }
       ],
       "article": 388,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 0,
       "chapitre": 5
     },
@@ -14849,9 +15191,6 @@
         },
         {
           "texte": "Pour les terrains de plus de 2 hectares :\nUn plan d’aménagement forestier et une prescription sylvicole, avec martelage, préparé par un\ningénieur forestier, doit être soumis au fonctionnaire désigné avant que toute coupe de jardinage\npuisse être entreprise ;\nUne fois les deux premières semaines de travaux débutés, un rapport d’exécution périodique doit\nêtre déposé à la Ville dans un délai de 21 jours du début des travaux. La Ville se réserve le droit de\ndemander plus d’un rapport périodique. Une fois les travaux terminés, un rapport d’un ingénieur\nforestier, décrivant la conformité des travaux exécutés, doit être déposé à la Ville dans un délai de\n30 jours suivant la fin des travaux."
-        },
-        {
-          "texte": "COUPE D’ÉCLAIRCIE COMMERCIALE"
         }
       ],
       "article": 420,
@@ -14883,7 +15222,7 @@
         }
       ],
       "article": 421,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 3,
       "chapitre": 5
     },
@@ -15045,7 +15384,7 @@
       "titre": "Activités d’extraction et industrielles",
       "pages": [
         187,
-        188
+        187
       ],
       "contenu": [
         {
@@ -15059,35 +15398,80 @@
         },
         {
           "texte": "Une largeur de 100 mètres pour toute autre industrie, à l’exception des industries artisanales (I-01) et légères\n(I-02)."
-        },
-        {
-          "texte": "DISPOSITIONS RELATIVES AUX PRISES D’EAU POTABLE"
-        },
-        {
-          "texte": "427.1 Application"
-        },
-        {
-          "texte": "Tout lieu de captage d’eau de source, d’eau minérale ou d’eau souterraine alimentant plus de 20 personnes doit se\nconformer au Règlement sur le prélèvement des eaux et leur protection (Q-2, r.35.2) du ministère de l'Environnement et de\nla Lutte contre les changements climatiques."
-        },
-        {
-          "texte": "Les lieux de captage d’eau de source, d’eau minérale ou d’eau souterraine alimentant plus de 20 personnes sont présentés\nau tableau suivant :"
-        },
-        {
-          "texte": "Tableau 17 Lieu de captage d’eau de source, d’eau minérale ou d’eau souterraine alimentant plus de 20\npersonnes"
-        },
-        {
-          "texte": "Nom du poste Population Type\nSainte-Adèle 18 458 Publique\nMont-Rolland 4 336 Publique\nMont-Gabriel 606 Publique",
-          "tableau": "Rgl-1314-2021-Z-en-vigueur-20230614/page187-table1.png"
-        },
-        {
-          "texte": "Entremont 177 Publique\nDomaine Bastien n.d. Privée\nDu Coteau n.d. Privée\n2022-08-22 (R1314-2021-Z-5, a. 6)",
-          "tableau": "Rgl-1314-2021-Z-en-vigueur-20230614/page188-table1.png"
         }
       ],
       "article": 427,
       "sous_section": 0,
       "section": 6,
       "chapitre": 5
+    },
+    {
+      "pages": [
+        187,
+        187
+      ],
+      "contenu": [
+        {
+          "texte": "427.1 Application"
+        }
+      ]
+    },
+    {
+      "pages": [
+        187,
+        187
+      ],
+      "contenu": [
+        {
+          "texte": "Tout lieu de captage d’eau de source, d’eau minérale ou d’eau souterraine alimentant plus de 20 personnes doit se\nconformer au Règlement sur le prélèvement des eaux et leur protection (Q-2, r.35.2) du ministère de l'Environnement et de\nla Lutte contre les changements climatiques."
+        }
+      ]
+    },
+    {
+      "pages": [
+        187,
+        187
+      ],
+      "contenu": [
+        {
+          "texte": "Les lieux de captage d’eau de source, d’eau minérale ou d’eau souterraine alimentant plus de 20 personnes sont présentés\nau tableau suivant :"
+        }
+      ]
+    },
+    {
+      "pages": [
+        187,
+        187
+      ],
+      "contenu": [
+        {
+          "texte": "Tableau 17 Lieu de captage d’eau de source, d’eau minérale ou d’eau souterraine alimentant plus de 20\npersonnes"
+        }
+      ]
+    },
+    {
+      "pages": [
+        187,
+        187
+      ],
+      "contenu": [
+        {
+          "texte": "Nom du poste Population Type\nSainte-Adèle 18 458 Publique\nMont-Rolland 4 336 Publique\nMont-Gabriel 606 Publique",
+          "tableau": "Rgl-1314-2021-Z-en-vigueur-20230614/page187-table1.png"
+        }
+      ]
+    },
+    {
+      "pages": [
+        188,
+        188
+      ],
+      "contenu": [
+        {
+          "texte": "Entremont 177 Publique\nDomaine Bastien n.d. Privée\nDu Coteau n.d. Privée\n2022-08-22 (R1314-2021-Z-5, a. 6)",
+          "tableau": "Rgl-1314-2021-Z-en-vigueur-20230614/page188-table1.png"
+        }
+      ]
     },
     {
       "titre": "Aire de protection immédiate",
@@ -15107,7 +15491,7 @@
         }
       ],
       "article": 428,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 6,
       "chapitre": 5
     },
@@ -15135,13 +15519,10 @@
         },
         {
           "texte": "L’inventaire des activités et des ouvrages situés à l’intérieur des aires définies au paragraphe 2 qui sont\nsusceptibles de modifier la qualité microbiologique de l’eau souterraine tels que les systèmes de traitement\nd’eaux usées, les ouvrages ou les lieux de stockage ou d’épandage de déjections animales ou de compost de\nferme, ou les cours d’exercices d’animaux d’élevage."
-        },
-        {
-          "texte": "DISPOSITIONS RELATIVES À CERTAINS SECTEURS DE CONTRAINTE"
         }
       ],
       "article": 429,
-      "sous_section": 0,
+      "sous_section": 1,
       "section": 6,
       "chapitre": 5
     },
@@ -15166,7 +15547,7 @@
         }
       ],
       "article": 430,
-      "sous_section": 0,
+      "sous_section": 2,
       "section": 6,
       "chapitre": 5
     },
@@ -15379,9 +15760,6 @@
         {
           "texte": "Superficie d’implantation au sol d’un bâtiment\naccessoire\nCette disposition vise à limiter l’impact visuel des bâtiments\naccessoires et, par le fait même, de rehausser la qualité\narchitecturale des bâtiments accessoires.\nLa superficie d’implantation au sol d’un bâtiment accessoire se\nmesure en mètres carrés, en fonction des règles de calculs\nétablies à l’annexe B « Terminologie ». La superficie\nd’implantation au sol d’un bâtiment accessoire de plus de 60 m2\nne peut en aucun cas représenter plus de 50 % de la superficie\nde plancher du bâtiment principal. En cas de contradiction entre\nune superficie prévue à la fiche réglementaire de type de milieu Figure 42. Mesure de la superficie d’implantation au sol d’un\net les règles spécifiques du chapitre 5, la norme la plus bâtiment accessoire\nrestrictive s’applique.\nHauteur d’un bâtiment accessoire\nCette disposition vise à limiter l’impact visuel des bâtiments\naccessoires et, par le fait même, de rehausser la qualité\narchitecturale des bâtiments accessoires.\nLa hauteur d’un bâtiment accessoire se mesure en mètres, en\nfonction des règles de calculs établies à l’annexe B «\nTerminologie ». Elle ne peut en aucun cas être supérieure à\ncelle du bâtiment principal. En cas de contradiction entre une\nhauteur prévue à la fiche réglementaire de type de milieu et les\nrègles spécifiques du chapitre 5, la norme la plus restrictive\ns’applique. Figure 43. Mesure de la hauteur d’un bâtiment accessoire",
           "tableau": "Rgl-1314-2021-Z-en-vigueur-20230614/page203-table1.png"
-        },
-        {
-          "texte": "USAGES AUTORISÉS"
         }
       ],
       "article": 439,
@@ -15401,7 +15779,7 @@
         }
       ],
       "article": 440,
-      "sous_section": 7,
+      "sous_section": 8,
       "section": 0,
       "chapitre": 6
     },
@@ -15421,7 +15799,7 @@
         }
       ],
       "article": 441,
-      "sous_section": 8,
+      "sous_section": 9,
       "section": 0,
       "chapitre": 6
     },
@@ -15437,7 +15815,7 @@
         }
       ],
       "article": 442,
-      "sous_section": 9,
+      "sous_section": 10,
       "section": 0,
       "chapitre": 6
     },
@@ -15453,31 +15831,24 @@
         }
       ],
       "article": 443,
-      "sous_section": 10,
+      "sous_section": 11,
       "section": 0,
       "chapitre": 6
     },
     {
+      "titre": "INTENTION",
       "pages": [
         205,
-        205
-      ],
-      "contenu": [
-        {
-          "texte": "INTENTION"
-        }
-      ]
-    },
-    {
-      "pages": [
-        205,
-        205
+        206
       ],
       "contenu": [
         {
           "texte": "La catégorie de types de milieux « T1 Milieux naturels », représente les ensembles naturels ayant une\nvaleur écologique ou paysagère importante. Cette catégorie de types de milieux présente une densité\nd’écosystèmes d’intérêt, incluant notamment des forêts, des cours d’eau, des lacs, des milieux humides\net des écosystèmes forestiers exceptionnels. Il correspond aux limites de l’affectation « Récréative et\nde conservation » du SADR et à certains autres milieux écologiques acquis ou identifiés par la Ville.\nDans ce type de milieux, la réglementation applicable vise à protéger, conserver et permettre certains\nusages compatibles. Les aménagements et constructions permettant l’accès et les activités\nd’interprétation, d’observation, de recherche scientifique, d’éducation et de récréation en nature et qui\nn’affectent pas l’intégrité du milieu sont autorisés."
         }
-      ]
+      ],
+      "article": -1,
+      "section": 1,
+      "chapitre": 6
     },
     {
       "titre": "Lotissement",
@@ -15888,26 +16259,19 @@
       "chapitre": 6
     },
     {
+      "titre": "INTENTION",
       "pages": [
         222,
-        222
-      ],
-      "contenu": [
-        {
-          "texte": "INTENTION"
-        }
-      ]
-    },
-    {
-      "pages": [
-        222,
-        222
+        223
       ],
       "contenu": [
         {
           "texte": "La catégorie de types de milieux « T2 Occupation de la forêt », représente des ensembles forestiers occupés\nou destinés à être occupés et mis en valeur par des usages nécessitant de grands espaces à caractère naturel.\nCette catégorie de types de milieux comprend une présence importante de forêts, cours d’eau, lacs, des\nmilieux humides et autres milieux naturels importants. Il correspond en partie aux limites des affectations «\nRécréative et de conservation » et « Récréative » du SADR et à certains autres milieux naturels ou récréatifs\nacquis ou identifiés par la Ville. Dans ce type de milieux, la réglementation applicable vise à mettre en valeur\nde manière durable les milieux naturels et y permettre des activités compatibles. Les aménagements et\nconstructions permettant l’accès et les activités récréotouristiques extensives, d’interprétation, d’observation,\nde recherche scientifique, d’éducation et de récréation en nature sont autorisés, ainsi que certains autres\nusages à vocation complémentaires et compatibles. Les activités agroforestières sont également autorisées\ndans certains secteurs."
         }
-      ]
+      ],
+      "article": -1,
+      "section": 2,
+      "chapitre": 6
     },
     {
       "titre": "Lotissement",
@@ -16358,26 +16722,19 @@
       "chapitre": 6
     },
     {
+      "titre": "INTENTION",
       "pages": [
         239,
-        239
-      ],
-      "contenu": [
-        {
-          "texte": "INTENTION"
-        }
-      ]
-    },
-    {
-      "pages": [
-        239,
-        239
+        240
       ],
       "contenu": [
         {
           "texte": "La catégorie de types de milieux « T3 Périurbain » est caractérisée par des ensembles d’habitations de faible\nà moyenne densité, comprenant majoritairement des résidences unifamiliales, mais aussi certains bâtiments\nmultifamiliaux, notamment en raison de la présence, à certains endroits, du réseau d’aqueduc ou d’égout. Issu\nd’un développement résidentiel et récréotouristique sur de nombreuses décennies, cette catégorie de type de\nmilieux se compose d’ensembles suburbains hétéroclites dont les volumétries et l’architecture varient\nconsidérablement. Dans cette catégorie de types de milieux, la réglementation applicable vise à prioriser le\ndéveloppement autour des rues existantes, d’optimiser les infrastructures existantes et projetées, de\nconserver un couvert boisé important et de protéger les écosystèmes aquatiques."
         }
-      ]
+      ],
+      "article": -1,
+      "section": 3,
+      "chapitre": 6
     },
     {
       "titre": "Lotissement",
@@ -17294,26 +17651,19 @@
       "chapitre": 6
     },
     {
+      "titre": "INTENTION",
       "pages": [
         272,
-        272
-      ],
-      "contenu": [
-        {
-          "texte": "INTENTION"
-        }
-      ]
-    },
-    {
-      "pages": [
-        272,
-        272
+        273
       ],
       "contenu": [
         {
           "texte": "La catégorie de types de milieux « T4 Urbain » représente les ensembles résidentiels situés à l’intérieur du\npérimètre urbain. Cette catégorie de types de milieux permet des bâtiments isolés, jumelés et contigus, d’un\nmaximum de 2 à 3 étages. Composée de secteurs souvent construits, cette catégorie de types de milieux vise\nla transformation graduelle et l’optimisation des milieux résidentiels existants, ainsi que la création de\nnouveaux secteurs plus compacts, afin d’en faire un milieu de vie dynamique, à échelle humaine et favorable\naux transports actifs. La réglementation applicable vise à assurer un gabarit et une volumétrie adaptée des\nbâtiments, minimiser l’impact des aires de stationnement, assurer un verdissement des cours avant, ainsi qu’à\nréduire la quantité d’eaux de ruissellement et d’îlots de chaleur."
         }
-      ]
+      ],
+      "article": -1,
+      "section": 4,
+      "chapitre": 6
     },
     {
       "titre": "Lotissement",
@@ -18039,26 +18389,19 @@
       "chapitre": 6
     },
     {
+      "titre": "INTENTION",
       "pages": [
         297,
-        297
-      ],
-      "contenu": [
-        {
-          "texte": "INTENTION"
-        }
-      ]
-    },
-    {
-      "pages": [
-        297,
-        297
+        298
       ],
       "contenu": [
         {
           "texte": "La catégorie de types de milieux « T5 Centre-ville » représente les ensembles à vocation mixte situés à\nl’intérieur du périmètre urbain. Cette catégorie de types de milieux permet des bâtiments isolés, jumelés et\ncontigus, d’un maximum de 2 à 3 ½ étages. Composée de secteurs construits ou à redévelopper, cette\ncatégorie de types de milieux vise le maintien, l’insertion harmonieuse et la dynamisation des secteurs mixte\nreprésentant un intérêt historique ou patrimonial, alors qu’elle favorise l’intensification et la diversification des\nactivités et services offerts dans les secteurs au potentiel de développement ou de redéveloppement. La\nréglementation en place vise la création de secteurs mixtes dynamiques, facilement adaptables, à échelle\nhumaine et favorable aux transports actifs. La réglementation applicable vise à assurer un gabarit et une\nvolumétrie adaptée des bâtiments à leur milieu, minimiser l’impact des aires de stationnement, assurer un\nverdissement des cours, ainsi qu’à réduire la quantité d’eaux de ruissellement et d’îlots de chaleur."
         }
-      ]
+      ],
+      "article": -1,
+      "section": 5,
+      "chapitre": 6
     },
     {
       "titre": "Lotissement",
@@ -18832,26 +19175,19 @@
       "chapitre": 6
     },
     {
+      "titre": "INTENTION",
       "pages": [
         322,
-        322
-      ],
-      "contenu": [
-        {
-          "texte": "INTENTION"
-        }
-      ]
-    },
-    {
-      "pages": [
-        322,
-        322
+        323
       ],
       "contenu": [
         {
           "texte": "La catégorie de types de milieux « CI CIVIQUE », a pour objectif de reconnaitre les particularités\narchitecturales, de forme et d’implantation de certains espaces ou bâtiments à vocation publique ou semi-\npublique, de leur permettre d’être distinctifs dans leur milieu d’insertion et de jouer un rôle de repère visuel.\nCes types de milieux sont caractérisés par des bâtiments ou espaces publics et institutionnels dont\nl’implantation et l’architecture peuvent se démarquer du tissu urbain environnant compte tenu de la vocation\nactuelle ou patrimoniale de ce lieu, tels qu’un parc, une école, un lieu de culte ou un hôpital. Dans ce type de\nmilieux, la réglementation applicable vise à offrir la flexibilité nécessaire pour reconnaître ce caractère\nexceptionnel."
         }
-      ]
+      ],
+      "article": -1,
+      "section": 6,
+      "chapitre": 6
     },
     {
       "titre": "Lotissement",
@@ -19470,26 +19806,19 @@
       "chapitre": 6
     },
     {
+      "titre": "INTENTION",
       "pages": [
         347,
-        347
-      ],
-      "contenu": [
-        {
-          "texte": "INTENTION"
-        }
-      ]
-    },
-    {
-      "pages": [
-        347,
-        347
+        348
       ],
       "contenu": [
         {
           "texte": "La catégorie de types de milieux « ZM – Maisons mobiles » vise à encadrer les parcs de maisons mobiles\nexistants. La réglementation applicable reconnaît ces bâtiments particuliers, leur architecture, leur implantation\net les aménagements de terrain associés."
         }
-      ]
+      ],
+      "article": -1,
+      "section": 7,
+      "chapitre": 6
     },
     {
       "titre": "Lotissement",
@@ -19719,26 +20048,19 @@
       "chapitre": 6
     },
     {
+      "titre": "INTENTION",
       "pages": [
         356,
-        356
-      ],
-      "contenu": [
-        {
-          "texte": "INTENTION"
-        }
-      ]
-    },
-    {
-      "pages": [
-        356,
-        356
+        357
       ],
       "contenu": [
         {
           "texte": "La catégorie de types de milieux « ZC – Commercial » est caractérisée par la présence d’ensembles de\nbâtiments commerciaux au sein d’importantes aires de stationnement. Dans ce type de milieux, la\nréglementation vise à reconnaitre les particularités de la forme bâtie et à offrir une flexibilité permettant la\nconsolidation, mais favorisant une amélioration de l’implantation des bâtiments et des aménagements\nextérieurs. Les règles applicables visent à améliorer la qualité du cadre bâti, de l’aménagement des terrains\net la convivialité de ces secteurs, ainsi qu’à réduire les îlots de chaleur urbains et limiter la quantité d’eau de\nruissellement. Elle vise à concentrer et consolider l’offre commerciale régionale le long des axes routiers\nstructurants appropriés, tout en réduisant leurs impacts négatifs sur les milieux de vie."
         }
-      ]
+      ],
+      "article": -1,
+      "section": 8,
+      "chapitre": 6
     },
     {
       "titre": "Lotissement",
@@ -20671,26 +20993,19 @@
       "chapitre": 6
     },
     {
+      "titre": "INTENTION",
       "pages": [
         390,
-        390
-      ],
-      "contenu": [
-        {
-          "texte": "INTENTION"
-        }
-      ]
-    },
-    {
-      "pages": [
-        390,
-        390
+        391
       ],
       "contenu": [
         {
           "texte": "La catégorie de types de milieux « ZI Industrie » est caractérisée par des terrains ou bâtiments à vocation\nprincipalement industrielle et pouvant accueillir une diversité d’activités industrielles ou commerciales\ncomplémentaires. Elle se situe généralement à l’intérieur de l’affectation « industrielle » du SADR ou sur des\nsites ayant un passé industriel établi. Dans ce type de milieux, la réglementation applicable vise à limiter les\nusages non industriels de manière à préserver les espaces dédiés. Elle vise une bonne cohabitation avec les\ntypes de milieux situés à proximité, notamment grâce à des normes relatives aux bandes tampons et à\nl’implantation des bâtiments ou activités."
         }
-      ]
+      ],
+      "article": -1,
+      "section": 9,
+      "chapitre": 6
     },
     {
       "titre": "Lotissement",
@@ -22232,9 +22547,6 @@
         },
         {
           "texte": "Au moins 20% de la superficie du terrain doit être gazonnée ou autrement paysagée à l’aide de végétaux. La\nsurface paysagée de la bande paysagère peut être incluse dans le calcul de la superficie."
-        },
-        {
-          "texte": "STATION-SERVICE ET POSTE D’ESSENCE"
         }
       ],
       "article": 739,
@@ -22257,7 +22569,7 @@
         }
       ],
       "article": 740,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 3,
       "chapitre": 7
     },
@@ -22273,7 +22585,7 @@
         }
       ],
       "article": 741,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 3,
       "chapitre": 7
     },
@@ -22310,7 +22622,7 @@
         }
       ],
       "article": 742,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 3,
       "chapitre": 7
     },
@@ -22341,7 +22653,7 @@
         }
       ],
       "article": 743,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 3,
       "chapitre": 7
     },
@@ -22366,7 +22678,7 @@
         }
       ],
       "article": 744,
-      "sous_section": 2,
+      "sous_section": 3,
       "section": 3,
       "chapitre": 7
     },
@@ -22427,13 +22739,10 @@
         },
         {
           "texte": "Aucune roulotte, tente-roulotte, caravane, camping-car ou véhicule récréatif ne doit être remisé ou entreposé\nsur un terrain de camping durant la période hivernale."
-        },
-        {
-          "texte": "REGROUPEMENT DE CHALETS EN LOCATION"
         }
       ],
       "article": 745,
-      "sous_section": 3,
+      "sous_section": 4,
       "section": 3,
       "chapitre": 7
     },
@@ -22491,13 +22800,10 @@
         },
         {
           "texte": "Toutes les autres dispositions du présent règlement applicables en l’espèce doivent être respectées."
-        },
-        {
-          "texte": "RÉSIDENCE DE TOURISME"
         }
       ],
       "article": 746,
-      "sous_section": 3,
+      "sous_section": 5,
       "section": 3,
       "chapitre": 7
     },
@@ -22519,13 +22825,10 @@
         },
         {
           "texte": "2)"
-        },
-        {
-          "texte": "COMMERCE D’HÉBERGEMENT D’ENVERGURE"
         }
       ],
       "article": 747,
-      "sous_section": 3,
+      "sous_section": 6,
       "section": 3,
       "chapitre": 7
     },
@@ -22541,7 +22844,7 @@
         }
       ],
       "article": 748,
-      "sous_section": 3,
+      "sous_section": 7,
       "section": 3,
       "chapitre": 7
     },
@@ -22575,13 +22878,10 @@
         },
         {
           "texte": "Toutes les autres dispositions du présent règlement applicables en l’espèce doivent être respectées."
-        },
-        {
-          "texte": "LES ENTREPÔTS ET MINI-ENTREPÔTS"
         }
       ],
       "article": 749,
-      "sous_section": 4,
+      "sous_section": 8,
       "section": 3,
       "chapitre": 7
     },
@@ -22609,13 +22909,10 @@
         },
         {
           "texte": "La distance minimale à respecter entre deux bâtiments d’entreposage ou entre un bâtiment d’entreposage et\ntout autre bâtiment principal ne doit pas être inférieure à 4 mètres."
-        },
-        {
-          "texte": "SERVICES POUR ANIMAUX DOMESTIQUES"
         }
       ],
       "article": 750,
-      "sous_section": 4,
+      "sous_section": 9,
       "section": 3,
       "chapitre": 7
     },
@@ -22631,7 +22928,7 @@
         }
       ],
       "article": 751,
-      "sous_section": 4,
+      "sous_section": 10,
       "section": 3,
       "chapitre": 7
     },
@@ -22647,7 +22944,7 @@
         }
       ],
       "article": 752,
-      "sous_section": 4,
+      "sous_section": 10,
       "section": 3,
       "chapitre": 7
     },
@@ -22678,7 +22975,7 @@
         }
       ],
       "article": 753,
-      "sous_section": 4,
+      "sous_section": 10,
       "section": 3,
       "chapitre": 7
     },
@@ -22703,13 +23000,10 @@
         },
         {
           "texte": "Aucun enclos n’est autorisé en cour avant."
-        },
-        {
-          "texte": "COMMERCE RÉCRÉATIF D’IMPACT OU MOTORISÉS"
         }
       ],
       "article": 754,
-      "sous_section": 4,
+      "sous_section": 10,
       "section": 3,
       "chapitre": 7
     },
@@ -22734,7 +23028,7 @@
         }
       ],
       "article": 755,
-      "sous_section": 4,
+      "sous_section": 11,
       "section": 3,
       "chapitre": 7
     },
@@ -22774,13 +23068,10 @@
         },
         {
           "texte": "Seul le treillis à maille d’acier ou d’aluminium émaillé ou recouvert de vinyle, avec ou sans lattes et fixée à des\npoteaux horizontaux et verticaux, est autorisée comme matériau d’un enclos."
-        },
-        {
-          "texte": "MAISONS PRÉFABRIQUÉES EN DÉMONSTRATION"
         }
       ],
       "article": 756,
-      "sous_section": 4,
+      "sous_section": 11,
       "section": 3,
       "chapitre": 7
     },
@@ -22805,7 +23096,7 @@
         }
       ],
       "article": 757,
-      "sous_section": 4,
+      "sous_section": 12,
       "section": 3,
       "chapitre": 7
     },
@@ -22821,7 +23112,7 @@
         }
       ],
       "article": 758,
-      "sous_section": 4,
+      "sous_section": 12,
       "section": 3,
       "chapitre": 7
     },
@@ -22846,7 +23137,7 @@
         }
       ],
       "article": 759,
-      "sous_section": 4,
+      "sous_section": 12,
       "section": 3,
       "chapitre": 7
     },
@@ -22862,7 +23153,7 @@
         }
       ],
       "article": 760,
-      "sous_section": 4,
+      "sous_section": 12,
       "section": 3,
       "chapitre": 7
     },
@@ -22878,7 +23169,7 @@
         }
       ],
       "article": 761,
-      "sous_section": 5,
+      "sous_section": 13,
       "section": 3,
       "chapitre": 7
     },
@@ -24272,9 +24563,6 @@
         {
           "texte": "Figure 357. Avant-toit",
           "figure": "Rgl-1314-2021-Z-en-vigueur-20230614/page440-figure-197,603,415,728.png"
-        },
-        {
-          "texte": "B"
         },
         {
           "texte": "Bac à matières résiduelles, récupérables ou compostables : Contenant sur roues généralement fabriqué de plastique\nrigide et fermé par un couvercle, d’un volume maximal de 360 litres, destiné à la fois à l’entreposage et à la collecte de\nmatières résiduelles, récupérables ou compostables."

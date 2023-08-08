@@ -27,7 +27,6 @@ function make_text_content(contenu?: Array<Contenu | Tableau>): string {
 
 function make_text_from_article(doc: Reglement, article: Article): Texte {
   const page = article.pages[0];
-  const numero = article.article.toString();
   let chapitre, section, sous_section;
   if (
     article.chapitre !== undefined &&
@@ -57,6 +56,7 @@ function make_text_from_article(doc: Reglement, article: Article): Texte {
   const document = `${doc.numero} ${doc.objet ?? ""}`;
   const contenu = make_text_content(article.contenu);
   const titre = article.titre ?? "";
+  const numero = article.article.toString();
   return {
     fichier,
     document,
@@ -109,7 +109,7 @@ function make_text_from_text(doc: Reglement, at: AlexiTexte): Texte {
   const fichier = doc.fichier;
   const document = `${doc.numero} ${doc.objet ?? ""}`;
   const contenu = make_text_content(at.contenu);
-  const titre = contenu.substring(0, 80); // FIXME
+  const titre = at.titre ?? contenu.substring(0, 80); // FIXME
   const numero = "";
   return {
     fichier,
