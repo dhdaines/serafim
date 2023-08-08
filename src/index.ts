@@ -137,10 +137,14 @@ class App {
     p.setAttribute("class", "extrait");
     let extrait;
     if (spans.length) {
-      const last = spans.length - 1;
+      // Sort descending by length and position (we want the longest,
+      // latest span - to avoid matching the title all the time)
+      spans.sort((a, b) => { const lc = b[1] - a[1];
+                             return (lc == 0) ? (b[0] - a[0]) : lc });
+      console.log(spans);
       extrait = texte.texte.substring(
-          Math.max(0, spans[last][0] - 80),
-          Math.min(texte.texte.length, spans[last][0] + spans[last][1] + 40)
+          Math.max(0, spans[0][0] - 80),
+          Math.min(texte.texte.length, spans[0][0] + spans[0][1] + 40)
         )
     } else extrait = texte.texte.substring(0, 80) + "...";
     p.innerHTML = `... ${extrait} ...`;
