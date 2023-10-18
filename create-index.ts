@@ -173,12 +173,17 @@ async function add_doc(
   for (const name of names) {
     if (!name.endsWith(".json")) continue;
     const data = await readFile(path.join("data", name), "utf8");
-    const doc = JSON.parse(data);
-    if (doc.numero === "INCONNU")
-      console.log(`Skipping unrecognized document ${name}`)
-    else
-      console.log(`Adding document ${name}`);
-    await add_doc(textes, doc);
+    try {
+      const doc = JSON.parse(data);
+      if (doc.numero === "INCONNU")
+        console.log(`Skipping unrecognized document ${name}`);
+      else
+        console.log(`Adding document ${name}`);
+      await add_doc(textes, doc);
+    }
+    catch (err) {
+      console.log(`Skipping document ${name}: ${err}`);
+    }
   }
   /* OMG why is lunrjs' API so hecking weird */
   const index = lunr(function() {
