@@ -1307,8 +1307,7 @@
           "texte": "Il est interdit d’aménager une intersection du côté intérieur d’une courbe dont le rayon intérieur est inférieur à 180 mètres\nni du côté extérieur d’une courbe dont le rayon extérieur est inférieur à 120 mètres. Le tout tel qu’il est illustré à l’illustration\nci-dessous :"
         },
         {
-          "texte": "Figure 1 – Intersection dans une courbe",
-          "figure": "Rgl-1314-2021-L-Lotissement/page17-figure-85,258,291,344.png"
+          "texte": "Figure 1 – Intersection dans une courbe"
         },
         {
           "texte": "Lorsqu’une rue a une emprise de 20 mètres, une intersection donnant sur cette rue ne doit pas être située à une distance\ninférieure à 60 mètres d’une courbe concave dont le rayon intérieur est inférieur à 180 mètres."
@@ -1521,8 +1520,7 @@
           "texte": "Aux fins d’application des largeurs minimales sur la ligne avant d’un lot pour un terrain d’angle, lorsqu’un terrain d’angle se\ntermine par un arc de cercle à l’intersection de deux rues, la largeur du lot sur la ligne avant doit être calculée à partir de\nl’intersection entre le prolongement imaginaire en ligne droite des lignes de terrain adjacentes à une voie de circulation,\ncomme si les rues n’ étaient pas jointes par un arc de cercle, comme montré par les lignes « L1 » et « L2 » à la figure 2."
         },
         {
-          "texte": "Figure 2 – Calcul de la largeur sur la ligne avant d’un terrain d’angle",
-          "figure": "Rgl-1314-2021-L-Lotissement/page20-figure-85,107,359,315.png"
+          "texte": "Figure 2 – Calcul de la largeur sur la ligne avant d’un terrain d’angle"
         }
       ],
       "article": 60,
