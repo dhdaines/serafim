@@ -9,7 +9,7 @@ class App {
   /* Get and construct objects */
   constructor() {
     this.search_box = document.getElementById("search-box") as HTMLInputElement;
-    this.document_view = document.getElementById("document-view")!;
+    this.document_view = document.getElementById("document-box")!;
     this.search_results = document.getElementById("search-results")!;
     this.media_query = matchMedia("screen and (min-width: 48em)");
   }

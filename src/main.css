@@ -1,27 +1,47 @@
 html, body {
     margin: 0;
     height: 100%;
+    font-family: sans-serif;
 }
+
 .container {
     display: flex;
     flex-flow: column;
     height: 100%;
 }
+
 #header {
-    font-family: sans-serif;
     text-align: center;
     text-transform: uppercase;
     padding: 0.5ex;
+    font-size: 1.25em;
     margin: 0;
     background: #2d3e50;
     color: #eee;
+    flex: 0;
 }
-.initial {
+
+#header .initial {
     color: #aaa;
 }
+
 #body {
+    flex: 1;
+    display: flex;
+    flex-flow: row;
     overflow-y: scroll;
 }
+
+#search-view {
+    flex: 0;
+    display: block;
+}
+
+#document-view {
+    flex: 1;
+    display: block;
+}
+
 @media (max-width: 599px) {
     .nomobile {
         display: none;
@@ -30,17 +50,13 @@ html, body {
         display: none;
     }
 }
+
 @media (min-width: 600px) {
     .mobile {
         display: none;
     }
-    #body {
-        padding: 20px 20px 20px;
-    }
 }
-div.content-box {
-    padding: 1em;
-}
+
 div.search-result {
     margin-left: 0;
     margin-top: 0.5em;
@@ -75,15 +91,15 @@ a:hover,  a:active {
     color: #33f;
 }
 
-div.article img {
+article img {
     max-width: 100%;
 }
 
-div.article h1 {
+article h1 {
     font-size: 1.5em;
 }
 
-div.article h4 {
+article h4 {
     margin: 1ex 0;
 }
 
