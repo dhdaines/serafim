@@ -29,17 +29,26 @@ html, body {
     flex: 1;
     display: flex;
     flex-flow: row;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 #search-view {
+    padding: 1em;
     flex: 0;
     display: block;
 }
 
+#search-results {
+    flex: 0;
+    display: block;
+    overflow-y: scroll;
+}
+
 #document-view {
+    padding: 1em;
     flex: 1;
     display: block;
+    overflow-y: scroll;
 }
 
 @media (max-width: 599px) {

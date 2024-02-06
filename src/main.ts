@@ -9,7 +9,7 @@ class App {
   /* Get and construct objects */
   constructor() {
     this.search_box = document.getElementById("search-box") as HTMLInputElement;
-    this.document_view = document.getElementById("document-box")!;
+    this.document_view = document.getElementById("document-view")!;
     this.search_results = document.getElementById("search-results")!;
     this.media_query = matchMedia("screen and (min-width: 48em)");
   }
@@ -27,7 +27,7 @@ class App {
     }
     const content = await result.text();
     const dom = new DOMParser().parseFromString(content, "text/html");
-    const body = dom.querySelector("div#body");
+    const body = dom.querySelector("#body");
     if (body === null) {
       target.innerHTML = `No content found at ${source}`;
       return;
@@ -40,6 +40,11 @@ class App {
       }
       const url = new URL(srcAttr, source);
       img.setAttribute("src", url.toString());
+    }
+    const head = dom.querySelector("#header");
+    if (head !== null) {
+        head.removeAttribute("id");
+        target.appendChild(head);
     }
     for (const child of body.children)
       target.appendChild(child);
