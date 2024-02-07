@@ -2,6 +2,10 @@ import lunr from "lunr";
 import debounce from "debounce";
 
 import { ALEXI_URL } from "./config.ts";
+// @ts-ignore
+import INDEX_URL from "/index.json?url";
+// @ts-ignore
+import TEXTES_URL from "/textes.json?url";
 
 interface Texte {
   titre: string;
@@ -70,12 +74,18 @@ class App {
       target.appendChild(child);
   }
 
+  follow_link(e: Event, url: string, query: string) {
+    this.show_document(url);
+    history.pushState(null, "", `/alexi/${url}?q=${query}`)
+    e.preventDefault();
+  }
+
   create_title(titre: string, query: string, result: lunr.Index.Result) {
     const a = document.createElement("a");
-    a.href = `/alexi/${result.ref}`;
-    if (query)
-      a.href += `?q=${query}`;
+    // FIXME: should be shared with follow_link
+    a.href = `/alexi/${result.ref}?q=${query}`;
     a.innerText = titre;
+    a.addEventListener("click", e => this.follow_link(e, result.ref, query));
     return a;
   }
 
@@ -122,11 +132,8 @@ class App {
     div.append(this.create_extract(texte.texte, result));
     div.addEventListener("click", (e) => {
       /* Only accept clicks in the div on mobile */
-      if (!this.media_query.matches) {
-        this.show_document(result.ref);
-        history.pushState(null, "", `/alexi/${result.ref}?q=${query}`)
-        e.preventDefault();
-      }
+      if (!this.media_query.matches)
+        this.follow_link(e, result.ref, query)
     });
     return div;
   }
@@ -166,10 +173,10 @@ class App {
       showing = true;
     }
     /* Load the index / text if possible (FIXME: will possibly use an ALEXI API here) */
-    let result = await fetch("/index.json");
+    let result = await fetch(INDEX_URL);
     if (result.ok)
       this.index = lunr.Index.load(await result.json());
-    result = await fetch("/textes.json");
+    result = await fetch(TEXTES_URL);
     if (result.ok)
       this.textes = await result.json();
 
