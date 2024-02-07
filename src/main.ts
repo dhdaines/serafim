@@ -6,6 +6,8 @@ import { ALEXI_URL } from "./config.ts";
 import INDEX_URL from "/index.json?url";
 // @ts-ignore
 import TEXTES_URL from "/textes.json?url";
+// @ts-ignore
+const BASE_URL = import.meta.env.BASE_URL;
 
 interface Texte {
   titre: string;
@@ -44,7 +46,7 @@ class App {
     target.innerHTML = "";
     const result = await fetch(source);
     if (!result.ok) {
-      target.innerHTML = `Error in fetch: ${result}`;
+      target.innerHTML = `Error in fetch: ${result.status}`;
       return;
     }
     const content = await result.text();
@@ -76,14 +78,14 @@ class App {
 
   follow_link(e: Event, url: string, query: string) {
     this.show_document(url);
-    history.pushState(null, "", `/alexi/${url}?q=${query}`)
+    history.pushState(null, "", `${BASE_URL}${url}?q=${query}`)
     e.preventDefault();
   }
 
   create_title(titre: string, query: string, result: lunr.Index.Result) {
     const a = document.createElement("a");
     // FIXME: should be shared with follow_link
-    a.href = `/alexi/${result.ref}?q=${query}`;
+    a.href = `${BASE_URL}${result.ref}?q=${query}`;
     a.innerText = titre;
     a.addEventListener("click", e => this.follow_link(e, result.ref, query));
     return a;
@@ -148,10 +150,11 @@ class App {
     if (text.length < 2)
       return;
     const query = encodeURIComponent(text);
+    /* Ensure that the URL matches the display if we bookmark/reload */
     if (this.media_query.matches)
       history.replaceState(null, "", `?q=${query}`)
     else
-      history.replaceState(null, "", `/?q=${query}`)
+      history.replaceState(null, "", `${BASE_URL}?q=${query}`)
     try {
       const results = this.index.search(text);
       this.search_results.innerHTML = "";
@@ -165,11 +168,12 @@ class App {
 
   /* Do asynchronous initialization things */
   async initialize() {
-    /* Like showing a document if requested */
-    const parts = window.location.pathname.split("/").filter(x => x.length);
     let showing = false;
-    if (parts.length > 1 && parts[0] === "alexi") {
-      this.show_document(parts.slice(1).join("/"))
+    if (window.location.pathname != BASE_URL) {
+      /* We *know* that it will start with BASE_URL, because we
+       * constructed it that way.  If not, fetch will just fail, which
+       * is okay too. */
+      this.show_document(window.location.pathname.substring(BASE_URL.length));
       showing = true;
     }
     /* Load the index / text if possible (FIXME: will possibly use an ALEXI API here) */
