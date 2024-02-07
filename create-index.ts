@@ -3,7 +3,7 @@ import fetch from "node-fetch";
 import lunr from "lunr";
 import { ALEXI_URL } from "./src/config.js";
 import folding from "lunr-folding";
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { parse, HTMLElement, TextNode } from "node-html-parser";
 
@@ -119,6 +119,7 @@ async function crawl_alexi(builder: lunr.Builder): Promise<void> {
   }
 }
 
+await mkdir("public", { recursive: true });
 
 const builder = new lunr.Builder();
 builder.ref("url");
