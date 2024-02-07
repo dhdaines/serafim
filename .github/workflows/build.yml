@@ -32,7 +32,7 @@ jobs:
       run: |
         npm install
         npm run index
-        npm run build --base=/serafim/
+        npx vite build --base=/serafim/
     - name: Setup Pages
       uses: actions/configure-pages@v3
     - name: Upload artifact
