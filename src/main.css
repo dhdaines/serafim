@@ -15,13 +15,13 @@ html, body {
     text-transform: uppercase;
     padding: 0.5ex;
     margin: 0;
-    background: #2d3e50;
+    background: #661;
     color: #eee;
     flex: 0;
 }
 
 #header .initial {
-    color: #aaa;
+    color: #ee4;
 }
 
 #body {
