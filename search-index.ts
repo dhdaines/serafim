@@ -1,6 +1,5 @@
 import lunr from "lunr";
 import fs from "node:fs";
-import path from "node:path";
 import folding from "lunr-folding";
 
 /* UGH! This API is SO WEIRD!!! */

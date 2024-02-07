@@ -33,6 +33,8 @@
     "vite": "^5.0.12"
   },
   "dependencies": {
+    "@types/debounce": "^1.2.4",
+    "debounce": "^2.0.0",
     "lunr": "^2.3.9",
     "lunr-folding": "^0.0.4",
     "node-html-parser": "^6.1.12"
