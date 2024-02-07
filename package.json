@@ -7,7 +7,9 @@
     "start": "vite",
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "index": "tsc -p tsconfig.bin.json && node bin/create-index.js",
+    "watch": "tsc --watch -p tsconfig.bin.json"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,15 @@
   },
   "homepage": "https://github.com/dhdaines/serafim#readme",
   "devDependencies": {
+    "@types/lunr": "^2.3.7",
+    "@types/node": "^20.11.16",
+    "node-fetch": "^3.3.2",
     "typescript": "^5.3.3",
     "vite": "^5.0.12"
+  },
+  "dependencies": {
+    "lunr": "^2.3.9",
+    "lunr-folding": "^0.0.4",
+    "node-html-parser": "^6.1.12"
   }
 }

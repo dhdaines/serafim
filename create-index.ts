@@ -1,207 +1,126 @@
-import * as lunr from "lunr";
-import { writeFile, readFile, readdir, mkdir } from "node:fs/promises";
-import * as path from "node:path";
-import { Reglement, Article, Annexe, Attendus, Contenu, Tableau, Texte as AlexiTexte } from "src/alexi_types";
-import { Texte } from "src/index_types";
+import process from "node:process";
+import fetch from "node-fetch";
+import lunr from "lunr";
+import { ALEXI_URL } from "./src/config.js";
 import folding from "lunr-folding";
+import { readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
+import { parse, HTMLElement, KeyAttributes, TextNode } from "node-html-parser";
 
-/* UGH! This API is SO WEIRD!!! */
-folding(lunr);
+folding(lunr);  // beurk
 
-function make_contenu(contenu?: Array<Contenu | Tableau>): string {
-  if (contenu === undefined)
-    return "";
-  return contenu.map(c => {
-    if ("tableau" in c)
-      return `<img src="img/${c.tableau}" alt="${c.texte}">`;
-    else if ("figure" in c)
-      return `
-<figure>
-  <img src="img/${c.figure}">
-  <figcaption>${c.texte}</figcaption>
-</figure>`;
-    else
-      return c.texte
-  }).join("\n\n");
-}
-
-function make_texte(contenu?: Array<Contenu| Tableau>): string {
-  if (contenu === undefined)
-    return "";
-  return contenu.map(c => c.texte).join("\n");
-}
-
-function make_text_from_article(doc: Reglement, article: Article): Texte {
-  const page = article.pages[0];
-  let chapitre = "";
-  let section = "";
-  let sous_section = "";
-  if (
-    article.chapitre !== undefined &&
-    article.chapitre !== -1 &&
-    doc.chapitres
-  ) {
-    const chap = doc.chapitres[article.chapitre];
-    chapitre = `${chap.numero} ${chap.titre}`;
-    if (
-      article.section !== undefined &&
-      article.section !== -1 &&
-      chap.sections
-    ) {
-      const sec = chap.sections[article.section];
-      section = `${sec.numero} ${sec.titre}`;
-      if (
-        article.sous_section !== undefined &&
-        article.sous_section !== -1 &&
-        sec.sous_sections
-      ) {
-        const sousec = sec.sous_sections[article.sous_section];
-        sous_section = `${sousec.numero} ${sousec.titre}`;
-      }
+async function fetch_alexi(url: string): Promise<string> {
+  if (true)
+    return readFile(`../alexi/export/${url}`, "utf8");
+  else {
+    const result = await fetch(`${ALEXI_URL}/${url}`);
+    if (!result.ok) {
+      console.error(`Failed to fetch ${ALEXI_URL}/${url}`);
+      process.exit(1);
     }
-  }
-  const fichier = doc.fichier;
-  const document = `${doc.numero} ${doc.objet ?? ""}`;
-  const contenu = make_contenu(article.contenu);
-  const titre = article.titre ?? "";
-  const numero = article.article.toString();
-  let texte = `${numero} ${titre}
-${document}
-${chapitre}
-${section}
-${sous_section}\n\n` + make_texte(article.contenu);
-  return {
-    fichier,
-    document,
-    page,
-    chapitre,
-    section,
-    sous_section,
-    titre,
-    numero,
-    texte,
-    contenu,
-  };
-}
-
-function make_text_from_annex(doc: Reglement, annexe: Annexe): Texte {
-  const page = annexe.pages[0];
-  const numero = annexe.annexe;
-  const fichier = doc.fichier;
-  const document = `${doc.numero} ${doc.objet ?? ""}`;
-  const contenu = make_contenu(annexe.contenu);
-  const titre = annexe.titre ?? "";
-  let texte = `${numero} ${titre}\n${document}\n\n` + make_texte(annexe.contenu);
-  return {
-    fichier,
-    document,
-    page,
-    titre,
-    numero,
-    texte,
-    contenu,
-  };
-}
-
-function make_text_from_attendus(doc: Reglement, attendus: Attendus): Texte {
-  const page = attendus.pages[0];
-  const fichier = doc.fichier;
-  const document = `${doc.numero} ${doc.objet ?? ""}`;
-  const contenu = make_contenu(attendus.contenu);
-  const titre = `ATTENDUS`;
-  const numero = "ATTENDUS";
-  let texte = `${numero}\n${document}\n\n` + make_texte(attendus.contenu);
-  return {
-    fichier,
-    document,
-    page,
-    titre,
-    numero,
-    texte,
-    contenu,
-  };
-}
-
-function make_text_from_text(doc: Reglement, at: AlexiTexte): Texte {
-  const page = at.pages[0];
-  const fichier = doc.fichier;
-  const document = `${doc.numero} ${doc.objet ?? ""}`;
-  const contenu = make_contenu(at.contenu);
-  const titre = at.titre ?? contenu.substring(0, 80); // FIXME
-  const numero = "";
-  let texte = `${document}\n\n` + make_texte(at.contenu);
-  return {
-    fichier,
-    document,
-    page,
-    titre,
-    numero,
-    texte,
-    contenu,
-  };
-}
-
-async function add_doc(
-  textes: Array<Texte>,
-  doc: Reglement
-) {
-  if (doc.textes !== undefined) {
-    for (const contenu of doc.textes) {
-      if ("article" in contenu) {
-	const texte = make_text_from_article(doc, contenu as Article);
-	textes.push(texte);
-      }
-      else if ("annexe" in contenu) {
-	const texte = make_text_from_annex(doc, contenu as Annexe);
-	textes.push(texte);
-      }
-      else if ("attendu" in contenu) {
-	const texte = make_text_from_attendus(doc, contenu as Annexe);
-	textes.push(texte);
-      }
-      else {
-	const texte = make_text_from_text(doc, contenu);
-	textes.push(texte);
-      }
-    }
+    return result.text();
   }
 }
 
-(async () => {
-  const textes = new Array<Texte>();
-  const names = await readdir("data");
-  for (const name of names) {
-    if (!name.endsWith(".json")) continue;
-    const data = await readFile(path.join("data", name), "utf8");
-    try {
-      const doc = JSON.parse(data);
-      if (doc.numero === "INCONNU")
-        console.log(`Skipping unrecognized document ${name}`);
-      else
-        console.log(`Adding document ${name}`);
-      await add_doc(textes, doc);
-    }
-    catch (err) {
-      console.log(`Skipping document ${name}: ${err}`);
-    }
-  }
-  /* OMG why is lunrjs' API so hecking weird */
-  const index = lunr(function() {
-    //this.use(lunr.fr);
-    this.ref("id");
-    this.field("titre");
-    this.field("texte");
-    // Yes this is undocumented
-    this.metadataWhitelist = ['position']
+interface Document {
+  url: string;
+  titre: string;
+  texte: string;
+}
 
-    for (const id in textes) {
-      const titre = textes[id].titre;
-      let texte = textes[id].texte; 
-      this.add({ id, titre, texte });
+// FIXME: Should be stored in the index somehow
+const textes: any = {};
+
+function make_doc(url: string, titreEl: HTMLElement, html: string): Document | null {
+  const root = parse(html);
+  const bodyEl = root.querySelector("div#body");
+  if (bodyEl === null || !bodyEl.textContent || !titreEl.textContent)
+    return null;
+  const titre = titreEl.textContent.trim();
+  // Remove titles
+  for (const header of bodyEl.querySelectorAll(".header")) {
+    header.parentNode.removeChild(header);
+  }
+  // Swap images for alternate text
+  for (const img of bodyEl.querySelectorAll("img")) {
+    const altText = img.getAttribute("alt");
+    if (!altText)
+      continue;
+    const altEl = new HTMLElement("p", {});
+    altEl.appendChild(new TextNode(altText));
+    img.parentNode.exchangeChild(img, altEl);
+  }
+  const texte = bodyEl.textContent;
+  return {
+    url, titre, texte
+  }
+}
+
+async function crawl_alexi(builder: lunr.Builder): Promise<void> {
+  /* Crawl ALEXI for things to index */
+  const html = await fetch_alexi("index.html");
+  const root = parse(html);
+  /* Gather documents, chapters, sections */
+  for (const section of root.querySelectorAll("li.node")) {
+    const summary = section.querySelector("summary");
+    if (!summary) {
+      console.error(`No summary found for ${section.classNames}`);
+      continue;
     }
-  });
-  await writeFile(path.join("public", "textes.json"),
-                  JSON.stringify(textes));
-  await writeFile(path.join("public", "index.json"),
-                  JSON.stringify(index.toJSON()));
-})();
+    const htmlLink = section.querySelector("a");
+    if (!htmlLink) {
+      console.error("No link found in li.leaf");
+      continue;
+    }
+    const htmlUrl = htmlLink.getAttribute("href");
+    if (!htmlUrl) {
+      console.error("No href found in li.leaf");
+      continue;
+    }
+    const html = await fetch_alexi(htmlUrl);
+    const doc = make_doc(htmlUrl, summary, html);
+    if (doc == null) {
+      console.error(`No content found in ${htmlUrl}`);
+      continue;
+    }
+    console.log(doc);
+    builder.add(doc);
+    textes[htmlUrl] = doc.texte;
+  }
+  /* Gather articles, other leaf nodes */
+  for (const text of root.querySelectorAll("li.leaf")) {
+    const htmlLink = text.querySelector("a");
+    if (!htmlLink) {
+      console.error("No link found in li.leaf");
+      continue;
+    }
+    const htmlUrl = htmlLink.getAttribute("href");
+    if (!htmlUrl) {
+      console.error("No href found in li.leaf");
+      continue;
+    }
+    const html = await fetch_alexi(htmlUrl);
+    const doc = make_doc(htmlUrl, htmlLink, html);
+    if (doc == null) {
+      console.error(`No content found in ${htmlUrl}`);
+      continue;
+    }
+    console.log(doc);
+    builder.add(doc);
+    textes[htmlUrl] = doc.texte;
+  }
+}
+
+
+const builder = new lunr.Builder();
+builder.ref("url");
+builder.field("titre", { boost: 2 });
+builder.field("texte");
+builder.metadataWhitelist = ['position']; // Yes this is undocumented
+await crawl_alexi(builder);
+const index = builder.build();
+
+await writeFile(path.join("public", "index.json"),
+  JSON.stringify(index.toJSON()));
+await writeFile(path.join("public", "textes.json"),
+                JSON.stringify(textes));

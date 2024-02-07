@@ -38,6 +38,8 @@ class App {
         console.error("Image has no src!");
         continue;
       }
+      /* Resolve (maybe) relative image URL (will not work if source
+       * has a trailing slash instead of index.html) */
       const url = new URL(srcAttr, source);
       img.setAttribute("src", url.toString());
     }
@@ -55,7 +57,8 @@ class App {
     /* Like showing a document if requested */
     const parts = window.location.pathname.split("/").filter(x => x.length);
     if (parts.length > 1 && parts[0] === "alexi")
-      this.show_document(parts.slice(1).join("/"))
+        this.show_document(parts.slice(1).join("/"))
+    /* And loading the index */
   }
 }
 
