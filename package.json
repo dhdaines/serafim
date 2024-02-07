@@ -1,16 +1,15 @@
 {
   "name": "serafim",
-  "version": "0.2.0",
+  "version": "0.3.0",
+  "type": "module",
   "description": "SErvice de Recherche Adélois pour Fouiller dans les Informations Municipales",
   "scripts": {
-    "index": "tsc && node bin/create-index.js",
-    "build": "webpack --mode=production --node-env=production",
-    "build:dev": "webpack --mode=development --node-env=development",
-    "build:prod": "webpack --mode=production --node-env=production",
-    "serve": "webpack serve --mode=production --node-env=production --host=0.0.0.0",
-    "start": "webpack serve --mode=development --node-env=development --host=0.0.0.0",
-    "watch": "tsc --watch",
-    "prepare": "husky install"
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "index": "tsc -p tsconfig.bin.json && node bin/create-index.js",
+    "watch": "tsc --watch -p tsconfig.bin.json"
   },
   "repository": {
     "type": "git",
@@ -27,27 +26,17 @@
   },
   "homepage": "https://github.com/dhdaines/serafim#readme",
   "devDependencies": {
-    "@types/node": "^20.2.0",
-    "@types/pdfobject": "^2.2.3",
-    "chai": "^4.3.7",
-    "css-loader": "^6.7.3",
-    "html-webpack-plugin": "^5.5.1",
-    "husky": "^8.0.3",
-    "mini-css-extract-plugin": "^2.7.5",
-    "mocha": "^10.2.0",
-    "ts-loader": "^9.4.2",
-    "typescript": "^5.0.4",
-    "webpack-cli": "^5.1.1",
-    "webpack-dev-server": "^4.15.0"
+    "@types/lunr": "^2.3.7",
+    "@types/node": "^20.11.16",
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
   },
   "dependencies": {
-    "@types/debounce": "^1.2.1",
-    "@types/lunr": "^2.3.4",
-    "debounce": "^1.2.1",
-    "json-schema-to-typescript": "^13.0.2",
+    "@types/debounce": "^1.2.4",
+    "debounce": "^2.0.0",
     "lunr": "^2.3.9",
-    "lunr-folding": "^0.0.2",
-    "pdfobject": "^2.2.11",
-    "purecss": "^3.0.0"
+    "lunr-folding": "^0.0.4",
+    "node-html-parser": "^6.1.12"
   }
 }

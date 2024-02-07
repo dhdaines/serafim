@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>SÈRAFIM</title>
+    <link rel="stylesheet" href="/src/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="header">
+        <span class="mobile">
+          SÈRAFIM
+        </span>
+        <span class="nomobile"><span class="initial">S</span>yst<span class="initial">È</span>me
+          de <span class="initial">R</span>écherche <span class="initial">A</span>délois pour
+          <span class="initial">F</span>ouiller dans
+          les <span class="initial">I</span>nformations
+          <span class="initial">M</span>unicipales
+        </span>
+      </h1>
+      <div id="body">
+        <div id="search-view">
+          <form autocomplete="off" id="search-form" action="/">
+            <input id="search-box" type="search"
+                   name="q" autofocus placeholder="Rechercher...">
+          </form>
+          <hr>
+          <div id="search-results">
+          </div>
+        </div>
+        <div id="document-view">
+          <span class="placeholder">Le contenu apparaîtra ici</span>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
