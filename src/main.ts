@@ -25,12 +25,16 @@ class App {
     this.search_box = document.getElementById("search-box") as HTMLInputElement;
     this.document_view = document.getElementById("document-view")!;
     this.search_results = document.getElementById("search-results")!;
-    this.media_query = matchMedia("screen and (min-width: 48em)");
+    // NOTE: Must match main.css
+    this.media_query = matchMedia("screen and (min-width: 600px)");
+    // Disable enter key (or else the whole index gets reloaded)
+    const search_form = document.getElementById("search-form")!;
+    search_form.addEventListener("submit", e => e.preventDefault());
   }
 
   /* Show document content */
   async show_document(url: string) {
-    const target = this.document_view;
+    const target = this.media_query.matches ? this.document_view : this.search_results;
     const source = `${ALEXI_URL}/${url}`;
     target.style.display = "block";
     target.innerHTML = "";
@@ -117,8 +121,8 @@ class App {
     div.append(this.create_title(texte.titre, query, result));
     div.append(this.create_extract(texte.texte, result));
     div.addEventListener("click", (e) => {
-      /* On desktop, do it in-browser, otherwise follow the link */
-      if (this.media_query.matches) {
+      /* Only accept clicks in the div on mobile */
+      if (!this.media_query.matches) {
         this.show_document(result.ref);
         history.pushState(null, "", `/alexi/${result.ref}?q=${query}`)
         e.preventDefault();
@@ -137,7 +141,10 @@ class App {
     if (text.length < 2)
       return;
     const query = encodeURIComponent(text);
-    history.replaceState(null, "", `?q=${query}`)
+    if (this.media_query.matches)
+      history.replaceState(null, "", `?q=${query}`)
+    else
+      history.replaceState(null, "", `/?q=${query}`)
     try {
       const results = this.index.search(text);
       this.search_results.innerHTML = "";
@@ -153,8 +160,11 @@ class App {
   async initialize() {
     /* Like showing a document if requested */
     const parts = window.location.pathname.split("/").filter(x => x.length);
-    if (parts.length > 1 && parts[0] === "alexi")
-        this.show_document(parts.slice(1).join("/"))
+    let showing = false;
+    if (parts.length > 1 && parts[0] === "alexi") {
+      this.show_document(parts.slice(1).join("/"))
+      showing = true;
+    }
     /* Load the index / text if possible (FIXME: will possibly use an ALEXI API here) */
     let result = await fetch("/index.json");
     if (result.ok)
@@ -162,13 +172,15 @@ class App {
     result = await fetch("/textes.json");
     if (result.ok)
       this.textes = await result.json();
-    
-    /* And displaying search results if requested */
+
+    /* Set the search query */
     const urlParams = new URLSearchParams(window.location.search);
     const query = urlParams.get("q");
     if (query !== null) {
       this.search_box.value = query;
-      this.search(); // asynchronously, sometime
+      /* Search and display results if on desktop *or* there is no document shown */
+      if (this.media_query.matches || !showing)
+        this.search(); // asynchronously, sometime
     }
     /* Now set up search function */
     this.search_box.addEventListener(

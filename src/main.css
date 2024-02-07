@@ -60,6 +60,9 @@ html, body {
     .nomobile {
         display: none;
     }
+    #search-view {
+        flex: 1;
+    }
     #document-view {
         display: none;
     }
@@ -105,15 +108,15 @@ a:hover,  a:active {
     color: #33f;
 }
 
-article img {
+article img, section img {
     max-width: 100%;
 }
 
-article h1 {
+h1 {
     font-size: 1.5em;
 }
 
-article h4 {
+h4 {
     margin: 1ex 0;
 }
 
