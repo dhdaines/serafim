@@ -3,8 +3,13 @@ import debounce from "debounce";
 
 import { ALEXI_URL } from "./config.ts";
 
+interface Texte {
+  titre: string;
+  texte: string;
+}
+
 interface Textes {
-  [url: string]: string;
+  [url: string]: Texte;
 };
 
 class App {
@@ -61,10 +66,12 @@ class App {
       target.appendChild(child);
   }
 
-  create_title(result: lunr.Index.Result) {
+  create_title(titre: string, query: string, result: lunr.Index.Result) {
     const a = document.createElement("a");
     a.href = `/alexi/${result.ref}`;
-    a.innerText = result.ref;
+    if (query)
+      a.href += `?q=${query}`;
+    a.innerText = titre;
     return a;
   }
 
@@ -104,17 +111,16 @@ class App {
     }
     if (!(result.ref in this.textes))
       throw `Document ${result.ref} not found`;
+    const query = encodeURIComponent(this.search_box.value);
     const texte = this.textes[result.ref];
     div.setAttribute("class", "search-result");
-    div.append(this.create_title(result));
-    div.append(this.create_extract(texte, result));
+    div.append(this.create_title(texte.titre, query, result));
+    div.append(this.create_extract(texte.texte, result));
     div.addEventListener("click", (e) => {
-      const query = encodeURIComponent(this.search_box.value);
-      history.replaceState(null, "", `?q=${query}`)
       /* On desktop, do it in-browser, otherwise follow the link */
       if (this.media_query.matches) {
         this.show_document(result.ref);
-        history.pushState(null, "", `/alexi/${result.ref}`)
+        history.pushState(null, "", `/alexi/${result.ref}?q=${query}`)
         e.preventDefault();
       }
     });
@@ -130,6 +136,8 @@ class App {
     const text = this.search_box.value;
     if (text.length < 2)
       return;
+    const query = encodeURIComponent(text);
+    history.replaceState(null, "", `?q=${query}`)
     try {
       const results = this.index.search(text);
       this.search_results.innerHTML = "";

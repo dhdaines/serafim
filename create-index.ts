@@ -28,8 +28,13 @@ interface Document {
   texte: string;
 }
 
-// FIXME: Should be stored in the index somehow
-const textes: any = {};
+interface Texte {
+  titre: string;
+  texte: string;
+}
+
+// Seems lunr.js does not have stored fields so we have to do this
+const textes: {[url: string]: Texte} = {};
 
 function make_doc(url: string, titreEl: HTMLElement, html: string): Document | null {
   const root = parse(html);
@@ -85,7 +90,7 @@ async function crawl_alexi(builder: lunr.Builder): Promise<void> {
     }
     console.log(doc);
     builder.add(doc);
-    textes[htmlUrl] = doc.texte;
+    textes[htmlUrl] = { titre: doc.titre, texte: doc.texte };
   }
   /* Gather articles, other leaf nodes */
   for (const text of root.querySelectorAll("li.leaf")) {
@@ -107,7 +112,7 @@ async function crawl_alexi(builder: lunr.Builder): Promise<void> {
     }
     console.log(doc);
     builder.add(doc);
-    textes[htmlUrl] = doc.texte;
+    textes[htmlUrl] = { titre: doc.titre, texte: doc.texte };
   }
 }
 
