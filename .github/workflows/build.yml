@@ -33,6 +33,7 @@ jobs:
         npm install
         npm run index
         npx vite build --base=/serafim/
+        cp dist/index.html dist/404.html
     - name: Setup Pages
       uses: actions/configure-pages@v3
     - name: Upload artifact
