@@ -10,7 +10,7 @@ import { parse, HTMLElement, TextNode } from "node-html-parser";
 folding(lunr);  // beurk
 
 async function fetch_alexi(url: string): Promise<string> {
-  if (true)
+  if (false)
     return readFile(`../alexi/export/${url}`, "utf8");
   else {
     const result = await fetch(`${ALEXI_URL}/${url}`);
@@ -67,6 +67,9 @@ async function crawl_alexi(builder: lunr.Builder): Promise<void> {
   const root = parse(html);
   /* Gather documents, chapters, sections */
   for (const section of root.querySelectorAll("li.node")) {
+    /* Skip entire documents for now */
+    if (section.classList.contains("Document"))
+      continue;
     const summary = section.querySelector("summary");
     if (!summary) {
       console.error(`No summary found for ${section.classNames}`);
@@ -88,7 +91,7 @@ async function crawl_alexi(builder: lunr.Builder): Promise<void> {
       console.error(`No content found in ${htmlUrl}`);
       continue;
     }
-    console.log(doc);
+    console.log(doc.url);
     builder.add(doc);
     textes[htmlUrl] = { titre: doc.titre, texte: doc.texte };
   }
@@ -110,7 +113,7 @@ async function crawl_alexi(builder: lunr.Builder): Promise<void> {
       console.error(`No content found in ${htmlUrl}`);
       continue;
     }
-    console.log(doc);
+    console.log(doc.url);
     builder.add(doc);
     textes[htmlUrl] = { titre: doc.titre, texte: doc.texte };
   }

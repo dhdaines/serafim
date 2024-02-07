@@ -1,4 +1,4 @@
-name: Deploy site with Webpack
+name: Deploy site
 
 on:
   push:
@@ -31,10 +31,8 @@ jobs:
     - name: Build
       run: |
         npm install
-        npx tsc
-        node bin/create-index.js
-        npx webpack
-        cp -R public/* dist/
+        npm run index
+        npm run build --base=/serafim/
     - name: Setup Pages
       uses: actions/configure-pages@v3
     - name: Upload artifact

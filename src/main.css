@@ -46,14 +46,14 @@ html, body {
 #search-results {
     flex: 1;
     display: block;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 #document-view {
     padding: 1em;
     flex: 1;
     display: block;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 @media (max-width: 599px) {
