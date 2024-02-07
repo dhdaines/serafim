@@ -35,11 +35,16 @@ html, body {
 #search-view {
     padding: 1em;
     flex: 0;
-    display: block;
+    display: flex;
+    flex-flow: column;
+}
+
+#search-box {
+    flex: 0;
 }
 
 #search-results {
-    flex: 0;
+    flex: 1;
     display: block;
     overflow-y: scroll;
 }
