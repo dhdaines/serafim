@@ -5,7 +5,7 @@ import { ALEXI_URL } from "./src/config.js";
 import folding from "lunr-folding";
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { parse, HTMLElement, KeyAttributes, TextNode } from "node-html-parser";
+import { parse, HTMLElement, TextNode } from "node-html-parser";
 
 folding(lunr);  // beurk
 
