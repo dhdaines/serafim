@@ -1,6 +1,6 @@
 {
   "name": "serafim",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "type": "module",
   "description": "SErvice de Recherche Adélois pour Fouiller dans les Informations Municipales",
   "scripts": {
@@ -27,16 +27,16 @@
   "homepage": "https://github.com/dhdaines/serafim#readme",
   "devDependencies": {
     "@types/lunr": "^2.3.7",
-    "@types/node": "^20.11.16",
+    "@types/node": "^20.12.8",
     "node-fetch": "^3.3.2",
-    "typescript": "^5.3.3",
-    "vite": "^5.0.12"
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10"
   },
   "dependencies": {
     "@types/debounce": "^1.2.4",
     "debounce": "^2.0.0",
     "lunr": "^2.3.9",
-    "lunr-folding": "^0.0.4",
-    "node-html-parser": "^6.1.12"
+    "lunr-folding": "^0.1.0",
+    "node-html-parser": "^6.1.13"
   }
 }

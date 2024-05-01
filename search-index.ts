@@ -7,6 +7,6 @@ folding(lunr);
 
 const index = lunr.Index.load(JSON.parse(fs.readFileSync("public/index.json", "utf8")));
 
-for (const result of index.search("combien de poules")) {
+for (const result of index.search("mobilité")) {
   console.log(JSON.stringify(result));
 }

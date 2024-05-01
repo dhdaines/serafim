@@ -1,4 +1,5 @@
 import lunr from "lunr";
+import folding from "lunr-folding";
 import debounce from "debounce";
 
 import { ALEXI_URL } from "./config.ts";
@@ -8,6 +9,8 @@ import INDEX_URL from "/index.json?url";
 import TEXTES_URL from "/textes.json?url";
 // @ts-ignore
 const BASE_URL = import.meta.env.BASE_URL;
+
+folding(lunr);  // beurk
 
 interface Texte {
   titre: string;

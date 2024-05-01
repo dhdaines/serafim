@@ -1,9 +1,18 @@
 # Conversion vers ALEXI
 
-- pull documents from ALEXI_URL
-  - add links back to PDF (with page number) inside ALEXI documents and
-    extract them as well
-  - at runtime all we care about are ALEXI URLs and the plain text inside them
-  - everything else can be retrieved from the HTML
-- index documents
-  - we can crawl ALEXI and just get everything from the HTML.  Why not.
+- Réintroduire liens PDF, avant, arrière
+  - Se fait par ALEXI (dans le HTML pour le moment)
+  - Dans extract.py
+- Réintroduire hierarchie dans les articles/chapitres
+  - Devrait aussi se faire dans le HTML (possible de le cacher si jamais)
+  - Permet d'avoir des liens vers chapitres/sections
+  - Aussi dans extract.py
+- Ajouter liens vers types de milieux
+  - Facile en utilisant zonage.json
+  - Refactorage de link.py
+- GitHub action utilisant le zip genere par ALEXI
+
+
+# Mode en-ligne
+
+- 
