@@ -1,16 +1,20 @@
 import lunr from "lunr";
-import folding from "lunr-folding";
+// @ts-ignore
+import stemmerSupport from "lunr-languages/lunr.stemmer.support";
+// @ts-ignore
+import lunrFR from "lunr-languages/lunr.fr";
+import unidecode from "unidecode";
 import debounce from "debounce";
 
+stemmerSupport(lunr);
+lunrFR(lunr);
+lunr.Pipeline.registerFunction(token => token.update(unidecode), "unifold")
+
 import { ALEXI_URL } from "./config.ts";
-// @ts-ignore
-import INDEX_URL from "/index.json?url";
-// @ts-ignore
-import TEXTES_URL from "/textes.json?url";
+const INDEX_URL = `${ALEXI_URL}/_idx/index.json`
+const TEXTES_URL = `${ALEXI_URL}/_idx/textes.json`;
 // @ts-ignore
 const BASE_URL = import.meta.env.BASE_URL;
-
-folding(lunr);  // beurk
 
 interface Texte {
   titre: string;
@@ -66,7 +70,8 @@ class App {
         continue;
       }
       /* Resolve (maybe) relative image URL (will not work if source
-       * has a trailing slash instead of index.html) */
+       * has a trailing slash instead of index.html) (will also not
+       * work if source is not an absolute URL) */
       const url = new URL(srcAttr, source);
       img.setAttribute("src", url.toString());
     }
