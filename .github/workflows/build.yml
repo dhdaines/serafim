@@ -34,11 +34,11 @@ jobs:
         npx vite build --base=/serafim/
         cp dist/index.html dist/404.html
         # saint-sauveur
-        perl -i -pe 's,alexi",alexi/vss,' src/config.ts
+        perl -i -pe 's,alexi",alexi/vss",' src/config.ts
         npx vite build --base=/serafim/vss/ --outDir dist/vss
         cp dist/vss/index.html dist/vss/404.html
         # sainte-agathe-des-monts
-        perl -i -pe 's,alexi"/vss,alexi/vsadm",' src/config.ts
+        perl -i -pe 's,alexi/vss",alexi/vsadm",' src/config.ts
         perl -i -pe 's,délois,gathois,' index.html
         npx vite build --base=/serafim/vsadm/ --outDir dist/vsadm
         cp dist/vsadm/index.html dist/vsadm/404.html
