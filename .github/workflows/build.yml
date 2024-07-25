@@ -34,6 +34,7 @@ jobs:
         npx vite build --base=/serafim/
         cp dist/index.html dist/404.html
         perl -i -pe 's,alexi",alexi/vsadm",' src/config.ts
+        perl -i -pe 's,délois,gathois,' index.html
         npx vite build --base=/serafim/vsadm/ --outDir dist/vsadm
         cp dist/vsadm/index.html dist/vsadm/404.html
     - name: Setup Pages
