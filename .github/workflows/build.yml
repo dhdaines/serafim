@@ -42,7 +42,7 @@ jobs:
         npx vite build --base=/serafim/prevost/ --outDir dist/prevost
         cp dist/prevost/index.html dist/prevost/404.html
         # sainte-agathe-des-monts
-        perl -i -pe 's,alexi/vss",alexi/vsadm",' src/config.ts
+        perl -i -pe 's,alexi/prevost",alexi/vsadm",' src/config.ts
         perl -i -pe 's,délois,gathois,' index.html
         npx vite build --base=/serafim/vsadm/ --outDir dist/vsadm
         cp dist/vsadm/index.html dist/vsadm/404.html
