@@ -19,7 +19,12 @@
       </h1>
       <div id="body">
         <div id="search-view">
-          <p id="ville">Sainte-Adèle</p>
+          <select name="ville" id="ville">
+            <option selected value="">Sainte-Adèle</option>
+            <option value="vsadm">Sainte-Agathe-des-Monts</option>
+            <option value="vss">Saint-Sauveur</option>
+            <option value="prevost">Prévost</option>
+          </select>
           <form autocomplete="off" id="search-form" action="/">
             <input id="search-box" type="search"
                    name="q" autofocus placeholder="Rechercher...">

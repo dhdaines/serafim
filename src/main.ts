@@ -28,6 +28,7 @@ class App {
   search_box: HTMLInputElement;
   document_view: HTMLElement;
   search_results: HTMLElement;
+  ville: HTMLSelectElement;
   media_query: MediaQueryList;
   index: lunr.Index | null = null;
   textes: Textes | null = null;
@@ -49,6 +50,8 @@ class App {
     // Find the appropriate index if required (somewhat hacky)
     this.alexi_url = ALEXI_URL;
     this.base_url = BASE_URL;
+    // Drop-down for towns
+    this.ville = document.getElementById("ville")! as HTMLSelectElement;
     if (window.location.pathname != BASE_URL) {
       const url = window.location.pathname.substring(BASE_URL.length).replace(/\/$/, "").replace(/index.html$/, "");
       console.log(window.location.pathname, BASE_URL, url);
@@ -57,16 +60,15 @@ class App {
       const idx = url.indexOf("/");
       const name = (idx == -1) ? url : url.substring(0, idx);
       let other_ville = true;
-      const ville = document.getElementById("ville")!;
       switch (name) {
         case "vsadm":
-          ville.textContent = "Sainte-Agathe-des-Monts";
+        this.ville.value = "vsadm";
           break;
         case "vss":
-          ville.textContent = "Saint-Sauveur";
+        this.ville.value = "vss";
           break;
         case "prevost":
-          ville.textContent = "Prévost";
+        this.ville.value = "prevost";
         break;
         default:
         other_ville = false;
@@ -78,6 +80,15 @@ class App {
       console.log("base_url", this.base_url);
       console.log("alexi_url", this.alexi_url);
     }
+    // Set up change listener *after* assigning :)
+    this.ville.addEventListener("change", _ => {
+      let new_url = BASE_URL + this.ville.value;
+      const urlParams = new URLSearchParams(window.location.search);
+      const query = urlParams.get("q");
+      if (query !== null)
+        new_url += "?q=" + encodeURIComponent(query);
+      window.location.assign(new_url);
+    });
     this.index_url = `${this.alexi_url}/_idx/index.json`;
     this.textes_url = `${this.alexi_url}/_idx/textes.json`;
   }
