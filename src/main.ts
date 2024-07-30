@@ -88,15 +88,12 @@ class App {
     if (window.location.pathname != this.base_url
         // HACK
         && (window.location.pathname + "/") != this.base_url) {
-      /* We *know* that it will start with BASE_URL, because we
-       * constructed it that way.  If not, fetch will just fail, which
-       * is okay too. */
-      this.show_document(window.location.pathname.substring(BASE_URL.length));
       // HACK: this is only when we refer to a full bylaw
       if (window.location.hash) {
         window.location.assign(ALEXI_URL + "/" + window.location.pathname + window.location.hash);
         return;
       }
+      this.show_document(window.location.pathname);
       showing = true;
     }
     let result = await fetch(this.index_url);
@@ -126,13 +123,10 @@ class App {
   async show_document(url: string) {
     const target = this.media_query.matches ? this.document_view : this.search_results;
     // Le beau rêve de Donalda réalisé
-    let source = url.replace("serafim", "alexi");
-    // HACK
-    if (!source.startsWith("http"))
-      source = ALEXI_URL + "/" + source;
+    url = ALEXI_URL + url.replace("/serafim", "/alexi");
     target.style.display = "block";
     target.innerHTML = "";
-    const result = await fetch(source);
+    const result = await fetch(url);
     if (!result.ok) {
       target.innerHTML = `Error in fetch: ${result.status}`;
       return;
@@ -141,7 +135,7 @@ class App {
     const dom = new DOMParser().parseFromString(content, "text/html");
     const body = dom.querySelector("#body");
     if (body === null) {
-      target.innerHTML = `No content found at ${source}`;
+      target.innerHTML = `No content found at ${url}`;
       return;
     }
     for (const img of body.querySelectorAll("img")) {
@@ -153,8 +147,8 @@ class App {
       /* Resolve (maybe) relative image URL (will not work if source
        * has a trailing slash instead of index.html) (will also not
        * work if source is not an absolute URL) */
-      const url = new URL(srcAttr, source);
-      img.setAttribute("src", url.toString());
+      const url2 = new URL(srcAttr, url);
+      img.setAttribute("src", url2.toString());
     }
     const head = dom.querySelector("#header");
     if (head !== null) {
