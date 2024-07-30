@@ -101,6 +101,9 @@ class App {
         && (window.location.pathname + "/") != this.base_url) {
       // HACK: this is only when we refer to a full bylaw
       if (window.location.hash) {
+        console.log("WTF", window.location.pathname, ALEXI_URL
+                               + window.location.pathname.replace("/serafim", "")
+                               + window.location.hash);
         window.location.assign(ALEXI_URL
                                + window.location.pathname.replace("/serafim", "")
                                + window.location.hash);
@@ -135,7 +138,6 @@ class App {
   /* Show document content */
   async show_document(url: string) {
     const target = this.media_query.matches ? this.document_view : this.search_results;
-    // Le beau rêve de Donalda réalisé
     url = ALEXI_URL + url.replace("/serafim", "/");
     target.style.display = "block";
     target.innerHTML = "";
