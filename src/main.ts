@@ -123,7 +123,7 @@ class App {
   async show_document(url: string) {
     const target = this.media_query.matches ? this.document_view : this.search_results;
     // Le beau rêve de Donalda réalisé
-    url = ALEXI_URL + url.replace("/serafim", "/alexi");
+    url = ALEXI_URL + url.replace("/serafim", "/");
     target.style.display = "block";
     target.innerHTML = "";
     const result = await fetch(url);
