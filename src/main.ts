@@ -126,7 +126,7 @@ class App {
   async show_document(url: string) {
     const target = this.media_query.matches ? this.document_view : this.search_results;
     // Le beau rêve de Donalda réalisé
-    let source = url.replace(/^serafim/, "alexi");
+    let source = url.replace("serafim", "alexi");
     // HACK
     if (!source.startsWith("http"))
       source = ALEXI_URL + "/" + source;
