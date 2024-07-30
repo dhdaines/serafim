@@ -33,19 +33,6 @@ jobs:
         npm install
         npx vite build --base=/serafim/
         cp dist/index.html dist/404.html
-        # saint-sauveur
-        perl -i -pe 's,alexi",alexi/vss",' src/config.ts
-        npx vite build --base=/serafim/vss/ --outDir dist/vss
-        cp dist/vss/index.html dist/vss/404.html
-        # prévost
-        perl -i -pe 's,alexi/vss",alexi/prevost",' src/config.ts
-        npx vite build --base=/serafim/prevost/ --outDir dist/prevost
-        cp dist/prevost/index.html dist/prevost/404.html
-        # sainte-agathe-des-monts
-        perl -i -pe 's,alexi/prevost",alexi/vsadm",' src/config.ts
-        perl -i -pe 's,délois,gathois,' index.html
-        npx vite build --base=/serafim/vsadm/ --outDir dist/vsadm
-        cp dist/vsadm/index.html dist/vsadm/404.html
     - name: Setup Pages
       uses: actions/configure-pages@v3
     - name: Upload artifact

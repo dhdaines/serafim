@@ -1,3 +1,4 @@
+// -*- js-indent-level: 2 -*-
 import lunr from "lunr";
 // @ts-ignore
 import stemmerSupport from "lunr-languages/lunr.stemmer.support";
@@ -10,11 +11,9 @@ stemmerSupport(lunr);
 lunrFR(lunr);
 lunr.Pipeline.registerFunction(token => token.update(unidecode), "unifold")
 
-import { ALEXI_URL } from "./config.ts";
-const INDEX_URL = `${ALEXI_URL}/_idx/index.json`
-const TEXTES_URL = `${ALEXI_URL}/_idx/textes.json`;
 // @ts-ignore
 const BASE_URL = import.meta.env.BASE_URL;
+const ALEXI_URL = "https://dhdaines.github.io/alexi";
 
 interface Texte {
   titre: string;
@@ -32,6 +31,10 @@ class App {
   media_query: MediaQueryList;
   index: lunr.Index | null = null;
   textes: Textes | null = null;
+  alexi_url: string;
+  index_url: string;
+  textes_url: string;
+  base_url: string;
 
   /* Get and construct objects */
   constructor() {
@@ -43,12 +46,90 @@ class App {
     // Disable enter key (or else the whole index gets reloaded)
     const search_form = document.getElementById("search-form")!;
     search_form.addEventListener("submit", e => e.preventDefault());
+    // Find the appropriate index if required (somewhat hacky)
+    this.alexi_url = ALEXI_URL;
+    this.base_url = BASE_URL;
+    if (window.location.pathname != BASE_URL) {
+      const url = window.location.pathname.substring(BASE_URL.length).replace(/\/$/, "").replace(/index.html$/, "");
+      console.log(window.location.pathname, BASE_URL, url);
+      // HACK because JavaScript inexplicably has no built-in URL
+      // parsing worth anything at all
+      const idx = url.indexOf("/");
+      const name = (idx == -1) ? url : url.substring(0, idx);
+      let other_ville = true;
+      const ville = document.getElementById("ville")!;
+      switch (name) {
+        case "vsadm":
+          ville.textContent = "Sainte-Agathe-des-Monts";
+          break;
+        case "vss":
+          ville.textContent = "Saint-Sauveur";
+          break;
+        case "prevost":
+          ville.textContent = "Prévost";
+        break;
+        default:
+        other_ville = false;
+      }
+      if (other_ville) {
+        this.alexi_url = ALEXI_URL + "/" + name;
+        this.base_url = BASE_URL + name + "/";
+      }
+      console.log("base_url", this.base_url);
+      console.log("alexi_url", this.alexi_url);
+    }
+    this.index_url = `${this.alexi_url}/_idx/index.json`;
+    this.textes_url = `${this.alexi_url}/_idx/textes.json`;
+  }
+
+  /* Do asynchronous initialization things */
+  async initialize() {
+    let showing = false;
+    if (window.location.pathname != this.base_url
+        // HACK
+        && (window.location.pathname + "/") != this.base_url) {
+      /* We *know* that it will start with BASE_URL, because we
+       * constructed it that way.  If not, fetch will just fail, which
+       * is okay too. */
+      this.show_document(window.location.pathname.substring(BASE_URL.length));
+      // HACK: this is only when we refer to a full bylaw
+      if (window.location.hash) {
+        window.location.assign(ALEXI_URL + "/" + window.location.pathname + window.location.hash);
+        return;
+      }
+      showing = true;
+    }
+    let result = await fetch(this.index_url);
+    if (result.ok)
+      this.index = lunr.Index.load(await result.json());
+    result = await fetch(this.textes_url);
+    if (result.ok)
+      this.textes = await result.json();
+
+    /* Set the search query */
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get("q");
+    if (query !== null) {
+      this.search_box.value = query;
+      /* Search and display results if on desktop *or* there is no document shown */
+      if (this.media_query.matches || !showing)
+        this.search(); // asynchronously, sometime
+    }
+    /* Now set up search function */
+    this.search_box.addEventListener(
+      "input",
+      debounce(async () => this.search(), 200)
+    );
   }
 
   /* Show document content */
   async show_document(url: string) {
     const target = this.media_query.matches ? this.document_view : this.search_results;
-    const source = `${ALEXI_URL}/${url}`;
+    // Le beau rêve de Donalda réalisé
+    let source = url.replace(/^serafim/, "alexi");
+    // HACK
+    if (!source.startsWith("http"))
+      source = ALEXI_URL + "/" + source;
     target.style.display = "block";
     target.innerHTML = "";
     const result = await fetch(source);
@@ -84,18 +165,18 @@ class App {
       target.appendChild(child);
   }
 
-  follow_link(e: Event, url: string, query: string) {
+  follow_link(e: Event, url: string) {
     this.show_document(url);
-    history.pushState(null, "", `${BASE_URL}${url}?q=${query}`)
+    history.pushState(null, "", url);
     e.preventDefault();
   }
 
   create_title(titre: string, query: string, result: lunr.Index.Result) {
     const a = document.createElement("a");
-    // FIXME: should be shared with follow_link
-    a.href = `${BASE_URL}${result.ref}?q=${query}`;
+    const href = `${this.base_url}${result.ref}?q=${query}`;
+    a.href = href
     a.innerText = titre;
-    a.addEventListener("click", e => this.follow_link(e, result.ref, query));
+    a.addEventListener("click", e => this.follow_link(e, href));
     return a;
   }
 
@@ -140,10 +221,11 @@ class App {
     div.setAttribute("class", "search-result");
     div.append(this.create_title(texte.titre, query, result));
     div.append(this.create_extract(texte.texte, result));
+    const href = `${this.base_url}${result.ref}?q=${query}`;
     div.addEventListener("click", (e) => {
       /* Only accept clicks in the div on mobile */
       if (!this.media_query.matches)
-        this.follow_link(e, result.ref, query)
+        this.follow_link(e, href)
     });
     return div;
   }
@@ -162,7 +244,7 @@ class App {
     if (this.media_query.matches)
       history.replaceState(null, "", `?q=${query}`)
     else
-      history.replaceState(null, "", `${BASE_URL}?q=${query}`)
+      history.replaceState(null, "", `${this.base_url}?q=${query}`)
     try {
       const results = this.index.search(text);
       this.search_results.innerHTML = "";
@@ -172,40 +254,6 @@ class App {
     } catch (e) {
       console.log(`Query error: ${e}`);
     }
-  }
-
-  /* Do asynchronous initialization things */
-  async initialize() {
-    let showing = false;
-    if (window.location.pathname != BASE_URL) {
-      /* We *know* that it will start with BASE_URL, because we
-       * constructed it that way.  If not, fetch will just fail, which
-       * is okay too. */
-      this.show_document(window.location.pathname.substring(BASE_URL.length));
-      showing = true;
-    }
-    /* Load the index / text if possible (FIXME: will possibly use an ALEXI API here) */
-    let result = await fetch(INDEX_URL);
-    if (result.ok)
-      this.index = lunr.Index.load(await result.json());
-    result = await fetch(TEXTES_URL);
-    if (result.ok)
-      this.textes = await result.json();
-
-    /* Set the search query */
-    const urlParams = new URLSearchParams(window.location.search);
-    const query = urlParams.get("q");
-    if (query !== null) {
-      this.search_box.value = query;
-      /* Search and display results if on desktop *or* there is no document shown */
-      if (this.media_query.matches || !showing)
-        this.search(); // asynchronously, sometime
-    }
-    /* Now set up search function */
-    this.search_box.addEventListener(
-      "input",
-      debounce(async () => this.search(), 200)
-    );
   }
 }
 
