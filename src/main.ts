@@ -63,12 +63,17 @@ class App {
       switch (name) {
         case "vsadm":
         this.ville.value = "vsadm";
-          break;
+        document.getElementById("egg")!.innerText = "gathois";
+        break;
         case "vss":
         this.ville.value = "vss";
-          break;
+        break;
         case "prevost":
         this.ville.value = "prevost";
+        break;
+        case "":
+        document.getElementById("egg")!.innerText = "délois";
+        other_ville = false;
         break;
         default:
         other_ville = false;
@@ -101,9 +106,6 @@ class App {
         && (window.location.pathname + "/") != this.base_url) {
       // HACK: this is only when we refer to a full bylaw
       if (window.location.hash) {
-        console.log("WTF", window.location.pathname, ALEXI_URL
-                               + window.location.pathname.replace("/serafim", "")
-                               + window.location.hash);
         window.location.assign(ALEXI_URL
                                + window.location.pathname.replace("/serafim", "")
                                + window.location.hash);
