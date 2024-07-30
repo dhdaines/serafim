@@ -101,7 +101,9 @@ class App {
         && (window.location.pathname + "/") != this.base_url) {
       // HACK: this is only when we refer to a full bylaw
       if (window.location.hash) {
-        window.location.assign(ALEXI_URL + "/" + window.location.pathname + window.location.hash);
+        window.location.assign(ALEXI_URL
+                               + window.location.pathname.replace("/serafim", "")
+                               + window.location.hash);
         return;
       }
       this.show_document(window.location.pathname);
