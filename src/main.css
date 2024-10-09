@@ -33,13 +33,14 @@ html, body {
 
 #search-view {
     padding: 1em;
-    flex: 0;
+    flex: 0 1 20%;
     display: flex;
     flex-flow: column;
 }
 
 #search-box {
     flex: 0;
+    width: 100%;
 }
 
 #search-results {
