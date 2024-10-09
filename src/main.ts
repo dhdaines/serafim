@@ -13,16 +13,10 @@ lunr.Pipeline.registerFunction(token => token.update(unidecode), "unifold")
 
 // @ts-ignore
 const BASE_URL = import.meta.env.BASE_URL;
-const ALEXI_URL = "https://dhdaines.github.io/alexi";
+//const ALEXI_URL = "https://dhdaines.github.io/alexi";
+const ALEXI_URL = "http://localhost:8000";
 
-interface Texte {
-  titre: string;
-  texte: string;
-}
-
-interface Textes {
-  [url: string]: Texte;
-};
+type Texte = [string, string, string];
 
 class App {
   search_box: HTMLInputElement;
@@ -31,11 +25,7 @@ class App {
   ville: HTMLSelectElement;
   media_query: MediaQueryList;
   index: lunr.Index | null = null;
-  textes: Textes | null = null;
-  alexi_url: string;
-  index_url: string;
-  textes_url: string;
-  base_url: string;
+  textes: Array<Texte> | null = null;
 
   /* Get and construct objects */
   constructor() {
@@ -47,19 +37,21 @@ class App {
     // Disable enter key (or else the whole index gets reloaded)
     const search_form = document.getElementById("search-form")!;
     search_form.addEventListener("submit", e => e.preventDefault());
-    // Find the appropriate index if required (somewhat hacky)
-    this.alexi_url = ALEXI_URL;
-    this.base_url = BASE_URL;
     // Drop-down for towns
     this.ville = document.getElementById("ville")! as HTMLSelectElement;
-    if (window.location.pathname != BASE_URL) {
+  }
+
+  /* Do asynchronous initialization things */
+  async initialize() {
+    let showing = false;
+    if (window.location.pathname != BASE_URL
+        // HACK
+        && (window.location.pathname + "/") != BASE_URL) {
       const url = window.location.pathname.substring(BASE_URL.length).replace(/\/$/, "").replace(/index.html$/, "");
-      console.log(window.location.pathname, BASE_URL, url);
-      // HACK because JavaScript inexplicably has no built-in URL
-      // parsing worth anything at all
-      const idx = url.indexOf("/");
-      const name = (idx == -1) ? url : url.substring(0, idx);
-      let other_ville = true;
+      const pos = url.indexOf("/");
+      const name = (pos !== -1) ? url.substring(0, pos) : url;
+      const path = (pos !== -1) ? url.substring(pos + 1) : "";
+      console.log(`name '${name}' path '${path}'`);
       switch (name) {
         case "vsadm":
         this.ville.value = "vsadm";
@@ -67,23 +59,30 @@ class App {
         break;
         case "vss":
         this.ville.value = "vss";
+        document.getElementById("egg")!.innerText = "d-hoc";
         break;
         case "prevost":
         this.ville.value = "prevost";
+        document.getElementById("egg")!.innerText = "d-hoc";
         break;
-        case "":
+        case "vdsa":
+        this.ville.value = "vdsa";
         document.getElementById("egg")!.innerText = "délois";
-        other_ville = false;
         break;
         default:
-        other_ville = false;
+        this.ville.value = "";
+        document.getElementById("egg")!.innerText = "d-hoc";
       }
-      if (other_ville) {
-        this.alexi_url = ALEXI_URL + "/" + name;
-        this.base_url = BASE_URL + name + "/";
+      // HACK: this is only when we refer to a full bylaw
+      if (window.location.hash) {
+        window.location.assign(ALEXI_URL
+                               + window.location.pathname.replace("/serafim", "")
+                               + window.location.hash);
+        return;
       }
-      console.log("base_url", this.base_url);
-      console.log("alexi_url", this.alexi_url);
+      if (path)
+        this.show_document(window.location.pathname);
+      showing = true;
     }
     // Set up change listener *after* assigning :)
     this.ville.addEventListener("change", _ => {
@@ -94,33 +93,23 @@ class App {
         new_url += "?q=" + encodeURIComponent(query);
       window.location.assign(new_url);
     });
-    this.index_url = `${this.alexi_url}/_idx/index.json`;
-    this.textes_url = `${this.alexi_url}/_idx/textes.json`;
-  }
-
-  /* Do asynchronous initialization things */
-  async initialize() {
-    let showing = false;
-    if (window.location.pathname != this.base_url
-        // HACK
-        && (window.location.pathname + "/") != this.base_url) {
-      // HACK: this is only when we refer to a full bylaw
-      if (window.location.hash) {
-        window.location.assign(ALEXI_URL
-                               + window.location.pathname.replace("/serafim", "")
-                               + window.location.hash);
-        return;
-      }
-      this.show_document(window.location.pathname);
-      showing = true;
-    }
-    let result = await fetch(this.index_url);
-    if (result.ok)
+    const placeholder = document.getElementById("placeholder");
+    let result = await fetch(`${ALEXI_URL}/_idx/index.json`)
+    if (result.ok) {
       this.index = lunr.Index.load(await result.json());
-    result = await fetch(this.textes_url);
-    if (result.ok)
-      this.textes = await result.json();
-
+      if (placeholder !== null)
+        placeholder.innerText = "Chargement des documents...";
+      result = await fetch(`${ALEXI_URL}/_idx/textes.json`)
+      if (result.ok) {
+        this.textes = await result.json();
+        if (placeholder !== null)
+          placeholder.innerText = "Prêt pour la recherche!";
+      }
+    }
+    if (placeholder !== null && !result.ok) {
+      placeholder.innerText = `Erreur de chargement (index ou documents): ${result.statusText}`;
+      return;
+    }
     /* Set the search query */
     const urlParams = new URLSearchParams(window.location.search);
     const query = urlParams.get("q");
@@ -145,14 +134,14 @@ class App {
     target.innerHTML = "";
     const result = await fetch(url);
     if (!result.ok) {
-      target.innerHTML = `Error in fetch: ${result.status}`;
+      target.innerHTML = `Erreur de chargement: ${result.status}`;
       return;
     }
     const content = await result.text();
     const dom = new DOMParser().parseFromString(content, "text/html");
     const body = dom.querySelector("#body");
     if (body === null) {
-      target.innerHTML = `No content found at ${url}`;
+      target.innerHTML = `Aucun contenu trouvé sous ${url}`;
       return;
     }
     for (const img of body.querySelectorAll("img")) {
@@ -182,11 +171,28 @@ class App {
     e.preventDefault();
   }
 
-  create_title(titre: string, query: string, result: lunr.Index.Result) {
+  create_ville(path: string, query: string) {
+    const [start] = path.split("/", 1);
+    for (const opt of this.ville.querySelectorAll("option")) {
+      if (opt.value == start) {
+        const a = document.createElement("a");
+        const href = `${BASE_URL}${start}?q=${query}`;
+        a.setAttribute("class", "ville");
+        a.href = href
+        a.innerText = opt.innerText;
+        a.addEventListener("click", e => this.follow_link(e, href));
+        return a;
+      }
+    }
+    return null;
+  }
+
+  create_title(path: string, title: string, query: string) {
     const a = document.createElement("a");
-    const href = `${this.base_url}${result.ref}?q=${query}`;
+    const href = `${BASE_URL}${path}?q=${query}`;
+    a.setAttribute("class", "titre");
     a.href = href
-    a.innerText = titre;
+    a.innerText = title;
     a.addEventListener("click", e => this.follow_link(e, href));
     return a;
   }
@@ -194,25 +200,20 @@ class App {
   create_extract(texte: string, result: lunr.Index.Result) {
     const spans = [];
     for (const term in result.matchData.metadata) {
-      // @ts-ignore
-      const metadata = result.matchData.metadata[term];
-      if (!("texte" in metadata)) continue;
-      if (!("position" in metadata.texte)) continue;
-      spans.push(...metadata.texte.position);
+      for (let pos = 0; (pos = texte.indexOf(term, pos)) !== -1; pos += term.length)
+        spans.push([pos, pos + term.length]);
     }
     spans.sort();
     const p = document.createElement("p");
     p.setAttribute("class", "extrait");
     let extrait;
     if (spans.length) {
-      // Sort descending by length and position (we want the longest,
-      // latest span - to avoid matching the title all the time)
       spans.sort((a, b) => { const lc = b[1] - a[1];
-                             return (lc == 0) ? (b[0] - a[0]) : lc });
+                             return (lc == 0) ? (a[0] - b[0]) : lc });
       extrait = texte.substring(
-          Math.max(0, spans[0][0] - 80),
-          Math.min(texte.length, spans[0][0] + spans[0][1] + 40)
-        )
+        Math.max(0, spans[0][0] - 40),
+        Math.min(texte.length, spans[0][1] + 40)
+      )
     } else extrait = texte.substring(0, 80) + "...";
     p.innerHTML = `... ${extrait} ...`;
     return p;
@@ -228,11 +229,17 @@ class App {
     if (!(result.ref in this.textes))
       throw `Document ${result.ref} not found`;
     const query = encodeURIComponent(this.search_box.value);
-    const texte = this.textes[result.ref];
+    const [path, titre, texte] = this.textes[parseInt(result.ref)];
+    const ville = this.ville.value;
     div.setAttribute("class", "search-result");
-    div.append(this.create_title(texte.titre, query, result));
-    div.append(this.create_extract(texte.texte, result));
-    const href = `${this.base_url}${result.ref}?q=${query}`;
+    if (ville == "") {
+      const vlink = this.create_ville(path, query);
+      if (vlink !== null)
+        div.append(vlink);
+    }
+    div.append(this.create_title(path, titre, query));
+    div.append(this.create_extract(texte, result));
+    const href = `${BASE_URL}${path}?q=${query}`;
     div.addEventListener("click", (e) => {
       /* Only accept clicks in the div on mobile */
       if (!this.media_query.matches)
@@ -243,7 +250,7 @@ class App {
 
   /* Run a search and update the list */
   async search() {
-    if (this.index === null) {
+    if (this.index === null || this.textes === null) {
       this.search_results.innerHTML  = `Base de données absente`;
       return;
     }
@@ -255,12 +262,20 @@ class App {
     if (this.media_query.matches)
       history.replaceState(null, "", `?q=${query}`)
     else
-      history.replaceState(null, "", `${this.base_url}?q=${query}`)
+      history.replaceState(null, "", `${BASE_URL}?q=${query}`)
     try {
       const results = this.index.search(text);
       this.search_results.innerHTML = "";
-      for (const result of results.slice(0, 10)) {
+      const ville = this.ville.value;
+      let i = 0;
+      for (const result of results) {
+        if (i == 10)
+          break;
+        const [path, _titre, _texte] = this.textes[parseInt(result.ref)];
+        if (ville !== "" && !path.startsWith(ville))
+          continue;
         this.search_results.append(this.create_result_entry(result));
+        i++;
       }
     } catch (e) {
       console.log(`Query error: ${e}`);
