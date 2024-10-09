@@ -80,7 +80,7 @@ class App {
                                + window.location.hash);
         return;
       }
-      if (path)
+      if (path !== "")
         this.show_document(window.location.pathname);
       showing = true;
     }
@@ -180,7 +180,11 @@ class App {
         a.setAttribute("class", "ville");
         a.href = href
         a.innerText = opt.innerText;
-        a.addEventListener("click", e => this.follow_link(e, href));
+        // Don't show a document, there is no document
+        a.addEventListener("click", e => {
+          history.pushState(null, "", url);
+          e.preventDefault();
+        });
         return a;
       }
     }
