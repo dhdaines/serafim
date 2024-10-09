@@ -13,8 +13,8 @@ lunr.Pipeline.registerFunction(token => token.update(unidecode), "unifold")
 
 // @ts-ignore
 const BASE_URL = import.meta.env.BASE_URL;
-//const ALEXI_URL = "https://dhdaines.github.io/alexi";
-const ALEXI_URL = "http://localhost:8000";
+const ALEXI_URL = "https://dhdaines.github.io/alexi";
+//const ALEXI_URL = "http://localhost:8000";
 
 type Texte = [string, string, string];
 
