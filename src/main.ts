@@ -179,11 +179,6 @@ class App {
         a.setAttribute("class", "ville");
         a.href = href
         a.innerText = opt.innerText;
-        // Don't show a document, there is no document
-        a.addEventListener("click", e => {
-          history.pushState(null, "", url);
-          e.preventDefault();
-        });
         return a;
       }
     }
