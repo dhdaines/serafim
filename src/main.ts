@@ -84,11 +84,18 @@ class App {
     });
     // Load stuff
     const placeholder = document.getElementById("placeholder")!;
-    let result = await fetch(`${ALEXI_API}/villes`);
-    if (result.ok) {
-      if (placeholder !== null)
-        placeholder.innerText = "Selectionnez un article de la liste pour le lire ici";
-    } else {
+    let result = { ok: false };
+    try {
+      result = await fetch(`${ALEXI_API}/villes`);
+      if (result.ok) {
+        if (placeholder !== null)
+          placeholder.innerText = "Selectionnez un article de la liste pour le lire ici";
+      }
+    }
+    catch {
+      console.log("Failed to contact API, falling back to client-side search");
+    }
+    if (!result.ok) {
       let result = await fetch(`${ALEXI_URL}/_idx/index.json`);
       if (result.ok) {
         this.index = lunr.Index.load(await result.json());
