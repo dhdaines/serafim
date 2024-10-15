@@ -54,30 +54,8 @@ class App {
         .replace(/\/$/, "")
         .replace(/index.html$/, "");
       const pos = url.indexOf("/");
-      const name = pos !== -1 ? url.substring(0, pos) : url;
-      const path = pos !== -1 ? url.substring(pos + 1) : "";
-      switch (name) {
-        case "vsadm":
-          this.ville.value = "vsadm";
-          document.getElementById("egg")!.innerText = "gathois";
-          break;
-        case "vss":
-          this.ville.value = "vss";
-          document.getElementById("egg")!.innerText = "d-hoc";
-          break;
-        case "prevost":
-          this.ville.value = "prevost";
-          document.getElementById("egg")!.innerText = "d-hoc";
-          break;
-        case "vdsa":
-          this.ville.value = "vdsa";
-          document.getElementById("egg")!.innerText = "délois";
-          break;
-        default:
-          this.ville.value = "";
-          document.getElementById("egg")!.innerText = "d-hoc";
-      }
-      // HACK: this is only when we refer to a full bylaw
+      // HACK: this is only when we refer to a full bylaw - go to the
+      // top-level ALEXI page with it expanded, do not pass go, etc
       if (window.location.hash) {
         window.location.assign(
           ALEXI_URL +
@@ -86,22 +64,30 @@ class App {
         );
         return;
       }
+      // Show a document if one was requested by the URL (if the user
+      // reloads for instance... otherwise it is done internally)
+      const path = pos !== -1 ? url.substring(pos + 1) : "";
       if (path !== "") this.show_document(window.location.pathname);
       showing = true;
     }
-    // Set up change listener *after* assigning :)
-    this.ville.addEventListener("change", (_) => {
+    /* Set the dropdown menu */
+    const urlParams = new URLSearchParams(window.location.search);
+    const name = urlParams.get("v") ?? "";
+    this.set_ville(name);
+    this.ville.addEventListener("change", (e) => {
       let new_url = BASE_URL + this.ville.value;
       const urlParams = new URLSearchParams(window.location.search);
       const query = urlParams.get("q");
       if (query !== null) new_url += "?q=" + encodeURIComponent(query);
-      window.location.assign(new_url);
+      this.search();
+      e.preventDefault();
     });
+    // Load stuff
     const placeholder = document.getElementById("placeholder")!;
     let result = await fetch(`${ALEXI_API}/villes`);
     if (result.ok) {
       if (placeholder !== null)
-        placeholder.innerText = "Prêt pour la recherche!";
+        placeholder.innerText = "Selectionnez un article de la liste pour le lire ici";
     } else {
       let result = await fetch(`${ALEXI_URL}/_idx/index.json`);
       if (result.ok) {
@@ -112,7 +98,7 @@ class App {
         if (result.ok) {
           this.textes = await result.json();
           if (placeholder !== null)
-            placeholder.innerText = "Prêt pour la recherche!";
+            placeholder.innerText = "Selectionnez un article de la liste pour le lire ici";
         }
       }
     }
@@ -120,13 +106,11 @@ class App {
       placeholder.innerText = `Erreur de chargement (index ou documents): ${result.statusText}`;
       return;
     }
-    /* Set the search query */
-    const urlParams = new URLSearchParams(window.location.search);
     const query = urlParams.get("q");
     if (query !== null) {
       this.search_box.value = query;
       /* Search and display results if on desktop *or* there is no document shown */
-      if (this.media_query.matches || !showing) this.search(); // asynchronously, sometime
+      if (this.on_desktop() || !showing) this.search(); // asynchronously, sometime
     }
     /* Now set up search function */
     this.search_box.addEventListener(
@@ -135,9 +119,13 @@ class App {
     );
   }
 
+  on_desktop(): boolean {
+    return this.media_query.matches;
+  }
+
   /* Show document content */
   async show_document(url: string) {
-    const target = this.media_query.matches
+    const target = this.on_desktop()
       ? this.document_view
       : this.search_results;
     url = ALEXI_URL + url.replace("/serafim", "/");
@@ -175,6 +163,30 @@ class App {
     for (const child of body.children) target.appendChild(child);
   }
 
+  set_ville(name: string) {
+      switch (name) {
+        case "vsadm":
+          this.ville.value = "vsadm";
+          document.getElementById("egg")!.innerText = "gathois";
+          break;
+        case "vss":
+          this.ville.value = "vss";
+          document.getElementById("egg")!.innerText = "d-hoc";
+          break;
+        case "prevost":
+          this.ville.value = "prevost";
+          document.getElementById("egg")!.innerText = "d-hoc";
+          break;
+        case "vdsa":
+          this.ville.value = "vdsa";
+          document.getElementById("egg")!.innerText = "délois";
+          break;
+        default:
+          this.ville.value = "";
+          document.getElementById("egg")!.innerText = "d-hoc";
+      }
+  }
+
   follow_link(e: Event, url: string) {
     this.show_document(url);
     history.pushState(null, "", url);
@@ -186,10 +198,15 @@ class App {
     for (const opt of this.ville.querySelectorAll("option")) {
       if (opt.value == start) {
         const a = document.createElement("a");
-        const href = `${BASE_URL}${start}?q=${query}`;
+        const href = `${BASE_URL}?v=${start}&q=${query}`;
         a.setAttribute("class", "ville");
         a.href = href;
         a.innerText = opt.innerText;
+        a.onclick = (e) => {
+          this.set_ville(start);
+          this.search();
+          e.preventDefault();
+        };
         return a;
       }
     }
@@ -202,7 +219,7 @@ class App {
     a.setAttribute("class", "titre");
     a.href = href;
     a.innerText = title;
-    a.addEventListener("click", (e) => this.follow_link(e, href));
+    a.onclick = (e) => this.follow_link(e, href);
     return a;
   }
 
@@ -251,11 +268,11 @@ class App {
     }
     div.append(this.create_title(path, titre, query));
     div.append(this.create_extract(texte, terms));
-    const href = `${BASE_URL}${path}?q=${query}`;
-    div.addEventListener("click", (e) => {
+    const href = `${BASE_URL}${path}?v=${ville}&q=${query}`;
+    div.onclick = (e) => {
       /* Only accept clicks in the div on mobile */
-      if (!this.media_query.matches) this.follow_link(e, href);
-    });
+      if (!this.on_desktop()) this.follow_link(e, href);
+    };
     return div;
   }
 
@@ -264,9 +281,16 @@ class App {
     const text = this.search_box.value;
     if (text.length < 2) return;
     const query = encodeURIComponent(text);
+    const ville = this.ville.value;
     /* Ensure that the URL matches the display if we bookmark/reload */
-    if (this.media_query.matches) history.replaceState(null, "", `?q=${query}`);
-    else history.replaceState(null, "", `${BASE_URL}?q=${query}`);
+    if (this.on_desktop()) {
+      // Desktop, all done internally
+      history.replaceState(null, "", `?v=${ville}&q=${query}`);
+    }
+    else {
+      // Mobile, search implies reload
+      history.replaceState(null, "", `${BASE_URL}?v=${ville}&q=${query}`);
+    }
     this.search_results.innerHTML = "";
     if (this.index === null || this.textes === null) {
       const result = await fetch(
@@ -280,7 +304,6 @@ class App {
         );
     } else {
       const results = this.index.search(text);
-      const ville = this.ville.value;
       let i = 0;
       for (const result of results) {
         if (i == 10) break;
