@@ -84,7 +84,7 @@ class App {
     });
     // Load stuff
     const placeholder = document.getElementById("placeholder")!;
-    let result = { ok: false };
+    let result = null;
     try {
       result = await fetch(`${ALEXI_API}/villes`);
       if (result.ok) {
@@ -95,8 +95,8 @@ class App {
     catch {
       console.log("Failed to contact API, falling back to client-side search");
     }
-    if (!result.ok) {
-      let result = await fetch(`${ALEXI_URL}/_idx/index.json`);
+    if (result === null || !result.ok) {
+      result = await fetch(`${ALEXI_URL}/_idx/index.json`);
       if (result.ok) {
         this.index = lunr.Index.load(await result.json());
         if (placeholder !== null)
@@ -109,7 +109,7 @@ class App {
         }
       }
     }
-    if (placeholder !== null && !result.ok) {
+    if (placeholder !== null && (result === null || !result.ok)) {
       placeholder.innerText = `Erreur de chargement (index ou documents): ${result.statusText}`;
       return;
     }
