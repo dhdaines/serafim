@@ -18,6 +18,26 @@ const ALEXI_API = import.meta.env.VITE_ALEXI_API;
 
 type Texte = [string, string, string];
 
+interface PageInfo {
+  titre?: string;
+  url: string;
+}
+
+interface DocInfo {
+  numero: string;
+  titre: string;
+  url: string;
+}
+
+interface Ville {
+  pdfs: { [filename: string]: PageInfo; };
+  zonage: {
+    categorie_milieu: { [categorie: string]: PageInfo; };
+    milieu: { [milieu: string]: PageInfo; };
+  };
+  docs: {[path: string]: DocInfo;};
+}
+
 class App {
   search_box: HTMLInputElement;
   document_view: HTMLElement;
