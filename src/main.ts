@@ -184,6 +184,10 @@ class App {
           this.ville.value = "prevost";
           document.getElementById("egg")!.innerText = "d-hoc";
           break;
+        case "laval":
+          this.ville.value = "laval";
+          document.getElementById("egg")!.innerText = "d-hoc";
+          break;
         case "vdsa":
           this.ville.value = "vdsa";
           document.getElementById("egg")!.innerText = "délois";
